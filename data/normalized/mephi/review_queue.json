@@ -1,0 +1,77 @@
+[
+  {
+    "kind": "scope_discrepancy_not_resolved",
+    "code": "04.03.01",
+    "in_catalog": true,
+    "in_seat_plan": false,
+    "in_official_fields": false,
+    "note": "May reflect year/campus/applicant-category differences. Do not infer program absence or resolve automatically.",
+    "source_ids": [
+      "mephi-programs",
+      "mephi-moscow",
+      "mephi-fields"
+    ]
+  },
+  {
+    "kind": "scope_discrepancy_not_resolved",
+    "code": "04.03.02",
+    "in_catalog": true,
+    "in_seat_plan": false,
+    "in_official_fields": false,
+    "note": "May reflect year/campus/applicant-category differences. Do not infer program absence or resolve automatically.",
+    "source_ids": [
+      "mephi-programs",
+      "mephi-moscow",
+      "mephi-fields"
+    ]
+  },
+  {
+    "kind": "scope_discrepancy_not_resolved",
+    "code": "06.03.01",
+    "in_catalog": true,
+    "in_seat_plan": false,
+    "in_official_fields": false,
+    "note": "May reflect year/campus/applicant-category differences. Do not infer program absence or resolve automatically.",
+    "source_ids": [
+      "mephi-programs",
+      "mephi-moscow",
+      "mephi-fields"
+    ]
+  },
+  {
+    "kind": "scope_discrepancy_not_resolved",
+    "code": "09.03.02",
+    "in_catalog": false,
+    "in_seat_plan": true,
+    "in_official_fields": false,
+    "note": "May reflect year/campus/applicant-category differences. Do not infer program absence or resolve automatically.",
+    "source_ids": [
+      "mephi-programs",
+      "mephi-moscow",
+      "mephi-fields"
+    ]
+  },
+  {
+    "kind": "scope_discrepancy_not_resolved",
+    "code": "31.05.01",
+    "in_catalog": true,
+    "in_seat_plan": true,
+    "in_official_fields": false,
+    "note": "May reflect year/campus/applicant-category differences. Do not infer program absence or resolve automatically.",
+    "source_ids": [
+      "mephi-programs",
+      "mephi-moscow",
+      "mephi-fields"
+    ]
+  },
+  {
+    "kind": "profile_catalog_gap",
+    "code": "10.05.05",
+    "in_official_fields": true,
+    "note": "Official admission direction lacks a detailed profile row.",
+    "source_ids": [
+      "mephi-fields",
+      "mephi-programs"
+    ]
+  }
+]

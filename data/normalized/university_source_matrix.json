@@ -1,0 +1,605 @@
+[
+  {
+    "institution_id": "mipt",
+    "institution_name": "МФТИ",
+    "entry_url": "https://pk.mipt.ru/bachelor/",
+    "access_status": "failed",
+    "source_verified": false,
+    "format": "unknown",
+    "features": {},
+    "parsing_complexity": "high/unknown until public source is reachable",
+    "archive": "unknown",
+    "cutoffs": "unknown",
+    "places": "unknown",
+    "lists": "unknown",
+    "rules_notes": "Rules document not read.",
+    "failure": {
+      "source_id": "mipt-admission-root",
+      "url": "https://pk.mipt.ru/bachelor/",
+      "attempted_at": "2026-10-23T20:37:08+00:00",
+      "status": "error",
+      "error": "ValueError",
+      "reason": "robots_unavailable_no_fetch"
+    }
+  },
+  {
+    "institution_id": "hse",
+    "institution_name": "НИУ ВШЭ",
+    "entry_url": "https://ba.hse.ru/",
+    "access_status": "http_read",
+    "source_verified": true,
+    "format": "HTML; linked documents not inspected",
+    "features": {
+      "archive": [
+        {
+          "label": "Материалы прошлых лет",
+          "url": "https://ba.hse.ru/previous",
+          "verification": "linked_not_read"
+        }
+      ],
+      "cutoffs": [
+        {
+          "label": "Проходной балл — 2025",
+          "url": "https://ba.hse.ru/result2025",
+          "verification": "linked_not_read"
+        }
+      ],
+      "places": [
+        {
+          "label": "Количество мест для приема",
+          "url": "https://ba.hse.ru/kolmest#pagetop",
+          "verification": "linked_not_read"
+        }
+      ],
+      "lists": [
+        {
+          "label": "Сведения о зачислении",
+          "url": "https://ba.hse.ru/enrolled?d=ba",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Опубликованы финальные конкурсные списки на платные места",
+          "url": "https://ba.hse.ru/news/1191129105.html",
+          "verification": "linked_not_read"
+        }
+      ],
+      "rules": [
+        {
+          "label": "Документы и правила приема",
+          "url": "https://ba.hse.ru/docs#pagetop",
+          "verification": "linked_not_read"
+        }
+      ]
+    },
+    "parsing_complexity": "medium (preliminary; deep source not validated)",
+    "archive": "linked_not_read",
+    "cutoffs": "linked_not_read",
+    "places": "linked_not_read",
+    "lists": "linked_not_read",
+    "rules_notes": "Entry page mentions: грант, олимпиад. Exact rules require document review.",
+    "source_snapshot": {
+      "source_id": "hse-admission-root",
+      "url": "https://ba.hse.ru/",
+      "final_url": "https://ba.hse.ru/",
+      "retrieved_at": "2026-10-23T20:37:28+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "299de8125e164ec7d5e8bb6f8638186c38ce3f6055fc517a85e7f837c8a33acb",
+      "path": "data/raw/source_probes/hse-admission-root-299de8125e164ec7.html",
+      "bytes": 219050,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Абитуриентам бакалавриата – Национальный исследовательский университет «Высшая школа экономики»",
+    "rules": "linked_not_read"
+  },
+  {
+    "institution_id": "itmo",
+    "institution_name": "ИТМО",
+    "entry_url": "https://abit.itmo.ru/",
+    "access_status": "failed",
+    "source_verified": false,
+    "format": "unknown",
+    "features": {},
+    "parsing_complexity": "high/unknown until public source is reachable",
+    "archive": "unknown",
+    "cutoffs": "unknown",
+    "places": "unknown",
+    "lists": "unknown",
+    "rules_notes": "Rules document not read.",
+    "failure": {
+      "source_id": "itmo-admission-root",
+      "url": "https://abit.itmo.ru/",
+      "attempted_at": "2026-10-23T20:37:28+00:00",
+      "status": "error",
+      "error": "ValueError",
+      "reason": "cross_origin_redirect_requires_review"
+    }
+  },
+  {
+    "institution_id": "mephi",
+    "institution_name": "МИФИ",
+    "entry_url": "https://admission.mephi.ru/",
+    "access_status": "http_read",
+    "source_verified": true,
+    "format": "Static HTML tables with year tabs/rowspan; linked PDF",
+    "features": {
+      "archive": [
+        {
+          "label": "Проходные баллы прошлых лет",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Задания прошлых лет",
+          "url": "https://admission.mephi.ru/olympiads/rosatom/training/prev",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Задание прошлых лет",
+          "url": "https://admission.mephi.ru/olympiads/rosatom/training/task_of_previous_years",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Задания прошлых лет",
+          "url": "https://admission.mephi.ru/olympiads/engineer/prev",
+          "verification": "linked_not_read"
+        }
+      ],
+      "cutoffs": [
+        {
+          "label": "Вступительные испытания, минимальные и проходные баллы",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Проходные баллы прошлых лет",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+          "verification": "linked_not_read"
+        }
+      ],
+      "places": [
+        {
+          "label": "Направления подготовки и количество мест",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Количество мест (г. Москва)",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Количество мест (филиалы)",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/regional",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Направления подготовки и количество мест",
+          "url": "https://admission.mephi.ru/admission/magistracy/education",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Количество мест (г. Москва)",
+          "url": "https://admission.mephi.ru/admission/magistracy/education/moscow",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Количество мест (филиалы)",
+          "url": "https://admission.mephi.ru/admission/magistracy/education/regional",
+          "verification": "linked_not_read"
+        }
+      ],
+      "lists": [
+        {
+          "label": "Приказы \\ списки",
+          "url": "https://admission.mephi.ru/lists",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Приказы",
+          "url": "https://admission.mephi.ru/lists/orders",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Списки поступающих",
+          "url": "https://admission.mephi.ru/lists/entrants",
+          "verification": "linked_not_read"
+        }
+      ],
+      "rules": [
+        {
+          "label": "Основные документы",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/documents",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Основные документы",
+          "url": "https://admission.mephi.ru/admission/magistracy/documents",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Основные документы",
+          "url": "https://admission.mephi.ru/admission/postgraduate/documents",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Основные документы",
+          "url": "https://admission.mephi.ru/admission/residency/documents",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Порядок и правила приема",
+          "url": "https://admission.mephi.ru/admission/spo/rules",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Основные документы",
+          "url": "https://admission.mephi.ru/admission/spo/documents",
+          "verification": "linked_not_read"
+        }
+      ]
+    },
+    "parsing_complexity": "medium; semantics and historical group reconciliation are difficult",
+    "archive": "read_2015_2025",
+    "cutoffs": "read_2015_2025",
+    "places": "read_2026",
+    "lists": "linked_not_read",
+    "rules_notes": "2026 rules PDF read: campus, form, profile, funding and quota distinguish competitions; rules engine not implemented.",
+    "source_snapshot": {
+      "source_id": "mephi-history",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+      "retrieved_at": "2026-10-23T20:29:22+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+      "path": "data/raw/mephi/mephi-history-f86af704b1d75198.html",
+      "bytes": 218210,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Проходные баллы прошлых лет | Приемная комиссия НИЯУ МИФИ",
+    "rules": "linked_not_read"
+  },
+  {
+    "institution_id": "spbu",
+    "institution_name": "СПбГУ",
+    "entry_url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+    "access_status": "http_read",
+    "source_verified": true,
+    "format": "HTML; linked documents not inspected",
+    "features": {
+      "archive": [
+        {
+          "label": "Информация о приеме прошлых лет",
+          "url": "https://abiturient.spbu.ru/programs/bakalavriat/priem-old-bac/",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Информация о приеме прошлых лет",
+          "url": "https://abiturient.spbu.ru/programs/aspirantura/priem-old-asp/",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Информация о приеме прошлых лет",
+          "url": "https://abiturient.spbu.ru/programs/ordinatura/priem-old-ord/",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "«Информация о приеме прошлых лет»",
+          "url": "https://abiturient.spbu.ru/programs/bakalavriat/priem-old-bac/",
+          "verification": "linked_not_read"
+        }
+      ],
+      "cutoffs": [],
+      "places": [
+        {
+          "label": "Перечень образовательных программ, вступительных испытаний и количество мест",
+          "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf",
+          "verification": "linked_not_read"
+        }
+      ],
+      "lists": [
+        {
+          "label": "Опубликованы ранжированные (конкурсные) списки поступающих",
+          "url": "https://abiturient.spbu.ru/news/opublikovany-ranzhirovannye-konkursnye-spiski-postupayushchikh/",
+          "verification": "linked_not_read"
+        }
+      ],
+      "rules": [
+        {
+          "label": "Правила приема",
+          "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/pravila_priema_2026.pdf",
+          "verification": "linked_not_read"
+        }
+      ]
+    },
+    "parsing_complexity": "medium (preliminary; deep source not validated)",
+    "archive": "linked_not_read",
+    "cutoffs": "not_found_on_entry_page",
+    "places": "linked_not_read",
+    "lists": "linked_not_read",
+    "rules_notes": "Entry page mentions: олимпиад. Exact rules require document review.",
+    "source_snapshot": {
+      "source_id": "spbu-admission-root",
+      "url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "final_url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "retrieved_at": "2026-10-23T20:37:44+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "de5bfb659cc5a2dd3914bae6ef035bedf18cd7c93b7971534d504fed526e30b1",
+      "path": "data/raw/source_probes/spbu-admission-root-de5bfb659cc5a2dd.html",
+      "bytes": 352011,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Приемная комиссия СПбГУ Бакалавриат - официальный сайт",
+    "rules": "linked_not_read"
+  },
+  {
+    "institution_id": "msu",
+    "institution_name": "МГУ",
+    "entry_url": "https://cpk.msu.ru/",
+    "access_status": "http_read",
+    "source_verified": true,
+    "format": "HTML with tables",
+    "features": {
+      "archive": [],
+      "cutoffs": [
+        {
+          "label": "Проходной балл в 2025 году",
+          "url": "https://msu.ru/entrance/pr-b-2025.php",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Проходной балл в 2024 году",
+          "url": "https://msu.ru/entrance/pr-b-2024.php",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Проходной балл в 2023 году",
+          "url": "https://msu.ru/entrance/pr-b-2023.php",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Проходной балл в 2022 году",
+          "url": "https://www.msu.ru/entrance/pr-b-2022.php",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Проходной балл в 2021 году",
+          "url": "https://www.msu.ru/entrance/pr-b-2021.php",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Проходной балл в 2020 году",
+          "url": "https://www.msu.ru/entrance/pr-b-2020.php",
+          "verification": "linked_not_read"
+        }
+      ],
+      "places": [],
+      "lists": [
+        {
+          "label": "Конкурсные списки лиц, прошедших вступительные испытания в МГУ имени М.В.Ломоносова в 2026 году →",
+          "url": "https://cpk.msu.ru/rating",
+          "verification": "linked_not_read"
+        }
+      ],
+      "rules": [
+        {
+          "label": "Нормативные документы МГУ",
+          "url": "https://cpk.msu.ru/legal",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Правила приема в МГУ в 2026 году",
+          "url": "https://cpk.msu.ru/files/2026/rules.pdf",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Список подавших документы",
+          "url": "https://cpk.msu.ru/submitted/bachelor",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Список подавших документы",
+          "url": "https://cpk.msu.ru/submitted/master",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Правила приёма в МГУ имени М.В.Ломоносова в 2026 году",
+          "url": "https://cpk.msu.ru/files/2026/rules.pdf",
+          "verification": "linked_not_read"
+        }
+      ]
+    },
+    "parsing_complexity": "medium (preliminary; deep source not validated)",
+    "archive": "not_found_on_entry_page",
+    "cutoffs": "linked_not_read",
+    "places": "not_found_on_entry_page",
+    "lists": "linked_not_read",
+    "rules_notes": "Entry page mentions: ДВИ, олимпиад. Exact rules require document review.",
+    "source_snapshot": {
+      "source_id": "msu-admission-root",
+      "url": "https://cpk.msu.ru/",
+      "final_url": "https://cpk.msu.ru/",
+      "retrieved_at": "2026-10-23T20:37:55+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "7297aa90efe9d4c1f35ffdc805584d92da238dadf5a31b6d350af5de1d5784e4",
+      "path": "data/raw/source_probes/msu-admission-root-7297aa90efe9d4c1.html",
+      "bytes": 48582,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Центральная приемная комиссия МГУ имени М.В.Ломоносова",
+    "rules": "linked_not_read"
+  },
+  {
+    "institution_id": "nsu",
+    "institution_name": "НГУ",
+    "entry_url": "https://abiturient.nsu.ru/",
+    "access_status": "http_read",
+    "source_verified": true,
+    "format": "HTML with client templates; applicant rows not fetched",
+    "features": {
+      "archive": [],
+      "cutoffs": [],
+      "places": [],
+      "lists": [],
+      "rules": []
+    },
+    "parsing_complexity": "medium/high; dynamic list interface, find separate admissions archive and documents",
+    "archive": "not_found_on_entry_page",
+    "cutoffs": "not_found_on_entry_page",
+    "places": "not_found_on_entry_page",
+    "lists": "public_list_interface_read_rows_not_collected",
+    "rules_notes": "No rules conclusions from entry page.",
+    "source_snapshot": {
+      "source_id": "nsu-admission-root",
+      "url": "https://abiturient.nsu.ru/",
+      "final_url": "https://abiturient.nsu.ru/bachelor",
+      "retrieved_at": "2026-10-23T20:38:13+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "6deb6b12c8a07fdfff6207457726f729c5f01e4e0c6cfd3e4862192144c75fdc",
+      "path": "data/raw/source_probes/nsu-admission-root-6deb6b12c8a07fdf.html",
+      "bytes": 48038,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Бакалавриат, специалитет",
+    "rules": "not_found_on_entry_page"
+  },
+  {
+    "institution_id": "bmstu",
+    "institution_name": "МГТУ им. Баумана",
+    "entry_url": "https://priem.bmstu.ru/",
+    "access_status": "javascript_shell_only",
+    "source_verified": false,
+    "format": "JavaScript application shell; admission content not read",
+    "features": {
+      "archive": [],
+      "cutoffs": [],
+      "places": [],
+      "lists": [],
+      "rules": []
+    },
+    "parsing_complexity": "high/unknown; locate public document endpoints without authorization",
+    "archive": "not_found_on_entry_page",
+    "cutoffs": "not_found_on_entry_page",
+    "places": "not_found_on_entry_page",
+    "lists": "not_found_on_entry_page",
+    "rules_notes": "No rules conclusions from entry page.",
+    "source_snapshot": {
+      "source_id": "bmstu-admission-root",
+      "url": "https://priem.bmstu.ru/",
+      "final_url": "https://priem.bmstu.ru/",
+      "retrieved_at": "2026-10-23T20:38:26+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "70baa43d760e343f5e126e6921b5d60ce31dc0fe9de47f8b4be0e5d1dbc31f9b",
+      "path": "data/raw/source_probes/bmstu-admission-root-70baa43d760e343f.html",
+      "bytes": 176608,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Кабинет абитуриента МГТУ им. Н. Э. Баумана",
+    "rules": "not_found_on_entry_page"
+  },
+  {
+    "institution_id": "innopolis",
+    "institution_name": "Университет Иннополис",
+    "entry_url": "https://apply.innopolis.university/bachelors/",
+    "access_status": "http_read",
+    "source_verified": true,
+    "format": "HTML; linked documents not inspected",
+    "features": {
+      "archive": [],
+      "cutoffs": [
+        {
+          "label": "Математические основы искусственного интеллекта Фундаментальные научные знания по математике, адаптированные к сфере ИИ. Программу ведут ученые Университета Иннополис, МФТИ, ВШЭ, ИТМО, Сколтеха, МГУ и эксперты из AIRI, ИСП РАН, Яндекса, Сбера, Тинькофф. Очная Форма обучения 280 Проходной балл ЕГЭ на бюджет на 2025 60 Бюджетных мест на 2026 180 Грантовых мест на 2026 Русский Язык обучения Платное обучение Доступно",
+          "url": "https://apply.innopolis.university/bachelors/DS-MAI/",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "ТОП ИТ ПРО Инженерия информационных систем Профиль для тех, кто хочет заниматься разработкой софта или компьютерной безопасностью. Вы погрузитесь в «кодинг» и станете профессионалами своего дела. Очная Форма обучения 278 Проходной балл на 2025 55 Бюджетных мест на 2026 73 Грантовых мест на 2026 Английский Язык обучения Платное обучение Доступно",
+          "url": "https://apply.innopolis.university/bachelors/information-systems-engineering/",
+          "verification": "linked_not_read"
+        },
+        {
+          "label": "Анализ данных и искусственный интеллект Профиль поможет получить системные знания для понимания принципа работы, совершенствования и применения технологий ИИ в построении программных продуктов. Очная Форма обучения 280 Проходной балл на 2025 44 Бюджетных мест на 2026 116 Грантовых мест на 2026 Английский Язык обучения Платное обучение Доступно",
+          "url": "https://apply.innopolis.university/bachelors/DS-AI/",
+          "verification": "linked_not_read"
+        }
+      ],
+      "places": [],
+      "lists": [],
+      "rules": [
+        {
+          "label": "Подать документы",
+          "url": "https://www.gosuslugi.ru/vuzonline",
+          "verification": "linked_not_read"
+        }
+      ]
+    },
+    "parsing_complexity": "medium (preliminary; deep source not validated)",
+    "archive": "not_found_on_entry_page",
+    "cutoffs": "linked_not_read",
+    "places": "not_found_on_entry_page",
+    "lists": "not_found_on_entry_page",
+    "rules_notes": "Entry page mentions: грант, олимпиад. Exact rules require document review.",
+    "source_snapshot": {
+      "source_id": "innopolis-admission-root",
+      "url": "https://apply.innopolis.university/bachelors/",
+      "final_url": "https://apply.innopolis.university/bachelors/",
+      "retrieved_at": "2026-10-23T20:38:38+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f0beb1adb3858b11c57b8f4a68fdae0b836c2c821e7ecedfe6245a985d9e53a2",
+      "path": "data/raw/source_probes/innopolis-admission-root-f0beb1adb3858b11.html",
+      "bytes": 163056,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Бакалавриат Университета Иннополис. Программы и поступление",
+    "rules": "linked_not_read"
+  },
+  {
+    "institution_id": "cu",
+    "institution_name": "Центральный университет",
+    "entry_url": "https://cu.ru/",
+    "access_status": "http_read",
+    "source_verified": true,
+    "format": "HTML; linked documents not inspected",
+    "features": {
+      "archive": [],
+      "cutoffs": [],
+      "places": [],
+      "lists": [],
+      "rules": []
+    },
+    "parsing_complexity": "medium (preliminary; deep source not validated)",
+    "archive": "not_found_on_entry_page",
+    "cutoffs": "not_found_on_entry_page",
+    "places": "not_found_on_entry_page",
+    "lists": "not_found_on_entry_page",
+    "rules_notes": "Entry page mentions: грант, олимпиад. Exact rules require document review.",
+    "source_snapshot": {
+      "source_id": "cu-admission-root",
+      "url": "https://cu.ru/",
+      "final_url": "https://cu.ru/",
+      "retrieved_at": "2026-10-23T20:38:50+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f980ef275925ae6c88509c2b83dad3156cfe0bcfea2f3c0988c4ff8395811451",
+      "path": "data/raw/source_probes/cu-admission-root-f980ef275925ae6c.html",
+      "bytes": 636654,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    "page_title": "Центральный университет",
+    "rules": "not_found_on_entry_page"
+  }
+]

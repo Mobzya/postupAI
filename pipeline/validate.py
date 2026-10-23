@@ -106,7 +106,16 @@ def validate_all() -> None:
     assumptions = load(ROOT / "config/progress.assumptions.json")
     require(assumptions["enabled"] is False and assumptions["status"] == "unvalidated_assumptions", "stage 0 model must stay disabled")
     require(assumptions["target_role"] == "diagnostics_only_never_used_in_growth", "target must not inflate growth")
-    print("Validated: source registry, empty catalog, disabled assumptions. No real admission metrics or models.")
+    mephi_path = ROOT / 'data/normalized/mephi/dataset.json'
+    if mephi_path.exists():
+        from .mephi_pipeline import validate_dataset
+        from .sources import SnapshotStore
+        validate_dataset(load(mephi_path), SnapshotStore())
+        expanded = load(ROOT / 'data/source_registry.yaml')
+        require({r['institution_id'] for r in expanded['universities']} == set(SCOPE['institution_ids']), 'ten-university expanded registry')
+        print('Validated: real MEPhI facts replay from snapshots, legacy contracts and disabled models.')
+    else:
+        print('Validated: legacy source registry and catalog; models disabled.')
 
 
 if __name__ == "__main__":

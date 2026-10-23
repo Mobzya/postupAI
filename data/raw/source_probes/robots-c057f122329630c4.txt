@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Sitemap: http://apply.innopolis.university/sitemap.xml
+Sitemap: http://apply.innopolis.university/en/sitemap.xml

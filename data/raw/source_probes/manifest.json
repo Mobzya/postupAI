@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "source_id": "robots",
+      "url": "https://ba.hse.ru/robots.txt",
+      "final_url": "https://ba.hse.ru/robots.txt",
+      "retrieved_at": "2026-10-23T20:37:21+00:00",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "sha256": "874ac666f41cad2e2b777ddc1c010af2a07e69080eb8a102f473c9074defa6c0",
+      "path": "data/raw/source_probes/robots-874ac666f41cad2e.txt",
+      "bytes": 3350,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "hse-admission-root",
+      "url": "https://ba.hse.ru/",
+      "final_url": "https://ba.hse.ru/",
+      "retrieved_at": "2026-10-23T20:37:28+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "299de8125e164ec7d5e8bb6f8638186c38ce3f6055fc517a85e7f837c8a33acb",
+      "path": "data/raw/source_probes/hse-admission-root-299de8125e164ec7.html",
+      "bytes": 219050,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "robots",
+      "url": "https://abiturient.spbu.ru/robots.txt",
+      "final_url": "https://abiturient.spbu.ru/robots.txt",
+      "retrieved_at": "2026-10-23T20:37:39+00:00",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "sha256": "619e4f5b9d94222b6f80147383c23e7ced515f25d275e8c4bf5e8b69b2d60130",
+      "path": "data/raw/source_probes/robots-619e4f5b9d94222b.txt",
+      "bytes": 66,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "spbu-admission-root",
+      "url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "final_url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "retrieved_at": "2026-10-23T20:37:44+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "de5bfb659cc5a2dd3914bae6ef035bedf18cd7c93b7971534d504fed526e30b1",
+      "path": "data/raw/source_probes/spbu-admission-root-de5bfb659cc5a2dd.html",
+      "bytes": 352011,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "msu-admission-root",
+      "url": "https://cpk.msu.ru/",
+      "final_url": "https://cpk.msu.ru/",
+      "retrieved_at": "2026-10-23T20:37:55+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "7297aa90efe9d4c1f35ffdc805584d92da238dadf5a31b6d350af5de1d5784e4",
+      "path": "data/raw/source_probes/msu-admission-root-7297aa90efe9d4c1.html",
+      "bytes": 48582,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "robots",
+      "url": "https://abiturient.nsu.ru/robots.txt",
+      "final_url": "https://abiturient.nsu.ru/robots.txt",
+      "retrieved_at": "2026-10-23T20:38:01+00:00",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "sha256": "eaeaa8d3511d1622227d89707d995b8b1f0902f5b86fdbe58882d1cef260d4d7",
+      "path": "data/raw/source_probes/robots-eaeaa8d3511d1622.txt",
+      "bytes": 23,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "nsu-admission-root",
+      "url": "https://abiturient.nsu.ru/",
+      "final_url": "https://abiturient.nsu.ru/bachelor",
+      "retrieved_at": "2026-10-23T20:38:13+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "6deb6b12c8a07fdfff6207457726f729c5f01e4e0c6cfd3e4862192144c75fdc",
+      "path": "data/raw/source_probes/nsu-admission-root-6deb6b12c8a07fdf.html",
+      "bytes": 48038,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "robots",
+      "url": "https://priem.bmstu.ru/robots.txt",
+      "final_url": "https://priem.bmstu.ru/robots.txt",
+      "retrieved_at": "2026-10-23T20:38:19+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "70baa43d760e343f5e126e6921b5d60ce31dc0fe9de47f8b4be0e5d1dbc31f9b",
+      "path": "data/raw/source_probes/robots-70baa43d760e343f.html",
+      "bytes": 176608,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "bmstu-admission-root",
+      "url": "https://priem.bmstu.ru/",
+      "final_url": "https://priem.bmstu.ru/",
+      "retrieved_at": "2026-10-23T20:38:26+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "70baa43d760e343f5e126e6921b5d60ce31dc0fe9de47f8b4be0e5d1dbc31f9b",
+      "path": "data/raw/source_probes/bmstu-admission-root-70baa43d760e343f.html",
+      "bytes": 176608,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "robots",
+      "url": "https://apply.innopolis.university/robots.txt",
+      "final_url": "https://apply.innopolis.university/robots.txt",
+      "retrieved_at": "2026-10-23T20:38:32+00:00",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "sha256": "c057f122329630c4109de4b46dfab25cd32946a21c4915dff54b2a3a8a8ac6c1",
+      "path": "data/raw/source_probes/robots-c057f122329630c4.txt",
+      "bytes": 136,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "innopolis-admission-root",
+      "url": "https://apply.innopolis.university/bachelors/",
+      "final_url": "https://apply.innopolis.university/bachelors/",
+      "retrieved_at": "2026-10-23T20:38:38+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f0beb1adb3858b11c57b8f4a68fdae0b836c2c821e7ecedfe6245a985d9e53a2",
+      "path": "data/raw/source_probes/innopolis-admission-root-f0beb1adb3858b11.html",
+      "bytes": 163056,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "robots",
+      "url": "https://cu.ru/robots.txt",
+      "final_url": "https://cu.ru/robots.txt",
+      "retrieved_at": "2026-10-23T20:38:43+00:00",
+      "http_status": 200,
+      "content_type": "",
+      "sha256": "1ee6d468233c99935fc1c78a63e2ff354099e55e30e0eb4d277bcffffdd92557",
+      "path": "data/raw/source_probes/robots-1ee6d468233c9993.txt",
+      "bytes": 1133,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "cu-admission-root",
+      "url": "https://cu.ru/",
+      "final_url": "https://cu.ru/",
+      "retrieved_at": "2026-10-23T20:38:50+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f980ef275925ae6c88509c2b83dad3156cfe0bcfea2f3c0988c4ff8395811451",
+      "path": "data/raw/source_probes/cu-admission-root-f980ef275925ae6c.html",
+      "bytes": 636654,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  ],
+  "attempts": [
+    {
+      "source_id": "mipt-admission-root",
+      "url": "https://pk.mipt.ru/bachelor/",
+      "attempted_at": "2026-10-23T20:37:08+00:00",
+      "status": "error",
+      "error": "ValueError",
+      "reason": "robots_unavailable_no_fetch"
+    },
+    {
+      "source_id": "hse-admission-root",
+      "url": "https://ba.hse.ru/",
+      "attempted_at": "2026-10-23T20:37:14+00:00",
+      "status": "success",
+      "sha256": "299de8125e164ec7d5e8bb6f8638186c38ce3f6055fc517a85e7f837c8a33acb"
+    },
+    {
+      "source_id": "itmo-admission-root",
+      "url": "https://abit.itmo.ru/",
+      "attempted_at": "2026-10-23T20:37:28+00:00",
+      "status": "error",
+      "error": "ValueError",
+      "reason": "cross_origin_redirect_requires_review"
+    },
+    {
+      "source_id": "spbu-admission-root",
+      "url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "attempted_at": "2026-10-23T20:37:33+00:00",
+      "status": "success",
+      "sha256": "de5bfb659cc5a2dd3914bae6ef035bedf18cd7c93b7971534d504fed526e30b1"
+    },
+    {
+      "source_id": "msu-admission-root",
+      "url": "https://cpk.msu.ru/",
+      "attempted_at": "2026-10-23T20:37:44+00:00",
+      "status": "success",
+      "sha256": "7297aa90efe9d4c1f35ffdc805584d92da238dadf5a31b6d350af5de1d5784e4"
+    },
+    {
+      "source_id": "nsu-admission-root",
+      "url": "https://abiturient.nsu.ru/",
+      "attempted_at": "2026-10-23T20:37:55+00:00",
+      "status": "success",
+      "sha256": "6deb6b12c8a07fdfff6207457726f729c5f01e4e0c6cfd3e4862192144c75fdc"
+    },
+    {
+      "source_id": "bmstu-admission-root",
+      "url": "https://priem.bmstu.ru/",
+      "attempted_at": "2026-10-23T20:38:13+00:00",
+      "status": "success",
+      "sha256": "70baa43d760e343f5e126e6921b5d60ce31dc0fe9de47f8b4be0e5d1dbc31f9b"
+    },
+    {
+      "source_id": "innopolis-admission-root",
+      "url": "https://apply.innopolis.university/bachelors/",
+      "attempted_at": "2026-10-23T20:38:26+00:00",
+      "status": "success",
+      "sha256": "f0beb1adb3858b11c57b8f4a68fdae0b836c2c821e7ecedfe6245a985d9e53a2"
+    },
+    {
+      "source_id": "cu-admission-root",
+      "url": "https://cu.ru/",
+      "attempted_at": "2026-10-23T20:38:38+00:00",
+      "status": "success",
+      "sha256": "f980ef275925ae6c88509c2b83dad3156cfe0bcfea2f3c0988c4ff8395811451"
+    }
+  ]
+}

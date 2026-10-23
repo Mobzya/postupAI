@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/ico">
+        <title>Бакалавриат, специалитет</title>
+    <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="NBxYaIr1lUdYDMwXvrV0xYsLVxFX4Ui81kXshQMz0MNkJTAe5tjwDHVKrVD5_kCHyGABcD6ucPPuE5zaUGGYpQ==">
+
+<link href="/assets/16caa337/css/bootstrap.css" rel="stylesheet">
+<link href="/assets/b5d1a5bd/css/all.min.css" rel="stylesheet">
+<link href="/assets/57d7750d/vue-select.css" rel="stylesheet">
+<link href="/fonts/Montserrat/stylesheet.css" rel="stylesheet">
+<link href="/css/loading.css" rel="stylesheet">
+<link href="/css/list-collapse.css" rel="stylesheet">
+<link href="/css/style.css?v202307131405" rel="stylesheet">
+<link href="/css/icon.css" rel="stylesheet">
+<link href="/css/vue-select.css" rel="stylesheet"></head>
+<body>
+<div id="app"
+     class="wrapper page-site"
+     :class = "{background: showContent}"
+     v-scroll="handleScroll"
+>
+    <header>
+    <div class="container">
+        <div id="logo">
+            <a href="/bachelor" class="logo-link">
+                <img src="/images/logo-green.svg" alt="">            </a>
+        </div>
+
+                    <div class="header-actions-menu display-sm">
+                <button class="header-actions-button"
+                        @click="isOpenHeaderActionsMenu=!isOpenHeaderActionsMenu"
+                >
+                    <i class="icon icon-menu" :class="{open: isOpenHeaderActionsMenu}"></i>
+                </button>
+                <div class="header-actions" v-show="isOpenHeaderActionsMenu">
+                    <a type="button" class="link"
+                       data-toggle="modal"
+                       data-target="#how-use-modal"
+                       @click="isOpenHeaderActionsMenu=false">Как пользоваться сервисом</a>
+                    <a type="button" class="link"
+                       data-toggle="modal"
+                       data-target="#how-enrollment-modal"
+                       @click="isOpenHeaderActionsMenu=false">Как проходит зачисление</a>
+                </div>
+                <div class="header-actions-backdrop fade show"
+                     @click="isOpenHeaderActionsMenu=false"
+                     v-if="isOpenHeaderActionsMenu"></div>
+            </div>
+            <div class="header-actions">
+                <div id="how-use">
+                    <a type="button" class="link hide-sm" data-toggle="modal" data-target="#how-use-modal">Как пользоваться сервисом</a>
+<div id="how-use-modal" class="fade modal" role="dialog" tabindex="-1" aria-hidden="true" aria-labelledby="how-use-modal-label">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 id="how-use-modal-label" class="modal-title">Как пользоваться сервисом</h5>
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+</div>
+<div class="modal-body">
+                    <p>
+    Обращаем Ваше внимание, что, согласно Порядку приёма, вместо ФИО в списках отражается уникальный номер поступающего,
+    присваиваемый каждому абитуриенту при подаче заявления в Приёмную комиссию НГУ.
+    Здесь Вы можете сформировать список всех абитуриентов, которые подали заявление.
+    Рейтинг абитуриентов будет доступен после того, как результаты ЕГЭ пройдут проверку в Федеральной информационной
+    системе, а для поступающих по результатам вступительных испытаний — будут выставлены оценки (баллы) за экзамены.
+</p>
+<p>
+    Если среди абитуриентов, подавших заявления, окажутся те, кто не смог набрать минимальный балл по одному или
+    нескольким предметам ЕГЭ или вступительных испытаний, они не смогут участвовать в рейтинге и будут исключены из
+    списка
+    «Участвующие в конкурсе».
+</p>
+<p>Вы можете сформировать рейтинг по 4 типам списков:</p>
+<ul>
+    <li style="margin-bottom: 10px;">
+        <span style="font-weight: 700;">Посмотреть список подавших заявление</span><br>
+        Формируется список всех абитуриентов, которые подали документы в приемную комиссию НГУ.
+    </li>
+    <li style="margin-bottom: 10px;">
+        <span style="font-weight: 700;">Посмотреть рейтинговый список участвующих в конкурсе на данном направлении подготовки</span><br>
+        Список всех абитуриентов, которые набрали минимальный балл по каждому из предметов, необходимых для поступления,
+        и чьи результаты ЕГЭ проверены в Федеральной информационной системе.
+        Также здесь учитываются результаты внутренних вступительных испытаний.
+    </li>
+    <li style="margin-bottom: 10px;">
+        <span style="font-weight: 700;">Посмотреть тех, у кого основной высший приоритет на данном направлении подготовки</span><br>
+        В данном типе списка будут отображаться только те абитуриенты, у которых есть «Основной высший приоритет» на
+        данном
+        направлении на текущий момент. Основной высший приоритет рассчитывается по всем абитуриентам, независимо от
+        того,
+        подали они согласие на зачисление или нет.
+    </li>
+    <li style="margin-bottom: 10px;">
+        <span style="font-weight: 700;">Если бы зачисление состоялось сегодня</span><br>
+        В данном типе списка отображаются только те абитуриенты, у которых подано согласие на зачисление и они проходят
+        по конкурсу со своим приоритетом на данное направление подготовки.
+    </li>
+</ul>
+<p>
+    Чтобы посмотреть статистику поданных заявлений и конкурс на место, перейдите на страницу <br>
+    <a href="/statistic/bachelor" target="_blank">
+        Статистика поданных заявлений
+    </a>.
+</p>                    
+</div>
+
+</div>
+</div>
+</div>                </div>
+                <div id="how-enrollment">
+                    <a type="button" class="link hide-sm" data-toggle="modal" data-target="#how-enrollment-modal">Как проходит зачисление</a>
+<div id="how-enrollment-modal" class="fade modal" role="dialog" tabindex="-1" aria-hidden="true" aria-labelledby="how-enrollment-modal-label">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 id="how-enrollment-modal-label" class="modal-title">Как проходит зачисление</h5>
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+</div>
+<div class="modal-body">
+                    <p>Зачисление абитуриентов проходит в 2 этапа:</p>
+
+<p style="font-weight: 700;">1. Этап приоритетного зачисления:</p>
+<ul>
+    <li style="margin-bottom: 10px;margin-top: 10px; ">
+        <b>1 августа в 12:00</b> дня по Московскому времени завершается приём заявлений о согласии на зачисление от поступающих
+        без вступительных испытаний (БВИ), на места в пределах особой, отдельной и целевой квот;
+    </li>
+    <li>
+        <b>3 августа</b> издаются приказы о зачислении.
+    </li>
+</ul>
+
+<p style="font-weight: 700;">2. Основной этап зачисления. Заполнение 100% конкурсных мест:</p>
+<ul>
+    <li style="margin-bottom: 10px;margin-top: 10px">
+        <b>5 августа в 12:00</b> дня по Московскому времени завершается приём заявлений о согласии на зачисление от лиц,
+        подлежащих зачислению на этом этапе;
+    </li>
+    <li style="margin-bottom: 10px;">
+        <b>7 августа</b> издаются приказы о зачислении.
+    </li>
+    <li>
+        <span style="font-weight: 700;">Зачисление по договорам об оказании платных образовательных услуг:</span>
+        <ul style="margin-top: 10px;">
+            <li style="margin-bottom: 10px;">
+                Не позднее <b>25 августа</b> завершается заключение договоров об оказании платных образовательных услуг;
+            </li>
+            <li>
+                не позднее <b>30 августа</b> - издаются приказы о зачислении.
+            </li>
+        </ul>
+    </li>
+</ul>                    
+</div>
+
+</div>
+</div>
+</div>                </div>
+            </div>
+        
+        <div id="degree">
+                            <div class="dropdown" @click="isOpenDegrees = !isOpenDegrees">
+                    <span class="">Бакалавриат, специалитет</span>
+                    <i class="icon icon-arrow-down" v-bind:class="{open: isOpenDegrees}"></i>
+                </div>
+                <div class="dropdown-items" v-show="isOpenDegrees" style="display: none">
+                    <ul>
+                                                                                                            <li>
+                                <a href="/master">Магистратура</a>                            </li>
+                                                                                <li>
+                                <a href="/phd">Кадры высшей квалификации</a>                            </li>
+                                            </ul>
+                </div>
+                    </div>
+    </div>
+    <div>
+        <input type="hidden" name="degree_id" id="degree_id"
+               ref="degree_id"
+               value="10"
+        />
+        <input type="hidden" name="degree" id="degree_name"
+               ref="degree_name"
+               value="bachelor"
+        />
+    </div>
+</header>
+
+            <section v-bind:class="[ !showContent ? 'picture' : 'top-background' ]">
+            <div class="container" id="content-block" ref="content-block">
+                
+<div :class = "[showContent ? 'top_of_page' : 'empty_body' ]">
+    <h1><span>Списки</span> <span>абитуриентов</span></h1>
+    <div class="description" v-if="!showContent">
+        <p>Сформируйте рейтинг абитуриентов и узнайте, какое место Вы занимаете</p>
+    </div>
+    <div class="hide-sm">
+    <div class="filter-block filter-form">
+        <form
+    name="filterForm"
+    action="/bachelor"
+    method="get"
+    @submit.prevent="applyFilter"
+>
+    <div class="display-sm">
+        <v-select
+            placeholder="Уровень образования"
+            :options="dataFilterDegree"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            v-model="filter.degree"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div>
+        <v-select
+            placeholder="Факультет/Институт"
+            :options="dataFilterFaculty"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            v-model="filter.faculty"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div>
+        <v-select
+            placeholder="Направление/Специальность"
+            :options="dataFilterDirection"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            :disabled="!filter.faculty"
+            v-model="filter.direction"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div class="">
+        <v-select
+            placeholder="Основание поступления"
+            :options="dataFilterCondition"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            v-model="filter.condition"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-primary" type="submit"
+                :disabled="!filter.faculty || !filter.direction || !filter.condition || loading">
+            Сформировать <i class="icon icon-arrow-right-white"></i>
+        </button>
+    </div>
+</form>    </div>
+</div>
+<div class="display-sm">
+    <button type="button" class="btn btn-primary fix-bottom-button" data-toggle="modal" :style="{top: buttonToTop.top + &#039;px&#039;}" data-target="#w0"><span v-if="showContent">Другой рейтинг</span><span v-else>Сформировать</span><i class="icon icon-arrow-right-white"></i></button>
+<div id="w0" class="fade modal" role="dialog" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+<div class="modal-content">
+<div class="modal-header">
+
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+</div>
+<div class="modal-body">
+    <div class="filter-form">
+        <form
+    name="filterForm"
+    action="/bachelor"
+    method="get"
+    @submit.prevent="applyFilter"
+>
+    <div class="display-sm">
+        <v-select
+            placeholder="Уровень образования"
+            :options="dataFilterDegree"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            v-model="filter.degree"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div>
+        <v-select
+            placeholder="Факультет/Институт"
+            :options="dataFilterFaculty"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            v-model="filter.faculty"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div>
+        <v-select
+            placeholder="Направление/Специальность"
+            :options="dataFilterDirection"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            :disabled="!filter.faculty"
+            v-model="filter.direction"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div class="">
+        <v-select
+            placeholder="Основание поступления"
+            :options="dataFilterCondition"
+            :clearable="false"
+            :filterable="false"
+            :searchable="false"
+            v-model="filter.condition"
+        >
+            <span slot="no-options">Нет данных</span>
+        </v-select>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-primary" type="submit"
+                :disabled="!filter.faculty || !filter.direction || !filter.condition || loading">
+            Сформировать <i class="icon icon-arrow-right-white"></i>
+        </button>
+    </div>
+</form>    </div>
+    
+</div>
+
+</div>
+</div>
+</div></div></div>
+
+<div class="content">
+    <div v-show="showContent" class="data-content">
+
+    <div class="meta">
+        <div class="content">
+            <h2 v-if="dataContent !== null && dataContent.title">{{ dataContent.title }}</h2>
+            <div class="info">
+                <div class="faculty" v-if="dataContent && dataContent.faculty">
+                    <a v-if="dataContent.faculty.url" v-bind:href="dataContent.faculty.url" target="_blank">
+                        {{ dataContent.faculty.name }}
+                    </a>
+                    <span v-else>{{ dataContent.faculty.name }}</span>
+                </div>
+                <div v-if="dataContent !== null && dataContent.info.places" class="info-places">
+    <p>
+        <span v-if="dataContent && dataContent.filter.condition == 10">Количество бюджетных мест по всем условиям поступления <b>{{ dataContent.info.places.total.value }}</b></span>
+        <span v-else>Всего мест: <b>{{ dataContent.info.places.total.value }}</b></span>
+        <template v-if="dataContent.info.places.summ && dataContent.filter.condition == 10">
+            <span v-if="!dataContent.info.coloring">, <template v-if="filter.degree.value == 'spo'">из них</template><template v-else>в том числе</template></span>
+            <span v-else>. Зачислено</span>:
+        </template>
+    </p>
+    <ul v-if="dataContent.info.places.summ">
+        <li v-for="(place,label) in dataContent.info.places.summ">{{ label }} - <b>{{ place }}</b></li>
+    </ul>
+    <p v-if="dataContent && !dataContent.info.coloring && dataContent.filter.condition == 10 && filter.degree.value == 'bachelor' && dataContent.info.places.summ">
+        Незаполненные места по квотам перейдут в общий конкурс 29 июля <i class="text-primary fas fa-exclamation"></i>    </p>
+    <p v-if="dataContent.info.coloring && dataContent.info.places.credit && dataContent.info.places.enroll">
+        Всего зачислено: <b>{{ dataContent.info.places.credit.value }}</b>.
+        К зачислению: <b>{{ dataContent.info.places.enroll.value }}</b>.
+    </p>
+</div>
+                <div class="info-date" v-if="dataContent !== null && dataContent.info.date">
+                    <p>Время последнего обновления рейтингового списка: {{ dataContent.info.date }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="statistic-blocks">
+            <div class="statistic-block display-sm" v-if="dataContent !== null && dataContent.info.places">
+
+                <div class="num">{{ dataContent.info.places.total.value }}</div>
+                <span class="hide-sm">
+                    Бюджетных мест по всем условиям поступления
+                </span>
+                <span class="display-sm">
+                    Всего мест
+                </span>
+                <button type="button" class="informer" data-toggle="modal" data-target="#w1"><i class="icon icon-info"></i></button>
+<div id="w1" class="fade modal" role="dialog" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+<div class="modal-content">
+<div class="modal-header">
+
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+</div>
+<div class="modal-body">
+                <div v-if="dataContent !== null && dataContent.info.places" class="info-places">
+    <p>
+        <span v-if="dataContent && dataContent.filter.condition == 10">Количество бюджетных мест по всем условиям поступления <b>{{ dataContent.info.places.total.value }}</b></span>
+        <span v-else>Всего мест: <b>{{ dataContent.info.places.total.value }}</b></span>
+        <template v-if="dataContent.info.places.summ && dataContent.filter.condition == 10">
+            <span v-if="!dataContent.info.coloring">, <template v-if="filter.degree.value == 'spo'">из них</template><template v-else>в том числе</template></span>
+            <span v-else>. Зачислено</span>:
+        </template>
+    </p>
+    <ul v-if="dataContent.info.places.summ">
+        <li v-for="(place,label) in dataContent.info.places.summ">{{ label }} - <b>{{ place }}</b></li>
+    </ul>
+    <p v-if="dataContent && !dataContent.info.coloring && dataContent.filter.condition == 10 && filter.degree.value == 'bachelor' && dataContent.info.places.summ">
+        Незаполненные места по квотам перейдут в общий конкурс 29 июля <i class="text-primary fas fa-exclamation"></i>    </p>
+    <p v-if="dataContent.info.coloring && dataContent.info.places.credit && dataContent.info.places.enroll">
+        Всего зачислено: <b>{{ dataContent.info.places.credit.value }}</b>.
+        К зачислению: <b>{{ dataContent.info.places.enroll.value }}</b>.
+    </p>
+</div>
+                
+</div>
+
+</div>
+</div>
+</div>            </div>
+                        <div class="statistic-block" v-if="dataContent !== null && dataContent.filter.type !== 30">
+                <div class="num" v-if="dataContent.filter.type == 20 || dataContent.filter.type == 0">{{ dataContent.info.countApplications }}</div>
+                <div class="num" v-else>{{ dataContent.info.topPriorities }}</div>
+                <span v-if="dataContent.filter.type == 20">
+                    Количество заявлений, участвующих в конкурсе
+                </span>
+                <span v-else-if="dataContent.filter.type == 0">
+                    Количество поданных заявлений
+                </span>
+                <span v-else>
+                    <span class="hide-sm">
+                        Количество заявлений с приоритетами 1 и 2 по данному направлению/специальности для данного типа списка
+                    </span>
+                    <span class="display-sm">
+                        Заявлений с приоритетами 1 и 2
+                    </span>
+                </span>
+            </div>
+                    </div>
+    </div>
+
+    <div class="filter-block search-form">
+    <form
+        name="searchForm"
+        action="/bachelor"
+        method="get"
+        @submit.prevent="applySearch"
+    >
+        <div class="search-group">
+            <input
+                type="text"
+                class="search"
+                v-model="filter.name"
+                placeholder="поиск"
+            />
+            <button class="btn-search" type="submit">
+                <i class="icon icon-arrow-right-black"></i>
+            </button>
+        </div>
+        <div>
+            <v-select
+                placeholder="Выберите тип списка"
+                :options="dataFilterType"
+                :clearable="false"
+                :filterable="false"
+                :searchable="false"
+                v-model="filter.type">
+            </v-select>
+        </div>
+    </form>
+</div>
+
+    <div v-if="alert.message && alert.type" class="mt-4">
+        <div v-html="alert.message"
+             :class="'alert alert-dismissible text-center p-4 fade show ' + alert.types[alert.type]"
+             role="alert">
+            <button type="button" class="close" @click="clearMessageAlert">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+    <div v-if="loading" class="loading-content">
+        <div class="loading">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div v-else>
+        <div class="entrants">
+            <table>
+                <thead>
+                    <tr class="table-row">
+                        <th v-if="fieldHeader('number')"><div>{{ fieldHeader('number') }}</div></th>
+                        <th v-if="fieldHeader('name')"><div>{{ fieldHeader('name') }}</div></th>
+                        <th v-if="fieldHeader('priority')" class="hide-sm"><div>{{ fieldHeader('priority') }}</div></th>
+                        <th v-if="fieldHeader('isMainTopPriority')" class="hide-sm"><div>{{ fieldHeader('isMainTopPriority') }}</div></th>
+                        <th v-if="fieldHeader('sumPointTotal')"><div>{{ fieldHeader('sumPointTotal') }}</div></th>
+                        <th v-if="fieldHeader('averageScore')"><div>{{ fieldHeader('averageScore') }}</div></th>
+                        <th v-if="fieldHeader('without_entrance_tests')" class="hide-sm"><div>{{ fieldHeader('without_entrance_tests') }}</div></th>
+                        <th v-if="fieldHeader('original')" class="hide-sm"><div>{{ fieldHeader('original') }}</div></th>
+                        <th v-if="fieldHeader('consent')" class="hide-sm"><div>{{ fieldHeader('consent') }}</div></th>
+                        <th v-if="fieldHeader('contractConcluded')" class="hide-sm"><div>{{ fieldHeader('contractConcluded') }}</div></th>
+                        <th v-if="fieldHeader('contractPaid')" class="hide-sm"><div>{{ fieldHeader('contractPaid') }}</div></th>
+                        <th v-if="fieldHeader('recommendations')" class="hide-sm"><div>{{ fieldHeader('recommendations') }}</div></th>
+                        <th v-if="fieldHeader('status')" class="status"><div>{{ fieldHeader('status') }}</div></th>
+                    </tr>
+                </thead>
+                <tbody v-if="dataContent !== null && dataContent.items">
+                    <template v-for="(item, i) in dataContent.items" >
+                        <tr>
+                            <td :colspan="dataContent.info.countFields">
+                                <div class="entrants-type"
+                                    :class="{open: item.show}"
+                                    @click="toggleEntrantsList(i)"
+                                    :key="'entrants-type-' + i"
+                                >
+                                    <div class="title">
+                                        <span>{{ item.title }}</span>
+                                        <i class="icon icon-arrow-down"></i>
+                                    </div>
+                                    <div class="status places">
+                                        <div class="label" v-if="item.condition_order < 10">
+                                            <span>Свободно</span> <span>мест</span>: <span class="num">{{ item.info.freePlaces }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr v-for="(entrant, j) in item.table" v-show="item.show" :class="entrant.className">
+                            <td v-if="fieldHeader('number')">
+                                <div>
+                                    <span class="number">{{ j+1 }}</span>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('name')">
+                                <div>
+                                    <b>{{ entrant.name }}</b>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('priority')" class="hide-sm">
+                                <div>
+                                    <b>{{ entrant.priority }}</b>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('isMainTopPriority')" class="hide-sm">
+                                <div>
+                                    <b>{{ entrant.isMainTopPriority ? 'Да' : 'Нет' }}</b>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('sumPointTotal')">
+                                <div>
+                                    <span>{{ entrant.sumPointTotal }}</span>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('averageScore')">
+                                <div>
+                                    <span>{{ entrant.averageScore }}</span>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('without_entrance_tests')" class="hide-sm">
+                                <div>
+                                    <span>{{ entrant.without_entrance_tests ? 'В первоочередном порядке' : '' }}</span>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('consent')" class="hide-sm">
+                                <div>
+                                    <b>{{ entrant.consent ? 'Да' : 'Нет' }}</b>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('contractConcluded')" class="hide-sm">
+                                <div>
+                                    <b>{{ entrant.contractConcluded ? 'Да' : 'Нет' }}</b>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('contractPaid')" class="hide-sm">
+                                <div>
+                                    <b>{{ entrant.contractPaid ? 'Да' : 'Нет' }}</b>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('original')" class="hide-sm">
+                                <div>
+                                    <b>{{ entrant.original ? 'Да' : 'Нет' }}</b>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('recommendations')" class="hide-sm">
+                                <div>
+                                    <span class="recommendations">{{ entrant.recommendations }}</span>
+                                </div>
+                            </td>
+                            <td v-if="fieldHeader('status')">
+                                <div>
+                                    <div class="status hide-sm"
+                                         :class="{open: showStatusItem == i + '.' + j}"
+                                         @click="toggleStatusItem(i + '.' + j)"
+                                    >
+                                        <div class="label"
+                                            :class="{primary: entrant.enlisted}"
+                                        >
+                                            <span>{{ entrant.status }}</span>
+                                            <i class="icon"
+                                                :class="[entrant.enlisted ? 'icon-arrow-down-white' : 'icon-arrow-down']"
+                                            ></i>
+                                        </div>
+                                        <div class="disciplines">
+                                            <template v-if="entrant.disciplines">
+                                                <div v-for="discipline in entrant.disciplines">
+                                                    <span>{{ discipline.name }}</span>
+                                                    <span>{{ discipline.point }}</span>
+                                                </div>
+                                            </template>
+                                            <div v-if="fieldHeader('profileScore')">
+                                                <span>{{ fieldHeader('profileScore') }}</span>
+                                                <span>{{ entrant.profileScore }}</span>
+                                            </div>
+                                            <div v-if="fieldHeader('certificateScore') && entrant.certificateScore">
+                                                <span>{{ fieldHeader('certificateScore') }}</span>
+                                                <span>{{ entrant.certificateScore }}</span>
+                                            </div>
+                                            <div v-if="fieldHeader('sumPointAchievement')">
+                                                <span>{{ fieldHeader('sumPointAchievement') }}</span>
+                                                <span>{{ entrant.sumPointAchievement }}</span>
+                                            </div>
+                                            <div v-if="fieldHeader('issetAchievement') && entrant.sumPointAchievement">
+                                                <span>{{ fieldHeader('issetAchievement') }}</span>
+                                                <span>{{ entrant.sumPointAchievement > 0 ? 'Да' : 'Нет' }}</span>
+                                            </div>
+                                            <div v-if="fieldHeader('hostel')">
+                                                <span>{{ fieldHeader('hostel') }}</span>
+                                                <span>{{ entrant.hostel ? 'Да' : 'Нет' }}</span>
+                                            </div>
+                                            <div v-if="entrant.without_entrance_tests">
+                                                <span v-if="fieldHeader('without_entrance_tests')">В первоочередном порядке</span>
+                                                <span v-else>Без вступительных испытаний</span>
+                                                <span>Да</span>
+                                            </div>
+                                            <div v-if="fieldHeader('applicationDate')">
+                                                <span>{{ fieldHeader('applicationDate') }}</span>
+                                                <span>{{ entrant.applicationDate | dateWithoutTime }}</span>
+                                            </div>
+                                            <div v-if="entrant.diplomaScore && item.title == 'отдельная квота'">
+                                              <span>{{ fieldHeader('diplomaScore') }}</span>
+                                              <span>{{ entrant.diplomaScore }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="display-sm">
+                                        <div class="display-sm">
+                                            <a type="button" data-toggle="modal" v-bind:data-target="'#entrant-modal-'+ i +'-'+ j " class="entrant-modal-link"><i class="icon icon-arrow-down"></i></a>
+                                            <div :id="'entrant-modal-'+ i +'-'+ j " tabindex="-1" class="fade modal" aria-modal="true" role="dialog">
+                                                <div role="document" class="modal-dialog modal-dialog-scrollable">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" data-dismiss="modal" class="close"><span aria-hidden="true">×</span></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="mobile-card">
+                                                                <div class="mobile-card-title">
+                                                                    <div class="name">{{ entrant.name }}</div>
+                                                                    <div>#{{ j+1 }}</div>
+                                                                    <div>{{ entrant.status }}</div>
+                                                                </div>
+                                                                <p v-if="fieldHeader('sumPointTotal')">
+                                                                    {{ fieldHeader('sumPointTotal') }}: <b>{{ entrant.sumPointTotal }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('averageScore')">
+                                                                    {{ fieldHeader('averageScore') }}: <b>{{ entrant.averageScore }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('priority')">
+                                                                    {{ fieldHeader('priority') }}: <b>{{ entrant.priority }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('isMainTopPriority')">
+                                                                    {{ fieldHeader('isMainTopPriority') }}: <b>{{ entrant.isMainTopPriority ? 'Да' : 'Нет' }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('consent')">
+                                                                    {{ fieldHeader('consent') }}: <b>{{ entrant.consent ? 'Да' : 'Нет' }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('original')">
+                                                                    {{ fieldHeader('original') }}: <b>{{ entrant.original ? 'Да' : 'Нет' }}</b>
+                                                                </p>
+                                                                <template v-if="entrant.disciplines">
+                                                                    <p v-for="discipline in entrant.disciplines">
+                                                                        {{ discipline.name }}: <b>{{ discipline.point }}</b>
+                                                                    </p>
+                                                                </template>
+                                                                <p v-if="fieldHeader('profileScore')">
+                                                                    {{ fieldHeader('profileScore') }}: <b>{{ entrant.profileScore }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('certificateScore')">
+                                                                    {{ fieldHeader('certificateScore') }}: <b>{{ entrant.certificateScore }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('sumPointAchievement')">
+                                                                    {{ fieldHeader('sumPointAchievement') }}: <b>{{ entrant.sumPointAchievement }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('issetAchievement') && entrant.sumPointAchievement">
+                                                                    {{ fieldHeader('issetAchievement') }}: <b>{{ entrant.sumPointAchievement > 0 ? 'Да' : 'Нет' }}</b>
+                                                                </p>
+                                                                <p v-if="entrant.without_entrance_tests">
+                                                                    <span v-if="fieldHeader('without_entrance_tests')">В первоочередном порядке: <b>Да</b></span>
+                                                                    <span v-else>Без вступительных испытаний: <b>Да</b></span>
+                                                                </p>
+                                                                <p v-if="fieldHeader('applicationDate')">
+                                                                    {{ fieldHeader('applicationDate') }}: <b>{{ entrant.applicationDate | dateWithoutTime }}</b>
+                                                                </p>
+                                                                <p v-if="fieldHeader('recommendations')">
+                                                                    {{ fieldHeader('recommendations') }}: <b>{{ entrant.recommendations }}</b>
+                                                                </p>
+                                                                <p v-if="entrant.diplomaScore && item.title == 'отдельная квота'">
+                                                                  {{ fieldHeader('diplomaScore') }}: <b>{{ entrant.diplomaScore }}</b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</div>            </div>
+        </section>
+        <footer v-show="showContent" id="footer" ref="footer">
+    <div class="container">
+        <div class="brand">
+            <a href="https://www.nsu.ru/n/" target="_blank" class="logo">
+                <img class="img-fluid" src="/images/logo-white-green.svg" alt="">            </a>
+            <p class="copyright">&copy; 2026 Новосибирский государственный университет</p>
+        </div>
+        <div class="contacts">
+                            <p class="footer-header">Приемная комиссия НГУ</p>
+                <p class="phones">
+                    <b>Телефон:</b>
+                    <a href="tel:+73833308590">+7&nbsp;(383)&nbsp;330-85-90</a>,
+                    <a href="tel:+73833634037">363-40-37</a>                </p>
+                <p>
+                    <b>E-mail:</b>
+                    <a href="mailto:priem@nsu.ru">priem@nsu.ru</a>                </p>
+                <p>
+                    <b>Техническая поддержка:</b>
+                    <a href="mailto:support@nsu.ru">support@nsu.ru</a>                </p>
+                    </div>
+        <div class="socials">
+            <p class="footer-header">Мы в соцсетях</p>
+            <div class="icons">
+                <div>
+                    <a href="https://vk.com/nsu24" class="icon vk" target="_blank"></a>
+                    <a href="https://ok.ru/group/64074689675508" class="icon ok" target="_blank"></a>
+                    <a href="https://rutube.ru/channel/23787749/" class="icon rt" target="_blank"></a>
+                    <a href="https://t.me/nsuniversity" class="icon tg" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <div id="down-up"
+         v-if="buttonToTop.visible"
+         :style="{top: buttonToTop.top + 'px'}"
+         @click="scrollTop"
+    ></div>
+</div>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript"> (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(45049340, "init", {clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true}); </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/45049340" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78886880-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-78886880-2');
+    </script>
+  <!-- Top.Mail.Ru counter -->
+  <script type="text/javascript">
+    var _tmr = window._tmr || (window._tmr = []);
+    _tmr.push({id: "3609889", type: "pageView", start: (new Date()).getTime()});
+    (function (d, w, id)
+
+    {   if (d.getElementById(id)) return;   var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;   ts.src = "https://top-fwz1.mail.ru/js/code.js";   var f = function ()
+
+      {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);}
+    ;
+      if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+    })(document, window, "tmr-code");
+  </script>
+  <noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3609889;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+  <!-- /Top.Mail.Ru counter -->
+<script src="/assets/494db53e/jquery.js"></script>
+<script src="/assets/16caa337/js/bootstrap.bundle.js"></script>
+<script src="/assets/9034b766/yii.js"></script>
+<script src="/assets/2885a1f5/axios.min.js"></script>
+<script src="/assets/57d7750d/vue-select.js"></script>
+<script src="/assets/b6e3a27d/index.js"></script>
+<script src="/assets/db88ed04/vue.min.js"></script>
+<script src="/js/app.vue.js?v20240730184300"></script>
+<script src="/js/script.js?v20230712165300"></script>
+<script>jQuery(function ($) {
+jQuery('#w0').modal({"show":false});
+jQuery('#w1').modal({"show":false});
+jQuery('#how-use-modal').modal({"show":false});
+jQuery('#how-enrollment-modal').modal({"show":false});
+});</script></body>
+</html>

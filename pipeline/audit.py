@@ -6,10 +6,12 @@ def render(registry: dict, catalog: dict) -> str:
     validate_registry(registry)
     validate_catalog(catalog, registry)
     rows = catalog["records"]
+    metrics_path = ROOT / 'data/normalized/mephi/metrics.json'
+    mephi = load(metrics_path) if metrics_path.exists() else None
     lines = [
-        "# DATA_AUDIT — этап 0, подготовка", "",
+        "# DATA_AUDIT — этап 1A" if mephi else "# DATA_AUDIT — этап 0, подготовка", "",
         "Срез начальной разведки: 2026-10-23. Это не завершённый аудит программ.",
-        "Числа приёма не извлекались. Доступность страницы не означает проверку её данных.", "",
+        "Числа МИФИ извлечены; остальные вузы пока на этапе разведки. Доступность страницы не означает проверку её данных." if mephi else "Числа приёма не извлекались. Доступность страницы не означает проверку её данных.", "",
         "В таблице ноль — число импортированных записей, а не число программ в вузе.",
         "Неизвестный объём каталога и отсутствие знаменателя обозначены «не определено».", "",
         "| Вуз | Начальный источник | Программ импортировано | С проверенным источником | Лет истории в наборе | Полнота обязательных полей | Проблемы и следующий сбор |",
@@ -28,12 +30,15 @@ def render(registry: dict, catalog: dict) -> str:
             completeness = f"{count / (len(found) * len(SCOPE['required_audit_fields'])):.1%} (только импортированные строки)"
         else:
             completeness = "не определено"
-        lines.append(f"| {source['institution_name']} | [Официальная страница]({source['url']}) | {len(programs)} | {len(verified)} | {len(years)} | {completeness} | {source['notes']} |")
+        if institution == 'mephi' and mephi:
+            lines.append(f"| {source['institution_name']} | [Официальная страница]({source['url']}) | {mephi['program_profiles']} профиля | {mephi['program_profiles']} строк источника; допуск кампании неполон | {len(mephi['historical_years'])} | не определено для кампании | Этап 1A: docs/MEPHI_AUDIT.md; группы истории не установлены |")
+        else:
+            lines.append(f"| {source['institution_name']} | [Официальная страница]({source['url']}) | {len(programs)} | {len(verified)} | {len(years)} | {completeness} | {source['notes']} |")
     lines.extend([
         "", "## Текущие выводы", "",
-        f"Импортировано программ: {len({r['program_id'] for r in rows})}. Полный размер целевого каталога неизвестен.",
+        f"Импортировано профилей программ МИФИ: {mephi['program_profiles'] if mephi else 0}. Полный размер целевого каталога неизвестен.",
         "Программ, допущенных к вероятностному прогнозу: 0. Валидированных моделей: 0.",
-        "Исторические ориентиры пока не загружены. Отсутствующие значения не заменены нулями.",
+        f"Исторических строк МИФИ: {mephi['historical_rows'] if mephi else 0}. Отсутствующие значения не заменены нулями.",
         "Базовый, оптимистичный и пессимистичный сценарии пока не рассчитываются.", "",
         "## Порядок этапа 1", "",
         "1. Перечислить все кампусы и программы по официальному каталогу каждого вуза.",
@@ -48,10 +53,15 @@ def render(registry: dict, catalog: dict) -> str:
         "Сейчас аудит не способен выдать разрешение на прогноз: такой критерий появится после проверки данных.",
         "Скрипт запускается офлайн: `python3 -m pipeline.audit`.", "",
     ])
+    if mephi:
+        lines.extend(['## Обновление этапа 1A','',
+            'Подробности и актуальные источники: [MEPHI_AUDIT](docs/MEPHI_AUDIT.md), [матрица вузов](docs/UNIVERSITY_SOURCE_MATRIX.md).',
+            'Верхняя таблица остальных вузов сохраняет исходную разведку этапа 0; свежие HTTP-статусы приведены в новой матрице.',
+            'data/normalized/catalog.json — старый пустой контракт. Реальные сущности программы/направления/места/наблюдения разделены в data/normalized/mephi/.',''])
     return "\n".join(lines)
 
 
 if __name__ == "__main__":
     output = render(load(ROOT / "data/source_registry.json"), load(ROOT / "data/normalized/catalog.json"))
     (ROOT / "DATA_AUDIT.md").write_text(output, encoding="utf-8")
-    print("DATA_AUDIT.md generated; stage 0 preparation only.")
+    print('DATA_AUDIT.md generated; MEPhI stage 1A facts remain unavailable for forecasting.')

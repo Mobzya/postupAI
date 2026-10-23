@@ -1,0 +1,3087 @@
+{
+  "records": [
+    {
+      "id": "mephi-p-1bd107071470da1b4cad0695",
+      "year": 2026,
+      "official_code": "14.03.01",
+      "field_name_raw": "Ядерная энергетика и теплофизика",
+      "name": "Ядерные реакторы и энергетические установки",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B5%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B%20%D0%B8%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1186"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 1,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[1]",
+        "raw_fragment": "<tr class=\"odd\"><td rowspan=\"1\">\n\t\t\t\t\t\t14.03.01</td>\n<td rowspan=\"1\">\n\t\t\t\t\t\tЯдерная энергетика и теплофизика</td>\n<td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/\" target=\"_blank\">Институт ядерной физики и технологий</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B5%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B%20%D0%B8%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8\">Ядерные реакторы и энергетические установки</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1186\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "14.03.01",
+          "Ядерная энергетика и теплофизика",
+          "Институт ядерной физики и технологий",
+          "Ядерные реакторы и энергетические установки",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-546193cfe3ba30554588e75d",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Ядерные физика и космофизика",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B5%20%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/376"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 2,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[2]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" rowspan=\"8\">\n\t\t\t\t\t\t14.03.02</td>\n<td colspan=\"1\" rowspan=\"8\">\n<p>Ядерные физика и технологии</p>\n<p>Nuclear Physics and Technologies</p>\n<p>(реализуется также в ДИТИ, ИАТЭ, СФТИ)</p>\n</td>\n<td colspan=\"1\" rowspan=\"7\">\n\t\t\t\t\t\t<a href=\"https://admission.mephi.ru/about/excellence/1\" target=\"_blank\">Институт ядерной физики и технологий</a></td>\n<td>\n<p><a href=\"https://inphe.mephi.ru/node/18802#%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B5%20%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0\">Ядерные физика и космофизика</a></p>\n</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/376\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "14.03.02",
+          "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+          "Институт ядерной физики и технологий",
+          "Ядерные физика и космофизика",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-70afae5c3612de54ee4035da",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Физика фундаментальных взаимодействий",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/375"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 3,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[3]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9\">Физика фундаментальных взаимодействий</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/375\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Физика фундаментальных взаимодействий",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-af3277e2032acb78dde52c6a",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Физика космических излучений",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D0%B8%D0%B7%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B9"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1075"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 4,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[4]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D0%B8%D0%B7%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B9\">Физика космических излучений</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1075\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Физика космических излучений",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-594184d6d5e4546b24b6626e",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Экспериментальные исследования и моделирование фундаментальных взаимодействий",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/378"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 5,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[5]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9\">Экспериментальные исследования и моделирование фундаментальных взаимодействий</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/378\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Экспериментальные исследования и моделирование фундаментальных взаимодействий",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-039ee812ce1ab4d4497d851c",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Физика элементарных частиц и космология",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D1%8B%D1%85%20%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%20%D0%B8%20%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/388"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 6,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[6]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D1%8B%D1%85%20%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%20%D0%B8%20%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F\">Физика элементарных частиц и космология</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/388\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Физика элементарных частиц и космология",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-72578edd3b8be361675ce68c",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Физика и теплофизика ядерных энергетических установок",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%8F%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D1%85%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%D0%BA"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/380"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 7,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[7]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%8F%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D1%85%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%D0%BA\">Физика и теплофизика ядерных энергетических установок</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/380\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Физика и теплофизика ядерных энергетических установок",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-2ad115ee5ca715b09aa19ebd",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Ускорители для науки и приборостроения",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%A3%D1%81%D0%BA%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D1%8F"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 8,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[8]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%A3%D1%81%D0%BA%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D1%8F\">Ускорители для науки и приборостроения</a></td>\n<td>\n<p>Учебные планы</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Ускорители для науки и приборостроения",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-780beefe2b5bfc4e9265ff42",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "field_name_raw": "Ядерные физика и технологии Nuclear Physics and Technologies (реализуется также в ДИТИ, ИАТЭ, СФТИ)",
+      "name": "Киберфизические системы и ядерные технологии",
+      "division": "Институт физико-технических интеллектуальных систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://iftis.mephi.ru/structure/programs/22"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 9,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[9]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/\">Институт физико-технических интеллектуальных систем </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/structure/programs/22\" style=\"background-color: rgb(236, 234, 234);\">Киберфизические системы и ядерные технологии</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Институт физико-технических интеллектуальных систем",
+          "Киберфизические системы и ядерные технологии",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-68133aca6647a80d580e3be8",
+      "year": 2026,
+      "official_code": "01.03.02",
+      "field_name_raw": "Прикладная математика и информатика Applied Mathematics and Informatics (реализуется также в СарФТИ, ИАТЭ, СФТИ)",
+      "name": "Математика и науки о данных",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/010302-applied-mathematics-and-informatics"
+      ],
+      "curriculum_urls": [
+        "https://drive.google.com/file/d/1DH0lShe5OSH_nsDI_AlJ-hT2vwVaxj4B/view"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 10,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[10]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"4\">\n\t\t\t\t\t\t01.03.02</td>\n<td rowspan=\"4\">\n<p>Прикладная математика и информатика</p>\n<p>Applied Mathematics and Informatics</p>\n<p>(реализуется также в СарФТИ, ИАТЭ, СФТИ)</p>\n</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/\">Институт лазерных и плазменных технологий </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/010302-applied-mathematics-and-informatics\">Математика и науки о данных</a></td>\n<td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://drive.google.com/file/d/1DH0lShe5OSH_nsDI_AlJ-hT2vwVaxj4B/view\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "01.03.02",
+          "Прикладная математика и информатика Applied Mathematics and Informatics (реализуется также в СарФТИ, ИАТЭ, СФТИ)",
+          "Институт лазерных и плазменных технологий",
+          "Математика и науки о данных",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-92c3c3c0bf757e9de8a64f8f",
+      "year": 2026,
+      "official_code": "01.03.02",
+      "field_name_raw": "Прикладная математика и информатика Applied Mathematics and Informatics (реализуется также в СарФТИ, ИАТЭ, СФТИ)",
+      "name": "Цифровые технологии и математические методы обработки данных(совместно с программой экстремальное программирование)",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://icis.mephi.ru/about/programs/24"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Curriculum/384?curriculumId=b6463e15-8e95-47c1-937e-c702ab8ec857"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 11,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[11]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"3\">\n\t\t\t\t\t\t<a href=\"http://icis.mephi.ru/\">Институт интеллектуальных кибернетических систем</a></td>\n<td colspan=\"1\">\n<p><a href=\"https://icis.mephi.ru/about/programs/24\">Цифровые технологии и математические методы обработки данных(совместно с программой экстремальное программирование)</a></p>\n</td>\n<td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Curriculum/384?curriculumId=b6463e15-8e95-47c1-937e-c702ab8ec857\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Институт интеллектуальных кибернетических систем",
+          "Цифровые технологии и математические методы обработки данных(совместно с программой экстремальное программирование)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-e5b0e0aa6a64ad82ff8eb4ab",
+      "year": 2026,
+      "official_code": "01.03.02",
+      "field_name_raw": "Прикладная математика и информатика Applied Mathematics and Informatics (реализуется также в СарФТИ, ИАТЭ, СФТИ)",
+      "name": "Конструктивные модели в информационных и интеллектуальных системах",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Mathematics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/konstruktivnye_modeli_-_informaciya_na_sayt_01.pdf"
+      ],
+      "curriculum_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/konstruktivnye_modeli_v_informacionnyh_i_intellektualnyh_sistemah_kmiis_-_pmi_1.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 12,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[12]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/konstruktivnye_modeli_-_informaciya_na_sayt_01.pdf\">Конструктивные модели в информационных и интеллектуальных системах</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/konstruktivnye_modeli_v_informacionnyh_i_intellektualnyh_sistemah_kmiis_-_pmi_1.pdf\">Учебный планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Конструктивные модели в информационных и интеллектуальных системах",
+          "Учебный планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-6e79322cb86e7488e623655f",
+      "year": 2026,
+      "official_code": "01.03.02",
+      "field_name_raw": "Прикладная математика и информатика Applied Mathematics and Informatics (реализуется также в СарФТИ, ИАТЭ, СФТИ)",
+      "name": "Математическое и программное обеспечение киберфизических систем",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://icis.mephi.ru/about/programs/23"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/384"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 13,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[13]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/about/programs/23\">Математическое и программное обеспечение киберфизических систем</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/384\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Математическое и программное обеспечение киберфизических систем",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-952fd77fdc1cdf50d5d53d36",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "field_name_raw": "Прикладные математика и физика Applied Mathematics and Physics (реализуется также в СарФТИ)",
+      "name": "Суперкомпьютерные технологии в инженерно-физическом моделировании",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/030301-supercomputer-technologies-in-engineering-and-physical-modeling"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 14,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[14]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"6\">\n\t\t\t\t\t\t03.03.01</td>\n<td rowspan=\"6\">\n<p>Прикладные математика и физика</p>\n<p>Applied Mathematics and Physics</p>\n<p>(реализуется также в СарФТИ)</p>\n</td>\n<td colspan=\"1\" rowspan=\"5\">\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/\">Институт лазерных и плазменных технологий </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/030301-supercomputer-technologies-in-engineering-and-physical-modeling\">Суперкомпьютерные технологии в инженерно-физическом моделировании</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "03.03.01",
+          "Прикладные математика и физика Applied Mathematics and Physics (реализуется также в СарФТИ)",
+          "Институт лазерных и плазменных технологий",
+          "Суперкомпьютерные технологии в инженерно-физическом моделировании",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-3e0e961e37e035a3c3b6b528",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "field_name_raw": "Прикладные математика и физика Applied Mathematics and Physics (реализуется также в СарФТИ)",
+      "name": "Теоретическая физика и математическое моделирование",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/030301-theoretical-physics-and-mathematical-modelling"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/408"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 15,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[15]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/030301-theoretical-physics-and-mathematical-modelling\">Теоретическая физика и математическое моделирование</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/408\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Теоретическая физика и математическое моделирование",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-eadba4d517eb8164fb5d9c0a",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "field_name_raw": "Прикладные математика и физика Applied Mathematics and Physics (реализуется также в СарФТИ)",
+      "name": "Технологии экстремального состояния вещества",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/030301-physics-of-fast-flowing-processes"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1182"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 16,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[16]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/030301-physics-of-fast-flowing-processes\">Технологии экстремального состояния вещества</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1182\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Технологии экстремального состояния вещества",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-e98ba002e41f05e165226f39",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "field_name_raw": "Прикладные математика и физика Applied Mathematics and Physics (реализуется также в СарФТИ)",
+      "name": "Физика и инжиниринг новых материалов",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/030301-physics-and-engineering-of-new-materials"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1183"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 17,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[17]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/030301-physics-and-engineering-of-new-materials\">Физика и инжиниринг новых материалов</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1183\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Физика и инжиниринг новых материалов",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-70c56668368b4958b0086ef9",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "field_name_raw": "Прикладные математика и физика Applied Mathematics and Physics (реализуется также в СарФТИ)",
+      "name": "Квантовый инжиниринг",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/030301-quantum-engineering"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1086"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 18,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[18]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/030301-quantum-engineering\">Квантовый инжиниринг</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1086\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Квантовый инжиниринг",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-a80b8230f36a38bed9dfb878",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "field_name_raw": "Прикладные математика и физика Applied Mathematics and Physics (реализуется также в СарФТИ)",
+      "name": "Математическое и компьютерное моделирование: метаматериалы, фотоника, терагерцовые источники",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://kaf67.mephi.ru/education/bs/mathcomputermodeling"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1248"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 19,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[19]",
+        "raw_fragment": "<tr class=\"odd\"><td rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://nespi.mephi.ru/\" target=\"_blank\">Институт нанотехнологий в электронике, спинтронике и фотонике </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://kaf67.mephi.ru/education/bs/mathcomputermodeling\">Математическое и компьютерное моделирование: метаматериалы, фотоника, терагерцовые источники</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1248\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Институт нанотехнологий в электронике, спинтронике и фотонике",
+          "Математическое и компьютерное моделирование: метаматериалы, фотоника, терагерцовые источники",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-3930f1ec3d8ff30f0846c408",
+      "year": 2026,
+      "official_code": "03.03.02",
+      "field_name_raw": "Физика Physics (реализуется также в ИАТЭ, ДИТИ)",
+      "name": "Медицинская физика",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/mf_ba_21_ru.pdf"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/406"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 20,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[20]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t03.03.02</td>\n<td colspan=\"1\" rowspan=\"2\">\n<p>Физика</p>\n<p>Physics</p>\n<p>(реализуется также в ИАТЭ, ДИТИ)</p>\n</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/mf_ba_21_ru.pdf\" target=\"_blank\">Медицинская физика</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/406\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "03.03.02",
+          "Физика Physics (реализуется также в ИАТЭ, ДИТИ)",
+          "Инженерно-физический институт биомедицины",
+          "Медицинская физика",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-bf7bfc2e0b562926f21cb700",
+      "year": 2026,
+      "official_code": "03.03.02",
+      "field_name_raw": "Физика Physics (реализуется также в ИАТЭ, ДИТИ)",
+      "name": "Биофизика",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/bf_ba_21_ru_1.pdf"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/407"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 21,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[21]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/bf_ba_21_ru_1.pdf\" target=\"_blank\">Биофизика</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/407\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Биофизика",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-7c349bd720854d0b0f14e875",
+      "year": 2026,
+      "official_code": "04.03.01",
+      "field_name_raw": "Химия",
+      "name": "Аналитическая химия.Совместно с ИАТЭ НИЯУ МИФИ",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/ach_ba_21_ru.pdf"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_not_in_2026_moscow_list_requires_review",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 22,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[22]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\">\n\t\t\t\t\t\t04.03.01</td>\n<td colspan=\"1\">\n\t\t\t\t\t\tХимия</td>\n<td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/ach_ba_21_ru.pdf\" target=\"_blank\">Аналитическая химия.Совместно с ИАТЭ НИЯУ МИФИ</a></td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "04.03.01",
+          "Химия",
+          "Инженерно-физический институт биомедицины",
+          "Аналитическая химия.Совместно с ИАТЭ НИЯУ МИФИ",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-03c2eb1aee725c8d23402576",
+      "year": 2026,
+      "official_code": "06.03.01",
+      "field_name_raw": "Биология",
+      "name": "Радиобиология.Совместно с ИАТЭ НИЯУ МИФИ",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/rb_ba_21_ru.pdf"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_not_in_2026_moscow_list_requires_review",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 23,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[23]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t06.03.01</td>\n<td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\tБиология</td>\n<td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/rb_ba_21_ru.pdf\" target=\"_blank\">Радиобиология.Совместно с ИАТЭ НИЯУ МИФИ</a></td>\n<td rowspan=\"1\">\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "06.03.01",
+          "Биология",
+          "Инженерно-физический институт биомедицины",
+          "Радиобиология.Совместно с ИАТЭ НИЯУ МИФИ",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-91605c97420db44fab77580c",
+      "year": 2026,
+      "official_code": "04.03.02",
+      "field_name_raw": "Химия, физика и механика материалов",
+      "name": "Химические и фармацевтические технологии. Совместно с ИАТЭ НИЯУ МИФИ",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/nmbm_ba_21_ru.pdf"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_not_in_2026_moscow_list_requires_review",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 24,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[24]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\">\n\t\t\t\t\t\t04.03.02</td>\n<td colspan=\"1\">\n\t\t\t\t\t\tХимия, физика и механика материалов</td>\n<td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/nmbm_ba_21_ru.pdf\" target=\"_blank\">Химические и фармацевтические технологии. Совместно с ИАТЭ НИЯУ МИФИ</a></td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "04.03.02",
+          "Химия, физика и механика материалов",
+          "Инженерно-физический институт биомедицины",
+          "Химические и фармацевтические технологии. Совместно с ИАТЭ НИЯУ МИФИ",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-a4e6fea812e331140d832e1e",
+      "year": 2026,
+      "official_code": "09.03.01",
+      "field_name_raw": "Информатика и вычислительная техника Informatics and Computer Engineering (реализуется также в ДИТИ, ИАТЭ, НТИ, ОТИ, СарФТИ, ТИ, ТТИ)",
+      "name": "Компьютерные системы и технологии",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://icis.mephi.ru/about/programs/8"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1211"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 25,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[25]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t09.03.01</td>\n<td colspan=\"1\" rowspan=\"1\">\n<p>Информатика и вычислительная техника</p>\n<p>Informatics and Computer Engineering</p>\n<p>(реализуется также в ДИТИ, ИАТЭ, НТИ, ОТИ, СарФТИ, ТИ, ТТИ)</p>\n</td>\n<td rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/\" target=\"_blank\">Институт интеллектуальных кибернетических систем</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/about/programs/8\">Компьютерные системы и технологии</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1211\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "09.03.01",
+          "Информатика и вычислительная техника Informatics and Computer Engineering (реализуется также в ДИТИ, ИАТЭ, НТИ, ОТИ, СарФТИ, ТИ, ТТИ)",
+          "Институт интеллектуальных кибернетических систем",
+          "Компьютерные системы и технологии",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-7085a5829ae1a2baaa24b330",
+      "year": 2026,
+      "official_code": "09.03.03",
+      "field_name_raw": "Прикладная информатика",
+      "name": "Интеллектуальные информационно-аналитические системы",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/09-03-03-prikladnaya-informatika.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 26,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[26]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t09.03.03</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\tПрикладная информатика</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/index.php/\" target=\"_blank\">Институт финансовых технологий и экономической безопасности</a></td>\n<td>\n\t\t\t\t\t\tИнтеллектуальные информационно-аналитические системы</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/09-03-03-prikladnaya-informatika.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "09.03.03",
+          "Прикладная информатика",
+          "Институт финансовых технологий и экономической безопасности",
+          "Интеллектуальные информационно-аналитические системы",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-e45a1a95e6a0179b64f53083",
+      "year": 2026,
+      "official_code": "09.03.03",
+      "field_name_raw": "Прикладная информатика",
+      "name": "Мобильные и адаптивные приложения",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/09-03-03-prikladnaya-informatika.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 27,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[27]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\tМобильные и адаптивные приложения</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/09-03-03-prikladnaya-informatika.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Мобильные и адаптивные приложения",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-c4592277ed9ca665742952cd",
+      "year": 2026,
+      "official_code": "09.03.04",
+      "field_name_raw": "Программная инженерия Software Engineering",
+      "name": "Программная инженерия искусственного интеллекта",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Artificial Intelligence / ML",
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://icis.mephi.ru/about/programs/5"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 28,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[28]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" rowspan=\"3\">\n\t\t\t\t\t\t09.03.04</td>\n<td colspan=\"1\" rowspan=\"3\">\n<p>Программная инженерия</p>\n<p>Software Engineering</p>\n</td>\n<td colspan=\"1\" rowspan=\"3\">\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/\" target=\"_blank\">Институт интеллектуальных кибернетических систем</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/about/programs/5\">Программная инженерия искусственного интеллекта</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "09.03.04",
+          "Программная инженерия Software Engineering",
+          "Институт интеллектуальных кибернетических систем",
+          "Программная инженерия искусственного интеллекта",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-6d4fa948b5b1e2a2834679df",
+      "year": 2026,
+      "official_code": "09.03.04",
+      "field_name_raw": "Программная инженерия Software Engineering",
+      "name": "Конструктивные модели в информационных и интеллектуальных системах",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/konstruktivnye_modeli_-_informaciya_na_sayt_09.pdf"
+      ],
+      "curriculum_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/konstruktivnye_modeli_v_informacionnyh_i_intellektualnyh_sistemah_kmiis_-_pi.plm_0.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 29,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[29]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/konstruktivnye_modeli_-_informaciya_na_sayt_09.pdf\">Конструктивные модели в информационных и интеллектуальных системах</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/konstruktivnye_modeli_v_informacionnyh_i_intellektualnyh_sistemah_kmiis_-_pi.plm_0.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Конструктивные модели в информационных и интеллектуальных системах",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-53449e2ba26a00dd0cfc196a",
+      "year": 2026,
+      "official_code": "09.03.04",
+      "field_name_raw": "Программная инженерия Software Engineering",
+      "name": "Искусственный интеллект и моделирование когнитивных процессов в проектировании и разработке информационных систем",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Artificial Intelligence / ML",
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://icis.mephi.ru/about/programs/4"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 30,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[30]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/about/programs/4\">Искусственный интеллект и моделирование когнитивных процессов в проектировании и разработке информационных систем</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Искусственный интеллект и моделирование когнитивных процессов в проектировании и разработке информационных систем",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-0e7f4106e5eb2d62caa06f45",
+      "year": 2026,
+      "official_code": "10.03.01",
+      "field_name_raw": "Информационная безопасность Information Security",
+      "name": "Безопасность компьютерных систем (инновационные технологии компьютерной безопасности)",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://icis.mephi.ru/about/programs/32"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/399"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 31,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[31]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"5\">\n\t\t\t\t\t\t10.03.01</td>\n<td colspan=\"1\" rowspan=\"5\">\n<p>Информационная безопасность</p>\n<p>Information Security</p>\n</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/\" target=\"_blank\">Институт интеллектуальных кибернетических систем</a></td>\n<td>\n<p><a href=\"https://icis.mephi.ru/about/programs/32\">Безопасность компьютерных систем (инновационные технологии компьютерной безопасности)</a></p>\n</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/399\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "10.03.01",
+          "Информационная безопасность Information Security",
+          "Институт интеллектуальных кибернетических систем",
+          "Безопасность компьютерных систем (инновационные технологии компьютерной безопасности)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-46ac8841ddf8e3e32e542e7d",
+      "year": 2026,
+      "official_code": "10.03.01",
+      "field_name_raw": "Информационная безопасность Information Security",
+      "name": "Безопасность компьютерных систем (Объекты критической информационной инфраструктуры)",
+      "division": "Институт интеллектуальных кибернетических систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://icis.mephi.ru/about/programs/1"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1064"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 32,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[32]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://icis.mephi.ru/about/programs/1\">Безопасность компьютерных систем (Объекты критической информационной инфраструктуры)</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1064\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Безопасность компьютерных систем (Объекты критической информационной инфраструктуры)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-864ee758d3dffd010d6f668a",
+      "year": 2026,
+      "official_code": "10.03.01",
+      "field_name_raw": "Информационная безопасность Information Security",
+      "name": "Информационно-аналитические системы финансового мониторинга",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-10-03-01"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-03-01-informacionnaya-bezopasnost.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 33,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[33]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/index.php/\" target=\"_blank\">Институт финансовых технологий и экономической безопасности</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-10-03-01\">Информационно-аналитические системы финансового мониторинга</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-03-01-informacionnaya-bezopasnost.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Институт финансовых технологий и экономической безопасности",
+          "Информационно-аналитические системы финансового мониторинга",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-60dec2c38e0bf1716c1b825a",
+      "year": 2026,
+      "official_code": "10.03.01",
+      "field_name_raw": "Информационная безопасность Information Security",
+      "name": "Информационно-аналитические системы финансового мониторинга с возможностью присвоения второй квалификации /Бизнес-информатика/",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-10-03-01"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-03-01-informacionnaya-bezopasnost.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 34,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[34]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-10-03-01\">Информационно-аналитические системы финансового мониторинга с возможностью присвоения второй квалификации /Бизнес-информатика/</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-03-01-informacionnaya-bezopasnost.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Информационно-аналитические системы финансового мониторинга с возможностью присвоения второй квалификации /Бизнес-информатика/",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-5e2bbfcf43b892e904c78f4f",
+      "year": 2026,
+      "official_code": "10.03.01",
+      "field_name_raw": "Информационная безопасность Information Security",
+      "name": "Безопасность автоматизированных систем (Интеллектуальные аппаратно-программные комплексы и системы)",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://kaf03.mephi.ru/education/bachelors/"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 35,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[35]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://nespi.mephi.ru/\" target=\"_blank\">Институт нанотехнологий в электронике, спинтронике и фотонике </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://kaf03.mephi.ru/education/bachelors/\">Безопасность автоматизированных систем (Интеллектуальные аппаратно-программные комплексы и системы)</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Институт нанотехнологий в электронике, спинтронике и фотонике",
+          "Безопасность автоматизированных систем (Интеллектуальные аппаратно-программные комплексы и системы)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-bd87ecef6586ccd92e7957a1",
+      "year": 2026,
+      "official_code": "11.03.04",
+      "field_name_raw": "Электроника и наноэлектроника Electronics and Nanoelectronics (реализуется также в НТИ, СарФТИ)",
+      "name": "Наноэлектроника и радиофотоника",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://kaf67.mephi.ru/nanoelectronicsradiophotonics"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 36,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[36]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"4\">\n\t\t\t\t\t\t11.03.04</td>\n<td rowspan=\"4\">\n<p>Электроника и наноэлектроника</p>\n<p>Electronics and Nanoelectronics</p>\n<p>(реализуется также в НТИ, СарФТИ)</p>\n</td>\n<td rowspan=\"4\">\n\t\t\t\t\t\t<a href=\"https://nespi.mephi.ru/\" target=\"_blank\">Институт нанотехнологий в электронике, спинтронике и фотонике </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://kaf67.mephi.ru/nanoelectronicsradiophotonics\">Наноэлектроника и радиофотоника</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "11.03.04",
+          "Электроника и наноэлектроника Electronics and Nanoelectronics (реализуется также в НТИ, СарФТИ)",
+          "Институт нанотехнологий в электронике, спинтронике и фотонике",
+          "Наноэлектроника и радиофотоника",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-3886bd9d763aaa4843fdab3c",
+      "year": 2026,
+      "official_code": "11.03.04",
+      "field_name_raw": "Электроника и наноэлектроника Electronics and Nanoelectronics (реализуется также в НТИ, СарФТИ)",
+      "name": "Наноэлектроника и радиофотоника (с присвоением двух квалификаций)",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://kaf67.mephi.ru/nanoelectronicsradiophotonics"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 37,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[37]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://kaf67.mephi.ru/nanoelectronicsradiophotonics\">Наноэлектроника и радиофотоника (с присвоением двух квалификаций)</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Наноэлектроника и радиофотоника (с присвоением двух квалификаций)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-3ed90fe7e13e8e66b58f1e39",
+      "year": 2026,
+      "official_code": "11.03.04",
+      "field_name_raw": "Электроника и наноэлектроника Electronics and Nanoelectronics (реализуется также в НТИ, СарФТИ)",
+      "name": "Оптоэлектронные сенсорные системы и технологии",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "http://www.kaf81mephi.ru/"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/1255"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 38,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[38]",
+        "raw_fragment": "<tr class=\"even\"><td>\n<p><a href=\"http://www.kaf81mephi.ru/\">Оптоэлектронные сенсорные системы и технологии</a></p>\n</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/1255\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Оптоэлектронные сенсорные системы и технологии",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-41ae22655edf96a7a3496ac9",
+      "year": 2026,
+      "official_code": "11.03.04",
+      "field_name_raw": "Электроника и наноэлектроника Electronics and Nanoelectronics (реализуется также в НТИ, СарФТИ)",
+      "name": "Оптоэлектронные сенсорные системы и технологии (с присвоением двух квалификаций)",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "http://www.kaf81mephi.ru/"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 39,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[39]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"http://www.kaf81mephi.ru/\">Оптоэлектронные сенсорные системы и технологии (с присвоением двух квалификаций)</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Оптоэлектронные сенсорные системы и технологии (с присвоением двух квалификаций)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-ec83bbc3e503a53531afcebb",
+      "year": 2026,
+      "official_code": "12.03.01",
+      "field_name_raw": "Приборостроение",
+      "name": "Цифровая инженерия и ядерное приборостроение",
+      "division": "Институт физико-технических интеллектуальных систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://iftis.mephi.ru/structure/programs/13"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 40,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[40]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t12.03.01</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\tПриборостроение</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/\">Институт физико-технических интеллектуальных систем </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/structure/programs/13\">Цифровая инженерия и ядерное приборостроение</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "12.03.01",
+          "Приборостроение",
+          "Институт физико-технических интеллектуальных систем",
+          "Цифровая инженерия и ядерное приборостроение",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-46f35016314303e34e98ab0d",
+      "year": 2026,
+      "official_code": "12.03.01",
+      "field_name_raw": "Приборостроение",
+      "name": "Электроника и автоматика киберфизических систем и установок (с присвоением двух квалификаций)",
+      "division": "Институт физико-технических интеллектуальных систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 41,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[41]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\tЭлектроника и автоматика киберфизических систем и установок (с присвоением двух квалификаций)</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Электроника и автоматика киберфизических систем и установок (с присвоением двух квалификаций)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-276f95ad0513158e3c48c84c",
+      "year": 2026,
+      "official_code": "12.03.03",
+      "field_name_raw": "Фотоника и оптоинформатика Photonics and optoinformatics",
+      "name": "Фотоника и оптические информационные технологии",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/120303-photonics-and-optical-information-technologies"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/354"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 42,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[42]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"1\">\n\t\t\t\t\t\t12.03.03</td>\n<td rowspan=\"1\">\n<p>Фотоника и оптоинформатика</p>\n<p>Photonics and optoinformatics</p>\n</td>\n<td rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/\">Институт лазерных и плазменных технологий </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/120303-photonics-and-optical-information-technologies\" target=\"_blank\">Фотоника и оптические информационные технологии</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/354\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "12.03.03",
+          "Фотоника и оптоинформатика Photonics and optoinformatics",
+          "Институт лазерных и плазменных технологий",
+          "Фотоника и оптические информационные технологии",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-503a7ec0e94ccd44abfd8ba8",
+      "year": 2026,
+      "official_code": "12.03.04",
+      "field_name_raw": "Биотехнические системы и технологии Biotechnical Systems and Technologies",
+      "name": "Биотехнологии",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 43,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[43]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t12.03.04</td>\n<td colspan=\"1\" rowspan=\"2\">\n<p>Биотехнические системы и технологии</p>\n<p>Biotechnical Systems and Technologies</p>\n</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины </a></td>\n<td>\n\t\t\t\t\t\tБиотехнологии</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "12.03.04",
+          "Биотехнические системы и технологии Biotechnical Systems and Technologies",
+          "Инженерно-физический институт биомедицины",
+          "Биотехнологии",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-e334bf95f157f5da32b4aeb1",
+      "year": 2026,
+      "official_code": "12.03.04",
+      "field_name_raw": "Биотехнические системы и технологии Biotechnical Systems and Technologies",
+      "name": "Медицинское приборостроение",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 44,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[44]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\tМедицинское приборостроение</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Медицинское приборостроение",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-042c42ed5a238d93e07ef47c",
+      "year": 2026,
+      "official_code": "12.03.05",
+      "field_name_raw": "Лазерная техника и лазерные технологии Laser Technique and Laser Technology",
+      "name": "Лазерные системы и технологии",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/120305-laser-systems-and-technologies"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/356"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 45,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[45]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t12.03.05</td>\n<td colspan=\"1\" rowspan=\"1\">\n<p>Лазерная техника и лазерные технологии</p>\n<p>Laser Technique and Laser Technology</p>\n</td>\n<td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/\">Институт лазерных и плазменных технологий </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/120305-laser-systems-and-technologies\" target=\"_blank\">Лазерные системы и технологии</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/356\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "12.03.05",
+          "Лазерная техника и лазерные технологии Laser Technique and Laser Technology",
+          "Институт лазерных и плазменных технологий",
+          "Лазерные системы и технологии",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-273e8acba16631182609128a",
+      "year": 2026,
+      "official_code": "15.03.06",
+      "field_name_raw": "Мехатроника и робототехника",
+      "name": "Проектирование интеллектуальных робототехнических комплексов",
+      "division": "Институт физико-технических интеллектуальных систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 46,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[46]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t15.03.06</td>\n<td>\n\t\t\t\t\t\tМехатроника и робототехника</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/\">Институт физико-технических интеллектуальных систем </a></td>\n<td>\n\t\t\t\t\t\tПроектирование интеллектуальных робототехнических комплексов</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "15.03.06",
+          "Мехатроника и робототехника",
+          "Институт физико-технических интеллектуальных систем",
+          "Проектирование интеллектуальных робототехнических комплексов",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-36a6eeede77ee5b60fd877fc",
+      "year": 2026,
+      "official_code": "16.03.01",
+      "field_name_raw": "Техническая физика",
+      "name": "Инжиниринг мезофизических систем",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 47,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[47]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t16.03.01</td>\n<td>\n\t\t\t\t\t\tТехническая физика</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/\">Институт лазерных и плазменных технологий </a></td>\n<td>\n\t\t\t\t\t\tИнжиниринг мезофизических систем</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "16.03.01",
+          "Техническая физика",
+          "Институт лазерных и плазменных технологий",
+          "Инжиниринг мезофизических систем",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-b17fdd18032d7723ead18e76",
+      "year": 2026,
+      "official_code": "16.03.02",
+      "field_name_raw": "Высокотехнологические плазменные и энергетические установки High-tech plasma and power installations",
+      "name": "Мощные лазеры и лазерный термоядерный синтез",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 48,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[48]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"2\">\n\t\t\t\t\t\t16.03.02</td>\n<td rowspan=\"2\">\n<p>Высокотехнологические плазменные и энергетические установки</p>\n<p>High-tech plasma and power installations</p>\n</td>\n<td rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/\">Институт лазерных и плазменных технологий </a></td>\n<td>\n\t\t\t\t\t\tМощные лазеры и лазерный термоядерный синтез</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "16.03.02",
+          "Высокотехнологические плазменные и энергетические установки High-tech plasma and power installations",
+          "Институт лазерных и плазменных технологий",
+          "Мощные лазеры и лазерный термоядерный синтез",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-ba8e43ff43ae980607d723e1",
+      "year": 2026,
+      "official_code": "16.03.02",
+      "field_name_raw": "Высокотехнологические плазменные и энергетические установки High-tech plasma and power installations",
+      "name": "Управляемый термоядерный синтез и плазменные технологии",
+      "division": "Институт лазерных и плазменных технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/160302-controlled-fusion-and-plasma-technologies"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/403"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 49,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[49]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/160302-controlled-fusion-and-plasma-technologies\">Управляемый термоядерный синтез и плазменные технологии</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/403\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Управляемый термоядерный синтез и плазменные технологии",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-067f327d051363806dbea584",
+      "year": 2026,
+      "official_code": "18.03.01",
+      "field_name_raw": "Химическая технология",
+      "name": "Химические технологии лекарственных средств (аккредитация программы будет получена в 2027 году)",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 50,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[50]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t18.03.01</td>\n<td>\n\t\t\t\t\t\tХимическая технология</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины </a></td>\n<td>\n<p>Химические технологии лекарственных средств (аккредитация программы будет получена в 2027 году)</p>\n</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "18.03.01",
+          "Химическая технология",
+          "Инженерно-физический институт биомедицины",
+          "Химические технологии лекарственных средств (аккредитация программы будет получена в 2027 году)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-8eacde0c144abdec08080378",
+      "year": 2026,
+      "official_code": "22.03.01",
+      "field_name_raw": "Материаловедение и технологии материалов (реализуется также в ИАТЭ)",
+      "name": "Физика материалов и процессов",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%BE%D0%B2%20%D0%B8%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/397"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 51,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[51]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t22.03.01</td>\n<td colspan=\"1\" rowspan=\"2\">\n<p>Материаловедение и технологии материалов</p>\n<p>(реализуется также в ИАТЭ)</p>\n</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru\" target=\"_blank\">Институт ядерной физики и технологий</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%BE%D0%B2%20%D0%B8%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2\">Физика материалов и процессов</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/397\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "22.03.01",
+          "Материаловедение и технологии материалов (реализуется также в ИАТЭ)",
+          "Институт ядерной физики и технологий",
+          "Физика материалов и процессов",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-cede51e8d04bfef54af37c49",
+      "year": 2026,
+      "official_code": "22.03.01",
+      "field_name_raw": "Материаловедение и технологии материалов (реализуется также в ИАТЭ)",
+      "name": "Физика экстремальных состояний вещества /с получением второй квалификации 14.03.02/",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%8D%D0%BA%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B9%20%D0%B2%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 52,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[52]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18802#%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D1%8D%D0%BA%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B9%20%D0%B2%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0\">Физика экстремальных состояний вещества </a>/с получением второй квалификации 14.03.02/</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Физика экстремальных состояний вещества /с получением второй квалификации 14.03.02/",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-c4f17075572c4a2e8089a8d9",
+      "year": 2026,
+      "official_code": "27.03.03",
+      "field_name_raw": "Системный анализ и управление",
+      "name": "Прикладной искусственный интеллект для системного анализа и управления",
+      "division": "Факультет бизнес–информатики и управления комплексными системами",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Artificial Intelligence / ML",
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 53,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[53]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"4\">\n\t\t\t\t\t\t27.03.03</td>\n<td colspan=\"1\" rowspan=\"4\">\n\t\t\t\t\t\tСистемный анализ и управление</td>\n<td colspan=\"1\" rowspan=\"2\">\n<p><a href=\"https://bi.mephi.ru/\" target=\"_blank\">Факультет бизнес–информатики и управления комплексными системами</a></p>\n</td>\n<td>\n\t\t\t\t\t\tПрикладной искусственный интеллект для системного анализа и управления</td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "27.03.03",
+          "Системный анализ и управление",
+          "Факультет бизнес–информатики и управления комплексными системами",
+          "Прикладной искусственный интеллект для системного анализа и управления",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-55573086dab20502c59a6c2a",
+      "year": 2026,
+      "official_code": "27.03.03",
+      "field_name_raw": "Системный анализ и управление",
+      "name": "Цифровые технологии для системного анализа и управления",
+      "division": "Факультет бизнес–информатики и управления комплексными системами",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 54,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[54]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\tЦифровые технологии для системного анализа и управления</td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "Цифровые технологии для системного анализа и управления",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-0b10d56907f8b0016e321e44",
+      "year": 2026,
+      "official_code": "27.03.03",
+      "field_name_raw": "Системный анализ и управление",
+      "name": "Инженерное программирование в атомной отрасли",
+      "division": "Институт физико-технических интеллектуальных систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://iftis.mephi.ru/structure/programs/7"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 55,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[55]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/\">Институт физико-технических интеллектуальных систем </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/structure/programs/7\">Инженерное программирование в атомной отрасли</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Институт физико-технических интеллектуальных систем",
+          "Инженерное программирование в атомной отрасли",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-30c958167ebad6470eaf3a81",
+      "year": 2026,
+      "official_code": "27.03.03",
+      "field_name_raw": "Системный анализ и управление",
+      "name": "Инженерное программирование в атомной отрасли (с присвоением двух квалификаций)",
+      "division": "Институт физико-технических интеллектуальных систем",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 56,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[56]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\tИнженерное программирование в атомной отрасли (с присвоением двух квалификаций)</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Инженерное программирование в атомной отрасли (с присвоением двух квалификаций)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-d3b8ac87065f84cb8b3e602d",
+      "year": 2026,
+      "official_code": "38.03.01",
+      "field_name_raw": "Экономика (реализуется также в ИАТЭ, ТИ)",
+      "name": "Современные технологии учетно-аналитического обеспечения бизнеса с присвоением двух квалификаций /Прикладная информатика/",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-01/38-03-01-programma-sovremennye-tekhnologii-uchjotno-analiticheskogo-obespecheniya-biznesa"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-01-ekonomika.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 57,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[57]",
+        "raw_fragment": "<tr class=\"odd\"><td rowspan=\"2\">\n\t\t\t\t\t\t38.03.01</td>\n<td rowspan=\"2\">\n<p>Экономика</p>\n<p>(реализуется также в ИАТЭ, ТИ)</p>\n</td>\n<td rowspan=\"2\">\n<p><a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/index.php/\" target=\"_blank\">Институт финансовых технологий и экономической безопасности</a></p>\n</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-01/38-03-01-programma-sovremennye-tekhnologii-uchjotno-analiticheskogo-obespecheniya-biznesa\">Современные технологии учетно-аналитического обеспечения бизнеса с присвоением двух квалификаций /Прикладная информатика/</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-01-ekonomika.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "38.03.01",
+          "Экономика (реализуется также в ИАТЭ, ТИ)",
+          "Институт финансовых технологий и экономической безопасности",
+          "Современные технологии учетно-аналитического обеспечения бизнеса с присвоением двух квалификаций /Прикладная информатика/",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-9f329b2e30efb5875b64272e",
+      "year": 2026,
+      "official_code": "38.03.01",
+      "field_name_raw": "Экономика (реализуется также в ИАТЭ, ТИ)",
+      "name": "Финансовая аналитика",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-01/38-03-01-programma-finansovaya-analitika"
+      ],
+      "curriculum_urls": [
+        "https://ифтэб.рф/images/content/files/plan/38-03-01-finansovaia-analitika.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 58,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[58]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-01/38-03-01-programma-finansovaya-analitika\">Финансовая аналитика</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/images/content/files/plan/38-03-01-finansovaia-analitika.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Финансовая аналитика",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-86704ab52f2a2bb6c74eae0b",
+      "year": 2026,
+      "official_code": "38.03.02",
+      "field_name_raw": "Менеджмент",
+      "name": "Цифровая трансформация технологического бизнеса",
+      "division": "Факультет бизнес–информатики и управления комплексными системами",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 59,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[59]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\">\n\t\t\t\t\t\t38.03.02</td>\n<td colspan=\"1\">\n\t\t\t\t\t\tМенеджмент</td>\n<td colspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://bi.mephi.ru/\" target=\"_blank\">Факультет бизнес–информатики и управления комплексными системами</a></td>\n<td>\n\t\t\t\t\t\tЦифровая трансформация технологического бизнеса</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "38.03.02",
+          "Менеджмент",
+          "Факультет бизнес–информатики и управления комплексными системами",
+          "Цифровая трансформация технологического бизнеса",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-fafce3e871241c155fc1ff51",
+      "year": 2026,
+      "official_code": "38.03.05",
+      "field_name_raw": "Бизнес-информатика (реализуется также в ИАТЭ)",
+      "name": "Технологическое предпринимательство",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-05/38-03-05-programma-tekhnologicheskoe-predprinimatelstvo"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-05-biznes-informatika.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 60,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[60]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" rowspan=\"5\">\n\t\t\t\t\t\t38.03.05</td>\n<td colspan=\"1\" rowspan=\"5\">\n<p>Бизнес-информатика</p>\n<p>(реализуется также в ИАТЭ)</p>\n</td>\n<td colspan=\"1\" rowspan=\"3\">\n<p><a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/index.php/\" target=\"_blank\">Институт финансовых технологий и экономической безопасности</a></p>\n</td>\n<td rowspan=\"1\">\n<p><a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-05/38-03-05-programma-tekhnologicheskoe-predprinimatelstvo\">Технологическое предпринимательство</a></p>\n</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-05-biznes-informatika.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "38.03.05",
+          "Бизнес-информатика (реализуется также в ИАТЭ)",
+          "Институт финансовых технологий и экономической безопасности",
+          "Технологическое предпринимательство",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-81b0da0594115f0fbe47a59d",
+      "year": 2026,
+      "official_code": "38.03.05",
+      "field_name_raw": "Бизнес-информатика (реализуется также в ИАТЭ)",
+      "name": "Цифровая аналитика",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-05/38-03-05-programma-tsifrovaya-analitika"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-05-biznes-informatika.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 61,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[61]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-05/38-03-05-programma-tsifrovaya-analitika\">Цифровая аналитика</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-05-biznes-informatika.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Цифровая аналитика",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-4b56defe73a8552fed0f7976",
+      "year": 2026,
+      "official_code": "38.03.05",
+      "field_name_raw": "Бизнес-информатика (реализуется также в ИАТЭ)",
+      "name": "Моделирование бизнес-процессов",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-05/38-03-05-programma-modelirovanie-biznes-protsessov"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-05-biznes-informatika.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 62,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[62]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/napravlenie-podgotovki-38-03-05/38-03-05-programma-modelirovanie-biznes-protsessov\">Моделирование бизнес-процессов</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-03-05-biznes-informatika.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Моделирование бизнес-процессов",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-2e161cb843b08082acbfafab",
+      "year": 2026,
+      "official_code": "38.03.05",
+      "field_name_raw": "Бизнес-информатика (реализуется также в ИАТЭ)",
+      "name": "Искусственный интеллект и бизнес-информатика",
+      "division": "Факультет бизнес–информатики и управления комплексными системами",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Artificial Intelligence / ML"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 63,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[63]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://bi.mephi.ru/\" target=\"_blank\">Факультет бизнес–информатики и управления комплексными системами</a></td>\n<td>\n\t\t\t\t\t\tИскусственный интеллект и бизнес-информатика</td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "Факультет бизнес–информатики и управления комплексными системами",
+          "Искусственный интеллект и бизнес-информатика",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-8406d1cce07eb12b53c7fe8d",
+      "year": 2026,
+      "official_code": "38.03.05",
+      "field_name_raw": "Бизнес-информатика (реализуется также в ИАТЭ)",
+      "name": "Бизнес-информатика в цифровой экономике",
+      "division": "Факультет бизнес–информатики и управления комплексными системами",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/annotaciya_38_03_05.pdf"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/366"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 64,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[64]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/annotaciya_38_03_05.pdf\">Бизнес-информатика в цифровой экономике</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/366\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Бизнес-информатика в цифровой экономике",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-7f554fc4838e645e0df223eb",
+      "year": 2026,
+      "official_code": "41.03.05",
+      "field_name_raw": "Международные отношения International relations",
+      "name": "Международное научно-технологическое и промышленное сотрудничество",
+      "division": "Институт международных отношений",
+      "campus_id": "mephi-moscow",
+      "degree": "bachelor",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/364"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 65,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[65]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t41.03.05</td>\n<td>\n<p>Международные отношения</p>\n<div title=\"Page 1\">\n<p>International relations</p>\n</div>\n</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://www.iirmephi.ru/website/ru/home\" target=\"_blank\">Институт международных отношений</a></td>\n<td>\n\t\t\t\t\t\tМеждународное научно-технологическое и промышленное сотрудничество</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/364\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "41.03.05",
+          "Международные отношения International relations",
+          "Институт международных отношений",
+          "Международное научно-технологическое и промышленное сотрудничество",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-48cf2eb9bb4d4ad817daa9e0",
+      "year": 2026,
+      "official_code": "14.05.02",
+      "field_name_raw": "Атомные станции: проектирование, эксплуатация и инжиниринг Nuclear Power Plants: Design, Operation and Engineering (реализуется также в БИТИ, ВИТИ, ИАТЭ)",
+      "name": "Радиационная безопасность атомных станций",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18655"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/370"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 1,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[2]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"3\">\n\t\t\t\t\t\t14.05.02</td>\n<td rowspan=\"3\">\n<p>Атомные станции: проектирование, эксплуатация и инжиниринг</p>\n<p>Nuclear Power Plants: Design, Operation and Engineering</p>\n<p>(реализуется также в БИТИ, ВИТИ, ИАТЭ)</p>\n</td>\n<td rowspan=\"3\">\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru\" target=\"_blank\">Институт ядерной физики и технологий</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18655\">Радиационная безопасность атомных станций</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/370\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "14.05.02",
+          "Атомные станции: проектирование, эксплуатация и инжиниринг Nuclear Power Plants: Design, Operation and Engineering (реализуется также в БИТИ, ВИТИ, ИАТЭ)",
+          "Институт ядерной физики и технологий",
+          "Радиационная безопасность атомных станций",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-2f2dd27c4415cfd14eb85509",
+      "year": 2026,
+      "official_code": "14.05.02",
+      "field_name_raw": "Атомные станции: проектирование, эксплуатация и инжиниринг Nuclear Power Plants: Design, Operation and Engineering (реализуется также в БИТИ, ВИТИ, ИАТЭ)",
+      "name": "Системы контроля и управления атомных станций",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18657"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/371"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 2,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[3]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18657\">Системы контроля и управления атомных станций</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/371\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Системы контроля и управления атомных станций",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-559a0543ee67ad7be4362a36",
+      "year": 2026,
+      "official_code": "14.05.02",
+      "field_name_raw": "Атомные станции: проектирование, эксплуатация и инжиниринг Nuclear Power Plants: Design, Operation and Engineering (реализуется также в БИТИ, ВИТИ, ИАТЭ)",
+      "name": "Проектирование и эксплуатация атомных станций",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18656"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/381"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 3,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[4]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18656\">Проектирование и эксплуатация атомных станций</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/381\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Проектирование и эксплуатация атомных станций",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-e9eba605e092efa4ff6c76db",
+      "year": 2026,
+      "official_code": "14.05.01",
+      "field_name_raw": "Ядерные реакторы и материалы Nuclear Reactors and Materials (реализуется также в ДИТИ, ИАТЭ)",
+      "name": "Ядерные реакторы (Инновационные ядерные реакторы)",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18618"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/373"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 4,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[5]",
+        "raw_fragment": "<tr class=\"odd\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t14.05.01</td>\n<td colspan=\"1\" rowspan=\"2\">\n<p>Ядерные реакторы и материалы</p>\n<p>Nuclear Reactors and Materials</p>\n<p>(реализуется также в ДИТИ, ИАТЭ)</p>\n</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru\" target=\"_blank\">Институт ядерной физики и технологий</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18618\">Ядерные реакторы (Инновационные ядерные реакторы) </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/373\" target=\"_blank\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "14.05.01",
+          "Ядерные реакторы и материалы Nuclear Reactors and Materials (реализуется также в ДИТИ, ИАТЭ)",
+          "Институт ядерной физики и технологий",
+          "Ядерные реакторы (Инновационные ядерные реакторы)",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-7c8c4f7ee2a262084c4c8247",
+      "year": 2026,
+      "official_code": "14.05.01",
+      "field_name_raw": "Ядерные реакторы и материалы Nuclear Reactors and Materials (реализуется также в ДИТИ, ИАТЭ)",
+      "name": "Ядерные материалы: учет, контроль и безопасное обращение",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://inphe.mephi.ru/node/18694"
+      ],
+      "curriculum_urls": [
+        "https://eis2.mephi.ru/programs/Program/Details/374"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 5,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[6]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru/node/18694\">Ядерные материалы: учет, контроль и безопасное обращение</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://eis2.mephi.ru/programs/Program/Details/374\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Ядерные материалы: учет, контроль и безопасное обращение",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-b1ae30c283dde57e057256f1",
+      "year": 2026,
+      "official_code": "14.05.04",
+      "field_name_raw": "Электроника и автоматика физических установок (реализуется также в ИАТЭ, СарФТИ, СТИ) Electronics and Automation of Physics Installations",
+      "name": "Ускорители заряженных частиц для радиационных технологий",
+      "division": "Институт ядерной физики и технологий",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://golaplas.mephi.ru/140504-particle-accelerator-for-radiation-technologies"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 6,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[7]",
+        "raw_fragment": "<tr class=\"odd\"><td rowspan=\"4\">\n\t\t\t\t\t\t14.05.04</td>\n<td rowspan=\"4\">\n<p>Электроника и автоматика физических установок (реализуется также в ИАТЭ, СарФТИ, СТИ)</p>\n<p>Electronics and Automation of Physics Installations</p>\n</td>\n<td colspan=\"1\" rowspan=\"1\">\n\t\t\t\t\t\t<a href=\"https://inphe.mephi.ru\" target=\"_blank\">Институт ядерной физики и технологий</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://golaplas.mephi.ru/140504-particle-accelerator-for-radiation-technologies\">Ускорители заряженных частиц для радиационных технологий</a></td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "14.05.04",
+          "Электроника и автоматика физических установок (реализуется также в ИАТЭ, СарФТИ, СТИ) Electronics and Automation of Physics Installations",
+          "Институт ядерной физики и технологий",
+          "Ускорители заряженных частиц для радиационных технологий",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-f2f656fd47cc376eb232d2bc",
+      "year": 2026,
+      "official_code": "14.05.04",
+      "field_name_raw": "Электроника и автоматика физических установок (реализуется также в ИАТЭ, СарФТИ, СТИ) Electronics and Automation of Physics Installations",
+      "name": "Автоматизация и информационно-измерительные системы физических установок",
+      "division": "Институт физико-технических интеллектуальных систем",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://iftis.mephi.ru/structure/programs/8"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 7,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[8]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/\">Институт физико-технических интеллектуальных систем </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://iftis.mephi.ru/structure/programs/8\">Автоматизация и информационно-измерительные системы физических установок</a></td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "Институт физико-технических интеллектуальных систем",
+          "Автоматизация и информационно-измерительные системы физических установок",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-42b984f4084b733cb82b27ac",
+      "year": 2026,
+      "official_code": "14.05.04",
+      "field_name_raw": "Электроника и автоматика физических установок (реализуется также в ИАТЭ, СарФТИ, СТИ) Electronics and Automation of Physics Installations",
+      "name": "Микро- и наноэлектроника интеллектуальных и информационных систем",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://kaf03.mephi.ru/education/specialitet/"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 8,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[9]",
+        "raw_fragment": "<tr class=\"odd\"><td rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://nespi.mephi.ru/\" target=\"_blank\">Институт нанотехнологий в электронике, спинтронике и фотонике </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://kaf03.mephi.ru/education/specialitet/\">Микро- и наноэлектроника интеллектуальных и информационных систем</a></td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "Институт нанотехнологий в электронике, спинтронике и фотонике",
+          "Микро- и наноэлектроника интеллектуальных и информационных систем",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-35fc870f30a080b27d10710a",
+      "year": 2026,
+      "official_code": "14.05.04",
+      "field_name_raw": "Электроника и автоматика физических установок (реализуется также в ИАТЭ, СарФТИ, СТИ) Electronics and Automation of Physics Installations",
+      "name": "Технология наноэлектронных приборов и архитектура вычислительных систем",
+      "division": "Институт нанотехнологий в электронике, спинтронике и фотонике",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Computer Science",
+        "Engineering",
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/buklet_kaf.27_2024_0.pdf"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 9,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[10]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/buklet_kaf.27_2024_0.pdf\">Технология наноэлектронных приборов и архитектура вычислительных систем</a></td>\n<td>\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "Технология наноэлектронных приборов и архитектура вычислительных систем",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-c3fe68c82e25bd7ffef5c614",
+      "year": 2026,
+      "official_code": "03.05.02",
+      "field_name_raw": "Фундаментальная и прикладная физика",
+      "name": "Полупроводниковая квантовая электроника",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Physics"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/2026/bak_program/annotaciya_programmy_03.05.02.docx"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 10,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[11]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t03.05.02</td>\n<td>\n\t\t\t\t\t\tФундаментальная и прикладная физика</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины </a></td>\n<td>\n\t\t\t\t\t\t<a href=\"/content/public/uploads/documents/2026/bak_program/annotaciya_programmy_03.05.02.docx\">Полупроводниковая квантовая электроника</a></td>\n<td>\n\t\t\t\t\t\tУчебные планы</td>\n</tr>",
+        "raw_cells": [
+          "03.05.02",
+          "Фундаментальная и прикладная физика",
+          "Инженерно-физический институт биомедицины",
+          "Полупроводниковая квантовая электроника",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-b49d0bb983f757d11f21a9f8",
+      "year": 2026,
+      "official_code": "10.05.04",
+      "field_name_raw": "Информационно-аналитические системы безопасности Information Analysis Security Systems",
+      "name": "Информационная безопасность финансовых и экономических структур",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-10-05-04"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-05-04-iasb.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 11,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[12]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t10.05.04</td>\n<td colspan=\"1\" rowspan=\"2\">\n<p>Информационно-аналитические системы безопасности</p>\n<p>Information Analysis Security Systems</p>\n</td>\n<td colspan=\"1\" rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/index.php/\" target=\"_blank\">Институт финансовых технологий и экономической безопасности</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-10-05-04\">Информационная безопасность финансовых и экономических структур</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-05-04-iasb.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "10.05.04",
+          "Информационно-аналитические системы безопасности Information Analysis Security Systems",
+          "Институт финансовых технологий и экономической безопасности",
+          "Информационная безопасность финансовых и экономических структур",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-9e4d5a8c84ba8a75c134a10b",
+      "year": 2026,
+      "official_code": "10.05.04",
+      "field_name_raw": "Информационно-аналитические системы безопасности Information Analysis Security Systems",
+      "name": "Информационная безопасность цифровых платформ социальной коммуникации",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Computer Science"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-05-04-iasb.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 12,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[13]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\tИнформационная безопасность цифровых платформ социальной коммуникации</td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/10-05-04-iasb.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Информационная безопасность цифровых платформ социальной коммуникации",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-a36cb7f7e57e9e943b0481cc",
+      "year": 2026,
+      "official_code": "31.05.01",
+      "field_name_raw": "Лечебное дело",
+      "name": "Лечебное дело (Обнинск)",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/lechebnoe_delo_obninsk.pdf"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_not_in_2026_moscow_list_requires_review",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 13,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[14]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"2\">\n\t\t\t\t\t\t31.05.01</td>\n<td rowspan=\"2\">\n<p>Лечебное дело</p>\n</td>\n<td rowspan=\"2\">\n\t\t\t\t\t\t<a href=\"https://physbio.mephi.ru/\" target=\"_blank\">Инженерно-физический институт биомедицины </a></td>\n<td>\n<p><a href=\"/content/public/uploads/documents/lechebnoe_delo_obninsk.pdf\" target=\"_blank\">Лечебное дело (Обнинск)</a></p>\n</td>\n<td rowspan=\"2\">\n\t\t\t\t\t\t </td>\n</tr>",
+        "raw_cells": [
+          "31.05.01",
+          "Лечебное дело",
+          "Инженерно-физический институт биомедицины",
+          "Лечебное дело (Обнинск)",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-a113b86cc233f3595ac5ba3b",
+      "year": 2026,
+      "official_code": "31.05.01",
+      "field_name_raw": "Лечебное дело",
+      "name": "General Medicine (Campus Moscow) General Medicine (Campus Obninsk)",
+      "division": "Инженерно-физический институт биомедицины",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://admission.mephi.ru/content/public/uploads/documents/general_medicine_moscow_0.pdf",
+        "https://admission.mephi.ru/content/public/uploads/documents/general_medicine_obninsk.pdf"
+      ],
+      "curriculum_urls": [],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_not_in_2026_moscow_list_requires_review",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 14,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[15]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n<p><a href=\"/content/public/uploads/documents/general_medicine_moscow_0.pdf\" target=\"_blank\">General Medicine (Campus Moscow)</a></p>\n<p><a href=\"/content/public/uploads/documents/general_medicine_obninsk.pdf\" target=\"_blank\">General Medicine (Campus Obninsk)</a></p>\n</td>\n</tr>",
+        "raw_cells": [
+          "General Medicine (Campus Moscow) General Medicine (Campus Obninsk)"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-c1071ce276e163dae9cbe92b",
+      "year": 2026,
+      "official_code": "38.05.01",
+      "field_name_raw": "Экономическая безопасность Economic Security (реализуется также в ДИТИ)",
+      "name": "Корпоративная экономическая безопасность",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-38-05-01/38-05-01-programma-korporativnaya-ekonomicheskaya-bezopasnost"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-05-01-ekonomicheskaya-bezopasnost.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 15,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[16]",
+        "raw_fragment": "<tr class=\"even\"><td rowspan=\"3\">\n\t\t\t\t\t\t38.05.01</td>\n<td rowspan=\"3\">\n<p>Экономическая безопасность</p>\n<p>Economic Security</p>\n<p>(реализуется также в ДИТИ)</p>\n</td>\n<td rowspan=\"3\">\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/index.php/\" target=\"_blank\">Институт финансовых технологий и экономической безопасности</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-38-05-01/38-05-01-programma-korporativnaya-ekonomicheskaya-bezopasnost\">Корпоративная экономическая безопасность</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-05-01-ekonomicheskaya-bezopasnost.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "38.05.01",
+          "Экономическая безопасность Economic Security (реализуется также в ДИТИ)",
+          "Институт финансовых технологий и экономической безопасности",
+          "Корпоративная экономическая безопасность",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-3fa3d4685d1bc46c9b7b6325",
+      "year": 2026,
+      "official_code": "38.05.01",
+      "field_name_raw": "Экономическая безопасность Economic Security (реализуется также в ДИТИ)",
+      "name": "Экономико-правовое обеспечение экономической безопасности",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-38-05-01/38-05-01-programma-ekonomiko-pravovoe-obespechenie-ekonomicheskoj-bezopasnosti"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-05-01-ekonomicheskaya-bezopasnost.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 16,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[17]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-38-05-01/38-05-01-programma-ekonomiko-pravovoe-obespechenie-ekonomicheskoj-bezopasnosti\">Экономико-правовое обеспечение экономической безопасности</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-05-01-ekonomicheskaya-bezopasnost.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Экономико-правовое обеспечение экономической безопасности",
+          "Учебные планы"
+        ]
+      }
+    },
+    {
+      "id": "mephi-p-693bf4997f10579864299bd8",
+      "year": 2026,
+      "official_code": "38.05.01",
+      "field_name_raw": "Экономическая безопасность Economic Security (реализуется также в ДИТИ)",
+      "name": "Аналитические системы экономической безопасности",
+      "division": "Институт финансовых технологий и экономической безопасности",
+      "campus_id": "mephi-moscow",
+      "degree": "specialist",
+      "tags": [
+        "Other"
+      ],
+      "classification_status": "heuristic_reviewable",
+      "program_urls": [
+        "https://ифтэб.рф/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-38-05-01/38-05-01-programma-analiticheskie-sistemy-ekonomicheskoj-bezopasnosti"
+      ],
+      "curriculum_urls": [
+        "https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-05-01-ekonomicheskaya-bezopasnost.pdf"
+      ],
+      "campaign_association": "current_site_navigation_not_individual_confirmation",
+      "admission_status": "direction_listed_2026_profile_not_individually_confirmed",
+      "provenance": {
+        "source_id": "mephi-programs",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+        "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+        "snapshot_path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 17,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[18]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t\t<a href=\"https://%D0%B8%D1%84%D1%82%D1%8D%D0%B1.%D1%80%D1%84/abiturientam/napravleniya-podgotovki/bakalavriat-spetsialitet/spetsialnost-38-05-01/38-05-01-programma-analiticheskie-sistemy-ekonomicheskoj-bezopasnosti\">Аналитические системы экономической безопасности</a></td>\n<td>\n\t\t\t\t\t\t<a href=\"https://xn--90an4ah0c.xn--p1ai/images/content/files/plan/38-05-01-ekonomicheskaya-bezopasnost.pdf\">Учебные планы</a></td>\n</tr>",
+        "raw_cells": [
+          "Аналитические системы экономической безопасности",
+          "Учебные планы"
+        ]
+      }
+    }
+  ],
+  "expected_source_rows": 82
+}

@@ -1,0 +1,66 @@
+User-Agent: *
+Allow: /test-learn
+Disallow: /*.doc
+Disallow: /*.pdf
+Disallow: /*.ppt
+Disallow: /*.txt
+Disallow: /*.xls
+Disallow: /*?*
+Disallow: /test-see
+Disallow: /error
+Disallow: /test
+
+User-Agent: Yandex
+Clean-param: utm_campaign
+Clean-param: utm_content
+Clean-param: utm_medium
+Clean-param: utm_source
+Clean-param: utm_term
+Allow: /test-learn
+Disallow: /*.doc
+Disallow: /*.pdf
+Disallow: /*.ppt
+Disallow: /*.txt
+Disallow: /*.xls
+Disallow: /*?*
+Disallow: /test-see
+Disallow: /error
+Disallow: /test
+
+User-agent: Googlebot-image
+Allow: /test-learn
+Disallow: /*.doc
+Disallow: /*.pdf
+Disallow: /*.ppt
+Disallow: /*.txt
+Disallow: /*.xls
+Disallow: /*?*
+Disallow: /test-see
+Disallow: /error
+Disallow: /test
+
+User-agent: Googlebot
+Allow: /test-learn
+Disallow: /*.doc
+Disallow: /*.pdf
+Disallow: /*.ppt
+Disallow: /*.txt
+Disallow: /*.xls
+Disallow: /*?*
+Disallow: /test-see
+Disallow: /error
+Disallow: /test
+
+User-agent: Googlebot-Mobile
+Allow: /test-learn
+Disallow: /*.doc
+Disallow: /*.pdf
+Disallow: /*.ppt
+Disallow: /*.txt
+Disallow: /*.xls
+Disallow: /*?*
+Disallow: /test-see
+Disallow: /error
+Disallow: /test
+
+Sitemap: https://cu.ru/sitemap.xml

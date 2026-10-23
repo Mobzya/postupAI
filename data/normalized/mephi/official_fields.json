@@ -1,0 +1,533 @@
+[
+  {
+    "official_code": "01.03.02",
+    "official_name": "Прикладная математика и информатика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 7,
+      "raw_lines": [
+        "  01.03.02   Прикладная математика и информатика                   Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "03.03.01",
+    "official_name": "Прикладные математика и физика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 8,
+      "raw_lines": [
+        "  03.03.01   Прикладные математика и физика                        Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "03.03.02",
+    "official_name": "Физика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 9,
+      "raw_lines": [
+        "  03.03.02   Физика                                                Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "09.03.01",
+    "official_name": "Информатика и вычислительная техника",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 10,
+      "raw_lines": [
+        "  09.03.01   Информатика и вычислительная техника                  Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "09.03.03",
+    "official_name": "Прикладная информатика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 11,
+      "raw_lines": [
+        "  09.03.03   Прикладная информатика                                Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "09.03.04",
+    "official_name": "Программная инженерия",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 12,
+      "raw_lines": [
+        "  09.03.04   Программная инженерия                                 Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "10.03.01",
+    "official_name": "Информационная безопасность",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 13,
+      "raw_lines": [
+        "  10.03.01   Информационная безопасность                           Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "11.03.04",
+    "official_name": "Электроника и наноэлектроника",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 14,
+      "raw_lines": [
+        "  11.03.04   Электроника и наноэлектроника                         Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "12.03.01",
+    "official_name": "Приборостроение",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 15,
+      "raw_lines": [
+        "  12.03.01   Приборостроение                                       Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "12.03.03",
+    "official_name": "Фотоника и оптоинформатика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 16,
+      "raw_lines": [
+        "  12.03.03   Фотоника и оптоинформатика                            Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "12.03.04",
+    "official_name": "Биотехнические системы и технологии",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 17,
+      "raw_lines": [
+        "  12.03.04   Биотехнические системы и технологии                   Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "12.03.05",
+    "official_name": "Лазерная техника и лазерные технологии",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 18,
+      "raw_lines": [
+        "  12.03.05   Лазерная техника и лазерные технологии                Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "14.03.01",
+    "official_name": "Ядерные энергетика и теплофизика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 19,
+      "raw_lines": [
+        "  14.03.01   Ядерные энергетика и теплофизика                      Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "14.03.02",
+    "official_name": "Ядерные физика и технологии",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 20,
+      "raw_lines": [
+        "  14.03.02   Ядерные физика и технологии                           Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "15.03.06",
+    "official_name": "Мехатроника и робототехника",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 21,
+      "raw_lines": [
+        "  15.03.06   Мехатроника и робототехника                           Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "16.03.01",
+    "official_name": "Техническая физика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 22,
+      "raw_lines": [
+        "  16.03.01   Техническая физика                                    Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "16.03.02",
+    "official_name": "Высокотехнологические плазменные и энергетические установки",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 23,
+      "raw_lines": [
+        "  16.03.02   Высокотехнологические плазменные и                    Очная",
+        "             энергетические установки"
+      ]
+    }
+  },
+  {
+    "official_code": "18.03.01",
+    "official_name": "Химическая технология",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 25,
+      "raw_lines": [
+        "  18.03.01   Химическая технология                                 Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "22.03.01",
+    "official_name": "Материаловедение и технологии материалов",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 26,
+      "raw_lines": [
+        "  22.03.01   Материаловедение и технологии материалов              Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "27.03.03",
+    "official_name": "Системный анализ и управление",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 27,
+      "raw_lines": [
+        "  27.03.03   Системный анализ и управление                         Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "38.03.01",
+    "official_name": "Экономика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 28,
+      "raw_lines": [
+        "  38.03.01   Экономика                                             Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "38.03.02",
+    "official_name": "Менеджмент",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 29,
+      "raw_lines": [
+        "  38.03.02   Менеджмент                                            Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "38.03.05",
+    "official_name": "Бизнес-информатика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 30,
+      "raw_lines": [
+        "  38.03.05   Бизнес-информатика                                    Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "41.03.05",
+    "official_name": "Международные отношения",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 31,
+      "raw_lines": [
+        "  41.03.05   Международные отношения                               Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "03.05.02",
+    "official_name": "Фундаментальная и прикладная физика",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 32,
+      "raw_lines": [
+        "  03.05.02   Фундаментальная и прикладная физика                   Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "10.05.04",
+    "official_name": "Информационно-аналитические системы безопасности",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 33,
+      "raw_lines": [
+        "  10.05.04   Информационно-аналитические системы                   Очная",
+        "             безопасности"
+      ]
+    }
+  },
+  {
+    "official_code": "10.05.05",
+    "official_name": "Безопасность информационных технологий в правоохранительной сфере",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 35,
+      "raw_lines": [
+        "  10.05.05   Безопасность информационных технологий в              Очная",
+        "             правоохранительной сфере"
+      ]
+    }
+  },
+  {
+    "official_code": "14.05.01",
+    "official_name": "Ядерные реакторы и материалы",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 37,
+      "raw_lines": [
+        "  14.05.01   Ядерные реакторы и материалы                          Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "14.05.02",
+    "official_name": "Атомные станции: проектирование, эксплуатация и инжиниринг",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 38,
+      "raw_lines": [
+        "  14.05.02   Атомные станции: проектирование, эксплуатация и       Очная",
+        "             инжиниринг"
+      ]
+    }
+  },
+  {
+    "official_code": "14.05.04",
+    "official_name": "Электроника и автоматика физических установок",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 40,
+      "raw_lines": [
+        "  14.05.04   Электроника и автоматика физических установок         Очная"
+      ]
+    }
+  },
+  {
+    "official_code": "38.05.01",
+    "official_name": "Экономическая безопасность",
+    "year": 2026,
+    "provenance": {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "snapshot_path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "adapter_version": "mephi-html-v1",
+      "page": 1,
+      "first_line": 41,
+      "raw_lines": [
+        "  38.05.01   Экономическая безопасность                            Очная"
+      ]
+    }
+  }
+]

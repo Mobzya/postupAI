@@ -1,0 +1,1453 @@
+{
+  "records": [
+    {
+      "id": "mephi-a-009fa5a6087b3bae3af21380",
+      "row_key": "e39953430cdeefcde61a70cfd2992ab2ce7991f7ac7b580cae61834424cc9c55",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 52,
+      "codes": [
+        "01.03.02"
+      ],
+      "field_names": [
+        "Прикладная математика и информатика"
+      ],
+      "scope_label": "01.00.00 МАТЕМАТИКА И МЕХАНИКА",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 1,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[2]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td height=\"20\" style=\"height:20px;\">\n\t\t\t\t01.00.00 МАТЕМАТИКА И МЕХАНИКА</td>\n<td>\n\t\t\t\tПрикладная математика и информатика</td>\n<td>\n\t\t\t\t01.03.02</td>\n<td style=\"width: 98px;\">\n\t\t\t\t52</td>\n</tr>",
+        "raw_cells": [
+          "01.00.00 МАТЕМАТИКА И МЕХАНИКА",
+          "Прикладная математика и информатика",
+          "01.03.02",
+          "52"
+        ]
+      },
+      "member_row_indices": [
+        1
+      ]
+    },
+    {
+      "id": "mephi-a-afdd8fe82ca29c96c2ce8595",
+      "row_key": "1889a1c6a1b51190ed57dc506b50a1a86d90320d9c257f4da19392679ac6935d",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 117,
+      "codes": [
+        "03.03.01",
+        "03.03.02"
+      ],
+      "field_names": [
+        "Прикладные математика и физика",
+        "Физика"
+      ],
+      "scope_label": "03.00.00 ФИЗИКА И АСТРОНОМИЯ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 2,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[3]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"40\" rowspan=\"2\" style=\"height:40px;\">\n\t\t\t\t03.00.00 ФИЗИКА И АСТРОНОМИЯ</td>\n<td>\n\t\t\t\tПрикладные математика и физика</td>\n<td>\n\t\t\t\t03.03.01</td>\n<td rowspan=\"2\" style=\"width: 98px;\">\n<p>117</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "03.00.00 ФИЗИКА И АСТРОНОМИЯ",
+          "Прикладные математика и физика",
+          "03.03.01",
+          "117"
+        ]
+      },
+      "member_row_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "mephi-a-2934e709c01d6a1bb8fc9bce",
+      "row_key": "be6f714494e224a793167e3bd75b9fb669406f5844e6e7fb672693ef77e8897d",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 120,
+      "codes": [
+        "09.03.01",
+        "09.03.02",
+        "09.03.03",
+        "09.03.04"
+      ],
+      "field_names": [
+        "Информатика и вычислительная техника",
+        "Информационные системы и технологии",
+        "Прикладная информатика",
+        "Программная инженерия"
+      ],
+      "scope_label": "09.00.00 ИНФОРМАТИКА И ВЫЧИСЛИТЕЛЬНАЯ ТЕХНИКА",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 4,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[5]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"80\" rowspan=\"4\" style=\"height:80px;width:449px;\">\n\t\t\t\t09.00.00 ИНФОРМАТИКА И ВЫЧИСЛИТЕЛЬНАЯ ТЕХНИКА</td>\n<td style=\"width:449px;\">\n\t\t\t\tИнформатика и вычислительная техника</td>\n<td style=\"width:449px;\">\n\t\t\t\t09.03.01</td>\n<td rowspan=\"4\" style=\"width: 98px;\">\n\t\t\t\t120</td>\n</tr>",
+        "raw_cells": [
+          "09.00.00 ИНФОРМАТИКА И ВЫЧИСЛИТЕЛЬНАЯ ТЕХНИКА",
+          "Информатика и вычислительная техника",
+          "09.03.01",
+          "120"
+        ]
+      },
+      "member_row_indices": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "mephi-a-95c0c0bb6e87fec14d2c51cf",
+      "row_key": "a72c7ee55a68739d278c261803ed939a9f3e353fe8e99bd00867a86869f66f78",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 95,
+      "codes": [
+        "10.03.01"
+      ],
+      "field_names": [
+        "Информационная безопасность"
+      ],
+      "scope_label": "10.00.00 ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 8,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[9]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\t10.00.00 ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ</td>\n<td style=\"width:449px;\">\n\t\t\t\tИнформационная безопасность</td>\n<td style=\"width:449px;\">\n\t\t\t\t10.03.01</td>\n<td style=\"width: 98px;\">\n\t\t\t\t95</td>\n</tr>",
+        "raw_cells": [
+          "10.00.00 ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ",
+          "Информационная безопасность",
+          "10.03.01",
+          "95"
+        ]
+      },
+      "member_row_indices": [
+        8
+      ]
+    },
+    {
+      "id": "mephi-a-329da8f1688117495387e5de",
+      "row_key": "36b618d9cc1a983e1229788559094ce634fccbe9a0f68b3066e6a48f16129941",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 38,
+      "codes": [
+        "11.03.04"
+      ],
+      "field_names": [
+        "Электроника и наноэлектроника"
+      ],
+      "scope_label": "11.00.00 ЭЛЕКТРОНИКА, РАДИОТЕХНИКА И СИСТЕМЫ СВЯЗИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 9,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[10]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td height=\"40\" rowspan=\"1\" style=\"height:40px;width:449px;\">\n\t\t\t\t11.00.00 ЭЛЕКТРОНИКА, РАДИОТЕХНИКА И СИСТЕМЫ СВЯЗИ</td>\n<td style=\"width:449px;\">\n\t\t\t\tЭлектроника и наноэлектроника</td>\n<td style=\"width:449px;\">\n\t\t\t\t11.03.04</td>\n<td style=\"width: 98px;\">\n\t\t\t\t38</td>\n</tr>",
+        "raw_cells": [
+          "11.00.00 ЭЛЕКТРОНИКА, РАДИОТЕХНИКА И СИСТЕМЫ СВЯЗИ",
+          "Электроника и наноэлектроника",
+          "11.03.04",
+          "38"
+        ]
+      },
+      "member_row_indices": [
+        9
+      ]
+    },
+    {
+      "id": "mephi-a-f83418fd0dc59a3c579df233",
+      "row_key": "bf5fee5128feaec79304ffb41ba69d435e2156f8d63383c4c29236123c0d0899",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 54,
+      "codes": [
+        "12.03.01",
+        "12.03.03",
+        "12.03.05"
+      ],
+      "field_names": [
+        "Приборостроение",
+        "Фотоника и оптоинформатика",
+        "Лазерная техника и лазерные технологии"
+      ],
+      "scope_label": "12.00.00 ФОТОНИКА, ПРИБОРОСТРОЕНИЕ, ОПТИЧЕСКИЕ И БИОТЕХНИЧЕСКИЕ СИСТЕМЫ И ТЕХНОЛОГИИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 10,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[11]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"80\" rowspan=\"4\" style=\"height:80px;width:449px;\">\n\t\t\t\t12.00.00 ФОТОНИКА, ПРИБОРОСТРОЕНИЕ, ОПТИЧЕСКИЕ И БИОТЕХНИЧЕСКИЕ СИСТЕМЫ И ТЕХНОЛОГИИ</td>\n<td style=\"width:449px;\">\n\t\t\t\tПриборостроение</td>\n<td style=\"width:449px;\">\n\t\t\t\t12.03.01</td>\n<td colspan=\"1\" rowspan=\"3\" style=\"width: 98px;\">\n\t\t\t\t54</td>\n</tr>",
+        "raw_cells": [
+          "12.00.00 ФОТОНИКА, ПРИБОРОСТРОЕНИЕ, ОПТИЧЕСКИЕ И БИОТЕХНИЧЕСКИЕ СИСТЕМЫ И ТЕХНОЛОГИИ",
+          "Приборостроение",
+          "12.03.01",
+          "54"
+        ]
+      },
+      "member_row_indices": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "mephi-a-283cc454edb6dece109f0eea",
+      "row_key": "7efa27c54dacb897ace4c5ae494e2cb76bb3ea6d11ed047228e51c8b760f9bf3",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 26,
+      "codes": [
+        "12.03.04"
+      ],
+      "field_names": [
+        "Биотехнические системы и технологии"
+      ],
+      "scope_label": "12.00.00 ФОТОНИКА, ПРИБОРОСТРОЕНИЕ, ОПТИЧЕСКИЕ И БИОТЕХНИЧЕСКИЕ СИСТЕМЫ И ТЕХНОЛОГИИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 13,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[14]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td style=\"width: 98px;\">\n\t\t\t\tБиотехнические системы и технологии</td>\n<td height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\t12.03.04</td>\n<td style=\"width:449px;\">\n\t\t\t\t26</td>\n</tr>",
+        "raw_cells": [
+          "Биотехнические системы и технологии",
+          "12.03.04",
+          "26"
+        ]
+      },
+      "member_row_indices": [
+        13
+      ]
+    },
+    {
+      "id": "mephi-a-db4b1d0cb086f28d92aeff23",
+      "row_key": "5b5beef3338cd54eb3a1e71f9c8779e1d74fa04e563f6d431540402feb5810be",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 115,
+      "codes": [
+        "14.03.01",
+        "14.03.02"
+      ],
+      "field_names": [
+        "Ядерные энергетика и теплофизика",
+        "Ядерные физика и технологии"
+      ],
+      "scope_label": "14.00.00 ЯДЕРНАЯ ЭНЕРГЕТИКА И ТЕХНОЛОГИИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 14,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[15]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"40\" rowspan=\"2\" style=\"height:40px;width:449px;\">\n\t\t\t\t14.00.00 ЯДЕРНАЯ ЭНЕРГЕТИКА И ТЕХНОЛОГИИ</td>\n<td style=\"width:449px;\">\n\t\t\t\tЯдерные энергетика и теплофизика</td>\n<td style=\"width:449px;\">\n\t\t\t\t14.03.01</td>\n<td rowspan=\"2\" style=\"width: 98px;\">\n\t\t\t\t115</td>\n</tr>",
+        "raw_cells": [
+          "14.00.00 ЯДЕРНАЯ ЭНЕРГЕТИКА И ТЕХНОЛОГИИ",
+          "Ядерные энергетика и теплофизика",
+          "14.03.01",
+          "115"
+        ]
+      },
+      "member_row_indices": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "mephi-a-ba1594157005ba56ae5c4d0a",
+      "row_key": "a2784d231c2a4606b737ff48b848eca20567c0e5ef6b7f7b6696e0920f0f6359",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 45,
+      "codes": [
+        "15.03.06"
+      ],
+      "field_names": [
+        "Мехатроника и робототехника"
+      ],
+      "scope_label": "15.00.00 МАШИНОСТРОЕНИЕ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 16,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[17]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"120\" rowspan=\"1\" style=\"height:120px;width:449px;\">\n\t\t\t\t15.00.00 МАШИНОСТРОЕНИЕ</td>\n<td height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\tМехатроника и робототехника</td>\n<td style=\"width:449px;\">\n\t\t\t\t15.03.06</td>\n<td rowspan=\"1\" style=\"width: 98px;\">\n\t\t\t\t45</td>\n</tr>",
+        "raw_cells": [
+          "15.00.00 МАШИНОСТРОЕНИЕ",
+          "Мехатроника и робототехника",
+          "15.03.06",
+          "45"
+        ]
+      },
+      "member_row_indices": [
+        16
+      ]
+    },
+    {
+      "id": "mephi-a-d7977f1b63d5741ea7541bf7",
+      "row_key": "5f8e22a12319964c0a3aab31a85a5465498e77fcb1310946048146972ad9c5ef",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 44,
+      "codes": [
+        "16.03.01",
+        "16.03.02"
+      ],
+      "field_names": [
+        "Техническая физика",
+        "Высокотехнологические плазменные и энергетические установки"
+      ],
+      "scope_label": "16.00.00 ФИЗИКО-ТЕХНИЧЕСКИЕ НАУКИ И ТЕХНОЛОГИИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 17,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[18]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td colspan=\"1\" height=\"20\" rowspan=\"2\" style=\"height:20px;width:449px;\">\n\t\t\t\t16.00.00 ФИЗИКО-ТЕХНИЧЕСКИЕ НАУКИ И ТЕХНОЛОГИИ</td>\n<td>\n\t\t\t\tТехническая физика</td>\n<td style=\"width:449px;\">\n\t\t\t\t16.03.01</td>\n<td rowspan=\"2\" style=\"width: 98px;\">\n\t\t\t\t44</td>\n</tr>",
+        "raw_cells": [
+          "16.00.00 ФИЗИКО-ТЕХНИЧЕСКИЕ НАУКИ И ТЕХНОЛОГИИ",
+          "Техническая физика",
+          "16.03.01",
+          "44"
+        ]
+      },
+      "member_row_indices": [
+        17,
+        18
+      ]
+    },
+    {
+      "id": "mephi-a-f085c83d82dca5282e7350bf",
+      "row_key": "3a8d3444c050069ebb42e5febb87a704fab85d8933e62dc474f1e7f9f24d01ca",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 10,
+      "codes": [
+        "18.03.01"
+      ],
+      "field_names": [
+        "Химическая технология"
+      ],
+      "scope_label": "18.00.00 ХИМИЧЕСКИЕ ТЕХНОЛОГИИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 19,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[20]",
+        "raw_fragment": "<tr class=\"even\"><td colspan=\"1\" height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\t18.00.00 ХИМИЧЕСКИЕ ТЕХНОЛОГИИ</td>\n<td style=\"width:449px;\">\n\t\t\t\tХимическая технология</td>\n<td style=\"width:449px;\">\n\t\t\t\t18.03.01</td>\n<td style=\"width: 98px;\">\n\t\t\t\t10</td>\n</tr>",
+        "raw_cells": [
+          "18.00.00 ХИМИЧЕСКИЕ ТЕХНОЛОГИИ",
+          "Химическая технология",
+          "18.03.01",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        19
+      ]
+    },
+    {
+      "id": "mephi-a-b4d06f1629b8a5936be5ea88",
+      "row_key": "0eff6fb7da6fc2a92a1d3915efbd31030d72d97ce670020983e69049fb72a141",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 15,
+      "codes": [
+        "22.03.01"
+      ],
+      "field_names": [
+        "Материаловедение и технологии материалов"
+      ],
+      "scope_label": "22.00.00 ТЕХНОЛОГИИ МАТЕРИАЛОВ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 20,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[21]",
+        "raw_fragment": "<tr class=\"odd\" height=\"22\"><td height=\"22\" style=\"height:22px;width:449px;\">\n\t\t\t\t22.00.00 ТЕХНОЛОГИИ МАТЕРИАЛОВ</td>\n<td style=\"width:449px;\">\n\t\t\t\tМатериаловедение и технологии материалов</td>\n<td style=\"width:449px;\">\n\t\t\t\t22.03.01</td>\n<td style=\"width: 98px;\">\n\t\t\t\t15</td>\n</tr>",
+        "raw_cells": [
+          "22.00.00 ТЕХНОЛОГИИ МАТЕРИАЛОВ",
+          "Материаловедение и технологии материалов",
+          "22.03.01",
+          "15"
+        ]
+      },
+      "member_row_indices": [
+        20
+      ]
+    },
+    {
+      "id": "mephi-a-38f71626a6be646829d31ff6",
+      "row_key": "c69de2bdd1b9e76276a1c4111dab3cc22f88668196b295fb1fcefcd296ecf4cc",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 30,
+      "codes": [
+        "27.03.03"
+      ],
+      "field_names": [
+        "Системный анализ и управление"
+      ],
+      "scope_label": "27.00.00 УПРАВЛЕНИЕ В ТЕХНИЧЕСКИХ СИСТЕМАХ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 21,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[22]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\t27.00.00 УПРАВЛЕНИЕ В ТЕХНИЧЕСКИХ СИСТЕМАХ</td>\n<td style=\"width:449px;\">\n\t\t\t\tСистемный анализ  и управление</td>\n<td style=\"width:449px;\">\n\t\t\t\t27.03.03</td>\n<td style=\"width: 98px;\">\n\t\t\t\t30</td>\n</tr>",
+        "raw_cells": [
+          "27.00.00 УПРАВЛЕНИЕ В ТЕХНИЧЕСКИХ СИСТЕМАХ",
+          "Системный анализ и управление",
+          "27.03.03",
+          "30"
+        ]
+      },
+      "member_row_indices": [
+        21
+      ]
+    },
+    {
+      "id": "mephi-a-62f00f091fa1b7af5896d527",
+      "row_key": "cbe10ceed1100b081f76c9a408d7f59efad8a5430d952aa3c2e788b5b4b6eb6a",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 40,
+      "codes": [
+        "38.03.01",
+        "38.03.02",
+        "38.03.05"
+      ],
+      "field_names": [
+        "Экономика",
+        "Менеджмент",
+        "Бизнес-информатика"
+      ],
+      "scope_label": "38.00.00 ЭКОНОМИКА И УПРАВЛЕНИЕ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 22,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[23]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"60\" rowspan=\"3\" style=\"height:60px;width:449px;\">\n\t\t\t\t38.00.00 ЭКОНОМИКА И УПРАВЛЕНИЕ</td>\n<td style=\"width:449px;\">\n\t\t\t\tЭкономика</td>\n<td style=\"width:449px;\">\n\t\t\t\t38.03.01</td>\n<td rowspan=\"3\" style=\"width: 98px;\">\n\t\t\t\t40</td>\n</tr>",
+        "raw_cells": [
+          "38.00.00 ЭКОНОМИКА И УПРАВЛЕНИЕ",
+          "Экономика",
+          "38.03.01",
+          "40"
+        ]
+      },
+      "member_row_indices": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": "mephi-a-cf2e2672eedd6f497c1edd5b",
+      "row_key": "ed1ddf5524ef43c27c9f8b583da64cc7319296a84253782b7ae3b2fabaa86fca",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 30,
+      "codes": [
+        "41.03.05"
+      ],
+      "field_names": [
+        "Международные отношения"
+      ],
+      "scope_label": "41.00.00 ПОЛИТИЧЕСКИЕ НАУКИ И РЕГИОНОВЕДЕНИЕ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 25,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[26]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\t41.00.00 ПОЛИТИЧЕСКИЕ НАУКИ И РЕГИОНОВЕДЕНИЕ</td>\n<td style=\"width:449px;\">\n\t\t\t\tМеждународные отношения</td>\n<td style=\"width:449px;\">\n\t\t\t\t41.03.05</td>\n<td style=\"width: 98px;\">\n\t\t\t\t30</td>\n</tr>",
+        "raw_cells": [
+          "41.00.00 ПОЛИТИЧЕСКИЕ НАУКИ И РЕГИОНОВЕДЕНИЕ",
+          "Международные отношения",
+          "41.03.05",
+          "30"
+        ]
+      },
+      "member_row_indices": [
+        25
+      ]
+    },
+    {
+      "id": "mephi-a-1e8e74ffa947756610a3f4da",
+      "row_key": "f2878940be8aa7a2acaaf01331cf1b4f0e220d98bc2235b341bcf032ee3d5db1",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 45,
+      "codes": [
+        "10.05.04"
+      ],
+      "field_names": [
+        "Информационно-аналитические системы безопасности"
+      ],
+      "scope_label": "10.00.00 ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 27,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[28]",
+        "raw_fragment": "<tr class=\"even\" height=\"18\"><td height=\"18\" style=\"height:18px;width:449px;\">\n\t\t\t\t10.00.00 ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ</td>\n<td style=\"width:449px;\">\n\t\t\t\tИнформационно-аналитические системы безопасности</td>\n<td style=\"width:449px;\">\n\t\t\t\t10.05.04</td>\n<td rowspan=\"1\" style=\"width: 98px;\">\n\t\t\t\t45</td>\n</tr>",
+        "raw_cells": [
+          "10.00.00 ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ",
+          "Информационно-аналитические системы безопасности",
+          "10.05.04",
+          "45"
+        ]
+      },
+      "member_row_indices": [
+        27
+      ]
+    },
+    {
+      "id": "mephi-a-afdf6769c6f804880bdf17bc",
+      "row_key": "bc15655188fc96790a33ecd91ffbfe3a2f000b1c8d9ffd3d9f508e5e3243f9fb",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 50,
+      "codes": [
+        "14.05.04"
+      ],
+      "field_names": [
+        "Электроника и автоматика физических установок*"
+      ],
+      "scope_label": "14.00.00 ЯДЕРНАЯ ЭНЕРГЕТИКА И ТЕХНОЛОГИИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 28,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[29]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"60\" rowspan=\"3\" style=\"height:60px;width:449px;\">\n\t\t\t\t14.00.00 ЯДЕРНАЯ ЭНЕРГЕТИКА И ТЕХНОЛОГИИ</td>\n<td style=\"width:449px;\">\n\t\t\t\tЭлектроника и автоматика физических установок*</td>\n<td style=\"width:449px;\">\n\t\t\t\t14.05.04</td>\n<td style=\"width: 98px;\">\n\t\t\t\t50</td>\n</tr>",
+        "raw_cells": [
+          "14.00.00 ЯДЕРНАЯ ЭНЕРГЕТИКА И ТЕХНОЛОГИИ",
+          "Электроника и автоматика физических установок*",
+          "14.05.04",
+          "50"
+        ]
+      },
+      "member_row_indices": [
+        28
+      ]
+    },
+    {
+      "id": "mephi-a-d7d770e3a8c6f522ef9a2bad",
+      "row_key": "7554b93089537b1a0296889ff13ea6ccae2ed5a10c2cabfa1aa3e631922da32b",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 70,
+      "codes": [
+        "14.05.01",
+        "14.05.02"
+      ],
+      "field_names": [
+        "Ядерные реакторы и материалы",
+        "Атомные станции: проектирование, эксплуатация и инжиниринг"
+      ],
+      "scope_label": "14.00.00 ЯДЕРНАЯ ЭНЕРГЕТИКА И ТЕХНОЛОГИИ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 29,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[30]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\tЯдерные реакторы и материалы</td>\n<td style=\"width:449px;\">\n\t\t\t\t14.05.01</td>\n<td rowspan=\"2\" style=\"width: 98px;\">\n\t\t\t\t70</td>\n</tr>",
+        "raw_cells": [
+          "Ядерные реакторы и материалы",
+          "14.05.01",
+          "70"
+        ]
+      },
+      "member_row_indices": [
+        29,
+        30
+      ]
+    },
+    {
+      "id": "mephi-a-596c4a5e5451f6a8dd2afa47",
+      "row_key": "00bb75aa3a931f72e5268b3c6018526c880a121017d495d891a391f9078ac47b",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "federal_budget_total",
+      "places": 15,
+      "codes": [
+        "38.05.01"
+      ],
+      "field_names": [
+        "Экономическая безопасность"
+      ],
+      "scope_label": "38.00.00 ЭКОНОМИКА И УПРАВЛЕНИЕ",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 31,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[32]",
+        "raw_fragment": "<tr class=\"even\" height=\"20\"><td height=\"20\" style=\"height:20px;width:449px;\">\n\t\t\t\t38.00.00 ЭКОНОМИКА И УПРАВЛЕНИЕ</td>\n<td style=\"width:449px;\">\n\t\t\t\tЭкономическая безопасность</td>\n<td>\n\t\t\t\t38.05.01</td>\n<td style=\"width: 98px;\">\n\t\t\t\t15</td>\n</tr>",
+        "raw_cells": [
+          "38.00.00 ЭКОНОМИКА И УПРАВЛЕНИЕ",
+          "Экономическая безопасность",
+          "38.05.01",
+          "15"
+        ]
+      },
+      "member_row_indices": [
+        31
+      ]
+    },
+    {
+      "id": "mephi-a-c5ca3a06c47c25101c3f1997",
+      "row_key": "954006320caa37a80f0483280f930aca5f2075f232a7eb1696eecbdf759af01b",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 35,
+      "codes": [
+        "01.03.02"
+      ],
+      "field_names": [
+        "Прикладная математика и информатика /направление 01.03.02/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Прикладная математика и информатика /направление 01.03.02/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 2,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[3]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Прикладная математика и информатика /направление 01.03.02/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">35</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Прикладная математика и информатика /направление 01.03.02/, бакалавриат, очная форма, Платный",
+          "35"
+        ]
+      },
+      "member_row_indices": [
+        2
+      ]
+    },
+    {
+      "id": "mephi-a-15c988f2a5e8b55cae7ec4f1",
+      "row_key": "da9d4fd02b024a3619d7a910c0a9e9707d6b27786e1503645381fcb540274349",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 25,
+      "codes": [
+        "03.03.01",
+        "03.03.02"
+      ],
+      "field_names": [
+        "Физика и астрономия /направления 03.03.01 и 03.03.02/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Физика и астрономия /направления 03.03.01 и 03.03.02/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 3,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[4]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Физика и астрономия /направления 03.03.01 и 03.03.02/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">25</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Физика и астрономия /направления 03.03.01 и 03.03.02/, бакалавриат, очная форма, Платный",
+          "25"
+        ]
+      },
+      "member_row_indices": [
+        3
+      ]
+    },
+    {
+      "id": "mephi-a-c4579e47b95aaee96e3511da",
+      "row_key": "e90529d69fa6cc748e0b18778b4c46c23227e025ae7556ed36da4769312b6466",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 110,
+      "codes": [
+        "09.03.01",
+        "09.03.03",
+        "09.03.04"
+      ],
+      "field_names": [
+        "Информатика и вычислительная техника /направления 09.03.01, 09.03.03 и 09.03.04/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Информатика и вычислительная техника /направления 09.03.01, 09.03.03 и 09.03.04/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 4,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[5]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Информатика и вычислительная техника /направления 09.03.01, 09.03.03  и 09.03.04/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">110</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Информатика и вычислительная техника /направления 09.03.01, 09.03.03 и 09.03.04/, бакалавриат, очная форма, Платный",
+          "110"
+        ]
+      },
+      "member_row_indices": [
+        4
+      ]
+    },
+    {
+      "id": "mephi-a-fbf45f39efaf700e7070db5f",
+      "row_key": "383debef6ed6d20bdcf56e00bedb92406983b1ea80c4ab5abbf2c109811a6661",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 40,
+      "codes": [
+        "10.03.01"
+      ],
+      "field_names": [
+        "Информационная безопасность /направление 10.03.01/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Информационная безопасность /направление 10.03.01/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 5,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[6]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Информационная безопасность /направление 10.03.01/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">40</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Информационная безопасность /направление 10.03.01/, бакалавриат, очная форма, Платный",
+          "40"
+        ]
+      },
+      "member_row_indices": [
+        5
+      ]
+    },
+    {
+      "id": "mephi-a-421baed75ea1b283f6606ca3",
+      "row_key": "d044a4f51c7bdeb31cca5f5cf7ca120b45f43437e845192124a041853be449cf",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "11.03.04"
+      ],
+      "field_names": [
+        "Электроника и наноэлектроника /направление 11.03.04/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Электроника и наноэлектроника /направление 11.03.04/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 6,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[7]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Электроника и наноэлектроника /направление 11.03.04/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Электроника и наноэлектроника /направление 11.03.04/, бакалавриат, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        6
+      ]
+    },
+    {
+      "id": "mephi-a-aa52c74e41efcd729bfd4964",
+      "row_key": "aef551a767c5b110e9d8468dc347d31505f24764902671154317bfa0838f9d6e",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "12.03.01",
+        "12.03.03",
+        "12.03.05"
+      ],
+      "field_names": [
+        "Лазерные технологии и фотоника /направления 12.03.01, 12.03.03,12.03.05/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Лазерные технологии и фотоника /направления 12.03.01, 12.03.03,12.03.05/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 7,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[8]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Лазерные технологии и фотоника /направления 12.03.01, 12.03.03,12.03.05/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Лазерные технологии и фотоника /направления 12.03.01, 12.03.03,12.03.05/, бакалавриат, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        7
+      ]
+    },
+    {
+      "id": "mephi-a-c18b5088b61bbe4bf2550a3b",
+      "row_key": "a5237dd7e58ba7fe4938668df656c0b026aa7f32fbbb6d6f8d703f0c966c916a",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "12.03.04"
+      ],
+      "field_names": [
+        "Биотехнические системы и технологии /направлени е12.03.04/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Биотехнические системы и технологии /направлени е12.03.04/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 8,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[9]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Биотехнические системы и технологии  /направлени е12.03.04/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Биотехнические системы и технологии /направлени е12.03.04/, бакалавриат, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        8
+      ]
+    },
+    {
+      "id": "mephi-a-ee9b994abd6af5a25f1c8d49",
+      "row_key": "4b505202e263e4507800123c1c8b04ebe930022aaf4573c096505b3f47803df3",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 20,
+      "codes": [
+        "14.03.01",
+        "14.03.02"
+      ],
+      "field_names": [
+        "Ядерная физика и атомная энергетика /направления 14.03.01 и 14.03.02/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Ядерная физика и атомная энергетика /направления 14.03.01 и 14.03.02/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 9,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[10]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Ядерная физика и атомная энергетика /направления 14.03.01 и 14.03.02/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">20</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Ядерная физика и атомная энергетика /направления 14.03.01 и 14.03.02/, бакалавриат, очная форма, Платный",
+          "20"
+        ]
+      },
+      "member_row_indices": [
+        9
+      ]
+    },
+    {
+      "id": "mephi-a-f31d1173102077dac9b23cb7",
+      "row_key": "e6a5e652931320cad295cc0f8031382572073009d8741633ab6bf71d69cf67f6",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "15.03.06"
+      ],
+      "field_names": [
+        "Мехатроника и робототехника /направление 15.03.06/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Мехатроника и робототехника /направление 15.03.06/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 10,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[11]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Мехатроника и робототехника /направление 15.03.06/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Мехатроника и робототехника /направление 15.03.06/, бакалавриат, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        10
+      ]
+    },
+    {
+      "id": "mephi-a-10423181aabfa944831a5818",
+      "row_key": "41b9d3040ebc00b7e355ab8fe2d8e791c6abdc379771eb91561abb3f91b84467",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 5,
+      "codes": [
+        "16.03.01",
+        "16.03.02"
+      ],
+      "field_names": [
+        "Физико-технические науки и технологии /направления 16.03.01 и 16.03.02/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Физико-технические науки и технологии /направления 16.03.01 и 16.03.02/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 11,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[12]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Физико-технические науки и технологии /направления 16.03.01 и 16.03.02/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">5</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Физико-технические науки и технологии /направления 16.03.01 и 16.03.02/, бакалавриат, очная форма, Платный",
+          "5"
+        ]
+      },
+      "member_row_indices": [
+        11
+      ]
+    },
+    {
+      "id": "mephi-a-e1f6c97a2ece9acb62b290df",
+      "row_key": "5b715345beefbe872be2d4e920b732fb9d4c0824d82468f5b56a4198255296d1",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "18.03.01"
+      ],
+      "field_names": [
+        "Химическая технология /направление 18.03.01 /, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Химическая технология /направление 18.03.01 /, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 12,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[13]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Химическая технология /направление   18.03.01 /, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Химическая технология /направление 18.03.01 /, бакалавриат, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        12
+      ]
+    },
+    {
+      "id": "mephi-a-a43176d4b6994c65b84e7ac4",
+      "row_key": "e1597fc688a96ad40603fd2cc6ff84994b880f3b076bb6172fefdbda1e8810a7",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 5,
+      "codes": [
+        "22.03.01"
+      ],
+      "field_names": [
+        "Материаловедение и технологии материалов /направление 22.03.01/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Материаловедение и технологии материалов /направление 22.03.01/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 13,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[14]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Материаловедение и технологии материалов /направление 22.03.01/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">5</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Материаловедение и технологии материалов /направление 22.03.01/, бакалавриат, очная форма, Платный",
+          "5"
+        ]
+      },
+      "member_row_indices": [
+        13
+      ]
+    },
+    {
+      "id": "mephi-a-cfe8d05979c49ea7531d8d69",
+      "row_key": "53aedbd1c01668d76c895118ba444b60277e032677041300de524627f258a32e",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "27.03.03"
+      ],
+      "field_names": [
+        "Системный анализ и управление, бакалавриат /направление 27.03.03/, очная форма, Платный"
+      ],
+      "scope_label": "Системный анализ и управление, бакалавриат /направление 27.03.03/, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 14,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[15]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Системный анализ и управление, бакалавриат /направление 27.03.03/, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Системный анализ и управление, бакалавриат /направление 27.03.03/, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        14
+      ]
+    },
+    {
+      "id": "mephi-a-345c52b55de1dcc73d0f2124",
+      "row_key": "4e3219ca751f794136699fec0e2cb7fb0ba92c9350d4c73ebf06fe97ff644afa",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 13,
+      "codes": [
+        "41.03.05"
+      ],
+      "field_names": [
+        "Международные отношения /направление 41.03.05/, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Международные отношения /направление 41.03.05/, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 15,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[16]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Международные отношения /направление 41.03.05/, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">13</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Международные отношения /направление 41.03.05/, бакалавриат, очная форма, Платный",
+          "13"
+        ]
+      },
+      "member_row_indices": [
+        15
+      ]
+    },
+    {
+      "id": "mephi-a-9167316052bfcc5d587aeb05",
+      "row_key": "aa1817a4b063313bc17c159070f332b31ea3b8ae3e849f157aca152d3dcb7257",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "03.05.02"
+      ],
+      "field_names": [
+        "Фундаментальная и прикладная физика /направление 03.05.02 /, бакалавриат, очная форма, Платный"
+      ],
+      "scope_label": "Фундаментальная и прикладная физика /направление 03.05.02 /, бакалавриат, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 16,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[17]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Фундаментальная и прикладная физика /направление 03.05.02 /, бакалавриат, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Фундаментальная и прикладная физика /направление 03.05.02 /, бакалавриат, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        16
+      ]
+    },
+    {
+      "id": "mephi-a-e2187b7c43c81b75bfc315ee",
+      "row_key": "1673b5f1ebc8ad11d5b17e73f7baf227b6d15e777ab84c70dff8c989b007acb6",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 40,
+      "codes": [
+        "10.05.04"
+      ],
+      "field_names": [
+        "Информационно-аналитические системы безопасности /специальность 10.05.04/, специалитет, очная форма, Платный"
+      ],
+      "scope_label": "Информационно-аналитические системы безопасности /специальность 10.05.04/, специалитет, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 17,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[18]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Информационно-аналитические системы безопасности /специальность 10.05.04/, специалитет, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">40</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Информационно-аналитические системы безопасности /специальность 10.05.04/, специалитет, очная форма, Платный",
+          "40"
+        ]
+      },
+      "member_row_indices": [
+        17
+      ]
+    },
+    {
+      "id": "mephi-a-9e545e4107f6d8455d976a3c",
+      "row_key": "78005cfad44eea8cb24d0c8f25efab368418402f48656c61b9cc63fed4c19182",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 15,
+      "codes": [
+        "14.05.01",
+        "14.05.02"
+      ],
+      "field_names": [
+        "Атомные станции и ядерные энергетические установки /специальности 14.05.01 и 14.05.02/, специалитет, очная форма"
+      ],
+      "scope_label": "Атомные станции и ядерные энергетические установки /специальности 14.05.01 и 14.05.02/, специалитет, очная форма",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 18,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[19]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Атомные станции и ядерные энергетические установки /специальности 14.05.01 и 14.05.02/, специалитет, очная форма</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">15</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Атомные станции и ядерные энергетические установки /специальности 14.05.01 и 14.05.02/, специалитет, очная форма",
+          "15"
+        ]
+      },
+      "member_row_indices": [
+        18
+      ]
+    },
+    {
+      "id": "mephi-a-b4beb0a32fc2dfad9a96c01c",
+      "row_key": "aba59efc97bd74c605929d7033c947674783929d09d9f07441f686ca28dd6efd",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 10,
+      "codes": [
+        "14.05.04"
+      ],
+      "field_names": [
+        "Электроника и автоматика физических установок /направление 14.05.04/, специалитет, очная форма, Платный"
+      ],
+      "scope_label": "Электроника и автоматика физических установок /направление 14.05.04/, специалитет, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 19,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[20]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Электроника и автоматика физических установок /направление 14.05.04/, специалитет, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">10</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Электроника и автоматика физических установок /направление 14.05.04/, специалитет, очная форма, Платный",
+          "10"
+        ]
+      },
+      "member_row_indices": [
+        19
+      ]
+    },
+    {
+      "id": "mephi-a-1594f0f48bea5211ebabc495",
+      "row_key": "f099ad25e5808481767d42364c8adf15f905caeddc59bee782afe1397cedffa9",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 14,
+      "codes": [
+        "38.05.01"
+      ],
+      "field_names": [
+        "Экономическая безопасность, специалитет /направление 38.05.01/, очная форма, Платный"
+      ],
+      "scope_label": "Экономическая безопасность, специалитет /направление 38.05.01/, очная форма, Платный",
+      "applicant_basis": "not_established",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 20,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[21]",
+        "raw_fragment": "<tr class=\"odd\"><td style=\"width:758px;height:19px;\">\n<p>Экономическая безопасность, специалитет /направление 38.05.01/, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">14</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Экономическая безопасность, специалитет /направление 38.05.01/, очная форма, Платный",
+          "14"
+        ]
+      },
+      "member_row_indices": [
+        20
+      ]
+    },
+    {
+      "id": "mephi-a-6b70141bc93c8d3d03526c85",
+      "row_key": "dc712775c72695a1b6fa3881a140aeca563c1b36c712cdb8002e3169f08c5b03",
+      "year": 2026,
+      "campus_id": "mephi-moscow",
+      "funding": "paid",
+      "places": 90,
+      "codes": [
+        "31.05.01"
+      ],
+      "field_names": [
+        "Лечебное дело (иностранцы), специалитет /направление 31.05.01/, очная форма, Платный"
+      ],
+      "scope_label": "Лечебное дело (иностранцы), специалитет /направление 31.05.01/, очная форма, Платный",
+      "applicant_basis": "foreign_applicants",
+      "competition_group_status": "candidate_from_allocation_not_confirmed",
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 1,
+        "row_index": 21,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[22]",
+        "raw_fragment": "<tr class=\"even\"><td style=\"width:758px;height:19px;\">\n<p>Лечебное дело (иностранцы), специалитет /направление 31.05.01/, очная форма, Платный</p>\n</td>\n<td style=\"width:95px;height:19px;\">\n<p align=\"center\">90</p>\n</td>\n</tr>",
+        "raw_cells": [
+          "Лечебное дело (иностранцы), специалитет /направление 31.05.01/, очная форма, Платный",
+          "90"
+        ]
+      },
+      "member_row_indices": [
+        21
+      ]
+    }
+  ],
+  "published_totals": {
+    "ИТОГО Бакалавриат": 831,
+    "ИТОГО Специалитет": 180,
+    "ИТОГО Бакалавриат и специалитет 2026": 1011
+  },
+  "sum_budget": 1011,
+  "sum_paid": 492
+}

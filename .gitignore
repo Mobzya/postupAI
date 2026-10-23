@@ -11,6 +11,10 @@ __pycache__/
 *.sqlite*
 data/raw/*
 !data/raw/README.md
+!data/raw/mephi/
+!data/raw/mephi/**
+!data/raw/source_probes/
+!data/raw/source_probes/**
 artifacts/*
 !artifacts/README.md
 backup*.sql

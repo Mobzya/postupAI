@@ -1,0 +1,142 @@
+{
+  "reviewed_on": "2026-10-23",
+  "reviewer": "Codex: direct source and visual PDF check; not independent external review",
+  "controls": [
+    {
+      "case": "A",
+      "status": "verified_extraction",
+      "record_id": "mephi-h-46e574e9407abf0e145368a1",
+      "value": 305,
+      "mean_ege_score": 97.41,
+      "provenance": {
+        "source_id": "mephi-history",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+        "snapshot_sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+        "snapshot_path": "data/raw/mephi/mephi-history-f86af704b1d75198.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 1,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[2]",
+        "raw_fragment": "<tr class=\"even\"><td>\n\t\t\t\t\t01.03.02</td>\n<td>\n\t\t\t\t\tПрикладная математика и информатика</td>\n<td>\n\t\t\t\t\tПроходной балл</td>\n<td>\n\t\t\t\t\t305</td>\n<td>\n\t\t\t\t\t97,41</td>\n</tr>",
+        "raw_cells": [
+          "01.03.02",
+          "Прикладная математика и информатика",
+          "Проходной балл",
+          "305",
+          "97,41"
+        ]
+      }
+    },
+    {
+      "case": "B",
+      "status": "verified_extraction",
+      "record_id": "mephi-h-b86159e37bf31aeee8aa26cb",
+      "threshold_status": "bvi_only",
+      "value": null,
+      "mean_ege_score": 98.42,
+      "provenance": {
+        "source_id": "mephi-history",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+        "snapshot_sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+        "snapshot_path": "data/raw/mephi/mephi-history-f86af704b1d75198.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 6,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[7]",
+        "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t09.03.04</td>\n<td>\n\t\t\t\t\tПрограммная инженерия</td>\n<td>\n\t\t\t\t\tТолько БВИ</td>\n<td>\n\t\t\t\t\tНет</td>\n<td>\n\t\t\t\t\t98,42</td>\n</tr>",
+        "raw_cells": [
+          "09.03.04",
+          "Программная инженерия",
+          "Только БВИ",
+          "Нет",
+          "98,42"
+        ]
+      }
+    },
+    {
+      "case": "C",
+      "status": "verified_shared_allocation_not_competition_identity",
+      "record_id": "mephi-a-2934e709c01d6a1bb8fc9bce",
+      "places": 120,
+      "codes": [
+        "09.03.01",
+        "09.03.02",
+        "09.03.03",
+        "09.03.04"
+      ],
+      "provenance": {
+        "source_id": "mephi-moscow",
+        "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+        "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+        "snapshot_path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+        "adapter_version": "mephi-html-v1",
+        "table_index": 0,
+        "row_index": 4,
+        "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[5]",
+        "raw_fragment": "<tr class=\"odd\" height=\"20\"><td height=\"80\" rowspan=\"4\" style=\"height:80px;width:449px;\">\n\t\t\t\t09.00.00 ИНФОРМАТИКА И ВЫЧИСЛИТЕЛЬНАЯ ТЕХНИКА</td>\n<td style=\"width:449px;\">\n\t\t\t\tИнформатика и вычислительная техника</td>\n<td style=\"width:449px;\">\n\t\t\t\t09.03.01</td>\n<td rowspan=\"4\" style=\"width: 98px;\">\n\t\t\t\t120</td>\n</tr>",
+        "raw_cells": [
+          "09.00.00 ИНФОРМАТИКА И ВЫЧИСЛИТЕЛЬНАЯ ТЕХНИКА",
+          "Информатика и вычислительная техника",
+          "09.03.01",
+          "120"
+        ]
+      },
+      "pdf_crosscheck": {
+        "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/kcp_niyau_mifi_2026_7.pdf",
+        "sha256": "56e6922ea3f3ad68ed5540f3085ac404db7be7e35b393d8d704f3504bdd303e7",
+        "page": 1,
+        "method": "pdftotext plus visual rendering; one Moscow cell spans four IT rows"
+      }
+    },
+    {
+      "case": "D",
+      "status": "verified_separate_rows_scope_unresolved",
+      "record_ids": [
+        "mephi-h-2e80591e8779693d2be6b393",
+        "mephi-h-c6c3d43d2ce225cd79645dab"
+      ],
+      "values": [
+        282,
+        281
+      ],
+      "provenance": [
+        {
+          "source_id": "mephi-history",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+          "snapshot_sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+          "snapshot_path": "data/raw/mephi/mephi-history-f86af704b1d75198.html",
+          "adapter_version": "mephi-html-v1",
+          "table_index": 0,
+          "row_index": 2,
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[3]",
+          "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t03.03.01</td>\n<td>\n\t\t\t\t\tПрикладные математика и физика</td>\n<td>\n\t\t\t\t\tПроходной балл</td>\n<td>\n\t\t\t\t\t282</td>\n<td>\n\t\t\t\t\t96,55</td>\n</tr>",
+          "raw_cells": [
+            "03.03.01",
+            "Прикладные математика и физика",
+            "Проходной балл",
+            "282",
+            "96,55"
+          ]
+        },
+        {
+          "source_id": "mephi-history",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+          "snapshot_sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+          "snapshot_path": "data/raw/mephi/mephi-history-f86af704b1d75198.html",
+          "adapter_version": "mephi-html-v1",
+          "table_index": 0,
+          "row_index": 4,
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[5]",
+          "raw_fragment": "<tr class=\"odd\"><td>\n\t\t\t\t\t03.03.01</td>\n<td>\n\t\t\t\t\tПрикладные математика и физика</td>\n<td>\n\t\t\t\t\tПроходной балл</td>\n<td>\n\t\t\t\t\t281</td>\n<td>\n\t\t\t\t\t96,55</td>\n</tr>",
+          "raw_cells": [
+            "03.03.01",
+            "Прикладные математика и физика",
+            "Проходной балл",
+            "281",
+            "96,55"
+          ]
+        }
+      ]
+    }
+  ]
+}

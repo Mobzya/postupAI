@@ -1,0 +1,8 @@
+{
+  "node_tests": 18,
+  "python_tests": 34,
+  "total_tests": 52,
+  "typecheck": "passed",
+  "data_replay": "passed",
+  "note": "Taken from completed npm run check output; live Cloudflare/Telegram not used."
+}

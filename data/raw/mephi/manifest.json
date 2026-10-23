@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "source_id": "robots",
+      "url": "https://admission.mephi.ru/robots.txt",
+      "final_url": "https://admission.mephi.ru/robots.txt",
+      "retrieved_at": "2026-10-23T20:29:16+00:00",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+      "path": "data/raw/mephi/robots-278e83bcf567badf.txt",
+      "bytes": 2189,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-history",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+      "retrieved_at": "2026-10-23T20:29:22+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+      "path": "data/raw/mephi/mephi-history-f86af704b1d75198.html",
+      "bytes": 218210,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-moscow",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+      "retrieved_at": "2026-10-23T20:29:27+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+      "path": "data/raw/mephi/mephi-moscow-09744c8e9f921ce6.html",
+      "bytes": 147192,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-education",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education",
+      "retrieved_at": "2026-10-23T20:29:33+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "23df044b6c9fd3edc8799ee407111ef3cc4151dd14f8c982191715909525e828",
+      "path": "data/raw/mephi/mephi-education-23df044b6c9fd3ed.html",
+      "bytes": 130392,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-documents",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/documents",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/documents",
+      "retrieved_at": "2026-10-23T20:29:39+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "c2616c598e4dc05c0c69204be6840e29e5b3f5ebcd7e98f846dd5a23176faade",
+      "path": "data/raw/mephi/mephi-documents-c2616c598e4dc05c.html",
+      "bytes": 188064,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-exams",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams",
+      "retrieved_at": "2026-10-23T20:29:45+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "54d7ecc616568dec03d478a83cc19a827a9c2cb635f39f56a8b65a0cd2de588f",
+      "path": "data/raw/mephi/mephi-exams-54d7ecc616568dec.html",
+      "bytes": 138314,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-rules",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/rules",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/rules",
+      "retrieved_at": "2026-10-23T20:29:51+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13",
+      "path": "data/raw/mephi/mephi-rules-3a0ca0e086b81d14.html",
+      "bytes": 174441,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-programs",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+      "retrieved_at": "2026-10-23T20:30:18+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+      "path": "data/raw/mephi/mephi-programs-f3b09e40e2ed3678.html",
+      "bytes": 172445,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-kcp",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/kcp_niyau_mifi_2026_7.pdf",
+      "final_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/kcp_niyau_mifi_2026_7.pdf",
+      "retrieved_at": "2026-10-23T20:30:23+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "56e6922ea3f3ad68ed5540f3085ac404db7be7e35b393d8d704f3504bdd303e7",
+      "path": "data/raw/mephi/mephi-kcp-56e6922ea3f3ad68.pdf",
+      "bytes": 207713,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "final_url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "retrieved_at": "2026-10-23T20:30:29+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+      "path": "data/raw/mephi/mephi-fields-f2585b7f3ec59adf.pdf",
+      "bytes": 306519,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-admission-rules",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/pravila_priema_2026_bak_spec_bez_bvo.pdf",
+      "final_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/pravila_priema_2026_bak_spec_bez_bvo.pdf",
+      "retrieved_at": "2026-10-23T20:30:35+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "f256add42abe46a78dd704f4344fb18df7f2896cf74137add2dc1d9be9e925a2",
+      "path": "data/raw/mephi/mephi-admission-rules-f256add42abe46a7.pdf",
+      "bytes": 458517,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  ],
+  "attempts": [
+    {
+      "source_id": "mephi-history",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+      "attempted_at": "2026-10-23T20:29:10+00:00",
+      "status": "success",
+      "sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab"
+    },
+    {
+      "source_id": "mephi-moscow",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+      "attempted_at": "2026-10-23T20:29:22+00:00",
+      "status": "success",
+      "sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db"
+    },
+    {
+      "source_id": "mephi-education",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education",
+      "attempted_at": "2026-10-23T20:29:27+00:00",
+      "status": "success",
+      "sha256": "23df044b6c9fd3edc8799ee407111ef3cc4151dd14f8c982191715909525e828"
+    },
+    {
+      "source_id": "mephi-documents",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/documents",
+      "attempted_at": "2026-10-23T20:29:33+00:00",
+      "status": "success",
+      "sha256": "c2616c598e4dc05c0c69204be6840e29e5b3f5ebcd7e98f846dd5a23176faade"
+    },
+    {
+      "source_id": "mephi-exams",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams",
+      "attempted_at": "2026-10-23T20:29:39+00:00",
+      "status": "success",
+      "sha256": "54d7ecc616568dec03d478a83cc19a827a9c2cb635f39f56a8b65a0cd2de588f"
+    },
+    {
+      "source_id": "mephi-rules",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/rules",
+      "attempted_at": "2026-10-23T20:29:45+00:00",
+      "status": "success",
+      "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+    },
+    {
+      "source_id": "mephi-programs",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+      "attempted_at": "2026-10-23T20:30:07+00:00",
+      "status": "success",
+      "sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a"
+    },
+    {
+      "source_id": "mephi-kcp",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/kcp_niyau_mifi_2026_7.pdf",
+      "attempted_at": "2026-10-23T20:30:18+00:00",
+      "status": "success",
+      "sha256": "56e6922ea3f3ad68ed5540f3085ac404db7be7e35b393d8d704f3504bdd303e7"
+    },
+    {
+      "source_id": "mephi-fields",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+      "attempted_at": "2026-10-23T20:30:23+00:00",
+      "status": "success",
+      "sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3"
+    },
+    {
+      "source_id": "mephi-admission-rules",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/pravila_priema_2026_bak_spec_bez_bvo.pdf",
+      "attempted_at": "2026-10-23T20:30:29+00:00",
+      "status": "success",
+      "sha256": "f256add42abe46a78dd704f4344fb18df7f2896cf74137add2dc1d9be9e925a2"
+    }
+  ]
+}

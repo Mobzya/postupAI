@@ -1,0 +1,30 @@
+{
+  "runtime": "actual Wrangler/workerd local D1",
+  "persist_to": ".wrangler/mephi-demo",
+  "before": {
+    "profiles": 82,
+    "profile_versions": 82,
+    "campaign_fields": 31,
+    "history_rows": 286,
+    "seat_allocations": 39,
+    "models": 0
+  },
+  "after_first": {
+    "profiles": 82,
+    "profile_versions": 82,
+    "campaign_fields": 31,
+    "history_rows": 286,
+    "seat_allocations": 39,
+    "models": 0
+  },
+  "after_second": {
+    "profiles": 82,
+    "profile_versions": 82,
+    "campaign_fields": 31,
+    "history_rows": 286,
+    "seat_allocations": 39,
+    "models": 0
+  },
+  "repeated_import_counts_equal": true,
+  "public_deployment": false
+}
