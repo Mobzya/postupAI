@@ -1,0 +1,17 @@
+node_modules/
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+.env
+.env.*
+!.env.example
+build/
+__pycache__/
+*.pyc
+*.sqlite*
+data/raw/*
+!data/raw/README.md
+artifacts/*
+!artifacts/README.md
+backup*.sql
+backups/

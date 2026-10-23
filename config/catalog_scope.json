@@ -1,0 +1,15 @@
+{
+  "institution_ids": ["mipt", "hse", "itmo", "mephi", "spbu", "msu", "nsu", "bmstu", "innopolis", "cu"],
+  "degrees": ["bachelor", "specialist", "basic_higher"],
+  "campus_policy": "enumerate_all_campuses_then_review_scope",
+  "history_years_to_check": [2023, 2024, 2025, 2026],
+  "target_admission_year": 2027,
+  "candidate_code_prefixes": ["01.", "02.", "09.", "10."],
+  "code_prefix_is_sufficient": false,
+  "review_adjacent_by_description": true,
+  "catalog_complete": false,
+  "required_audit_fields": [
+    "name", "official_code", "rules", "exams", "seats_budget", "seats_paid",
+    "cutoff", "mean_score", "applications", "enrolled", "bvi_quotas", "score_distribution"
+  ]
+}

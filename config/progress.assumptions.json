@@ -1,0 +1,23 @@
+{
+  "version": "ege-heuristic-draft-v0",
+  "enabled": false,
+  "status": "unvalidated_assumptions",
+  "warning": "Параметры придуманы для проектирования интерфейса модели. Это не эмпирические нормы. Прогноз не включён.",
+  "model_family": "bounded_subject_progress",
+  "subject_parameters": {
+    "mathematics": { "assumed_monthly_gain_at_6h": [4, 2, 0.5] },
+    "informatics": { "assumed_monthly_gain_at_6h": [5, 2.5, 0.5] },
+    "russian": { "assumed_monthly_gain_at_6h": [3, 1.5, 0.4] }
+  },
+  "score_bands": [0, 60, 85, 100],
+  "reference_hours_per_week": 6,
+  "intensity_exponent": 0.5,
+  "assumed_uncertainty_points": 15,
+  "required_inputs": ["subject", "score", "mock_date", "mock_type", "hours_per_week", "regularity", "expected_exam_date"],
+  "target_role": "diagnostics_only_never_used_in_growth",
+  "future_interface": "predict_subject(input, config) -> distribution over integer scores 0..100",
+  "future_constraints": [
+    "cap_at_100", "diminishing_growth_near_100", "uncertainty_includes_mock_error",
+    "correlated_subject_totals_not_independent_by_default", "no_growth_after_exam_date"
+  ]
+}

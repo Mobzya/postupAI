@@ -1,0 +1,59 @@
+# Дерево исходных файлов
+
+В архив включены все перечисленные файлы; зависимости и локальная база исключены.
+
+- `ballnik/`
+  - `.dev.vars.example`
+  - `.gitignore`
+  - `AGENTS.md`
+  - `DATA_AUDIT.md`
+  - `README.md`
+  - `artifacts/`
+    - `README.md`
+  - `config/`
+    - `catalog_scope.json`
+    - `progress.assumptions.json`
+  - `data/`
+    - `normalized/`
+      - `catalog.json`
+    - `raw/`
+      - `README.md`
+    - `source_registry.json`
+  - `docs/`
+    - `ARCHITECTURE.md`
+    - `DATABASE.md`
+    - `DATA_CONTRACTS.md`
+    - `DEPLOYMENT.md`
+    - `FILE_TREE.md`
+    - `MASTER_SPEC.md`
+    - `STAGE_0_REPORT.md`
+  - `migrations/`
+    - `0001_foundation.sql`
+    - `0002_source_entrypoints.sql`
+    - `0003_revision_integrity.sql`
+  - `package-lock.json`
+  - `package.json`
+  - `pipeline/`
+    - `__init__.py`
+    - `adapters.py`
+    - `audit.py`
+    - `validate.py`
+  - `scripts/`
+    - `register_webhook.py`
+    - `smoke_local.py`
+  - `src/`
+    - `domain.ts`
+    - `index.ts`
+    - `platform.ts`
+    - `privacy.ts`
+    - `store.ts`
+  - `tests/`
+    - `domain.test.mjs`
+    - `fixtures/`
+      - `admissions.synthetic.sql`
+    - `python/`
+      - `test_foundation.py`
+    - `sqlite-d1.mjs`
+    - `webhook.test.mjs`
+  - `tsconfig.json`
+  - `wrangler.toml`

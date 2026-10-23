@@ -1,0 +1,18 @@
+name = "ballnik"
+main = "src/index.ts"
+compatibility_date = "2026-10-23"
+workers_dev = true
+upload_source_maps = false
+
+[observability]
+enabled = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ballnik"
+# Replace with the UUID returned by `wrangler d1 create ballnik` before deployment.
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["17 2 * * *"]
