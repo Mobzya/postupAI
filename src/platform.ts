@@ -12,8 +12,9 @@ export interface Database {
 }
 
 export interface Env {
-  DB: Database;
+  DB?: Database;
   TELEGRAM_WEBHOOK_SECRET: string;
-  USER_ID_HMAC_KEY: string;
+  USER_ID_HMAC_KEY?: string;
   TELEGRAM_BOT_TOKEN?: string;
+  PROFILE_STORAGE_ENABLED?: string;
 }

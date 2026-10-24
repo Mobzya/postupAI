@@ -1,5 +1,7 @@
 # Copy to .dev.vars. Enter independent randomly generated values locally.
 TELEGRAM_WEBHOOK_SECRET=
 USER_ID_HMAC_KEY=
+# Explicit true only for local synthetic profile tests; public bot keeps this false.
+PROFILE_STORAGE_ENABLED=false
 # Reserved for future outgoing Bot API calls; stage 0 replies through webhook.
 TELEGRAM_BOT_TOKEN=
