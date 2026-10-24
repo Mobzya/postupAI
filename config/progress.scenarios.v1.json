@@ -1,0 +1,35 @@
+{
+  "version": "ege-scenarios-v1",
+  "status": "uncalibrated_hypotheses",
+  "admission_probability_enabled": false,
+  "description": "Настраиваемые гипотезы, не средние темпы школьников. Баллы — тестовая шкала ЕГЭ.",
+  "reference_hours_per_week": 6,
+  "intensity_exponent": 0.5,
+  "score_bands": [0, 60, 85, 100],
+  "subject_parameters": {
+    "mathematics": [4, 2, 0.5],
+    "informatics": [5, 2.5, 0.5],
+    "russian": [3, 1.5, 0.4]
+  },
+  "scenarios": {
+    "cautious": { "gain_multiplier": 0.55, "uncertainty_multiplier": 1.25 },
+    "base": { "gain_multiplier": 1, "uncertainty_multiplier": 1 },
+    "accelerated": { "gain_multiplier": 1.4, "uncertainty_multiplier": 0.9 }
+  },
+  "measurement_uncertainty": 5,
+  "uncertainty_per_sqrt_month": 3,
+  "stale_mock_uncertainty_per_sqrt_month": 2,
+  "max_horizon_days": 732,
+  "max_hours_per_subject_week": 40,
+  "dependence": "shared_rank_shock_not_empirically_estimated",
+  "latent_nodes": [
+    { "z": -2, "weight": 0.025 },
+    { "z": -1.25, "weight": 0.075 },
+    { "z": -0.6, "weight": 0.2 },
+    { "z": 0, "weight": 0.4 },
+    { "z": 0.6, "weight": 0.2 },
+    { "z": 1.25, "weight": 0.075 },
+    { "z": 2, "weight": 0.025 }
+  ],
+  "target_role": "diagnostics_only_never_used_in_growth"
+}

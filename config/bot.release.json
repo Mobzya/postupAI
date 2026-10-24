@@ -1,8 +1,8 @@
 {
-  "version": "2a-preview.1",
-  "stage": "2A",
-  "review_status": "partial_rules_coverage",
-  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/2a-rules/docs/STAGE_2A_REPORT.md",
+  "version": "2b-preview.1",
+  "stage": "2B",
+  "review_status": "uncalibrated_scenarios",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/2b-ege-growth/docs/STAGE_2B_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }
