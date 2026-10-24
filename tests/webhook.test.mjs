@@ -8,7 +8,8 @@ import { SqliteD1 } from './sqlite-d1.mjs';
 const secret = 'synthetic-webhook-secret-for-tests-only';
 const hmac = 'synthetic-hmac-key-for-tests-only-12345';
 const syntheticUser = 777001;
-const env = () => ({ DB: new SqliteD1(), TELEGRAM_WEBHOOK_SECRET: secret, USER_ID_HMAC_KEY: hmac });
+const env = () => ({ DB: new SqliteD1(), TELEGRAM_WEBHOOK_SECRET: secret, USER_ID_HMAC_KEY: hmac,
+  PROFILE_STORAGE_ENABLED: 'true' });
 const update = (text = '/start', id = 1) => ({
   update_id: id, message: { text, chat: { id: syntheticUser, type: 'private' }, from: { id: syntheticUser, is_bot: false } },
 });
@@ -87,7 +88,7 @@ test('receipt rolls back with failed mutation; retry may succeed', async () => {
 });
 test('commands acknowledge missing catalog/model; profile remains optional', async () => {
   const e = env();
-  for (const cmd of ['/profile', '/programs', '/search', '/compare', '/forecast', '/achievements', '/sources']) {
+  for (const cmd of ['/profile', '/programs', '/search', '/compare', '/forecast', '/achievements', '/sources', '/status']) {
     const response = await worker.fetch(request(update(cmd)), e);
     assert.equal(response.status, 200);
     const body = await response.json();
@@ -95,6 +96,47 @@ test('commands acknowledge missing catalog/model; profile remains optional', asy
     assert.ok(body.text.length < 4096);
   }
   assert.equal(e.DB.raw.prepare('SELECT count(*) AS n FROM user_profiles').get().n, 0);
+});
+
+test('public mode works without D1 or HMAC key and never accesses storage', async () => {
+  const e = { TELEGRAM_WEBHOOK_SECRET: secret };
+  for (const command of ['/start', '/status', '/profile', '/delete_data', '/programs', '/sources', '/forecast']) {
+    const response = await worker.fetch(request(update(command)), e);
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(body.method, 'sendMessage');
+    assert.ok(body.text.length < 4096);
+  }
+  await worker.scheduled({}, e);
+  const unavailable = { ...e, DB: { prepare() { throw new Error('storage must not be used'); } } };
+  for (const command of ['/start', '/profile', '/delete_data']) {
+    assert.equal((await worker.fetch(request(update(command)), unavailable)).status, 200);
+  }
+});
+
+test('only explicit profile opt-in permits storage, with all credentials required', async () => {
+  for (const flag of [undefined, 'false', '1', 'TRUE']) {
+    const e = env(); e.PROFILE_STORAGE_ENABLED = flag;
+    assert.equal((await worker.fetch(request(update()), e)).status, 200);
+    assert.equal(e.DB.raw.prepare('SELECT count(*) AS n FROM user_profiles').get().n, 0);
+  }
+  assert.equal((await worker.fetch(request(update()), {
+    TELEGRAM_WEBHOOK_SECRET: secret, PROFILE_STORAGE_ENABLED: 'true',
+  })).status, 503);
+});
+
+test('public stage status matches release metadata and keeps forecasts disabled', async () => {
+  const release = JSON.parse(readFileSync(new URL('../config/bot.release.json', import.meta.url), 'utf8'));
+  const coverage = JSON.parse(readFileSync(new URL('../data/normalized/mephi/metrics.json', import.meta.url), 'utf8'));
+  const e = { TELEGRAM_WEBHOOK_SECRET: secret };
+  const health = await (await worker.fetch(new Request('https://example.invalid/health'), e)).json();
+  assert.equal(health.stage, release.stage);
+  assert.equal(health.version, release.version);
+  assert.equal(health.profileStorageEnabled, false);
+  assert.equal(health.forecasting, false);
+  const status = await (await worker.fetch(request(update('/status')), e)).json();
+  assert.ok(status.text.includes(String(coverage.historical_rows)));
+  assert.ok(status.text.includes('ожидает внешней проверки'));
 });
 test('expired idempotency records are pruned with bounded cleanup', async () => {
   const e = env();

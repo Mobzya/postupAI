@@ -1,0 +1,12 @@
+# Early local bot: public aggregates only; no D1 binding or profile persistence.
+name = "postupai-bot"
+main = "src/index.ts"
+compatibility_date = "2026-10-23"
+workers_dev = true
+upload_source_maps = false
+
+[observability]
+enabled = false
+
+[vars]
+PROFILE_STORAGE_ENABLED = "false"

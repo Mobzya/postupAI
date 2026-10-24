@@ -22,6 +22,7 @@ def main():
             str(ROOT / 'node_modules/.bin/wrangler'), 'dev', '--local', '--ip', '127.0.0.1',
             '--port', '8788', '--inspector-port', '0',
             '--var', f'TELEGRAM_WEBHOOK_SECRET:{SECRET}', '--var', f'USER_ID_HMAC_KEY:{HMAC}',
+            '--var', 'PROFILE_STORAGE_ENABLED:true',
         ], cwd=ROOT, stdout=log, stderr=log, start_new_session=True)
         try:
             deadline = time.monotonic() + 30

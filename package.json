@@ -24,7 +24,9 @@
     "data:validate": "python3 -m pipeline.mephi_pipeline validate",
     "data:export": "python3 -m pipeline.import_mephi --export-sql data/normalized/mephi/import.sql",
     "research:build": "python3 -m pipeline.competition_research build",
-    "research:validate": "python3 -m pipeline.competition_research validate"
+    "research:validate": "python3 -m pipeline.competition_research validate",
+    "bot:check": "python3 scripts/local_bot.py --check",
+    "bot:local": "python3 scripts/local_bot.py"
   },
   "devDependencies": {
     "typescript": "7.0.2",
