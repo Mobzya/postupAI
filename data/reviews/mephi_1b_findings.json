@@ -1,0 +1,246 @@
+{
+  "assessment_version": "mephi-competition-review-v1",
+  "reviewed_on": "2026-10-24",
+  "reviewer": "Codex source inspection; pending independent review",
+  "source_excerpts": [
+    {
+      "kind": "entrants_navigation",
+      "file": "entrants-navigation.official-excerpt.html",
+      "source_url": "https://admission.mephi.ru/lists/entrants",
+      "parent_sha256": "8c8109491eec2a2dcbc19b63037ba157a4759249cb461d3ec6e0a1dd0867d9be",
+      "retrieved_at": "2026-10-24T20:15:21+00:00",
+      "excerpt_sha256": "ec556033ffa1e79e8f98073a4bde21468582d99471f1e5decea7e470cd8d57fd",
+      "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/div[1]/button[1]",
+      "earlier_parent_sha256": "704b29da41d4eb1eb974d1f43baa909b66020732939eddb6e93ea3f35e249cc2"
+    },
+    {
+      "kind": "enrollment_publication_notice",
+      "file": "enrollment-notice.official-excerpt.html",
+      "source_url": "https://admission.mephi.ru/lists/orders",
+      "parent_sha256": "216f078c0f67b5b305ded0ee417f009c302334e72cf53a3b3928003be9bc7e81",
+      "retrieved_at": "2026-10-24T20:15:22+00:00",
+      "excerpt_sha256": "39b991349ae4c8a8cbe7b433426925f7d9135d9331a40af4e3a6e25c0aa4165a",
+      "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/p[2]/strong",
+      "earlier_parent_sha256": "1828a66a6c2c784f1cce65aab246217153f1d528f93485f64eab4fc20c8e2de2"
+    }
+  ],
+  "external_list_access": {
+    "url": "https://org.mephi.ru/pupil-rating/index/osp/1",
+    "observed_on": "2026-10-24",
+    "http_status": 451,
+    "response_body_saved": false,
+    "applicant_identifiers_saved": false,
+    "note": "Недоступен из этой среды; причина и доступность из других сетей не установлены. В обход ограничения запросы не выполнялись; архивы 2025/2026 не получены."
+  },
+  "discrepancies": [
+    {
+      "code": "04.03.01",
+      "status": "unresolved",
+      "finding": "В названии профиля явно указана совместная реализация с ИАТЭ. Код отсутствует в московском перечне 2026 и плане мест. Совместная реализация не устанавливает кампус зачисления, отдельный конкурс или отсутствие московского приёма; соответствие остаётся открытым.",
+      "evidence": [
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[22]"
+        },
+        {
+          "source_id": "mephi-fields",
+          "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+          "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+          "locator": "page=1; complete Moscow 2026 direction list"
+        }
+      ]
+    },
+    {
+      "code": "04.03.02",
+      "status": "unresolved",
+      "finding": "В названии профиля явно указана совместная реализация с ИАТЭ. Код отсутствует в московском перечне 2026 и плане мест. Совместная реализация не устанавливает кампус зачисления, отдельный конкурс или отсутствие московского приёма; соответствие остаётся открытым.",
+      "evidence": [
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[24]"
+        },
+        {
+          "source_id": "mephi-fields",
+          "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+          "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+          "locator": "page=1; complete Moscow 2026 direction list"
+        }
+      ]
+    },
+    {
+      "code": "06.03.01",
+      "status": "unresolved",
+      "finding": "В названии профиля явно указана совместная реализация с ИАТЭ. Код отсутствует в московском перечне 2026 и плане мест. Совместная реализация не устанавливает кампус зачисления, отдельный конкурс или отсутствие московского приёма; соответствие остаётся открытым.",
+      "evidence": [
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[1]/table/tbody/tr[23]"
+        },
+        {
+          "source_id": "mephi-fields",
+          "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+          "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+          "locator": "page=1; complete Moscow 2026 direction list"
+        }
+      ]
+    },
+    {
+      "code": "09.03.02",
+      "status": "unresolved",
+      "finding": "Код входит в общую бюджетную ячейку 120 мест четырёх направлений, но отсутствует в официальном московском перечне 2026 и подробном каталоге. Расхождение повторяется в документах 1A. Одна ячейка не устанавливает отдельную группу или приём на каждый профиль.",
+      "evidence": [
+        {
+          "source_id": "mephi-moscow",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+          "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[5]"
+        },
+        {
+          "source_id": "mephi-fields",
+          "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+          "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+          "locator": "page=1; complete Moscow 2026 direction list"
+        },
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "all profile rows of both catalog tables"
+        }
+      ]
+    },
+    {
+      "code": "31.05.01",
+      "status": "unresolved",
+      "finding": "Платный план явно содержит 90 мест для иностранцев. Каталог содержит профиль «Лечебное дело (Обнинск)» и строку с Moscow/Obninsk. Это объясняет различие областей источников частично, но кампус, основание приёма и конкурсы не сопоставлены. Нельзя переносить 90 мест на обычный российский бюджетный конкурс.",
+      "evidence": [
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[14]"
+        },
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[15]"
+        },
+        {
+          "source_id": "mephi-moscow",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+          "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[2]/tbody/tr[22]"
+        },
+        {
+          "source_id": "mephi-fields",
+          "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+          "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+          "locator": "page=1; complete Moscow 2026 direction list"
+        }
+      ]
+    },
+    {
+      "code": "10.05.05",
+      "status": "unresolved",
+      "finding": "Официальный PDF перечня 2026 содержит 10.05.05; ни подробный каталог профилей, ни план мест отдельной строки не содержат. Подтверждён пробел подробного каталога, но оснований объявлять приём отсутствующим или добавлять вымышленный профиль нет.",
+      "evidence": [
+        {
+          "source_id": "mephi-fields",
+          "url": "https://admission.mephi.ru/content/public/uploads/documents/13._spec_napravl_2026_pravka_itog.pdf",
+          "snapshot_sha256": "f2585b7f3ec59adfea1ea0de21c9f065dd02962fd5659babacbd68a7fde5d0b3",
+          "locator": "page=1; first_line=35"
+        },
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "all profile rows of both catalog tables"
+        },
+        {
+          "source_id": "mephi-programs",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+          "snapshot_sha256": "f3b09e40e2ed3678483c941fca4d367c42e48f445e9cb6d243c7dacfa9a6d05a",
+          "locator": "all profile rows of both catalog tables"
+        }
+      ]
+    }
+  ],
+  "priority_findings": [
+    {
+      "key": "2025-030301-282-281",
+      "status": "unresolved",
+      "finding": "Обе строки сохранены раздельно. Ни таблица 2025, ни правила 2026 не доказывают, какому конкурсу соответствует каждая из них. Группы ИНТЭЛ/ЛАПЛАЗ других лет не перенесены в 2025.",
+      "evidence": [
+        {
+          "source_id": "mephi-history",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+          "snapshot_sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[3]"
+        },
+        {
+          "source_id": "mephi-history",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+          "snapshot_sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[5]"
+        }
+      ]
+    },
+    {
+      "key": "2025-090304-bvi",
+      "status": "partially_resolved",
+      "finding": "Официальная статистика отмечает «Только БВИ» и «Нет» в числовом пороге. cutoff остаётся null. Количество БВИ, состав конкурса и вероятность поступления по баллам из этой отметки не восстанавливаются.",
+      "evidence": [
+        {
+          "source_id": "mephi-history",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/previous-years",
+          "snapshot_sha256": "f86af704b1d75198598fbaccac57e9a69e7562f0c09745440dc66ff9678f00ab",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/div[2]/table/tbody/tr[7]"
+        }
+      ]
+    },
+    {
+      "key": "2026-it-120",
+      "status": "partially_resolved",
+      "finding": "120 — общий бюджетный объём ячейки четырёх направлений. Ни число групп, ни распределение по квотам/профилям не установлены. Платная область содержит другие три кода и 110 мест.",
+      "evidence": [
+        {
+          "source_id": "mephi-moscow",
+          "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/moscow",
+          "snapshot_sha256": "09744c8e9f921ce62c48e9b88200734a8051cbf455e722f53e03b591b41b46db",
+          "locator": "/html/body/div[3]/div[3]/div/div[3]/div/div/div/div/div/div/div/table[1]/tbody/tr[5]"
+        }
+      ]
+    },
+    {
+      "key": "2026-group-definition",
+      "status": "resolved",
+      "finding": "Правила 2026, пункты 12–13, определяют конкурс через совокупность условий и допускают различные однопрофильные/многопрофильные конкурсы. Это подтверждает необходимость отдельной сущности группы, но не восстанавливает перечень групп 2025 или 2026.",
+      "evidence": [
+        {
+          "source_id": "mephi-admission-rules",
+          "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/pravila_priema_2026_bak_spec_bez_bvo.pdf",
+          "snapshot_sha256": "f256add42abe46a78dd704f4344fb18df7f2896cf74137add2dc1d9be9e925a2",
+          "locator": "PDF; paragraphs 12–13; definition of competition conditions"
+        }
+      ]
+    }
+  ],
+  "additional_documents": [
+    {
+      "source_id": "mephi-1b-kcp-2025",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2025/kcp_niyau_mifi_2025_itog_itog_1.pdf",
+      "snapshot_sha256": "70148da35d07ff3760c5aa2ce986d42151334432a995e3a032bcb6ae0d52f835",
+      "retrieved_at": "2026-10-24T20:17:59+00:00",
+      "locator": "PDF page 1; table header КЦП 2025; Moscow and branch columns",
+      "finding": "Официальный КЦП 2025 доступен и прочитан через pdftotext. Это план мест по направлениям/филиалам с общими ячейками, не перечень совокупностей условий конкурса. Не используется для переноса групп 2025 в 2026.",
+      "extracted_text_sha256": "091ab49f14580a5d19488be358ac78da7c1c2a75adf14bc3356c70edb16ffeec"
+    }
+  ]
+}

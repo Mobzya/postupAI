@@ -1,0 +1,24 @@
+{
+  "runtime": "actual Wrangler/workerd local D1",
+  "after_first": {
+    "profiles": 82,
+    "history_rows": 286,
+    "group_assessments": 39,
+    "history_assessments": 286,
+    "confirmed": 0,
+    "inferred": 0,
+    "models": 0
+  },
+  "after_second": {
+    "profiles": 82,
+    "history_rows": 286,
+    "group_assessments": 39,
+    "history_assessments": 286,
+    "confirmed": 0,
+    "inferred": 0,
+    "models": 0
+  },
+  "repeated_import_counts_equal": true,
+  "foreign_key_violations": 0,
+  "public_deployment": false
+}
