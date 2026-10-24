@@ -1,0 +1,18 @@
+{
+  "source": {
+    "source_id": "nsu-history-mm-2025",
+    "url": "https://education.nsu.ru/research_group",
+    "final_url": "https://education.nsu.ru/research_group",
+    "retrieved_at": "2026-10-24T23:32:52+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "sha256": "a4c2ba40431420b3ba51193229d76dda993aa61573af2a87892303951d820000",
+    "path": "data/raw/history/nsu/nsu-history-mm-2025-a4c2ba40431420b3.html",
+    "bytes": 480613,
+    "retrieval_method": "https",
+    "adapter_version": "fetch-v1",
+    "institution_id": "nsu",
+    "representation_sha256": "24922c243d23b3ceac342ae84e64ea7704cb731164c29aae20f92d0f52ec459a"
+  },
+  "content": "<p>Проходные баллы на направлении подготовки «Математика и механика. Прикладная математика и информатика» прошлых лет: 2021 — 234 2022 — 177 2023 — 225 2024 — 232 2025 — 223</p>"
+}

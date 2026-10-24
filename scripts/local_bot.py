@@ -25,6 +25,7 @@ COMMANDS = [
     {'command': 'programs', 'description': 'Состояние каталога программ'},
     {'command': 'search', 'description': 'Поиск: вуз, название или код'},
     {'command': 'universities', 'description': 'Покрытие десяти вузов'},
+    {'command': 'history', 'description': 'Опубликованные пороги прошлых лет'},
     {'command': 'forecast', 'description': 'Доступность прогноза'},
     {'command': 'profile', 'description': 'Состояние сохранения профиля'},
     {'command': 'delete_data', 'description': 'Сведения об удалении данных'},

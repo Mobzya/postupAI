@@ -1,0 +1,20 @@
+{
+  "observations": 956,
+  "institutions_with_data": 5,
+  "units": {
+    "competition_points": 856,
+    "exam_points": 30,
+    "exam_total_points": 63,
+    "unspecified_points": 7
+  },
+  "statuses": {
+    "numeric": 832,
+    "bvi_only": 7,
+    "priority_only": 11,
+    "not_published": 43,
+    "lower_bound": 61,
+    "manual_review": 2
+  },
+  "possible_duplicate_scopes": 6,
+  "parse_errors": 0
+}

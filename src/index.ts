@@ -6,6 +6,7 @@ import registry from '../data/source_registry.json' with { type: 'json' };
 import release from '../config/bot.release.json' with { type: 'json' };
 import coverage from '../data/normalized/mephi/metrics.json' with { type: 'json' };
 import { catalogSummary, searchPrograms } from './catalog.ts';
+import { historicalSummary } from './history.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -151,6 +152,9 @@ export default {
           break;
         case '/status':
           text = stageStatus();
+          break;
+        case '/history':
+          text = historicalSummary(message.text.trim().split(/\s+/).slice(1).join(' '));
           break;
         case '/forecast': case '/compare':
           forecastAvailability();

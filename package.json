@@ -28,7 +28,9 @@
     "bot:check": "python3 scripts/local_bot.py --check",
     "bot:local": "python3 scripts/local_bot.py",
     "catalog:build": "python3 -m pipeline.catalog_pipeline build",
-    "catalog:validate": "python3 -m pipeline.catalog_pipeline validate"
+    "catalog:validate": "python3 -m pipeline.catalog_pipeline validate",
+    "history:build": "python3 -m pipeline.history_dataset build",
+    "history:validate": "python3 -m pipeline.history_dataset validate"
   },
   "devDependencies": {
     "typescript": "7.0.2",

@@ -1,0 +1,182 @@
+[
+  {
+    "institution_id": "mipt",
+    "observations": 0,
+    "years": [],
+    "metrics": {},
+    "units": {},
+    "admission_probability_ready": false,
+    "threshold_analysis_only": false,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "hse",
+    "observations": 570,
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "metrics": {
+      "cutoff": 570
+    },
+    "units": {
+      "competition_points": 570
+    },
+    "admission_probability_ready": false,
+    "threshold_analysis_only": true,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "itmo",
+    "observations": 0,
+    "years": [],
+    "metrics": {},
+    "units": {},
+    "admission_probability_ready": false,
+    "threshold_analysis_only": false,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "mephi",
+    "observations": 354,
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "metrics": {
+      "cutoff": 286,
+      "mean_ege_score": 30,
+      "mean_entrance_total": 38
+    },
+    "units": {
+      "competition_points": 286,
+      "exam_points": 30,
+      "exam_total_points": 38
+    },
+    "admission_probability_ready": false,
+    "threshold_analysis_only": true,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "spbu",
+    "observations": 0,
+    "years": [],
+    "metrics": {},
+    "units": {},
+    "admission_probability_ready": false,
+    "threshold_analysis_only": false,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "msu",
+    "observations": 0,
+    "years": [],
+    "metrics": {},
+    "units": {},
+    "admission_probability_ready": false,
+    "threshold_analysis_only": false,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "nsu",
+    "observations": 5,
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "metrics": {
+      "cutoff": 5
+    },
+    "units": {
+      "unspecified_points": 5
+    },
+    "admission_probability_ready": false,
+    "threshold_analysis_only": true,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "bmstu",
+    "observations": 24,
+    "years": [
+      2025
+    ],
+    "metrics": {
+      "minimum_entrance_total": 12,
+      "mean_entrance_total": 12
+    },
+    "units": {
+      "exam_total_points": 24
+    },
+    "admission_probability_ready": false,
+    "threshold_analysis_only": true,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "innopolis",
+    "observations": 3,
+    "years": [
+      2025
+    ],
+    "metrics": {
+      "cutoff": 3
+    },
+    "units": {
+      "exam_total_points": 1,
+      "unspecified_points": 2
+    },
+    "admission_probability_ready": false,
+    "threshold_analysis_only": true,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  },
+  {
+    "institution_id": "cu",
+    "observations": 0,
+    "years": [],
+    "metrics": {},
+    "units": {},
+    "admission_probability_ready": false,
+    "threshold_analysis_only": false,
+    "limitations": [
+      "Competition identity, category completeness, comparability and final enrollment not established."
+    ]
+  }
+]
