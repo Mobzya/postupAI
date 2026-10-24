@@ -5,6 +5,7 @@ export interface AchievementClaim { kind: string; conditions: Readonly<Record<st
 export function achievementPoints(claims: readonly AchievementClaim[]) {
   const byFamily = new Map<string,number>();
   for (const claim of claims) {
+    if(!Object.hasOwn(bundle.supported_achievements,claim.kind))return {status:'manual_review' as const,reason:'unsupported_achievement'};
     const rule = bundle.supported_achievements[claim.kind as keyof typeof bundle.supported_achievements];
     if (!rule) return { status:'manual_review' as const, reason:'unsupported_achievement' };
     if (!rule.requires.every(key => claim.conditions[key] === true)) {

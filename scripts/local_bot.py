@@ -29,6 +29,8 @@ COMMANDS = [
     {'command': 'rules', 'description': 'Правила МИФИ по году и направлению'},
     {'command': 'score', 'description': 'Условный конкурсный балл МИФИ'},
     {'command': 'achievements', 'description': 'Условия дополнительных баллов'},
+    {'command': 'ege', 'description': 'Сценарный калькулятор роста ЕГЭ'},
+    {'command': 'model', 'description': 'Гипотезы и ограничения модели'},
     {'command': 'forecast', 'description': 'Доступность прогноза'},
     {'command': 'profile', 'description': 'Состояние сохранения профиля'},
     {'command': 'delete_data', 'description': 'Сведения об удалении данных'},

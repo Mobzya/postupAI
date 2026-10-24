@@ -8,6 +8,7 @@ import coverage from '../data/normalized/mephi/metrics.json' with { type: 'json'
 import { catalogSummary, searchPrograms } from './catalog.ts';
 import { historicalSummary } from './history.ts';
 import { renderRules, renderAcademicScore, renderAchievementRules } from './academic.ts';
+import { renderGrowth, renderGrowthModel } from './growth.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -162,6 +163,12 @@ export default {
           break;
         case '/score':
           text = renderAcademicScore(message.text.trim().split(/\s+/).slice(1).join(' '));
+          break;
+        case '/ege':
+          text = renderGrowth(message.text.trim().split(/\s+/).slice(1).join(' '));
+          break;
+        case '/model':
+          text = renderGrowthModel();
           break;
         case '/forecast': case '/compare':
           forecastAvailability();
