@@ -1,0 +1,3553 @@
+{
+  "adapter_version": "academic-rules-v1",
+  "year": 2026,
+  "institution_id": "mephi",
+  "rules": [
+    {
+      "id": "rule-3bb588fc0ad7d1410068fba2",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "01.03.02",
+      "name": "Прикладная математика и информатика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=1",
+            "table=1; data-row=2",
+            "table=1; data-row=3"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-d74e8ec4ed292e4090a9c221",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "01.03.02",
+      "name": "Прикладная математика и информатика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=1",
+            "table=1; data-row=2",
+            "table=1; data-row=3"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-433da36a3435cda37d093c7a",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "name": "Прикладные математика и физика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=4",
+            "table=1; data-row=5",
+            "table=1; data-row=6"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-a406cfd4ad25ad26d4657646",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "03.03.01",
+      "name": "Прикладные математика и физика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=4",
+            "table=1; data-row=5",
+            "table=1; data-row=6"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-36ae7ef2a43dc2357cc1a38b",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "03.03.02",
+      "name": "Физика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=7",
+            "table=1; data-row=8",
+            "table=1; data-row=9"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-65eb3b8a77e3c28a230258da",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "03.03.02",
+      "name": "Физика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=7",
+            "table=1; data-row=8",
+            "table=1; data-row=9"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-e5517f8c6fc951c0dd6a77d2",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "03.05.02",
+      "name": "Фундаментальная и прикладная физика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=10",
+            "table=1; data-row=11",
+            "table=1; data-row=12"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-0d3bb1f2b0358e6dcfaa0a80",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "03.05.02",
+      "name": "Фундаментальная и прикладная физика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=10",
+            "table=1; data-row=11",
+            "table=1; data-row=12"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-67f89fbb8d021c26023e439d",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "09.03.01",
+      "name": "Информатика и вычислительная техника",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=13",
+            "table=1; data-row=14",
+            "table=1; data-row=15"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-fdfb9f7a6d9523e77447ed90",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "09.03.01",
+      "name": "Информатика и вычислительная техника",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=13",
+            "table=1; data-row=14",
+            "table=1; data-row=15"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-052014aef0f6bb583a6c7c21",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "09.03.03",
+      "name": "Прикладная информатика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=16",
+            "table=1; data-row=17",
+            "table=1; data-row=18"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-39cf4123ac71ae156bb1d0e3",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "09.03.03",
+      "name": "Прикладная информатика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=16",
+            "table=1; data-row=17",
+            "table=1; data-row=18"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-ca17799037e3924fdade0517",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "09.03.04",
+      "name": "Программная инженерия",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=19",
+            "table=1; data-row=20",
+            "table=1; data-row=21"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-bc426a667103ecfae29d4d15",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "09.03.04",
+      "name": "Программная инженерия",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=19",
+            "table=1; data-row=20",
+            "table=1; data-row=21"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-77dde82c6c07c6b84e0dbce1",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "10.03.01",
+      "name": "Информационная безопасность",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=22",
+            "table=1; data-row=23",
+            "table=1; data-row=24"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-3102ca554461a2ecce6755a1",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "10.03.01",
+      "name": "Информационная безопасность",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=22",
+            "table=1; data-row=23",
+            "table=1; data-row=24"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-212da7533c99559ce41155b8",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "10.05.04",
+      "name": "Информационно-аналитические системы безопасности",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=25",
+            "table=1; data-row=26",
+            "table=1; data-row=27"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-8426f734b7abb090f4f12470",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "10.05.04",
+      "name": "Информационно-аналитические системы безопасности",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=25",
+            "table=1; data-row=26",
+            "table=1; data-row=27"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-422ddb729f3d019b54cbabaa",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "10.05.05",
+      "name": "Безопасность информационных технологий в правоохранительной сфере",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=28",
+            "table=1; data-row=29",
+            "table=1; data-row=30"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-6d443b12977f002c8b4a463b",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "10.05.05",
+      "name": "Безопасность информационных технологий в правоохранительной сфере",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=28",
+            "table=1; data-row=29",
+            "table=1; data-row=30"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-71248fd7f9337673301f58b7",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "11.03.04",
+      "name": "Электроника и наноэлектроника",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=31",
+            "table=1; data-row=32",
+            "table=1; data-row=33"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-a1bffdb088bd0df7f0055147",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "11.03.04",
+      "name": "Электроника и наноэлектроника",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=31",
+            "table=1; data-row=32",
+            "table=1; data-row=33"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-33e05e7930ba14cdbffa611f",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.01",
+      "name": "Приборостроение",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=34",
+            "table=1; data-row=35",
+            "table=1; data-row=36"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-427d435c495fc6f708dff1e6",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.01",
+      "name": "Приборостроение",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=34",
+            "table=1; data-row=35",
+            "table=1; data-row=36"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-c8b741b379c818c8edeac1be",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.03",
+      "name": "Фотоника и оптоинформатика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=37",
+            "table=1; data-row=38",
+            "table=1; data-row=39"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-a6bc15b97749f6bb3e65f6ba",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.03",
+      "name": "Фотоника и оптоинформатика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=37",
+            "table=1; data-row=38",
+            "table=1; data-row=39"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-848112cd30c651c9ee824423",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.04",
+      "name": "Биотехнические системы и технологии",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "biology",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=40",
+            "table=1; data-row=41",
+            "table=1; data-row=42"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-a68e7be30f7d7d6c0897e820",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.04",
+      "name": "Биотехнические системы и технологии",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "biology",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=40",
+            "table=1; data-row=41",
+            "table=1; data-row=42"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-b7ccea4a8ec1d80af6899721",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.05",
+      "name": "Лазерная техника и лазерные технологии",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=43",
+            "table=1; data-row=44",
+            "table=1; data-row=45"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-d2ea2de2a9318952f844e1a0",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "12.03.05",
+      "name": "Лазерная техника и лазерные технологии",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=43",
+            "table=1; data-row=44",
+            "table=1; data-row=45"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-e5a5967929fe22a4c19916a5",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.03.01",
+      "name": "Ядерная энергетика и теплофизика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=46",
+            "table=1; data-row=47",
+            "table=1; data-row=48"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-3d6ab6662b9b2ed1dff382de",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.03.01",
+      "name": "Ядерная энергетика и теплофизика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=46",
+            "table=1; data-row=47",
+            "table=1; data-row=48"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-f6bf54ee7a200df4aedfbae7",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "name": "Ядерные физика и технологии",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=49",
+            "table=1; data-row=50",
+            "table=1; data-row=51"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-e92150a0ad14e6c15b0274fc",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.03.02",
+      "name": "Ядерные физика и технологии",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=49",
+            "table=1; data-row=50",
+            "table=1; data-row=51"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-8c72038224433ba9d0ef2ad0",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.05.01",
+      "name": "Ядерные реакторы и материалы",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=52",
+            "table=1; data-row=53",
+            "table=1; data-row=54"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-86ee4be4168e5ba739e3a9ac",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.05.01",
+      "name": "Ядерные реакторы и материалы",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=52",
+            "table=1; data-row=53",
+            "table=1; data-row=54"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-1ec949f827e356e829a6323f",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.05.02",
+      "name": "Атомные станции: проектирование, эксплуатация и инжиниринг",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=55",
+            "table=1; data-row=56",
+            "table=1; data-row=57"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-0fcf421b4b7ac75e501f08d9",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.05.02",
+      "name": "Атомные станции: проектирование, эксплуатация и инжиниринг",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=55",
+            "table=1; data-row=56",
+            "table=1; data-row=57"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-63ccac8f4dacd35023a939f5",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.05.04",
+      "name": "Электроника и автоматика физических установок",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=58",
+            "table=1; data-row=59",
+            "table=1; data-row=60"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-6c13e2d00f77d7a70c9c790d",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "14.05.04",
+      "name": "Электроника и автоматика физических установок",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=58",
+            "table=1; data-row=59",
+            "table=1; data-row=60"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-6611bb29a60ecdb7d6b3f7eb",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "15.03.06",
+      "name": "Мехатроника и робототехника",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=61",
+            "table=1; data-row=62",
+            "table=1; data-row=63"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-155300d094aa692bd877e2ed",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "15.03.06",
+      "name": "Мехатроника и робототехника",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=61",
+            "table=1; data-row=62",
+            "table=1; data-row=63"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-6317edf8b798453451d55f35",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "16.03.01",
+      "name": "Техническая физика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=64",
+            "table=1; data-row=65",
+            "table=1; data-row=66"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-b9dc56a0268febba0c58b6f8",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "16.03.01",
+      "name": "Техническая физика",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=64",
+            "table=1; data-row=65",
+            "table=1; data-row=66"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-03ed968fef24cbe7fa13ef07",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "16.03.02",
+      "name": "Высокотехнологические плазменные и энергетические установки",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=67",
+            "table=1; data-row=68",
+            "table=1; data-row=69"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-5d9608109b0e2ff5d4f025f8",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "16.03.02",
+      "name": "Высокотехнологические плазменные и энергетические установки",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=67",
+            "table=1; data-row=68",
+            "table=1; data-row=69"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-1574789efb263c39147431eb",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "18.03.01",
+      "name": "Химическая технология",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "chemistry",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=70",
+            "table=1; data-row=71",
+            "table=1; data-row=72"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-c696ad874e2b16bd8bc17242",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "18.03.01",
+      "name": "Химическая технология",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "chemistry",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=70",
+            "table=1; data-row=71",
+            "table=1; data-row=72"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-09a34c3a9450765fb326b14f",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "22.03.01",
+      "name": "Материаловедение и технология материалов",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=73",
+            "table=1; data-row=74",
+            "table=1; data-row=75"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-8017e3d21fdd197f3535cdaf",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "22.03.01",
+      "name": "Материаловедение и технология материалов",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=73",
+            "table=1; data-row=74",
+            "table=1; data-row=75"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-43e8cd0aa0da1cc61b89284d",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "27.03.03",
+      "name": "Системный анализ и управление",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=76",
+            "table=1; data-row=77",
+            "table=1; data-row=78"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-d8124da15b0b7bc1c9f357e6",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "27.03.03",
+      "name": "Системный анализ и управление",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=76",
+            "table=1; data-row=77",
+            "table=1; data-row=78"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-c3e084a81520c8f897f03643",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "38.03.01",
+      "name": "Экономика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=81",
+            "table=1; data-row=82",
+            "table=1; data-row=83"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-579a306193a005237a361a8c",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "38.03.02",
+      "name": "Менеджмент",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=84",
+            "table=1; data-row=85",
+            "table=1; data-row=86"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-997152e901690fb78ea8ca37",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "38.03.05",
+      "name": "Бизнес-информатика",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=87",
+            "table=1; data-row=88",
+            "table=1; data-row=89"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-eadae44fb9c53967fa1de8ea",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "38.05.01",
+      "name": "Экономическая безопасность",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=90",
+            "table=1; data-row=91",
+            "table=1; data-row=92"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-de4c93809fbbd9714e86ee04",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "38.05.01",
+      "name": "Экономическая безопасность",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=90",
+            "table=1; data-row=91",
+            "table=1; data-row=92"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-60f285aa3a983292d2147bfc",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "41.03.05",
+      "name": "Международные отношения",
+      "category": "general_budget",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "history",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "foreign_language",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=93",
+            "table=1; data-row=94",
+            "table=1; data-row=95"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    },
+    {
+      "id": "rule-a93d5e5a2a8f0837fbdba6d9",
+      "institution_id": "mephi",
+      "campus_id": "mephi-moscow",
+      "year": 2026,
+      "official_code": "41.03.05",
+      "name": "Международные отношения",
+      "category": "paid",
+      "applicant_basis": "school_ege",
+      "slots": [
+        [
+          {
+            "key": "history",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "foreign_language",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "social_studies",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10,
+      "source_status": "documented_score_constraints",
+      "evidence": {
+        "exams": {
+          "source_id": "mephi-exam-rules-2026",
+          "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+          "locators": [
+            "table=1; data-row=93",
+            "table=1; data-row=94",
+            "table=1; data-row=95"
+          ]
+        },
+        "annual_pdf": {
+          "source_id": "mephi-exam-rules-pdf-2026",
+          "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f"
+        },
+        "achievement_cap": {
+          "source_id": "mephi-rules",
+          "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13"
+        }
+      }
+    }
+  ],
+  "supported_achievements": {
+    "honors_rf": {
+      "points": 5,
+      "family": "honors",
+      "requires": [
+        "russian_document",
+        "with_honors"
+      ]
+    },
+    "gto_gold": {
+      "points": 4,
+      "family": "gto",
+      "requires": [
+        "badge_document_present",
+        "age_group_eligible_for_campaign"
+      ]
+    },
+    "gto_silver": {
+      "points": 3,
+      "family": "gto",
+      "requires": [
+        "badge_document_present",
+        "age_group_eligible_for_campaign"
+      ]
+    },
+    "gto_bronze": {
+      "points": 2,
+      "family": "gto",
+      "requires": [
+        "badge_document_present",
+        "age_group_eligible_for_campaign"
+      ]
+    },
+    "vosh_unused": {
+      "points": 10,
+      "family": "olympiad_1",
+      "requires": [
+        "diploma_present",
+        "not_used_for_special_rights"
+      ]
+    },
+    "rsosh_winner_unused": {
+      "points": 10,
+      "family": "olympiad_2",
+      "requires": [
+        "diploma_present",
+        "not_used_for_special_rights",
+        "grade_11_diploma"
+      ]
+    },
+    "rsosh_prize_unused": {
+      "points": 8,
+      "family": "olympiad_3",
+      "requires": [
+        "diploma_present",
+        "not_used_for_special_rights",
+        "grade_11_diploma"
+      ]
+    }
+  },
+  "unsupported_scopes": [
+    {
+      "code": "31.05.01",
+      "category": "general_budget",
+      "reason": "offering_or_applicant_basis_not_confirmed"
+    },
+    {
+      "code": "31.05.01",
+      "category": "paid",
+      "reason": "offering_or_applicant_basis_not_confirmed"
+    },
+    {
+      "code": "38.03.01",
+      "category": "paid",
+      "reason": "minimums_not_published_for_category"
+    },
+    {
+      "code": "38.03.02",
+      "category": "paid",
+      "reason": "minimums_not_published_for_category"
+    },
+    {
+      "code": "38.03.05",
+      "category": "paid",
+      "reason": "minimums_not_published_for_category"
+    }
+  ],
+  "supported_categories": [
+    "general_budget",
+    "paid"
+  ],
+  "supported_applicant_basis": "school_ege",
+  "bvi_and_quotas": "manual_review_required",
+  "ranking_ties": "additional_official_criteria_required",
+  "sources": [
+    {
+      "id": "mephi-exam-rules-2026",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/list",
+      "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+      "representation_sha256": "0c90caf133935d6f2139d3cfbcac5cd67b344d1dc4b396078c293fefd78373f0"
+    },
+    {
+      "id": "mephi-achievement-rules-2026",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/personal-achievements",
+      "sha256": "14bd9604bae1f8e40f7d7f90aeabd0e61bc60711e35a25d7310b29151e433974",
+      "representation_sha256": "65477b52c40b83e2fe6964cb5cb8f93743f3b573c5edb317047dbb63d97fe64f"
+    },
+    {
+      "id": "mephi-exam-rules-pdf-2026",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/11._ekzameny_2026_moskva_pravka.pdf",
+      "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f",
+      "representation_sha256": "dd63ebf5ffc88bc1399c8c57b6bb90fce58f36d099515f5276b31b3e7e4d1eee"
+    },
+    {
+      "id": "mephi-rules",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/rules",
+      "sha256": "3a0ca0e086b81d144487dff23edfaa69119448a9a169603edb4f8a25fc2dec13",
+      "representation_sha256": "6a306a20a5cd83efdd1b4c7d88063e36053660566504cb2089546768dbd1da2a"
+    }
+  ]
+}

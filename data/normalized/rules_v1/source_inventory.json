@@ -1,0 +1,53 @@
+[
+  {
+    "status": "fetched",
+    "institution_id": "mephi",
+    "snapshot": {
+      "source_id": "mephi-exam-rules-2026",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/list",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/list",
+      "retrieved_at": "2026-10-24T23:42:53+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "4532ed8a5bcae065fa93733818740e87411cc75e70a1ac95cc24b1c263c1b03f",
+      "path": "data/raw/rules/mephi/mephi-exam-rules-2026-4532ed8a5bcae065.html",
+      "bytes": 303216,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "status": "fetched",
+    "institution_id": "mephi",
+    "snapshot": {
+      "source_id": "mephi-achievement-rules-2026",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/personal-achievements",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/personal-achievements",
+      "retrieved_at": "2026-10-24T23:42:55+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "14bd9604bae1f8e40f7d7f90aeabd0e61bc60711e35a25d7310b29151e433974",
+      "path": "data/raw/rules/mephi/mephi-achievement-rules-2026-14bd9604bae1f8e4.html",
+      "bytes": 180324,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "status": "fetched",
+    "institution_id": "mephi",
+    "snapshot": {
+      "source_id": "mephi-exam-rules-pdf-2026",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/11._ekzameny_2026_moskva_pravka.pdf",
+      "final_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/11._ekzameny_2026_moskva_pravka.pdf",
+      "retrieved_at": "2026-10-24T23:45:16+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "ecc71aceb601fd87519a37b4afe4adffb1f3cc076ae432c315e7fc4eedb4f84f",
+      "path": "data/raw/rules/mephi/mephi-exam-rules-pdf-2026-ecc71aceb601fd87.pdf",
+      "bytes": 770903,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  }
+]

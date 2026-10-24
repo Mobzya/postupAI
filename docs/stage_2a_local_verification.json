@@ -1,0 +1,18 @@
+{
+  "first": {
+    "original_history": 286,
+    "catalog_observations": 458,
+    "historical_source_observations": 956,
+    "academic_rule_versions": 59,
+    "profiles": 0
+  },
+  "second": {
+    "original_history": 286,
+    "catalog_observations": 458,
+    "historical_source_observations": 956,
+    "academic_rule_versions": 59,
+    "profiles": 0
+  },
+  "foreign_key_violations": 0,
+  "public_deployment": false
+}

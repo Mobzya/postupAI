@@ -23,7 +23,8 @@ def insert_sql(table, row, key='id'):
     values = ','.join(literal(value) for value in row.values())
     payload = {'admission_observations':'payload_json','seat_allocations':'evidence_json','campaign_field_offerings':'evidence_json',
                'competition_group_assessments':'payload_json','historical_group_assessments':'payload_json',
-               'catalog_observations':'payload_json','historical_source_observations':'payload_json'}.get(table)
+               'catalog_observations':'payload_json','historical_source_observations':'payload_json',
+               'academic_rule_versions':'payload_json'}.get(table)
     if payload:
         # A different payload under the same identity is a conflict, not a replay.
         # The append-only trigger rejects this UPDATE; unchanged facts are a no-op.

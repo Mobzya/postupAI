@@ -30,7 +30,9 @@
     "catalog:build": "python3 -m pipeline.catalog_pipeline build",
     "catalog:validate": "python3 -m pipeline.catalog_pipeline validate",
     "history:build": "python3 -m pipeline.history_dataset build",
-    "history:validate": "python3 -m pipeline.history_dataset validate"
+    "history:validate": "python3 -m pipeline.history_dataset validate",
+    "rules:build": "python3 -m pipeline.academic_rules build",
+    "rules:validate": "python3 -m pipeline.academic_rules validate"
   },
   "devDependencies": {
     "typescript": "7.0.2",
