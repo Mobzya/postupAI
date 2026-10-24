@@ -1,5 +1,8 @@
 # Ballnik / Admission Forecast
 
+Постоянный репозиторий проекта: [Mobzya/postupAI](https://github.com/Mobzya/postupAI).
+Результат 1B находится в ветке `stage/1b-mephi-evidence` и ожидает внешнего ревью.
+
 Основа Telegram-бота для оценки прогресса ЕГЭ и поступления. Выполнены этапы 0 и 1A.
 Собраны реальные данные МИФИ; валидированных прогнозов нет. Исследование 1B передано
 на внешнее ревью: [PROJECT_STATE.md](docs/PROJECT_STATE.md),
