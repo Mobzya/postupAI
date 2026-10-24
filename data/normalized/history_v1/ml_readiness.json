@@ -1,0 +1,18 @@
+{
+  "admission_probability_ready": false,
+  "confirmed_competition_groups": 0,
+  "reason": "No independently verified same-year competition populations and final enrollment distributions.",
+  "exploratory_threshold_candidates": 382,
+  "excluded_from_exact_cutoff_targets": {
+    "means": 80,
+    "censored_lower_bounds": 61,
+    "priority_or_bvi": 18,
+    "ambiguous_units": 7
+  },
+  "requirements": [
+    "Explicit yearly scope reconciliation",
+    "Separate metrics and units",
+    "Hold out future years",
+    "Do not treat descriptive threshold accuracy as calibrated admission probabilities"
+  ]
+}

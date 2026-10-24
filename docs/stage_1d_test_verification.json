@@ -1,0 +1,11 @@
+{
+  "node_tests": 26,
+  "python_tests": 68,
+  "total_tests": 94,
+  "history_replay": true,
+  "typecheck": true,
+  "local_d1_repeated_import": true,
+  "worker_dry_run": true,
+  "local_smoke": true,
+  "public_deployment": false
+}

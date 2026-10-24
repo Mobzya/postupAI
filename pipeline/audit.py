@@ -69,6 +69,13 @@ def render(registry: dict, catalog: dict) -> str:
             'Верхняя таблица отражает прежний канонический контракт; наблюдения 1C ещё не повышены до проверенных версий программ.',
             'Полнота целевого каталога неизвестна; неизвестные годы, кампусы и условия не заполнены догадками.',
             'Подробное покрытие: data/normalized/catalog_v1/coverage.json и docs/STAGE_1C_REPORT.md.',''])
+    history_path=ROOT/'data/normalized/history_v1/metrics.json'
+    if history_path.exists():
+        historical=load(history_path)
+        lines.extend(['## Исторические наблюдения 1D','',
+            f"Извлечено {historical['observations']} наблюдений из {historical['institutions_with_data']}/10 вузов.",
+            'Проходные, средний ЕГЭ, суммы вступительных баллов и цензурированные границы разделены по метрикам/единицам.',
+            'Калиброванные вероятности не разрешены; подробная пригодность: data/normalized/history_v1/ml_readiness.json.',''])
     return "\n".join(lines)
 
 
