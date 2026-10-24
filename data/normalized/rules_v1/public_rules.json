@@ -1,0 +1,2082 @@
+{
+  "year": 2026,
+  "institution_id": "mephi",
+  "supported_achievements": {
+    "honors_rf": {
+      "points": 5,
+      "family": "honors",
+      "requires": [
+        "russian_document",
+        "with_honors"
+      ]
+    },
+    "gto_gold": {
+      "points": 4,
+      "family": "gto",
+      "requires": [
+        "badge_document_present",
+        "age_group_eligible_for_campaign"
+      ]
+    },
+    "gto_silver": {
+      "points": 3,
+      "family": "gto",
+      "requires": [
+        "badge_document_present",
+        "age_group_eligible_for_campaign"
+      ]
+    },
+    "gto_bronze": {
+      "points": 2,
+      "family": "gto",
+      "requires": [
+        "badge_document_present",
+        "age_group_eligible_for_campaign"
+      ]
+    },
+    "vosh_unused": {
+      "points": 10,
+      "family": "olympiad_1",
+      "requires": [
+        "diploma_present",
+        "not_used_for_special_rights"
+      ]
+    },
+    "rsosh_winner_unused": {
+      "points": 10,
+      "family": "olympiad_2",
+      "requires": [
+        "diploma_present",
+        "not_used_for_special_rights",
+        "grade_11_diploma"
+      ]
+    },
+    "rsosh_prize_unused": {
+      "points": 8,
+      "family": "olympiad_3",
+      "requires": [
+        "diploma_present",
+        "not_used_for_special_rights",
+        "grade_11_diploma"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "rule-3bb588fc0ad7d1410068fba2",
+      "official_code": "01.03.02",
+      "category": "general_budget",
+      "name": "Прикладная математика и информатика",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-d74e8ec4ed292e4090a9c221",
+      "official_code": "01.03.02",
+      "category": "paid",
+      "name": "Прикладная математика и информатика",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-433da36a3435cda37d093c7a",
+      "official_code": "03.03.01",
+      "category": "general_budget",
+      "name": "Прикладные математика и физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-a406cfd4ad25ad26d4657646",
+      "official_code": "03.03.01",
+      "category": "paid",
+      "name": "Прикладные математика и физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-36ae7ef2a43dc2357cc1a38b",
+      "official_code": "03.03.02",
+      "category": "general_budget",
+      "name": "Физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-65eb3b8a77e3c28a230258da",
+      "official_code": "03.03.02",
+      "category": "paid",
+      "name": "Физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-e5517f8c6fc951c0dd6a77d2",
+      "official_code": "03.05.02",
+      "category": "general_budget",
+      "name": "Фундаментальная и прикладная физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-0d3bb1f2b0358e6dcfaa0a80",
+      "official_code": "03.05.02",
+      "category": "paid",
+      "name": "Фундаментальная и прикладная физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-67f89fbb8d021c26023e439d",
+      "official_code": "09.03.01",
+      "category": "general_budget",
+      "name": "Информатика и вычислительная техника",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-fdfb9f7a6d9523e77447ed90",
+      "official_code": "09.03.01",
+      "category": "paid",
+      "name": "Информатика и вычислительная техника",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-052014aef0f6bb583a6c7c21",
+      "official_code": "09.03.03",
+      "category": "general_budget",
+      "name": "Прикладная информатика",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-39cf4123ac71ae156bb1d0e3",
+      "official_code": "09.03.03",
+      "category": "paid",
+      "name": "Прикладная информатика",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-ca17799037e3924fdade0517",
+      "official_code": "09.03.04",
+      "category": "general_budget",
+      "name": "Программная инженерия",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-bc426a667103ecfae29d4d15",
+      "official_code": "09.03.04",
+      "category": "paid",
+      "name": "Программная инженерия",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-77dde82c6c07c6b84e0dbce1",
+      "official_code": "10.03.01",
+      "category": "general_budget",
+      "name": "Информационная безопасность",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-3102ca554461a2ecce6755a1",
+      "official_code": "10.03.01",
+      "category": "paid",
+      "name": "Информационная безопасность",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-212da7533c99559ce41155b8",
+      "official_code": "10.05.04",
+      "category": "general_budget",
+      "name": "Информационно-аналитические системы безопасности",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-8426f734b7abb090f4f12470",
+      "official_code": "10.05.04",
+      "category": "paid",
+      "name": "Информационно-аналитические системы безопасности",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-422ddb729f3d019b54cbabaa",
+      "official_code": "10.05.05",
+      "category": "general_budget",
+      "name": "Безопасность информационных технологий в правоохранительной сфере",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-6d443b12977f002c8b4a463b",
+      "official_code": "10.05.05",
+      "category": "paid",
+      "name": "Безопасность информационных технологий в правоохранительной сфере",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-71248fd7f9337673301f58b7",
+      "official_code": "11.03.04",
+      "category": "general_budget",
+      "name": "Электроника и наноэлектроника",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-a1bffdb088bd0df7f0055147",
+      "official_code": "11.03.04",
+      "category": "paid",
+      "name": "Электроника и наноэлектроника",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-33e05e7930ba14cdbffa611f",
+      "official_code": "12.03.01",
+      "category": "general_budget",
+      "name": "Приборостроение",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-427d435c495fc6f708dff1e6",
+      "official_code": "12.03.01",
+      "category": "paid",
+      "name": "Приборостроение",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-c8b741b379c818c8edeac1be",
+      "official_code": "12.03.03",
+      "category": "general_budget",
+      "name": "Фотоника и оптоинформатика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-a6bc15b97749f6bb3e65f6ba",
+      "official_code": "12.03.03",
+      "category": "paid",
+      "name": "Фотоника и оптоинформатика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-848112cd30c651c9ee824423",
+      "official_code": "12.03.04",
+      "category": "general_budget",
+      "name": "Биотехнические системы и технологии",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "biology",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-a68e7be30f7d7d6c0897e820",
+      "official_code": "12.03.04",
+      "category": "paid",
+      "name": "Биотехнические системы и технологии",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "biology",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-b7ccea4a8ec1d80af6899721",
+      "official_code": "12.03.05",
+      "category": "general_budget",
+      "name": "Лазерная техника и лазерные технологии",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-d2ea2de2a9318952f844e1a0",
+      "official_code": "12.03.05",
+      "category": "paid",
+      "name": "Лазерная техника и лазерные технологии",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-e5a5967929fe22a4c19916a5",
+      "official_code": "14.03.01",
+      "category": "general_budget",
+      "name": "Ядерная энергетика и теплофизика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-3d6ab6662b9b2ed1dff382de",
+      "official_code": "14.03.01",
+      "category": "paid",
+      "name": "Ядерная энергетика и теплофизика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-f6bf54ee7a200df4aedfbae7",
+      "official_code": "14.03.02",
+      "category": "general_budget",
+      "name": "Ядерные физика и технологии",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-e92150a0ad14e6c15b0274fc",
+      "official_code": "14.03.02",
+      "category": "paid",
+      "name": "Ядерные физика и технологии",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-8c72038224433ba9d0ef2ad0",
+      "official_code": "14.05.01",
+      "category": "general_budget",
+      "name": "Ядерные реакторы и материалы",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-86ee4be4168e5ba739e3a9ac",
+      "official_code": "14.05.01",
+      "category": "paid",
+      "name": "Ядерные реакторы и материалы",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-1ec949f827e356e829a6323f",
+      "official_code": "14.05.02",
+      "category": "general_budget",
+      "name": "Атомные станции: проектирование, эксплуатация и инжиниринг",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-0fcf421b4b7ac75e501f08d9",
+      "official_code": "14.05.02",
+      "category": "paid",
+      "name": "Атомные станции: проектирование, эксплуатация и инжиниринг",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-63ccac8f4dacd35023a939f5",
+      "official_code": "14.05.04",
+      "category": "general_budget",
+      "name": "Электроника и автоматика физических установок",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-6c13e2d00f77d7a70c9c790d",
+      "official_code": "14.05.04",
+      "category": "paid",
+      "name": "Электроника и автоматика физических установок",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-6611bb29a60ecdb7d6b3f7eb",
+      "official_code": "15.03.06",
+      "category": "general_budget",
+      "name": "Мехатроника и робототехника",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-155300d094aa692bd877e2ed",
+      "official_code": "15.03.06",
+      "category": "paid",
+      "name": "Мехатроника и робототехника",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-6317edf8b798453451d55f35",
+      "official_code": "16.03.01",
+      "category": "general_budget",
+      "name": "Техническая физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-b9dc56a0268febba0c58b6f8",
+      "official_code": "16.03.01",
+      "category": "paid",
+      "name": "Техническая физика",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-03ed968fef24cbe7fa13ef07",
+      "official_code": "16.03.02",
+      "category": "general_budget",
+      "name": "Высокотехнологические плазменные и энергетические установки",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-5d9608109b0e2ff5d4f025f8",
+      "official_code": "16.03.02",
+      "category": "paid",
+      "name": "Высокотехнологические плазменные и энергетические установки",
+      "slots": [
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-1574789efb263c39147431eb",
+      "official_code": "18.03.01",
+      "category": "general_budget",
+      "name": "Химическая технология",
+      "slots": [
+        [
+          {
+            "key": "chemistry",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-c696ad874e2b16bd8bc17242",
+      "official_code": "18.03.01",
+      "category": "paid",
+      "name": "Химическая технология",
+      "slots": [
+        [
+          {
+            "key": "chemistry",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-09a34c3a9450765fb326b14f",
+      "official_code": "22.03.01",
+      "category": "general_budget",
+      "name": "Материаловедение и технология материалов",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-8017e3d21fdd197f3535cdaf",
+      "official_code": "22.03.01",
+      "category": "paid",
+      "name": "Материаловедение и технология материалов",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "chemistry",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-43e8cd0aa0da1cc61b89284d",
+      "official_code": "27.03.03",
+      "category": "general_budget",
+      "name": "Системный анализ и управление",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-d8124da15b0b7bc1c9f357e6",
+      "official_code": "27.03.03",
+      "category": "paid",
+      "name": "Системный анализ и управление",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "physics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-c3e084a81520c8f897f03643",
+      "official_code": "38.03.01",
+      "category": "general_budget",
+      "name": "Экономика",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-579a306193a005237a361a8c",
+      "official_code": "38.03.02",
+      "category": "general_budget",
+      "name": "Менеджмент",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-997152e901690fb78ea8ca37",
+      "official_code": "38.03.05",
+      "category": "general_budget",
+      "name": "Бизнес-информатика",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-eadae44fb9c53967fa1de8ea",
+      "official_code": "38.05.01",
+      "category": "general_budget",
+      "name": "Экономическая безопасность",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-de4c93809fbbd9714e86ee04",
+      "official_code": "38.05.01",
+      "category": "paid",
+      "name": "Экономическая безопасность",
+      "slots": [
+        [
+          {
+            "key": "mathematics",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "social_studies",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "informatics",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "history",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-60f285aa3a983292d2147bfc",
+      "official_code": "41.03.05",
+      "category": "general_budget",
+      "name": "Международные отношения",
+      "slots": [
+        [
+          {
+            "key": "history",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "foreign_language",
+            "minimum": 75,
+            "maximum": 100
+          },
+          {
+            "key": "social_studies",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 75,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    },
+    {
+      "id": "rule-a93d5e5a2a8f0837fbdba6d9",
+      "official_code": "41.03.05",
+      "category": "paid",
+      "name": "Международные отношения",
+      "slots": [
+        [
+          {
+            "key": "history",
+            "minimum": 65,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "foreign_language",
+            "minimum": 70,
+            "maximum": 100
+          },
+          {
+            "key": "social_studies",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ],
+        [
+          {
+            "key": "russian",
+            "minimum": 70,
+            "maximum": 100
+          }
+        ]
+      ],
+      "achievementCap": 10
+    }
+  ],
+  "sources": [
+    "https://admission.mephi.ru/admission/baccalaureate-and-specialty/exams/list",
+    "https://admission.mephi.ru/admission/baccalaureate-and-specialty/personal-achievements",
+    "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/11._ekzameny_2026_moskva_pravka.pdf",
+    "https://admission.mephi.ru/admission/baccalaureate-and-specialty/rules"
+  ]
+}

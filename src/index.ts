@@ -7,6 +7,7 @@ import release from '../config/bot.release.json' with { type: 'json' };
 import coverage from '../data/normalized/mephi/metrics.json' with { type: 'json' };
 import { catalogSummary, searchPrograms } from './catalog.ts';
 import { historicalSummary } from './history.ts';
+import { renderRules, renderAcademicScore, renderAchievementRules } from './academic.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -156,12 +157,18 @@ export default {
         case '/history':
           text = historicalSummary(message.text.trim().split(/\s+/).slice(1).join(' '));
           break;
+        case '/rules':
+          text = renderRules(message.text.trim().split(/\s+/).slice(1).join(' '));
+          break;
+        case '/score':
+          text = renderAcademicScore(message.text.trim().split(/\s+/).slice(1).join(' '));
+          break;
         case '/forecast': case '/compare':
           forecastAvailability();
           text = 'Прогноз пока недоступен: нет проверенных данных и модели. Проценты поступления не рассчитываются.';
           break;
         case '/achievements':
-          text = 'Ввод достижений пока недоступен. Учёт БВИ и дополнительных баллов потребует проверенных правил каждой программы.';
+          text = renderAchievementRules();
           break;
         default: text = profileStorageEnabled ? prototypeIntro : publicIntro;
       }
