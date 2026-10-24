@@ -17,6 +17,9 @@
     "basic_higher"
   ],
   "campus_policy": "enumerate_all_campuses_then_review_scope",
+  "catalog_policy": "all_bachelor_and_specialist_programs_of_target_institutions",
+  "forecast_depth_priority": ["Mathematics", "Computer Science", "AI", "ML"],
+  "candidate_code_prefixes_are_catalog_filter": false,
   "history_years_to_check": [
     2023,
     2024,

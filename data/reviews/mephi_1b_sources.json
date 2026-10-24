@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "source_id": "robots",
+      "url": "https://admission.mephi.ru/robots.txt",
+      "final_url": "https://admission.mephi.ru/robots.txt",
+      "retrieved_at": "2026-10-24T20:15:19+00:00",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "sha256": "278e83bcf567badfebcdea4d5d20ca9898e4449fe4eb2e3b5a08227b4ca9b762",
+      "path": "data/raw/mephi_1b/robots-278e83bcf567badf.txt",
+      "bytes": 2189,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-1b-entrants",
+      "url": "https://admission.mephi.ru/lists/entrants",
+      "final_url": "https://admission.mephi.ru/lists/entrants",
+      "retrieved_at": "2026-10-24T20:15:21+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "8c8109491eec2a2dcbc19b63037ba157a4759249cb461d3ec6e0a1dd0867d9be",
+      "path": "data/raw/mephi_1b/mephi-1b-entrants-8c8109491eec2a2d.html",
+      "bytes": 130872,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-1b-orders",
+      "url": "https://admission.mephi.ru/lists/orders",
+      "final_url": "https://admission.mephi.ru/lists/orders",
+      "retrieved_at": "2026-10-24T20:15:22+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "216f078c0f67b5b305ded0ee417f009c302334e72cf53a3b3928003be9bc7e81",
+      "path": "data/raw/mephi_1b/mephi-1b-orders-216f078c0f67b5b3.html",
+      "bytes": 125997,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    },
+    {
+      "source_id": "mephi-1b-kcp-2025",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2025/kcp_niyau_mifi_2025_itog_itog_1.pdf",
+      "final_url": "https://admission.mephi.ru/content/public/uploads/documents/2025/kcp_niyau_mifi_2025_itog_itog_1.pdf",
+      "retrieved_at": "2026-10-24T20:17:59+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "70148da35d07ff3760c5aa2ce986d42151334432a995e3a032bcb6ae0d52f835",
+      "path": "data/raw/mephi_1b/mephi-1b-kcp-2025-70148da35d07ff37.pdf",
+      "bytes": 1221929,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  ],
+  "attempts": [
+    {
+      "source_id": "mephi-1b-entrants",
+      "url": "https://admission.mephi.ru/lists/entrants",
+      "attempted_at": "2026-10-24T20:15:17+00:00",
+      "status": "success",
+      "sha256": "8c8109491eec2a2dcbc19b63037ba157a4759249cb461d3ec6e0a1dd0867d9be"
+    },
+    {
+      "source_id": "mephi-1b-orders",
+      "url": "https://admission.mephi.ru/lists/orders",
+      "attempted_at": "2026-10-24T20:15:21+00:00",
+      "status": "success",
+      "sha256": "216f078c0f67b5b305ded0ee417f009c302334e72cf53a3b3928003be9bc7e81"
+    },
+    {
+      "source_id": "mephi-1b-kcp-2025",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2025/kcp_niyau_mifi_2025_itog_itog_1.pdf",
+      "attempted_at": "2026-10-24T20:17:56+00:00",
+      "status": "success",
+      "sha256": "70148da35d07ff3760c5aa2ce986d42151334432a995e3a032bcb6ae0d52f835"
+    }
+  ]
+}

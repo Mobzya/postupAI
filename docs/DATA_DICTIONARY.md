@@ -1,5 +1,14 @@
 # Словарь данных этапа 1A
 
+Дополнение 1B: миграция 0005 добавляет два append-only журнала.
+`competition_group_assessments`: `group_id`, `status` (confirmed/inferred/unresolved),
+`basis`, `evidence_json`, `source_snapshot_id`, `supersedes_id`, `assessment_version`,
+`payload_json`. `historical_group_assessments`: `observation_id`, nullable `group_id`,
+`status`, `reason`, `evidence_json`, `assessment_version`, `payload_json`.
+Область мест сама по себе допускает только unresolved. Confirmed-оценка требует
+официальной confirmed-группы; историческое соответствие проверяется по кампании.
+Существующие 39 candidate-групп не переименованы в inferred и не добавлены повторно.
+
 ## Сущности и идентичность
 
 | Сущность | Значение | Реализация |

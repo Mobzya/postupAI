@@ -1,0 +1,18 @@
+{
+  "baseline_commit": "fa937310463c90bc7ffd679dea2dc85872e7ca58",
+  "baseline_tests": 52,
+  "node_tests": 18,
+  "python_tests": 44,
+  "total_tests": 62,
+  "new_tests": 10,
+  "typecheck": true,
+  "data_validation": true,
+  "research_replay": true,
+  "metadata_excerpts_replay": true,
+  "worker_dry_run": true,
+  "worker_upload_kib": 21.59,
+  "worker_gzip_kib": 4.71,
+  "local_smoke_sequential": true,
+  "initial_parallel_smoke_http_status": 503,
+  "public_deployment": false
+}

@@ -2,11 +2,11 @@
   "runtime": "actual Wrangler/workerd local D1",
   "persist_to": ".wrangler/mephi-demo",
   "before": {
-    "profiles": 82,
-    "profile_versions": 82,
-    "campaign_fields": 31,
-    "history_rows": 286,
-    "seat_allocations": 39,
+    "profiles": 0,
+    "profile_versions": 0,
+    "campaign_fields": 0,
+    "history_rows": 0,
+    "seat_allocations": 0,
     "models": 0
   },
   "after_first": {
