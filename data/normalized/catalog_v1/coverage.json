@@ -1,0 +1,238 @@
+[
+  {
+    "institution_id": "mipt",
+    "source_observations": 0,
+    "display_entries": 0,
+    "program_profiles": 0,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 0,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 0,
+    "rows_with_code": 0,
+    "rows_with_campaign_year": 0,
+    "visible_source_observations": 0,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "unavailable_or_unparsed",
+    "source_failures": [
+      {
+        "institution_id": "mipt",
+        "source_id": "mipt-catalog-root",
+        "status": "unavailable",
+        "url": "https://pk.mipt.ru/bachelor/",
+        "reason": "robots_unavailable_no_fetch"
+      }
+    ],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "hse",
+    "source_observations": 178,
+    "display_entries": 121,
+    "program_profiles": 121,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 73,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 48,
+    "rows_with_code": 73,
+    "rows_with_campaign_year": 73,
+    "visible_source_observations": 178,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "itmo",
+    "source_observations": 0,
+    "display_entries": 0,
+    "program_profiles": 0,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 0,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 0,
+    "rows_with_code": 0,
+    "rows_with_campaign_year": 0,
+    "visible_source_observations": 0,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "unavailable_or_unparsed",
+    "source_failures": [
+      {
+        "institution_id": "itmo",
+        "source_id": "itmo-catalog-programs",
+        "status": "unavailable",
+        "url": "https://abit.itmo.ru/programs/bachelor",
+        "reason": "cross_origin_redirect_requires_review"
+      }
+    ],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "mephi",
+    "source_observations": 82,
+    "display_entries": 82,
+    "program_profiles": 82,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 82,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 0,
+    "rows_with_code": 82,
+    "rows_with_campaign_year": 0,
+    "visible_source_observations": 82,
+    "source_row_denominator": 82,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "spbu",
+    "source_observations": 119,
+    "display_entries": 119,
+    "program_profiles": 119,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 119,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 0,
+    "rows_with_code": 119,
+    "rows_with_campaign_year": 119,
+    "visible_source_observations": 119,
+    "source_row_denominator": 119,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "msu",
+    "source_observations": 30,
+    "display_entries": 30,
+    "program_profiles": 30,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 0,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 30,
+    "rows_with_code": 0,
+    "rows_with_campaign_year": 30,
+    "visible_source_observations": 30,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "nsu",
+    "source_observations": 31,
+    "display_entries": 31,
+    "program_profiles": 31,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 0,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 31,
+    "rows_with_code": 0,
+    "rows_with_campaign_year": 0,
+    "visible_source_observations": 31,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "bmstu",
+    "source_observations": 9,
+    "display_entries": 9,
+    "program_profiles": 9,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 7,
+    "basic_higher_profiles": 2,
+    "degree_unestablished": 0,
+    "rows_with_code": 9,
+    "rows_with_campaign_year": 0,
+    "visible_source_observations": 9,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "innopolis",
+    "source_observations": 5,
+    "display_entries": 5,
+    "program_profiles": 5,
+    "marketing_tracks": 0,
+    "known_bachelor_specialist": 5,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 0,
+    "rows_with_code": 0,
+    "rows_with_campaign_year": 0,
+    "visible_source_observations": 5,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  },
+  {
+    "institution_id": "cu",
+    "source_observations": 4,
+    "display_entries": 4,
+    "program_profiles": 0,
+    "marketing_tracks": 4,
+    "known_bachelor_specialist": 0,
+    "basic_higher_profiles": 0,
+    "degree_unestablished": 0,
+    "rows_with_code": 0,
+    "rows_with_campaign_year": 0,
+    "visible_source_observations": 4,
+    "source_row_denominator": null,
+    "target_program_denominator": null,
+    "target_completeness": null,
+    "status": "partial",
+    "source_failures": [],
+    "missing": [
+      "Target program denominator not established",
+      "Exact exam rules and campaigns require further document review"
+    ]
+  }
+]

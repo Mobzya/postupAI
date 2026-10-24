@@ -58,6 +58,17 @@ def render(registry: dict, catalog: dict) -> str:
             'Подробности и актуальные источники: [MEPHI_AUDIT](docs/MEPHI_AUDIT.md), [матрица вузов](docs/UNIVERSITY_SOURCE_MATRIX.md).',
             'Верхняя таблица остальных вузов сохраняет исходную разведку этапа 0; свежие HTTP-статусы приведены в новой матрице.',
             'data/normalized/catalog.json — старый пустой контракт. Реальные сущности программы/направления/места/наблюдения разделены в data/normalized/mephi/.',''])
+    catalog_path=ROOT/'data/normalized/catalog_v1/dataset.json'
+    if catalog_path.exists():
+        observed=load(catalog_path)
+        profiles=sum(r['kind']=='program_profile' for r in observed['display_index'])
+        tracks=sum(r['kind']=='marketing_track' for r in observed['display_index'])
+        covered=sum(r['program_profiles']>0 for r in observed['coverage'])
+        lines.extend(['## Каталожные наблюдения 1C','',
+            f'Дополнительно извлечено {profiles} профильных записей из {covered}/10 вузов и {tracks} маркетинговых трека отдельно.',
+            'Верхняя таблица отражает прежний канонический контракт; наблюдения 1C ещё не повышены до проверенных версий программ.',
+            'Полнота целевого каталога неизвестна; неизвестные годы, кампусы и условия не заполнены догадками.',
+            'Подробное покрытие: data/normalized/catalog_v1/coverage.json и docs/STAGE_1C_REPORT.md.',''])
     return "\n".join(lines)
 
 

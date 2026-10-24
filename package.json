@@ -26,7 +26,9 @@
     "research:build": "python3 -m pipeline.competition_research build",
     "research:validate": "python3 -m pipeline.competition_research validate",
     "bot:check": "python3 scripts/local_bot.py --check",
-    "bot:local": "python3 scripts/local_bot.py"
+    "bot:local": "python3 scripts/local_bot.py",
+    "catalog:build": "python3 -m pipeline.catalog_pipeline build",
+    "catalog:validate": "python3 -m pipeline.catalog_pipeline validate"
   },
   "devDependencies": {
     "typescript": "7.0.2",

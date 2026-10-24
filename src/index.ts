@@ -5,6 +5,7 @@ import { forecastAvailability } from './domain.ts';
 import registry from '../data/source_registry.json' with { type: 'json' };
 import release from '../config/bot.release.json' with { type: 'json' };
 import coverage from '../data/normalized/mephi/metrics.json' with { type: 'json' };
+import { catalogSummary, searchPrograms } from './catalog.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -54,6 +55,8 @@ const prototypeIntro = 'Ballnik: подготовка сервиса оценк�
 function stageStatus(): string {
   return `BALLNIK / postupAI — этап ${release.stage}, версия ${release.version}.\n` +
     (release.review_status === 'accepted' ? 'Этап принят.\n' : 'Результат этапа ожидает внешней проверки.\n') +
+    (release.review_status === 'partial_source_coverage' ? 'Каталог частичный; полный размер и условия приёма ещё проверяются.\n' : '') +
+    catalogSummary().split('\n')[0] + '\n' +
     `МИФИ: ${coverage.program_profiles} профиля, ${coverage.historical_rows} исторических строк, ` +
     `${coverage.seat_allocations} распределений мест.\n` +
     `Подтверждённых конкурсных групп: ${coverage.competition_groups_confirmed}.\n` +
@@ -140,9 +143,11 @@ export default {
           text = 'Официальные источники вузов. Данные МИФИ извлечены; для остальных вузов пока выполнена разведка.\n' +
             registry.sources.map(s => `${s.institution_name}: ${s.url}`).join('\n');
           break;
-        case '/programs': case '/search':
-          text = `В источниках МИФИ извлечено ${coverage.program_profiles} профиля. ` +
-            'Полнота каталога кампании пока не подтверждена. Поиск по десяти вузам появится после подготовки каталога. /status — состояние данных.';
+        case '/programs': case '/universities':
+          text = catalogSummary();
+          break;
+        case '/search':
+          text = searchPrograms(message.text.trim().split(/\s+/).slice(1).join(' '));
           break;
         case '/status':
           text = stageStatus();

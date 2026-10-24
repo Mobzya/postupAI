@@ -1,8 +1,8 @@
 {
-  "version": "1b-preview.1",
-  "stage": "1B",
-  "review_status": "pending_external_review",
-  "review_url": "https://github.com/Mobzya/postupAI/pull/1",
+  "version": "1c-preview.1",
+  "stage": "1C",
+  "review_status": "partial_source_coverage",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/1c-catalog/docs/STAGE_1C_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }
