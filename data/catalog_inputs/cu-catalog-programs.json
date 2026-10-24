@@ -1,0 +1,19 @@
+{
+  "source": {
+    "source_id": "cu-catalog-programs",
+    "url": "https://cu.ru/bachelor",
+    "final_url": "https://cu.ru/bachelor",
+    "retrieved_at": "2026-10-24T23:15:34+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "sha256": "f880e532a4d9aeaf153a1b278396766981975957b81eb098582270952940a7a1",
+    "path": "data/raw/catalog/cu/cu-catalog-programs-f880e532a4d9aeaf.html",
+    "bytes": 505672,
+    "retrieval_method": "https",
+    "adapter_version": "fetch-v1",
+    "institution_id": "cu",
+    "representation_sha256": "6434fb2fb8da9673eede07448be24e42d9398c4c84eaf83c4b3e03580f965816"
+  },
+  "representation": "structural-html-excerpt",
+  "content": "<html><body><h3 _ngcontent-ng-c3844448938 cusiteheading=\"md\" class=\"card-stretch__title font-h-m\">Искусственный\nинтеллект</h3><h3 _ngcontent-ng-c3844448938 cusiteheading=\"md\" class=\"card-stretch__title font-h-m\">Бизнес и аналитика</h3><h3 _ngcontent-ng-c3844448938 cusiteheading=\"md\" class=\"card-stretch__title font-h-m\">Разработка</h3><h3 _ngcontent-ng-c3844448938 cusiteheading=\"md\" class=\"card-stretch__title font-h-m\">Дизайн</h3></body></html>"
+}

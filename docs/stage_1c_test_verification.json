@@ -1,0 +1,10 @@
+{
+  "node_tests": 24,
+  "python_tests": 59,
+  "total_tests": 83,
+  "typecheck": true,
+  "catalog_replay": true,
+  "worker_dry_run": true,
+  "local_smoke": true,
+  "public_deployment": false
+}

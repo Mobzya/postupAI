@@ -1,0 +1,250 @@
+[
+  {
+    "institution_id": "mipt",
+    "source_id": "mipt-catalog-root",
+    "status": "unavailable",
+    "url": "https://pk.mipt.ru/bachelor/",
+    "reason": "robots_unavailable_no_fetch"
+  },
+  {
+    "institution_id": "hse",
+    "source_id": "hse-catalog-programs",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "hse-catalog-programs",
+      "url": "https://ba.hse.ru/",
+      "final_url": "https://ba.hse.ru/",
+      "retrieved_at": "2026-10-24T23:15:26+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "31a4cd81f141710362b7ce7f5479464037bdcd2e6e6b8f8f7ead0271b106056b",
+      "path": "data/raw/catalog/hse/hse-catalog-programs-31a4cd81f1417103.html",
+      "bytes": 219050,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "hse",
+    "source_id": "hse-catalog-seats",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "hse-catalog-seats",
+      "url": "https://ba.hse.ru/kolmest",
+      "final_url": "https://ba.hse.ru/kolmest",
+      "retrieved_at": "2026-10-24T23:15:28+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "97ecfbfb47484744459bcd6b917195b5e7030df6a21ba98e2dd40531175ec510",
+      "path": "data/raw/catalog/hse/hse-catalog-seats-97ecfbfb47484744.html",
+      "bytes": 228123,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "itmo",
+    "source_id": "itmo-catalog-programs",
+    "status": "unavailable",
+    "url": "https://abit.itmo.ru/programs/bachelor",
+    "reason": "cross_origin_redirect_requires_review"
+  },
+  {
+    "institution_id": "mephi",
+    "source_id": "mephi-catalog-programs",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "mephi-catalog-programs",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+      "final_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs",
+      "retrieved_at": "2026-10-24T23:15:26+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "976ea45bd695ae1489541226317ce3d23602fbac656ced15ed620ec13cf7ae84",
+      "path": "data/raw/catalog/mephi/mephi-catalog-programs-976ea45bd695ae14.html",
+      "bytes": 172623,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "spbu",
+    "source_id": "spbu-catalog-programs",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "spbu-catalog-programs",
+      "url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "final_url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "retrieved_at": "2026-10-24T23:15:27+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "de5bfb659cc5a2dd3914bae6ef035bedf18cd7c93b7971534d504fed526e30b1",
+      "path": "data/raw/catalog/spbu/spbu-catalog-programs-de5bfb659cc5a2dd.html",
+      "bytes": 352011,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "msu",
+    "source_id": "msu-catalog-root",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "msu-catalog-root",
+      "url": "https://cpk.msu.ru/",
+      "final_url": "https://cpk.msu.ru/",
+      "retrieved_at": "2026-10-24T23:15:31+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "7297aa90efe9d4c1f35ffdc805584d92da238dadf5a31b6d350af5de1d5784e4",
+      "path": "data/raw/catalog/msu/msu-catalog-root-7297aa90efe9d4c1.html",
+      "bytes": 48582,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "msu",
+    "source_id": "msu-catalog-seats",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "msu-catalog-seats",
+      "url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf",
+      "final_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf",
+      "retrieved_at": "2026-10-24T23:15:32+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "cef7631a567d86863ef442e8c9ee5a27a086c1808fd5545d78d36abd62901090",
+      "path": "data/raw/catalog/msu/msu-catalog-seats-cef7631a567d8686.pdf",
+      "bytes": 609464,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "nsu",
+    "source_id": "nsu-catalog-programs",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "nsu-catalog-programs",
+      "url": "https://education.nsu.ru/",
+      "final_url": "https://education.nsu.ru/",
+      "retrieved_at": "2026-10-24T23:15:29+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "a4526d2ee019b624e06ccddbe57a4ee81ed75d82cf5983fa1291cd983f869e02",
+      "path": "data/raw/catalog/nsu/nsu-catalog-programs-a4526d2ee019b624.html",
+      "bytes": 38798,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "bmstu",
+    "source_id": "bmstu-catalog-root",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "bmstu-catalog-root",
+      "url": "https://priem.bmstu.ru/",
+      "final_url": "https://priem.bmstu.ru/",
+      "retrieved_at": "2026-10-24T23:15:33+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "70baa43d760e343f5e126e6921b5d60ce31dc0fe9de47f8b4be0e5d1dbc31f9b",
+      "path": "data/raw/catalog/bmstu/bmstu-catalog-root-70baa43d760e343f.html",
+      "bytes": 176608,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "bmstu",
+    "source_id": "bmstu-catalog-mytishchi",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "bmstu-catalog-mytishchi",
+      "url": "https://mf.bmstu.ru/direction/",
+      "final_url": "https://mf.bmstu.ru/direction/",
+      "retrieved_at": "2026-10-24T23:15:36+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "453333c8d3ae37110863bdecc804d721b147a6fcbd0f21e76a872bdacebe2a3d",
+      "path": "data/raw/catalog/bmstu/bmstu-catalog-mytishchi-453333c8d3ae3711.html",
+      "bytes": 51490,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "innopolis",
+    "source_id": "innopolis-catalog-programs",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "innopolis-catalog-programs",
+      "url": "https://apply.innopolis.university/bachelors/",
+      "final_url": "https://apply.innopolis.university/bachelors/",
+      "retrieved_at": "2026-10-24T23:15:31+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "80cd04cc1ea3271a8182196eb133ef4b756eaddbff77fa21d584bb71641e81a8",
+      "path": "data/raw/catalog/innopolis/innopolis-catalog-programs-80cd04cc1ea3271a.html",
+      "bytes": 163056,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "cu",
+    "source_id": "cu-catalog-programs",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "cu-catalog-programs",
+      "url": "https://cu.ru/bachelor",
+      "final_url": "https://cu.ru/bachelor",
+      "retrieved_at": "2026-10-24T23:15:34+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f880e532a4d9aeaf153a1b278396766981975957b81eb098582270952940a7a1",
+      "path": "data/raw/catalog/cu/cu-catalog-programs-f880e532a4d9aeaf.html",
+      "bytes": 505672,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "cu",
+    "source_id": "cu-catalog-design",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "cu-catalog-design",
+      "url": "https://cu.ru/bachelor/design",
+      "final_url": "https://cu.ru/bachelor/design",
+      "retrieved_at": "2026-10-24T23:15:36+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "4b7f405e7db8fd67272448523694fdde6a38f2904a8045e7dad84950b273f9a8",
+      "path": "data/raw/catalog/cu/cu-catalog-design-4b7f405e7db8fd67.html",
+      "bytes": 1776400,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "institution_id": "spbu",
+    "source_id": "spbu-catalog-programs-pdf",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "spbu-catalog-programs-pdf",
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf",
+      "final_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf",
+      "retrieved_at": "2026-10-24T23:17:05+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "827d650f882ce57bd777409db84910a948b1e72d3aef741cedf87d54ff09f96a",
+      "path": "data/raw/catalog/spbu/spbu-catalog-programs-pdf-827d650f882ce57b.pdf",
+      "bytes": 617257,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  }
+]

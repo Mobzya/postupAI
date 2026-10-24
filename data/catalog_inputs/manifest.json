@@ -1,0 +1,11 @@
+[
+  "data/catalog_inputs/hse-catalog-programs.json",
+  "data/catalog_inputs/hse-catalog-seats.json",
+  "data/catalog_inputs/mephi-catalog-programs.json",
+  "data/catalog_inputs/msu-catalog-seats.json",
+  "data/catalog_inputs/nsu-catalog-programs.json",
+  "data/catalog_inputs/bmstu-catalog-mytishchi.json",
+  "data/catalog_inputs/innopolis-catalog-programs.json",
+  "data/catalog_inputs/cu-catalog-programs.json",
+  "data/catalog_inputs/spbu-catalog-programs-pdf.json"
+]
