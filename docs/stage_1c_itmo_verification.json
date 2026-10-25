@@ -1,0 +1,37 @@
+{
+  "baseline_commit": "fb1a7a57e37fa29c7c0aef8d8597ebb9b91d8d15",
+  "baseline_observations": 547,
+  "preserved_original_payloads": 547,
+  "baseline_payload_sha256": "7a4db02eed1e12500629a39c9af508a881fadc63ab9322965a859eff843eec61",
+  "added_observations": 37,
+  "observations": 584,
+  "profile_records": 523,
+  "universities_with_profiles": 10,
+  "quality": "passed",
+  "node_tests": 51,
+  "python_tests": 98,
+  "d1": {
+    "first": {
+      "original_history": 286,
+      "catalog_observations": 584,
+      "historical_source_observations": 956,
+      "academic_rule_versions": 59,
+      "profiles": 0
+    },
+    "second": {
+      "original_history": 286,
+      "catalog_observations": 584,
+      "historical_source_observations": 956,
+      "academic_rule_versions": 59,
+      "profiles": 0
+    },
+    "foreign_key_violations": 0,
+    "public_deployment": false
+  },
+  "backup_restore": "passed",
+  "contains_user_data": false,
+  "source_rows_2026": 37,
+  "distinct_profile_labels": 27,
+  "full_target_catalog_complete": false,
+  "admission_probability_enabled": false
+}

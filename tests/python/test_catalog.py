@@ -4,7 +4,7 @@ from pipeline.catalog_adapters import parse_html,parse_msu,parse_spbu,parse_cu_p
 from pipeline.catalog_pipeline import build,validate,OUT
 from pipeline.import_catalog import import_dataset
 from pipeline.validate import ROOT
-from pipeline.disclosure import mipt_excerpt
+from pipeline.disclosure import mipt_excerpt,itmo_excerpt
 
 
 def source(ident,name='programs'):
@@ -65,6 +65,20 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(sum(r['degree']=='specialist' for r in rows),1)
         self.assertEqual(sum(r['degree']=='basic_higher' for r in rows),35)
         self.assertTrue(all(r['campaign_year'] is None for r in rows))
+
+    def test_itmo_uses_explicit_intake_year_and_preserves_multi_field_profiles(self):
+        rows=[r for r in self.data['records'] if r['institution_id']=='itmo']
+        self.assertEqual(len(rows),37);self.assertEqual({r['campaign_year'] for r in rows},{2026})
+        self.assertEqual(len({r['name'] for r in rows}),27)
+        self.assertTrue(all(r['degree']=='bachelor' and r['campus'] is None for r in rows))
+        self.assertTrue(any(len({s['official_code'] for s in rows if s['name']==r['name']})>1 for r in rows))
+
+    def test_itmo_year_is_not_taken_from_other_tables_or_assumed_when_missing(self):
+        header='<tr>'+''.join('<th>'+v+'</th>' for v in ['Код, шифр','Год приема','Направление','Профиль','Уровень образования','Формы обучения'])+'</tr>'
+        def row(year):return '<tr><td itemprop="eduCode">09.03.04</td><td>'+year+'</td><td itemprop="eduName">Synthetic</td><td itemprop="eduProf">Synthetic profile</td><td itemprop="eduLevel">Высшее образование - бакалавриат</td><td itemprop="eduForm">Очная</td></tr>'
+        rows=parse_html(source('itmo'),itmo_excerpt(('<table>'+header+row('2025')+row('2026')+'</table>').encode()))
+        self.assertEqual(len(rows),1);self.assertEqual(rows[0]['campaign_year'],2026)
+        with self.assertRaises(ValueError):itmo_excerpt(('<table>'+header+row('')+'</table>').encode())
 
     def test_marketing_tracks_remain_separate_from_program_profiles(self):
         rows=parse_html(source('cu'),'<h3>Искусственный интеллект</h3><h3>Дизайн</h3>')

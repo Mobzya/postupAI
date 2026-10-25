@@ -5,9 +5,14 @@ import { catalogSummary, searchPrograms,programReferences,renderProgram,compareP
 test('catalog summary distinguishes unavailable programs and marketing tracks', () => {
   const text = catalogSummary();
   assert.ok(text.includes('МФТИ'));
-  assert.ok(text.includes('каталог пока не извлечён'));
+  assert.ok(text.includes('профильных записей'));
   assert.ok(text.includes('Полнота'));
   assert.ok(text.length < 4096);
+});
+
+test('ITMO explicit 2026 disclosure is searchable without converting it into a 2027 offering',()=>{
+  const s=searchPrograms('итмо 2026 AI360');assert.ok(s.includes('AI360'));assert.ok(s.includes('https://itmo.ru/sveden/education'));
+  assert.ok(!s.includes('2027'));assert.ok(searchPrograms('итмо 2027').includes('не означает отсутствия'));
 });
 
 test('catalog references are unique; pagination retrieves different cards without a profile',()=>{

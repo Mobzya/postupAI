@@ -55,3 +55,7 @@ checkout v7.0.1, setup-node v7.1.0, setup-python v7.1.0.
 verify_rules_import записывают машинные результаты в ignored artifacts/.
 Исторические docs/stage_*_local_verification.json сохраняют состояние своих этапов;
 новый импорт не переписывает их под другой размер каталога.
+
+Manifest public_backup дополнен working_tree_dirty и SHA каждого Python-модуля
+пайплайна. Бэкап до коммита больше не выдаёт один parent HEAD за точное состояние
+исполненного кода; хеши фиксируют фактические файлы. Старые manifest v1 восстанавливаются.

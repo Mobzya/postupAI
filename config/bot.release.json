@@ -1,8 +1,8 @@
 {
-  "version": "1c-followup.1",
+  "version": "1c-followup.2",
   "stage": "1C+",
   "review_status": "partial_source_coverage",
-  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/1c-disclosure-followup/docs/STAGE_1C_FOLLOWUP_REPORT.md",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/1c-itmo-disclosure/docs/STAGE_1C_ITMO_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }

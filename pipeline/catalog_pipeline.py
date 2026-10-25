@@ -15,13 +15,13 @@ from .catalog_adapters import VERSION,parse_html,parse_spbu,parse_msu,parse_cu_p
 from .mephi import parse_catalog
 from .sources import SnapshotStore,digest,write_json
 from .validate import ROOT,require
-from .disclosure import mipt_excerpt,cu_program_excerpt
+from .disclosure import mipt_excerpt,cu_program_excerpt,itmo_excerpt
 
 OUT=ROOT/'data/normalized/catalog_v1'
 INPUTS=ROOT/'data/catalog_inputs'
 SUPPORTED={'hse-catalog-programs','hse-catalog-seats','innopolis-catalog-programs','nsu-catalog-programs',
            'bmstu-catalog-mytishchi','cu-catalog-programs','mephi-catalog-programs',
-           'msu-catalog-seats','spbu-catalog-programs-pdf','mipt-disclosure-education','cu-opop-mipt-network','cu-opop-hse-network'}
+           'msu-catalog-seats','spbu-catalog-programs-pdf','mipt-disclosure-education','cu-opop-mipt-network','cu-opop-hse-network','itmo-disclosure-education'}
 
 
 def materialize():
@@ -30,7 +30,9 @@ def materialize():
         if row['status']!='fetched' or row['source_id'] not in SUPPORTED:continue
         source=copy.deepcopy(row['snapshot']);source['institution_id']=row['institution_id']
         raw=SnapshotStore.read(source);ident=row['institution_id'];sid=row['source_id']
-        if sid.startswith('cu-opop-'):
+        if sid=='itmo-disclosure-education':
+            content=itmo_excerpt(raw);representation='semantic-intake-table-latest-published-year'
+        elif sid.startswith('cu-opop-'):
             extracted=subprocess.run(['pdftotext','-f','1','-l','3','-layout',str(ROOT/source['path']),'-'],capture_output=True,text=True,check=True).stdout
             content=cu_program_excerpt(extracted);representation='pdftotext-title-fields-and-network-role'
         elif sid=='mipt-disclosure-education':
@@ -93,9 +95,9 @@ def build(write=True):
                 row['legacy_program_id']=r['id'];rows.append(row)
         else:
             rows=parse_html(s,content)
-            if s['institution_id']=='mipt':
-                denominators['mipt']=len(html.fromstring(content).xpath('//table/tr[@data-source-row]'))
-                require(len(rows)==denominators['mipt'],'mipt_disclosure_rows_lost_or_merged')
+            if s['institution_id'] in ('mipt','itmo'):
+                ident=s['institution_id'];denominators[ident]=len(html.fromstring(content).xpath('//table/tr[@data-source-row]'))
+                require(len(rows)==denominators[ident],ident+'_disclosure_rows_lost_or_merged')
         records.extend(rows)
     # Keep each source fact, but provide a display index where explicit URLs establish identity.
     display={}

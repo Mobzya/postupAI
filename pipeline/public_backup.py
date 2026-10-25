@@ -34,6 +34,8 @@ def create_backup(directory):
     manifest=dict(version='public-only-backup-v1',created_at=datetime.now(timezone.utc).isoformat(timespec='seconds'),
         file='public-data.sqlite',sha256=file_sha(path),counts=counts,contains_user_data=False,
         code_revision=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
+        working_tree_dirty=bool(subprocess.check_output(['git','status','--porcelain'],cwd=ROOT,text=True).strip()),
+        pipeline_hashes={str(p.relative_to(ROOT)):file_sha(p) for p in sorted((ROOT/'pipeline').glob('*.py'))},
         migration_hashes={p.name:file_sha(p) for p in migrations},
         dataset_hashes={name:file_sha(ROOT/'data/normalized'/name/'dataset.json') for name in ['mephi','catalog_v1','history_v1','rules_v1']},
         limitation='Public normalized reconstruction, not a production D1/user backup. Source snapshot files are separate.')

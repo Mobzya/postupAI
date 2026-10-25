@@ -48,6 +48,23 @@ def parse_html(source,content):
                     'Bachelor/specialist and pilot basic higher records remain separate; cohort years are not admission campaigns.'])
                 row['study_form']={'Очная':'full_time','Очно-заочная':'part_time','Заочная':'correspondence'}.get(values[5])
                 rows.append(row)
+    elif ident=='itmo':
+        tables=root.xpath('//table[@data-intake-year]')
+        if len(tables)!=1:raise ValueError('itmo_catalog_table_count')
+        table=tables[0];headers=[text(c) for c in table.xpath('./tr[1]/th')]
+        if len(headers)!=6 or headers[1]!='Год приема':raise ValueError('itmo_catalog_headers_changed')
+        for tr in table.xpath('./tr[@data-source-row]'):
+            v=[text(c) for c in tr.xpath('./td')]
+            if len(v)!=6 or not CODE.fullmatch(v[0]) or v[1]!=table.get('data-intake-year'):raise ValueError('itmo_catalog_scope_changed')
+            raw_level=v[4].casefold()
+            if 'бакалавриат' in raw_level and v[0][3:5]=='03':level='bachelor'
+            elif 'специалитет' in raw_level and v[0][3:5]=='05':level='specialist'
+            else:raise ValueError('itmo_catalog_degree_ambiguous')
+            row=record(source,v[3],f"original-table={table.get('data-source-table')}; source-row={tr.get('data-source-row')}; semantic-first-six-columns",
+                code=v[0],level=level,year=int(v[1]),notes=['Explicit intake year in institutional disclosure, not confirmation of the next campaign.',
+                    'A profile can occur under several field codes. No competition identity or shared seats inferred.',
+                    'Study form as published: '+v[5]])
+            row['study_form']={'Очная':'full_time','Очно-заочная':'part_time','Заочная':'correspondence'}.get(v[5]);rows.append(row)
     elif ident=='hse' and source['source_id'].endswith('programs'):
         campus_map={'msk':'Москва','spb':'Санкт-Петербург','nn':'Нижний Новгород','perm':'Пермь'}
         for a in root.xpath('//p[@class="text"]/a[@href]'):
