@@ -31,6 +31,7 @@ COMMANDS = [
     {'command': 'achievements', 'description': 'Условия дополнительных баллов'},
     {'command': 'ege', 'description': 'Сценарный калькулятор роста ЕГЭ'},
     {'command': 'model', 'description': 'Гипотезы и ограничения модели'},
+    {'command': 'baseline', 'description': 'Эксперимент опубликованных порогов'},
     {'command': 'forecast', 'description': 'Доступность прогноза'},
     {'command': 'profile', 'description': 'Состояние сохранения профиля'},
     {'command': 'delete_data', 'description': 'Сведения об удалении данных'},
