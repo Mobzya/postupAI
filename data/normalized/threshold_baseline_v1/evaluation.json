@@ -1,0 +1,4035 @@
+{
+  "version": "published-threshold-baseline-v1",
+  "status": "experimental_published_series_only",
+  "dataset_sha256": "2e2266d423fc24c7396b36149b2b2600a04ca71a3516acd9776e98ae63ca1e6f",
+  "config_sha256": "708bd31a47399fb0f27e42e63b9cc3d78b335f74af9f69284acaa813601ef9d3",
+  "code_sha256": "6b1291de34b3e7ae3e165f106f747f01e7ef67f410a738b3ddad6d79f2a40442",
+  "probability_enabled": false,
+  "comparability_status": "textual_series_not_verified_competition",
+  "series_count": 144,
+  "input_observations": 956,
+  "eligible_observations": 382,
+  "excluded": {
+    "missing_explicit_program_url_or_code": 354,
+    "metric_status_or_unit": 220
+  },
+  "skipped": {
+    "missing_or_ambiguous_target": 228,
+    "insufficient_consecutive_history": 96
+  },
+  "evaluation": [
+    {
+      "series_id": "threshold-series-2cdd893ab9885d6272fa",
+      "institution_id": "hse",
+      "name": "Дизайн",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 291.0,
+      "target_id": "history-source-2ebdea8a0d41b7426049a2e6",
+      "last_year": 291.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-3eb66a4142ec4351a8b19fc2",
+        "history-source-5b56155b8b7d9be82dad154b",
+        "history-source-8f023dd28c2afb5211788ad0"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        291.0,
+        292.0,
+        291.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-2cdd893ab9885d6272fa",
+      "institution_id": "hse",
+      "name": "Дизайн",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 295.0,
+      "target_id": "history-source-3e3d46d4b4a6429baec018a6",
+      "last_year": 291.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-2ebdea8a0d41b7426049a2e6",
+        "history-source-3eb66a4142ec4351a8b19fc2",
+        "history-source-5b56155b8b7d9be82dad154b"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        291.0,
+        291.0,
+        292.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-2cdd893ab9885d6272fa",
+      "institution_id": "hse",
+      "name": "Дизайн",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 291.0,
+      "target_id": "history-source-7b9f32735fb9d6898c5eb9d0",
+      "last_year": 295.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-3e3d46d4b4a6429baec018a6",
+        "history-source-2ebdea8a0d41b7426049a2e6",
+        "history-source-3eb66a4142ec4351a8b19fc2"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        295.0,
+        291.0,
+        291.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-813ddc11b6d6f42c3170",
+      "institution_id": "hse",
+      "name": "Прикладная математика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 279.0,
+      "target_id": "history-source-f230cc6eb6bf03de487f670b",
+      "last_year": 266.0,
+      "median_last_three": 266.0,
+      "training_ids": [
+        "history-source-47d4bacaa4d7ad69bdc164fb",
+        "history-source-884976d2eae02206c7a1b965",
+        "history-source-2ae478951b9f7b55eb4e75d2"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        266.0,
+        290.0,
+        253.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-813ddc11b6d6f42c3170",
+      "institution_id": "hse",
+      "name": "Прикладная математика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 289.0,
+      "target_id": "history-source-26b4b6cb49fd3efed715fc18",
+      "last_year": 279.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-f230cc6eb6bf03de487f670b",
+        "history-source-47d4bacaa4d7ad69bdc164fb",
+        "history-source-884976d2eae02206c7a1b965"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        279.0,
+        266.0,
+        290.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-813ddc11b6d6f42c3170",
+      "institution_id": "hse",
+      "name": "Прикладная математика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 294.0,
+      "target_id": "history-source-0a09eb7cca6b4cf1abd883cc",
+      "last_year": 289.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-26b4b6cb49fd3efed715fc18",
+        "history-source-f230cc6eb6bf03de487f670b",
+        "history-source-47d4bacaa4d7ad69bdc164fb"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        289.0,
+        279.0,
+        266.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-6f13721e5ea72a78b69c",
+      "institution_id": "hse",
+      "name": "Античность",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 293.0,
+      "target_id": "history-source-a264d3ce9e38396f115fd603",
+      "last_year": 291.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-e86f6a3edaf44b987168636f",
+        "history-source-7e46aed16871017c4dfe6309",
+        "history-source-ecd1a12f0c1d8ee8a438b475"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        291.0,
+        287.0,
+        293.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-6f13721e5ea72a78b69c",
+      "institution_id": "hse",
+      "name": "Античность",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 284.0,
+      "target_id": "history-source-cd6d435b96d093f5e3426a2f",
+      "last_year": 293.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-a264d3ce9e38396f115fd603",
+        "history-source-e86f6a3edaf44b987168636f",
+        "history-source-7e46aed16871017c4dfe6309"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        293.0,
+        291.0,
+        287.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-6f13721e5ea72a78b69c",
+      "institution_id": "hse",
+      "name": "Античность",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 262.0,
+      "target_id": "history-source-c58bb4368c41d1bf99a948a4",
+      "last_year": 284.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-cd6d435b96d093f5e3426a2f",
+        "history-source-a264d3ce9e38396f115fd603",
+        "history-source-e86f6a3edaf44b987168636f"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        284.0,
+        293.0,
+        291.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-bf916a1a8cc89b0aa8d5",
+      "institution_id": "hse",
+      "name": "Античность",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 258.0,
+      "target_id": "history-source-8c4ed14fa29386e7178b7258",
+      "last_year": 279.0,
+      "median_last_three": 278.0,
+      "training_ids": [
+        "history-source-66534677a5d4878d3a2acd2b",
+        "history-source-94aa234ef922cac34981fd10",
+        "history-source-8f88b8a16b78f750c1e2b8a1"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        279.0,
+        270.0,
+        278.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-bf916a1a8cc89b0aa8d5",
+      "institution_id": "hse",
+      "name": "Античность",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 266.0,
+      "target_id": "history-source-35550c25d596250f88b24e22",
+      "last_year": 258.0,
+      "median_last_three": 270.0,
+      "training_ids": [
+        "history-source-8c4ed14fa29386e7178b7258",
+        "history-source-66534677a5d4878d3a2acd2b",
+        "history-source-94aa234ef922cac34981fd10"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        258.0,
+        279.0,
+        270.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-bf916a1a8cc89b0aa8d5",
+      "institution_id": "hse",
+      "name": "Античность",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 255.0,
+      "target_id": "history-source-ce65054a8084313323ff8ba2",
+      "last_year": 266.0,
+      "median_last_three": 266.0,
+      "training_ids": [
+        "history-source-35550c25d596250f88b24e22",
+        "history-source-8c4ed14fa29386e7178b7258",
+        "history-source-66534677a5d4878d3a2acd2b"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        266.0,
+        258.0,
+        279.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-39c4a5a36b4fd16255ab",
+      "institution_id": "hse",
+      "name": "Управление бизнесом",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 300.0,
+      "target_id": "history-source-7e0fc1a6d1620a4e7a3140d2",
+      "last_year": 288.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-c76dce1989bd2ea47b63d9a4",
+        "history-source-8c24d113667c652b8e9893e9",
+        "history-source-823218103981bf66421b2a0f"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        288.0,
+        279.0,
+        275.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-363c9439736dfbcacbeb",
+      "institution_id": "hse",
+      "name": "Бизнес-информатика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 287.0,
+      "target_id": "history-source-6ab247c02f2873ac24a03329",
+      "last_year": 287.0,
+      "median_last_three": 287.0,
+      "training_ids": [
+        "history-source-6938778c3c52858ed55eef99",
+        "history-source-863936b74a5794285e596544",
+        "history-source-b821095389686ee401df712f"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        287.0,
+        297.0,
+        283.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-363c9439736dfbcacbeb",
+      "institution_id": "hse",
+      "name": "Бизнес-информатика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 300.0,
+      "target_id": "history-source-b59c5b50ef3630296dd42d04",
+      "last_year": 287.0,
+      "median_last_three": 287.0,
+      "training_ids": [
+        "history-source-6ab247c02f2873ac24a03329",
+        "history-source-6938778c3c52858ed55eef99",
+        "history-source-863936b74a5794285e596544"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        287.0,
+        287.0,
+        297.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-363c9439736dfbcacbeb",
+      "institution_id": "hse",
+      "name": "Бизнес-информатика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 288.0,
+      "target_id": "history-source-b2a51159d154ba2fdff47a5c",
+      "last_year": 300.0,
+      "median_last_three": 287.0,
+      "training_ids": [
+        "history-source-b59c5b50ef3630296dd42d04",
+        "history-source-6ab247c02f2873ac24a03329",
+        "history-source-6938778c3c52858ed55eef99"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        300.0,
+        287.0,
+        287.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-9fb19887347ca112baa9",
+      "institution_id": "hse",
+      "name": "Химия",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 279.0,
+      "target_id": "history-source-c0c61184b40eedeb5cf6be6b",
+      "last_year": 274.0,
+      "median_last_three": 274.0,
+      "training_ids": [
+        "history-source-4eadc4ba12f6c97c08dc95c7",
+        "history-source-41954c333df3ca872e8437cf",
+        "history-source-fda47a360c9baff8ce237563"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        274.0,
+        273.0,
+        286.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-9fb19887347ca112baa9",
+      "institution_id": "hse",
+      "name": "Химия",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 287.0,
+      "target_id": "history-source-74f10214ffa2aebd61dfda58",
+      "last_year": 279.0,
+      "median_last_three": 274.0,
+      "training_ids": [
+        "history-source-c0c61184b40eedeb5cf6be6b",
+        "history-source-4eadc4ba12f6c97c08dc95c7",
+        "history-source-41954c333df3ca872e8437cf"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        279.0,
+        274.0,
+        273.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-9fb19887347ca112baa9",
+      "institution_id": "hse",
+      "name": "Химия",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 276.0,
+      "target_id": "history-source-2f10333bd98a3ac03df02d19",
+      "last_year": 287.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-74f10214ffa2aebd61dfda58",
+        "history-source-c0c61184b40eedeb5cf6be6b",
+        "history-source-4eadc4ba12f6c97c08dc95c7"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        287.0,
+        279.0,
+        274.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-b18e047ee802a739882f",
+      "institution_id": "hse",
+      "name": "Клеточная и молекулярная биотехнология",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 295.0,
+      "target_id": "history-source-650fea0acd437f6e4052947d",
+      "last_year": 287.0,
+      "median_last_three": 287.0,
+      "training_ids": [
+        "history-source-8435a2b4f01f5242bff902ed",
+        "history-source-a27fa7407206a3ae4faf6397",
+        "history-source-d4186580ee47084de5fe9536"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        287.0,
+        294.0,
+        281.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-b18e047ee802a739882f",
+      "institution_id": "hse",
+      "name": "Клеточная и молекулярная биотехнология",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 290.0,
+      "target_id": "history-source-ac8cf1fab811d565404f1cbf",
+      "last_year": 295.0,
+      "median_last_three": 294.0,
+      "training_ids": [
+        "history-source-650fea0acd437f6e4052947d",
+        "history-source-8435a2b4f01f5242bff902ed",
+        "history-source-a27fa7407206a3ae4faf6397"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        295.0,
+        287.0,
+        294.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-b18e047ee802a739882f",
+      "institution_id": "hse",
+      "name": "Клеточная и молекулярная биотехнология",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 269.0,
+      "target_id": "history-source-372f42054ac36484bfd3ca02",
+      "last_year": 290.0,
+      "median_last_three": 290.0,
+      "training_ids": [
+        "history-source-ac8cf1fab811d565404f1cbf",
+        "history-source-650fea0acd437f6e4052947d",
+        "history-source-8435a2b4f01f5242bff902ed"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        290.0,
+        295.0,
+        287.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-78069d9f172261dff771",
+      "institution_id": "hse",
+      "name": "Компьютерная безопасность",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 273.0,
+      "target_id": "history-source-56dc475d1c955694396ed8d1",
+      "last_year": 272.0,
+      "median_last_three": 278.0,
+      "training_ids": [
+        "history-source-57a4c2b62a54d83c87114e4d",
+        "history-source-6a95793ddcaf63339e44a906",
+        "history-source-b04285ab89905078ad2e59bd"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        272.0,
+        291.0,
+        278.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-78069d9f172261dff771",
+      "institution_id": "hse",
+      "name": "Компьютерная безопасность",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 282.0,
+      "target_id": "history-source-49060595a03b379e293ae56e",
+      "last_year": 273.0,
+      "median_last_three": 273.0,
+      "training_ids": [
+        "history-source-56dc475d1c955694396ed8d1",
+        "history-source-57a4c2b62a54d83c87114e4d",
+        "history-source-6a95793ddcaf63339e44a906"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        273.0,
+        272.0,
+        291.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-78069d9f172261dff771",
+      "institution_id": "hse",
+      "name": "Компьютерная безопасность",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 276.0,
+      "target_id": "history-source-8365aec31484069813de385d",
+      "last_year": 282.0,
+      "median_last_three": 273.0,
+      "training_ids": [
+        "history-source-49060595a03b379e293ae56e",
+        "history-source-56dc475d1c955694396ed8d1",
+        "history-source-57a4c2b62a54d83c87114e4d"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        282.0,
+        273.0,
+        272.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-28f5ae83dda9f20bb925",
+      "institution_id": "hse",
+      "name": "Совместный бакалавриат НИУ ВШЭ и Центра педагогического мастерства",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 277.0,
+      "target_id": "history-source-031b7d8444a75958a020dd0d",
+      "last_year": 272.0,
+      "median_last_three": 283.0,
+      "training_ids": [
+        "history-source-d1c9518fd7e554e5793951b9",
+        "history-source-e18a2b189bda21711f158216",
+        "history-source-b4354ce6cf838489acc5e20e"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        272.0,
+        283.0,
+        289.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-28f5ae83dda9f20bb925",
+      "institution_id": "hse",
+      "name": "Совместный бакалавриат НИУ ВШЭ и Центра педагогического мастерства",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 283.0,
+      "target_id": "history-source-2f940e1c4429678205b0c934",
+      "last_year": 277.0,
+      "median_last_three": 277.0,
+      "training_ids": [
+        "history-source-031b7d8444a75958a020dd0d",
+        "history-source-d1c9518fd7e554e5793951b9",
+        "history-source-e18a2b189bda21711f158216"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        277.0,
+        272.0,
+        283.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-28f5ae83dda9f20bb925",
+      "institution_id": "hse",
+      "name": "Совместный бакалавриат НИУ ВШЭ и Центра педагогического мастерства",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 261.0,
+      "target_id": "history-source-f2cdca422a23c58a28422c2d",
+      "last_year": 283.0,
+      "median_last_three": 277.0,
+      "training_ids": [
+        "history-source-2f940e1c4429678205b0c934",
+        "history-source-031b7d8444a75958a020dd0d",
+        "history-source-d1c9518fd7e554e5793951b9"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        283.0,
+        277.0,
+        272.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-372bb2714eaeaf0eaa31",
+      "institution_id": "hse",
+      "name": "Культурология",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 350.0,
+      "target_id": "history-source-4b355c80507e00c88a94296f",
+      "last_year": 358.0,
+      "median_last_three": 362.0,
+      "training_ids": [
+        "history-source-cede47b7ac36b9a94e6bcc05",
+        "history-source-237abeab3cb371a838710b5b",
+        "history-source-f3ddc676a71e2fd4c188f61c"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        358.0,
+        371.0,
+        362.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-372bb2714eaeaf0eaa31",
+      "institution_id": "hse",
+      "name": "Культурология",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 283.0,
+      "target_id": "history-source-4b2e43f45996ca03b74409bf",
+      "last_year": 350.0,
+      "median_last_three": 358.0,
+      "training_ids": [
+        "history-source-4b355c80507e00c88a94296f",
+        "history-source-cede47b7ac36b9a94e6bcc05",
+        "history-source-237abeab3cb371a838710b5b"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        350.0,
+        358.0,
+        371.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-372bb2714eaeaf0eaa31",
+      "institution_id": "hse",
+      "name": "Культурология",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 256.0,
+      "target_id": "history-source-59d6f3a8494a71d9fca233e5",
+      "last_year": 283.0,
+      "median_last_three": 350.0,
+      "training_ids": [
+        "history-source-4b2e43f45996ca03b74409bf",
+        "history-source-4b355c80507e00c88a94296f",
+        "history-source-cede47b7ac36b9a94e6bcc05"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        283.0,
+        350.0,
+        358.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-16149451c96910106922",
+      "institution_id": "hse",
+      "name": "Экономика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 366.0,
+      "target_id": "history-source-5a092cd671324862cc019ba1",
+      "last_year": 381.0,
+      "median_last_three": 373.0,
+      "training_ids": [
+        "history-source-c1d7530295b1b8d20a435afa",
+        "history-source-12edf41eb59e17f7a0b95095",
+        "history-source-3e2bca0837433626178af8b2"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        381.0,
+        373.0,
+        357.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-16149451c96910106922",
+      "institution_id": "hse",
+      "name": "Экономика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 294.0,
+      "target_id": "history-source-4966cd07bd15b4bd9a9997db",
+      "last_year": 366.0,
+      "median_last_three": 373.0,
+      "training_ids": [
+        "history-source-5a092cd671324862cc019ba1",
+        "history-source-c1d7530295b1b8d20a435afa",
+        "history-source-12edf41eb59e17f7a0b95095"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        366.0,
+        381.0,
+        373.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-16149451c96910106922",
+      "institution_id": "hse",
+      "name": "Экономика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 291.0,
+      "target_id": "history-source-9ec634e2b123d178790a1df1",
+      "last_year": 294.0,
+      "median_last_three": 366.0,
+      "training_ids": [
+        "history-source-4966cd07bd15b4bd9a9997db",
+        "history-source-5a092cd671324862cc019ba1",
+        "history-source-c1d7530295b1b8d20a435afa"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        294.0,
+        366.0,
+        381.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-a73a4bb15f68d6264b8c",
+      "institution_id": "hse",
+      "name": "География глобальных изменений и геоинформационные технологии",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 251.0,
+      "target_id": "history-source-d9f442445476ce18ebe3dd03",
+      "last_year": 242.0,
+      "median_last_three": 265.0,
+      "training_ids": [
+        "history-source-3c8b931847b3f415ebd0ddd3",
+        "history-source-728807bc4b711e2119ea6041",
+        "history-source-1c71df21197cd13dd85d3b81"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        242.0,
+        277.0,
+        265.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-a73a4bb15f68d6264b8c",
+      "institution_id": "hse",
+      "name": "География глобальных изменений и геоинформационные технологии",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 252.0,
+      "target_id": "history-source-3a1901aa2fbef8edd3adca60",
+      "last_year": 251.0,
+      "median_last_three": 251.0,
+      "training_ids": [
+        "history-source-d9f442445476ce18ebe3dd03",
+        "history-source-3c8b931847b3f415ebd0ddd3",
+        "history-source-728807bc4b711e2119ea6041"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        251.0,
+        242.0,
+        277.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-48c076dbe514a5d87af1",
+      "institution_id": "hse",
+      "name": "Государственное и муниципальное управление",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 349.0,
+      "target_id": "history-source-d43917c7b4724e595f904201",
+      "last_year": 362.0,
+      "median_last_three": 362.0,
+      "training_ids": [
+        "history-source-36c6e99d15195a35ec86060f",
+        "history-source-504f5c098044f553b59eeea1",
+        "history-source-22eb0af722adbf43ef01cbb3"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        362.0,
+        363.0,
+        362.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-48c076dbe514a5d87af1",
+      "institution_id": "hse",
+      "name": "Государственное и муниципальное управление",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 281.0,
+      "target_id": "history-source-a60b7631adc564d78ffb74b3",
+      "last_year": 349.0,
+      "median_last_three": 362.0,
+      "training_ids": [
+        "history-source-d43917c7b4724e595f904201",
+        "history-source-36c6e99d15195a35ec86060f",
+        "history-source-504f5c098044f553b59eeea1"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        349.0,
+        362.0,
+        363.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-48c076dbe514a5d87af1",
+      "institution_id": "hse",
+      "name": "Государственное и муниципальное управление",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 269.0,
+      "target_id": "history-source-1732929f2f94420d61e52cdd",
+      "last_year": 281.0,
+      "median_last_three": 349.0,
+      "training_ids": [
+        "history-source-a60b7631adc564d78ffb74b3",
+        "history-source-d43917c7b4724e595f904201",
+        "history-source-36c6e99d15195a35ec86060f"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        281.0,
+        349.0,
+        362.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-1b102f41c069a2c12adc",
+      "institution_id": "hse",
+      "name": "История",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 266.0,
+      "target_id": "history-source-c542365af9a4baf54d7a3946",
+      "last_year": 279.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-491a872ccb4a0fbe5ec08d83",
+        "history-source-951f521958f9fa1b84be9222",
+        "history-source-b633b021f955f453861589eb"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        279.0,
+        278.0,
+        280.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-1b102f41c069a2c12adc",
+      "institution_id": "hse",
+      "name": "История",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 269.0,
+      "target_id": "history-source-fa58b29143f1bc79e7be43be",
+      "last_year": 266.0,
+      "median_last_three": 278.0,
+      "training_ids": [
+        "history-source-c542365af9a4baf54d7a3946",
+        "history-source-491a872ccb4a0fbe5ec08d83",
+        "history-source-951f521958f9fa1b84be9222"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        266.0,
+        279.0,
+        278.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-1b102f41c069a2c12adc",
+      "institution_id": "hse",
+      "name": "История",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 267.0,
+      "target_id": "history-source-78bf737b101d32bb97d742d8",
+      "last_year": 269.0,
+      "median_last_three": 269.0,
+      "training_ids": [
+        "history-source-fa58b29143f1bc79e7be43be",
+        "history-source-c542365af9a4baf54d7a3946",
+        "history-source-491a872ccb4a0fbe5ec08d83"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        269.0,
+        266.0,
+        279.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-e167567b7e5e884592ec",
+      "institution_id": "hse",
+      "name": "История искусств",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 276.0,
+      "target_id": "history-source-4442d1674627bf79a821986f",
+      "last_year": 285.0,
+      "median_last_three": 285.0,
+      "training_ids": [
+        "history-source-920ed46a4022d459515a797d",
+        "history-source-35b87dc121a2eff7bc212433",
+        "history-source-6cf25827e8aa6bf0357a7fc8"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        285.0,
+        285.0,
+        290.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-e167567b7e5e884592ec",
+      "institution_id": "hse",
+      "name": "История искусств",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 285.0,
+      "target_id": "history-source-b84c0f594f05965d9d22de74",
+      "last_year": 276.0,
+      "median_last_three": 285.0,
+      "training_ids": [
+        "history-source-4442d1674627bf79a821986f",
+        "history-source-920ed46a4022d459515a797d",
+        "history-source-35b87dc121a2eff7bc212433"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        276.0,
+        285.0,
+        285.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-e167567b7e5e884592ec",
+      "institution_id": "hse",
+      "name": "История искусств",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 264.0,
+      "target_id": "history-source-1c6404c2af8cc912bbc6f8ea",
+      "last_year": 285.0,
+      "median_last_three": 285.0,
+      "training_ids": [
+        "history-source-b84c0f594f05965d9d22de74",
+        "history-source-4442d1674627bf79a821986f",
+        "history-source-920ed46a4022d459515a797d"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        285.0,
+        276.0,
+        285.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-3fc740c8e750e5b54198",
+      "institution_id": "hse",
+      "name": "Международные отношения",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 377.0,
+      "target_id": "history-source-dd7340299b8bf0aae9dea2de",
+      "last_year": 389.0,
+      "median_last_three": 389.0,
+      "training_ids": [
+        "history-source-1a325bb552490fee32f1f3d6",
+        "history-source-991f97d727e41e26499f2ff6",
+        "history-source-9caea87930fe415e297b9f5b"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        389.0,
+        380.0,
+        390.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-3fc740c8e750e5b54198",
+      "institution_id": "hse",
+      "name": "Международные отношения",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 395.0,
+      "target_id": "history-source-67dc7e62944ee0ea27d2256e",
+      "last_year": 377.0,
+      "median_last_three": 380.0,
+      "training_ids": [
+        "history-source-dd7340299b8bf0aae9dea2de",
+        "history-source-1a325bb552490fee32f1f3d6",
+        "history-source-991f97d727e41e26499f2ff6"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        377.0,
+        389.0,
+        380.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-3fc740c8e750e5b54198",
+      "institution_id": "hse",
+      "name": "Международные отношения",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 353.0,
+      "target_id": "history-source-8c5e82f2fdfe763946c9d77d",
+      "last_year": 395.0,
+      "median_last_three": 389.0,
+      "training_ids": [
+        "history-source-67dc7e62944ee0ea27d2256e",
+        "history-source-dd7340299b8bf0aae9dea2de",
+        "history-source-1a325bb552490fee32f1f3d6"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        395.0,
+        377.0,
+        389.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-71fcd1b4e7f56036be1f",
+      "institution_id": "hse",
+      "name": "Информационная безопасность",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 283.0,
+      "target_id": "history-source-1199ddb7f9e972fd579a8f44",
+      "last_year": 270.0,
+      "median_last_three": 270.0,
+      "training_ids": [
+        "history-source-d859653392d243b5608ed70e",
+        "history-source-5351bde38db2b21af2aad8d8",
+        "history-source-fdbe9161342401b8a497ff5e"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        270.0,
+        290.0,
+        253.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-71fcd1b4e7f56036be1f",
+      "institution_id": "hse",
+      "name": "Информационная безопасность",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 288.0,
+      "target_id": "history-source-087758f2af92c3e823cde1d7",
+      "last_year": 283.0,
+      "median_last_three": 283.0,
+      "training_ids": [
+        "history-source-1199ddb7f9e972fd579a8f44",
+        "history-source-d859653392d243b5608ed70e",
+        "history-source-5351bde38db2b21af2aad8d8"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        283.0,
+        270.0,
+        290.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-71fcd1b4e7f56036be1f",
+      "institution_id": "hse",
+      "name": "Информационная безопасность",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 276.0,
+      "target_id": "history-source-e4028bc211500798074e1bcd",
+      "last_year": 288.0,
+      "median_last_three": 283.0,
+      "training_ids": [
+        "history-source-087758f2af92c3e823cde1d7",
+        "history-source-1199ddb7f9e972fd579a8f44",
+        "history-source-d859653392d243b5608ed70e"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        288.0,
+        283.0,
+        270.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-9143b4b1d6e8f9a49491",
+      "institution_id": "hse",
+      "name": "Информатика и вычислительная техника",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 280.0,
+      "target_id": "history-source-17ebd7daa9190299b6bb33dd",
+      "last_year": 257.0,
+      "median_last_three": 257.0,
+      "training_ids": [
+        "history-source-fecb6595641c9982f0822d97",
+        "history-source-5d603ea4573abbbc31a5ceef",
+        "history-source-83a637135b4eba0886191ea3"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        257.0,
+        278.0,
+        239.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-9143b4b1d6e8f9a49491",
+      "institution_id": "hse",
+      "name": "Информатика и вычислительная техника",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 286.0,
+      "target_id": "history-source-fe9127245d53a60a2daeec09",
+      "last_year": 280.0,
+      "median_last_three": 278.0,
+      "training_ids": [
+        "history-source-17ebd7daa9190299b6bb33dd",
+        "history-source-fecb6595641c9982f0822d97",
+        "history-source-5d603ea4573abbbc31a5ceef"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        280.0,
+        257.0,
+        278.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-9143b4b1d6e8f9a49491",
+      "institution_id": "hse",
+      "name": "Информатика и вычислительная техника",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 278.0,
+      "target_id": "history-source-36002e7aa1066107b8e68139",
+      "last_year": 286.0,
+      "median_last_three": 280.0,
+      "training_ids": [
+        "history-source-fe9127245d53a60a2daeec09",
+        "history-source-17ebd7daa9190299b6bb33dd",
+        "history-source-fecb6595641c9982f0822d97"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        286.0,
+        280.0,
+        257.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-df9ce58d53e34016468c",
+      "institution_id": "hse",
+      "name": "Инфокоммуникационные технологии и системы связи",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 268.0,
+      "target_id": "history-source-528b2fb1a84d8c1ea9280fd3",
+      "last_year": 218.0,
+      "median_last_three": 258.0,
+      "training_ids": [
+        "history-source-1e91c4baeafd951df9c4ceb9",
+        "history-source-060d8984ffa745d465945d53",
+        "history-source-26b6bf43d2824a0cffb1eda6"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        218.0,
+        267.0,
+        258.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-df9ce58d53e34016468c",
+      "institution_id": "hse",
+      "name": "Инфокоммуникационные технологии и системы связи",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 272.0,
+      "target_id": "history-source-1262c93444a12d6d9daf63d9",
+      "last_year": 268.0,
+      "median_last_three": 267.0,
+      "training_ids": [
+        "history-source-528b2fb1a84d8c1ea9280fd3",
+        "history-source-1e91c4baeafd951df9c4ceb9",
+        "history-source-060d8984ffa745d465945d53"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        268.0,
+        218.0,
+        267.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-df9ce58d53e34016468c",
+      "institution_id": "hse",
+      "name": "Инфокоммуникационные технологии и системы связи",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 236.0,
+      "target_id": "history-source-91e6b201c866cae39257e1b5",
+      "last_year": 272.0,
+      "median_last_three": 268.0,
+      "training_ids": [
+        "history-source-1262c93444a12d6d9daf63d9",
+        "history-source-528b2fb1a84d8c1ea9280fd3",
+        "history-source-1e91c4baeafd951df9c4ceb9"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        272.0,
+        268.0,
+        218.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-82bc685bcfb5d3f258f6",
+      "institution_id": "hse",
+      "name": "Журналистика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 397.0,
+      "target_id": "history-source-712b2d5e790fa9907380f114",
+      "last_year": 379.0,
+      "median_last_three": 379.0,
+      "training_ids": [
+        "history-source-e64f5b060b8fbcc4d430ed1b",
+        "history-source-32f9bbaec9bb6a809433bcd0",
+        "history-source-bb60480348097c939a4ac369"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        379.0,
+        383.0,
+        378.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-82bc685bcfb5d3f258f6",
+      "institution_id": "hse",
+      "name": "Журналистика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 292.0,
+      "target_id": "history-source-b56b630a44cb76b2ef9d5402",
+      "last_year": 397.0,
+      "median_last_three": 383.0,
+      "training_ids": [
+        "history-source-712b2d5e790fa9907380f114",
+        "history-source-e64f5b060b8fbcc4d430ed1b",
+        "history-source-32f9bbaec9bb6a809433bcd0"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        397.0,
+        379.0,
+        383.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-82bc685bcfb5d3f258f6",
+      "institution_id": "hse",
+      "name": "Журналистика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 279.0,
+      "target_id": "history-source-a8065fff2c5160b1540adf08",
+      "last_year": 292.0,
+      "median_last_three": 379.0,
+      "training_ids": [
+        "history-source-b56b630a44cb76b2ef9d5402",
+        "history-source-712b2d5e790fa9907380f114",
+        "history-source-e64f5b060b8fbcc4d430ed1b"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        292.0,
+        397.0,
+        379.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-92f6be1fe03e5b411604",
+      "institution_id": "hse",
+      "name": "Фундаментальная и компьютерная лингвистика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 293.0,
+      "target_id": "history-source-4fcb6e801989322fa3e55dfc",
+      "last_year": 304.0,
+      "median_last_three": 298.0,
+      "training_ids": [
+        "history-source-0bf845ed6233b5411053ae29",
+        "history-source-6f2bfb8a28182094c039630f",
+        "history-source-2bf85f97e078e4e4a5e4539b"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        304.0,
+        288.0,
+        298.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-92f6be1fe03e5b411604",
+      "institution_id": "hse",
+      "name": "Фундаментальная и компьютерная лингвистика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 296.0,
+      "target_id": "history-source-070c40d05e0c6feffb39de00",
+      "last_year": 293.0,
+      "median_last_three": 293.0,
+      "training_ids": [
+        "history-source-4fcb6e801989322fa3e55dfc",
+        "history-source-0bf845ed6233b5411053ae29",
+        "history-source-6f2bfb8a28182094c039630f"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        293.0,
+        304.0,
+        288.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-92f6be1fe03e5b411604",
+      "institution_id": "hse",
+      "name": "Фундаментальная и компьютерная лингвистика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 291.0,
+      "target_id": "history-source-34723353ce9d051526eaaa09",
+      "last_year": 296.0,
+      "median_last_three": 296.0,
+      "training_ids": [
+        "history-source-070c40d05e0c6feffb39de00",
+        "history-source-4fcb6e801989322fa3e55dfc",
+        "history-source-0bf845ed6233b5411053ae29"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        296.0,
+        293.0,
+        304.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-4d79dffaacbaf15d0142",
+      "institution_id": "hse",
+      "name": "Управление цепями поставок и бизнес-аналитика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 287.0,
+      "target_id": "history-source-439941a831cc6e0704253f0a",
+      "last_year": 279.0,
+      "median_last_three": 277.5,
+      "training_ids": [
+        "history-source-015dc885666b9a498007a407",
+        "history-source-09e6fd3ef4cc81c957a0027e"
+      ],
+      "training_years": [
+        2023,
+        2022
+      ],
+      "training_values": [
+        279.0,
+        276.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-306ed667bfb835de1227",
+      "institution_id": "hse",
+      "name": "Маркетинг и рыночная аналитика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 283.0,
+      "target_id": "history-source-d545a4e8a6490e043cddee4b",
+      "last_year": 291.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-c5400866d4b8e6a947f97b93",
+        "history-source-bc4aa80c8d5cec590b2d5cde",
+        "history-source-78cbbde766dc8c65cfd24165"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        291.0,
+        289.0,
+        278.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-306ed667bfb835de1227",
+      "institution_id": "hse",
+      "name": "Маркетинг и рыночная аналитика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 292.0,
+      "target_id": "history-source-2bd70eb4ca24359014bf498e",
+      "last_year": 283.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-d545a4e8a6490e043cddee4b",
+        "history-source-c5400866d4b8e6a947f97b93",
+        "history-source-bc4aa80c8d5cec590b2d5cde"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        283.0,
+        291.0,
+        289.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-306ed667bfb835de1227",
+      "institution_id": "hse",
+      "name": "Маркетинг и рыночная аналитика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 289.0,
+      "target_id": "history-source-93b6a025321a4e68ca53e001",
+      "last_year": 292.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-2bd70eb4ca24359014bf498e",
+        "history-source-d545a4e8a6490e043cddee4b",
+        "history-source-c5400866d4b8e6a947f97b93"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        292.0,
+        283.0,
+        291.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-10ab9c0c973f51bb5844",
+      "institution_id": "hse",
+      "name": "Математика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 285.0,
+      "target_id": "history-source-2421c56741f8fd74a658a430",
+      "last_year": 286.0,
+      "median_last_three": 288.0,
+      "training_ids": [
+        "history-source-1d5a38243905174794fbad39",
+        "history-source-9610228fa353cded5f00091f",
+        "history-source-189cac19c1169f4ce4e20738"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        286.0,
+        294.0,
+        288.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-10ab9c0c973f51bb5844",
+      "institution_id": "hse",
+      "name": "Математика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 291.0,
+      "target_id": "history-source-f8cf6ab3094ee48cf0a4f888",
+      "last_year": 285.0,
+      "median_last_three": 286.0,
+      "training_ids": [
+        "history-source-2421c56741f8fd74a658a430",
+        "history-source-1d5a38243905174794fbad39",
+        "history-source-9610228fa353cded5f00091f"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        285.0,
+        286.0,
+        294.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-10ab9c0c973f51bb5844",
+      "institution_id": "hse",
+      "name": "Математика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 282.0,
+      "target_id": "history-source-d63b2b757e9ec0c82fcfe890",
+      "last_year": 291.0,
+      "median_last_three": 286.0,
+      "training_ids": [
+        "history-source-f8cf6ab3094ee48cf0a4f888",
+        "history-source-2421c56741f8fd74a658a430",
+        "history-source-1d5a38243905174794fbad39"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        291.0,
+        285.0,
+        286.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-56bfda810e6096633a37",
+      "institution_id": "hse",
+      "name": "Медиакоммуникации",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 301.0,
+      "target_id": "history-source-4c7c5544bb7647568e11a66e",
+      "last_year": 380.0,
+      "median_last_three": 383.0,
+      "training_ids": [
+        "history-source-4c52365f81eef67ccf67e7f2",
+        "history-source-af3e9f612d3467dfafb07f14",
+        "history-source-4f6ec9c23e9a3bf69aebdea1"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        380.0,
+        385.0,
+        383.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-56bfda810e6096633a37",
+      "institution_id": "hse",
+      "name": "Медиакоммуникации",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 308.0,
+      "target_id": "history-source-18e2200e6ce7a31b23f56633",
+      "last_year": 301.0,
+      "median_last_three": 380.0,
+      "training_ids": [
+        "history-source-4c7c5544bb7647568e11a66e",
+        "history-source-4c52365f81eef67ccf67e7f2",
+        "history-source-af3e9f612d3467dfafb07f14"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        301.0,
+        380.0,
+        385.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-56bfda810e6096633a37",
+      "institution_id": "hse",
+      "name": "Медиакоммуникации",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 296.0,
+      "target_id": "history-source-1e4e0ec3c25061c04cd85842",
+      "last_year": 308.0,
+      "median_last_three": 308.0,
+      "training_ids": [
+        "history-source-18e2200e6ce7a31b23f56633",
+        "history-source-4c7c5544bb7647568e11a66e",
+        "history-source-4c52365f81eef67ccf67e7f2"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        308.0,
+        301.0,
+        380.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-a61dac01fc430e98508b",
+      "institution_id": "hse",
+      "name": "Когнитивная нейробиология",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 289.0,
+      "target_id": "history-source-cf038ae1af5e9bf3757a03b4",
+      "last_year": 287.0,
+      "median_last_three": 288.5,
+      "training_ids": [
+        "history-source-61e9d8c9bf8d29466b68abf2",
+        "history-source-d1ce4d043b78b63843ad12ad"
+      ],
+      "training_years": [
+        2023,
+        2022
+      ],
+      "training_values": [
+        287.0,
+        290.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-a61dac01fc430e98508b",
+      "institution_id": "hse",
+      "name": "Когнитивная нейробиология",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 287.0,
+      "target_id": "history-source-8c60899eba9c17ebd5a8146e",
+      "last_year": 289.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-cf038ae1af5e9bf3757a03b4",
+        "history-source-61e9d8c9bf8d29466b68abf2",
+        "history-source-d1ce4d043b78b63843ad12ad"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        289.0,
+        287.0,
+        290.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-91bd4642334b810f66fd",
+      "institution_id": "hse",
+      "name": "Востоковедение",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 287.0,
+      "target_id": "history-source-bf143053b5904b0bf72c2d08",
+      "last_year": 290.0,
+      "median_last_three": 290.0,
+      "training_ids": [
+        "history-source-b118f5b6a46f6fcbbb32e28f",
+        "history-source-d757ac43bf7019ce36f5cc8e",
+        "history-source-a16e9e1f2c8eb2e4f7befb09"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        290.0,
+        289.0,
+        293.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-91bd4642334b810f66fd",
+      "institution_id": "hse",
+      "name": "Востоковедение",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 293.0,
+      "target_id": "history-source-78312d76e9c794441f357f7c",
+      "last_year": 287.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-bf143053b5904b0bf72c2d08",
+        "history-source-b118f5b6a46f6fcbbb32e28f",
+        "history-source-d757ac43bf7019ce36f5cc8e"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        287.0,
+        290.0,
+        289.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-efb17450a9f43c75434d",
+      "institution_id": "hse",
+      "name": "Философия",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 302.0,
+      "target_id": "history-source-10398a086eb133ee0667d668",
+      "last_year": 345.0,
+      "median_last_three": 349.0,
+      "training_ids": [
+        "history-source-8766224998a3b78e07f5ee8d",
+        "history-source-6396302ce7fb41a48a730574",
+        "history-source-15ca4f21d5d3a5db0daee892"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        345.0,
+        349.0,
+        351.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-efb17450a9f43c75434d",
+      "institution_id": "hse",
+      "name": "Философия",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 269.0,
+      "target_id": "history-source-6be28ef366d6d7b87120707c",
+      "last_year": 302.0,
+      "median_last_three": 345.0,
+      "training_ids": [
+        "history-source-10398a086eb133ee0667d668",
+        "history-source-8766224998a3b78e07f5ee8d",
+        "history-source-6396302ce7fb41a48a730574"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        302.0,
+        345.0,
+        349.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-efb17450a9f43c75434d",
+      "institution_id": "hse",
+      "name": "Философия",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 237.0,
+      "target_id": "history-source-0de8ed81b4353bf519ba75b5",
+      "last_year": 269.0,
+      "median_last_three": 302.0,
+      "training_ids": [
+        "history-source-6be28ef366d6d7b87120707c",
+        "history-source-10398a086eb133ee0667d668",
+        "history-source-8766224998a3b78e07f5ee8d"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        269.0,
+        302.0,
+        345.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-db70f2291959b4b34987",
+      "institution_id": "hse",
+      "name": "Филология",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 299.0,
+      "target_id": "history-source-2a142abd4b6145008a61815f",
+      "last_year": 295.0,
+      "median_last_three": 296.0,
+      "training_ids": [
+        "history-source-9ba532e184b62bb0233f4aeb",
+        "history-source-c247c3e6080983d12283fe82",
+        "history-source-8b5dc24f8e0df1a1f4f5eb3f"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        295.0,
+        298.0,
+        296.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-db70f2291959b4b34987",
+      "institution_id": "hse",
+      "name": "Филология",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 303.0,
+      "target_id": "history-source-adc750e9650839d5b6d24413",
+      "last_year": 299.0,
+      "median_last_three": 298.0,
+      "training_ids": [
+        "history-source-2a142abd4b6145008a61815f",
+        "history-source-9ba532e184b62bb0233f4aeb",
+        "history-source-c247c3e6080983d12283fe82"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        299.0,
+        295.0,
+        298.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-db70f2291959b4b34987",
+      "institution_id": "hse",
+      "name": "Филология",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 296.0,
+      "target_id": "history-source-110b59bf121c5a51174aa94c",
+      "last_year": 303.0,
+      "median_last_three": 299.0,
+      "training_ids": [
+        "history-source-adc750e9650839d5b6d24413",
+        "history-source-2a142abd4b6145008a61815f",
+        "history-source-9ba532e184b62bb0233f4aeb"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        303.0,
+        299.0,
+        295.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-584d11cae24d98df7e42",
+      "institution_id": "hse",
+      "name": "Физика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 255.0,
+      "target_id": "history-source-6f5fcb637e5ac4ec92db01d6",
+      "last_year": 235.0,
+      "median_last_three": 266.0,
+      "training_ids": [
+        "history-source-9e0440b36d9594bdf42fb07e",
+        "history-source-182dffab83784b32067a7c9d",
+        "history-source-eebe42c224bbd8bbe9b8d45b"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        235.0,
+        271.0,
+        266.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-584d11cae24d98df7e42",
+      "institution_id": "hse",
+      "name": "Физика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 269.0,
+      "target_id": "history-source-00a8d7a34f7e8dda83f3caf2",
+      "last_year": 255.0,
+      "median_last_three": 255.0,
+      "training_ids": [
+        "history-source-6f5fcb637e5ac4ec92db01d6",
+        "history-source-9e0440b36d9594bdf42fb07e",
+        "history-source-182dffab83784b32067a7c9d"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        255.0,
+        235.0,
+        271.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-584d11cae24d98df7e42",
+      "institution_id": "hse",
+      "name": "Физика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 243.0,
+      "target_id": "history-source-86514b7f71759fab3019f0ee",
+      "last_year": 269.0,
+      "median_last_three": 255.0,
+      "training_ids": [
+        "history-source-00a8d7a34f7e8dda83f3caf2",
+        "history-source-6f5fcb637e5ac4ec92db01d6",
+        "history-source-9e0440b36d9594bdf42fb07e"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        269.0,
+        255.0,
+        235.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-886c9dd336e62cb593c3",
+      "institution_id": "hse",
+      "name": "Политология",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 353.0,
+      "target_id": "history-source-7626f6a704b82b283169b295",
+      "last_year": 368.0,
+      "median_last_three": 369.0,
+      "training_ids": [
+        "history-source-426ae6fdd48e6368b61915ab",
+        "history-source-b2a97110ef8d3e83d525c8eb",
+        "history-source-91fb96e7a06847a4932ced9d"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        368.0,
+        369.0,
+        388.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-886c9dd336e62cb593c3",
+      "institution_id": "hse",
+      "name": "Политология",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 303.0,
+      "target_id": "history-source-6403c52819c7013c63471ac4",
+      "last_year": 353.0,
+      "median_last_three": 368.0,
+      "training_ids": [
+        "history-source-7626f6a704b82b283169b295",
+        "history-source-426ae6fdd48e6368b61915ab",
+        "history-source-b2a97110ef8d3e83d525c8eb"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        353.0,
+        368.0,
+        369.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-886c9dd336e62cb593c3",
+      "institution_id": "hse",
+      "name": "Политология",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 297.0,
+      "target_id": "history-source-3aa97b4eb0711c635ceb0cc5",
+      "last_year": 303.0,
+      "median_last_three": 353.0,
+      "training_ids": [
+        "history-source-6403c52819c7013c63471ac4",
+        "history-source-7626f6a704b82b283169b295",
+        "history-source-426ae6fdd48e6368b61915ab"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        303.0,
+        353.0,
+        368.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-d23b93d252d73a8285a0",
+      "institution_id": "hse",
+      "name": "Стратегия и продюсирование в коммуникациях",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 300.0,
+      "target_id": "history-source-af6c5a6b2058cde93f963b99",
+      "last_year": 295.0,
+      "median_last_three": 298.0,
+      "training_ids": [
+        "history-source-0ff3b3959b24510e7546f77c",
+        "history-source-65969d1d00d8ba79b93629e2"
+      ],
+      "training_years": [
+        2023,
+        2022
+      ],
+      "training_values": [
+        295.0,
+        301.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-d23b93d252d73a8285a0",
+      "institution_id": "hse",
+      "name": "Стратегия и продюсирование в коммуникациях",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 295.0,
+      "target_id": "history-source-22ebf55afb18d38a79a96f58",
+      "last_year": 300.0,
+      "median_last_three": 300.0,
+      "training_ids": [
+        "history-source-af6c5a6b2058cde93f963b99",
+        "history-source-0ff3b3959b24510e7546f77c",
+        "history-source-65969d1d00d8ba79b93629e2"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        300.0,
+        295.0,
+        301.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-08c5bbf0aaf27848183d",
+      "institution_id": "hse",
+      "name": "Психология",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 265.0,
+      "target_id": "history-source-e9fab2f946dcf553622ada2b",
+      "last_year": 256.0,
+      "median_last_three": 262.0,
+      "training_ids": [
+        "history-source-f5f3605600a4a88ba964af88",
+        "history-source-2d2f52e19c50348ed25a16e2",
+        "history-source-162bb2569aa33ec90f88ae34"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        256.0,
+        267.0,
+        262.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-08c5bbf0aaf27848183d",
+      "institution_id": "hse",
+      "name": "Психология",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 275.0,
+      "target_id": "history-source-262bb585f61f150ae86ce3a7",
+      "last_year": 265.0,
+      "median_last_three": 265.0,
+      "training_ids": [
+        "history-source-e9fab2f946dcf553622ada2b",
+        "history-source-f5f3605600a4a88ba964af88",
+        "history-source-2d2f52e19c50348ed25a16e2"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        265.0,
+        256.0,
+        267.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-08c5bbf0aaf27848183d",
+      "institution_id": "hse",
+      "name": "Психология",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 249.0,
+      "target_id": "history-source-996fc2f7cc59d4fb4ec2fc07",
+      "last_year": 275.0,
+      "median_last_three": 265.0,
+      "training_ids": [
+        "history-source-262bb585f61f150ae86ce3a7",
+        "history-source-e9fab2f946dcf553622ada2b",
+        "history-source-f5f3605600a4a88ba964af88"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        275.0,
+        265.0,
+        256.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-80774b408e9b7db673b2",
+      "institution_id": "hse",
+      "name": "Программная инженерия",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 305.0,
+      "target_id": "history-source-221b89e56d5fc31dba4f8aaf",
+      "last_year": 295.0,
+      "median_last_three": 295.0,
+      "training_ids": [
+        "history-source-d65d72d913f2e88aa069538b",
+        "history-source-878d5236abbab18957a3c75e",
+        "history-source-8cd127a2a9281d522daec2e2"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        295.0,
+        301.0,
+        286.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-80774b408e9b7db673b2",
+      "institution_id": "hse",
+      "name": "Программная инженерия",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 296.0,
+      "target_id": "history-source-764a3f8087edc4aa6f3004c0",
+      "last_year": 305.0,
+      "median_last_three": 301.0,
+      "training_ids": [
+        "history-source-221b89e56d5fc31dba4f8aaf",
+        "history-source-d65d72d913f2e88aa069538b",
+        "history-source-878d5236abbab18957a3c75e"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        305.0,
+        295.0,
+        301.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-80774b408e9b7db673b2",
+      "institution_id": "hse",
+      "name": "Программная инженерия",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 299.0,
+      "target_id": "history-source-3743e3854d0a9dc7bd3a1bd3",
+      "last_year": 296.0,
+      "median_last_three": 296.0,
+      "training_ids": [
+        "history-source-764a3f8087edc4aa6f3004c0",
+        "history-source-221b89e56d5fc31dba4f8aaf",
+        "history-source-d65d72d913f2e88aa069538b"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        296.0,
+        305.0,
+        295.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-0b090fb6ac2a0c7182c3",
+      "institution_id": "hse",
+      "name": "Социология",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 363.0,
+      "target_id": "history-source-fc17922ba410ea3d82dce01e",
+      "last_year": 351.0,
+      "median_last_three": 360.0,
+      "training_ids": [
+        "history-source-e577542ea96750dc88744af9",
+        "history-source-b62306ca70da20b78a0c73d3",
+        "history-source-e854c8f03d73fd8971d64769"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        351.0,
+        395.0,
+        360.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-0b090fb6ac2a0c7182c3",
+      "institution_id": "hse",
+      "name": "Социология",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 276.0,
+      "target_id": "history-source-d945a33c1e2aecd307857228",
+      "last_year": 363.0,
+      "median_last_three": 363.0,
+      "training_ids": [
+        "history-source-fc17922ba410ea3d82dce01e",
+        "history-source-e577542ea96750dc88744af9",
+        "history-source-b62306ca70da20b78a0c73d3"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        363.0,
+        351.0,
+        395.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-0b090fb6ac2a0c7182c3",
+      "institution_id": "hse",
+      "name": "Социология",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 288.0,
+      "target_id": "history-source-9c9120e8f82e6027d63021a9",
+      "last_year": 276.0,
+      "median_last_three": 351.0,
+      "training_ids": [
+        "history-source-d945a33c1e2aecd307857228",
+        "history-source-fc17922ba410ea3d82dce01e",
+        "history-source-e577542ea96750dc88744af9"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        276.0,
+        363.0,
+        351.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-96f77da12485403c789e",
+      "institution_id": "hse",
+      "name": "Экономика и статистика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 360.0,
+      "target_id": "history-source-fedf7e0a05015dd6b7528069",
+      "last_year": 372.0,
+      "median_last_three": 368.0,
+      "training_ids": [
+        "history-source-f8429e401fc6e6ee80cb9dcb",
+        "history-source-0a66b1c5968a30f170eee37c",
+        "history-source-5d5dd1900f78347c9ed0fe01"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        372.0,
+        368.0,
+        360.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-96f77da12485403c789e",
+      "institution_id": "hse",
+      "name": "Экономика и статистика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 293.0,
+      "target_id": "history-source-7615f418c9c490ad7f64dc3d",
+      "last_year": 360.0,
+      "median_last_three": 368.0,
+      "training_ids": [
+        "history-source-fedf7e0a05015dd6b7528069",
+        "history-source-f8429e401fc6e6ee80cb9dcb",
+        "history-source-0a66b1c5968a30f170eee37c"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        360.0,
+        372.0,
+        368.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-f8c3d066c54c090c482b",
+      "institution_id": "hse",
+      "name": "Городское планирование",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 269.0,
+      "target_id": "history-source-17503be23e58400568b520ce",
+      "last_year": 287.0,
+      "median_last_three": 287.0,
+      "training_ids": [
+        "history-source-995aaeec750860d8d4edb0eb",
+        "history-source-cee490f045a1ac8ee21a1a58",
+        "history-source-67f7f6fa7baf4d0557f6bd31"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        287.0,
+        271.0,
+        287.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-f8c3d066c54c090c482b",
+      "institution_id": "hse",
+      "name": "Городское планирование",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 281.0,
+      "target_id": "history-source-39dda7da77b9c8187f9e310b",
+      "last_year": 269.0,
+      "median_last_three": 271.0,
+      "training_ids": [
+        "history-source-17503be23e58400568b520ce",
+        "history-source-995aaeec750860d8d4edb0eb",
+        "history-source-cee490f045a1ac8ee21a1a58"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        269.0,
+        287.0,
+        271.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-f8c3d066c54c090c482b",
+      "institution_id": "hse",
+      "name": "Городское планирование",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 279.0,
+      "target_id": "history-source-8df5371930fa94f65ec5c193",
+      "last_year": 281.0,
+      "median_last_three": 281.0,
+      "training_ids": [
+        "history-source-39dda7da77b9c8187f9e310b",
+        "history-source-17503be23e58400568b520ce",
+        "history-source-995aaeec750860d8d4edb0eb"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        281.0,
+        269.0,
+        287.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-5fb75a178e3fb25f173e",
+      "institution_id": "hse",
+      "name": "Мировая экономика",
+      "year": 2023,
+      "category": "budget_unspecified",
+      "actual": 366.0,
+      "target_id": "history-source-7477a4ed2a47cf90b1839193",
+      "last_year": 377.0,
+      "median_last_three": 377.0,
+      "training_ids": [
+        "history-source-acca9b7639b869be73dc5871",
+        "history-source-101964ff4150335c70abb16f",
+        "history-source-9cd3ea59bf37d65f2be01e58"
+      ],
+      "training_years": [
+        2022,
+        2021,
+        2020
+      ],
+      "training_values": [
+        377.0,
+        380.0,
+        376.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-5fb75a178e3fb25f173e",
+      "institution_id": "hse",
+      "name": "Мировая экономика",
+      "year": 2024,
+      "category": "budget_unspecified",
+      "actual": 377.0,
+      "target_id": "history-source-a940698bdd75f4be29195ea0",
+      "last_year": 366.0,
+      "median_last_three": 377.0,
+      "training_ids": [
+        "history-source-7477a4ed2a47cf90b1839193",
+        "history-source-acca9b7639b869be73dc5871",
+        "history-source-101964ff4150335c70abb16f"
+      ],
+      "training_years": [
+        2023,
+        2022,
+        2021
+      ],
+      "training_values": [
+        366.0,
+        377.0,
+        380.0
+      ]
+    },
+    {
+      "series_id": "threshold-series-5fb75a178e3fb25f173e",
+      "institution_id": "hse",
+      "name": "Мировая экономика",
+      "year": 2025,
+      "category": "budget_unspecified",
+      "actual": 372.0,
+      "target_id": "history-source-8751306342b49fea958f1ef7",
+      "last_year": 377.0,
+      "median_last_three": 377.0,
+      "training_ids": [
+        "history-source-a940698bdd75f4be29195ea0",
+        "history-source-7477a4ed2a47cf90b1839193",
+        "history-source-acca9b7639b869be73dc5871"
+      ],
+      "training_years": [
+        2024,
+        2023,
+        2022
+      ],
+      "training_values": [
+        377.0,
+        366.0,
+        377.0
+      ]
+    }
+  ],
+  "current": [
+    {
+      "id": "threshold-series-2cdd893ab9885d6272fa",
+      "institution_id": "hse",
+      "program_url": "https://design.hse.ru/ba/program/design",
+      "name": "Дизайн",
+      "official_code": "54.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 291.0,
+      "last_published": 291.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 291.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-7b9f32735fb9d6898c5eb9d0",
+        "history-source-3e3d46d4b4a6429baec018a6",
+        "history-source-2ebdea8a0d41b7426049a2e6"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        291.0,
+        295.0,
+        291.0
+      ]
+    },
+    {
+      "id": "threshold-series-e5b2926fe60801a36f8f",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/ad/",
+      "name": "Реклама и связи с общественностью",
+      "official_code": "42.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 296.0,
+      "last_published": 296.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 296.0,
+      "median_last_three": 301.0,
+      "training_ids": [
+        "history-source-689f033b728fa4c9ebb87664",
+        "history-source-5a723e6bce7cab2ec15f3b94"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        296.0,
+        306.0
+      ]
+    },
+    {
+      "id": "threshold-series-813ddc11b6d6f42c3170",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/am/",
+      "name": "Прикладная математика",
+      "official_code": "01.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 294.0,
+      "last_published": 294.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 294.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-0a09eb7cca6b4cf1abd883cc",
+        "history-source-26b4b6cb49fd3efed715fc18",
+        "history-source-f230cc6eb6bf03de487f670b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        294.0,
+        289.0,
+        279.0
+      ]
+    },
+    {
+      "id": "threshold-series-6f13721e5ea72a78b69c",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/antiq/",
+      "name": "Античность",
+      "official_code": "45.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 262.0,
+      "last_published": 262.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 262.0,
+      "median_last_three": 284.0,
+      "training_ids": [
+        "history-source-c58bb4368c41d1bf99a948a4",
+        "history-source-cd6d435b96d093f5e3426a2f",
+        "history-source-a264d3ce9e38396f115fd603"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        262.0,
+        284.0,
+        293.0
+      ]
+    },
+    {
+      "id": "threshold-series-bf916a1a8cc89b0aa8d5",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/antiq/",
+      "name": "Античность",
+      "official_code": "46.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 255.0,
+      "last_published": 255.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 255.0,
+      "median_last_three": 258.0,
+      "training_ids": [
+        "history-source-ce65054a8084313323ff8ba2",
+        "history-source-35550c25d596250f88b24e22",
+        "history-source-8c4ed14fa29386e7178b7258"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        255.0,
+        266.0,
+        258.0
+      ]
+    },
+    {
+      "id": "threshold-series-363c9439736dfbcacbeb",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/bi/",
+      "name": "Бизнес-информатика",
+      "official_code": "38.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 288.0,
+      "last_published": 288.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 288.0,
+      "median_last_three": 288.0,
+      "training_ids": [
+        "history-source-b2a51159d154ba2fdff47a5c",
+        "history-source-b59c5b50ef3630296dd42d04",
+        "history-source-6ab247c02f2873ac24a03329"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        288.0,
+        300.0,
+        287.0
+      ]
+    },
+    {
+      "id": "threshold-series-9fb19887347ca112baa9",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/chem/",
+      "name": "Химия",
+      "official_code": "04.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 276.0,
+      "last_published": 276.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 276.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-2f10333bd98a3ac03df02d19",
+        "history-source-74f10214ffa2aebd61dfda58",
+        "history-source-c0c61184b40eedeb5cf6be6b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        276.0,
+        287.0,
+        279.0
+      ]
+    },
+    {
+      "id": "threshold-series-b18e047ee802a739882f",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cmb/",
+      "name": "Клеточная и молекулярная биотехнология",
+      "official_code": "06.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 269.0,
+      "last_published": 269.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 269.0,
+      "median_last_three": 290.0,
+      "training_ids": [
+        "history-source-372f42054ac36484bfd3ca02",
+        "history-source-ac8cf1fab811d565404f1cbf",
+        "history-source-650fea0acd437f6e4052947d"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        269.0,
+        290.0,
+        295.0
+      ]
+    },
+    {
+      "id": "threshold-series-78069d9f172261dff771",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cosec/",
+      "name": "Компьютерная безопасность",
+      "official_code": "10.05.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 276.0,
+      "last_published": 276.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 276.0,
+      "median_last_three": 276.0,
+      "training_ids": [
+        "history-source-8365aec31484069813de385d",
+        "history-source-49060595a03b379e293ae56e",
+        "history-source-56dc475d1c955694396ed8d1"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        276.0,
+        282.0,
+        273.0
+      ]
+    },
+    {
+      "id": "threshold-series-28f5ae83dda9f20bb925",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cpm/",
+      "name": "Совместный бакалавриат НИУ ВШЭ и Центра педагогического мастерства",
+      "official_code": "01.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 261.0,
+      "last_published": 261.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 261.0,
+      "median_last_three": 277.0,
+      "training_ids": [
+        "history-source-f2cdca422a23c58a28422c2d",
+        "history-source-2f940e1c4429678205b0c934",
+        "history-source-031b7d8444a75958a020dd0d"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        261.0,
+        283.0,
+        277.0
+      ]
+    },
+    {
+      "id": "threshold-series-372bb2714eaeaf0eaa31",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cultural/",
+      "name": "Культурология",
+      "official_code": "51.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 256.0,
+      "last_published": 256.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 256.0,
+      "median_last_three": 283.0,
+      "training_ids": [
+        "history-source-59d6f3a8494a71d9fca233e5",
+        "history-source-4b2e43f45996ca03b74409bf",
+        "history-source-4b355c80507e00c88a94296f"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        256.0,
+        283.0,
+        350.0
+      ]
+    },
+    {
+      "id": "threshold-series-e66043e7d9ae598f6422",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/dlawyer/",
+      "name": "Юриспруденция: цифровой юрист",
+      "official_code": "40.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 277.0,
+      "last_published": 277.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 277.0,
+      "median_last_three": 276.0,
+      "training_ids": [
+        "history-source-96677b48ce579acd500741bb",
+        "history-source-41bfcbc285f6179dce0f1cd0"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        277.0,
+        275.0
+      ]
+    },
+    {
+      "id": "threshold-series-16149451c96910106922",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/economics/",
+      "name": "Экономика",
+      "official_code": "38.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 291.0,
+      "last_published": 291.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 291.0,
+      "median_last_three": 294.0,
+      "training_ids": [
+        "history-source-9ec634e2b123d178790a1df1",
+        "history-source-4966cd07bd15b4bd9a9997db",
+        "history-source-5a092cd671324862cc019ba1"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        291.0,
+        294.0,
+        366.0
+      ]
+    },
+    {
+      "id": "threshold-series-015ae88b70178cb18694",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/eda",
+      "name": "Экономика и анализ данных",
+      "official_code": "38.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 305.0,
+      "last_published": 305.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 305.0,
+      "median_last_three": 306.5,
+      "training_ids": [
+        "history-source-c0a77e5132f700cc1c99b429",
+        "history-source-32cbf5bf12bbe7c55ade75a0"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        305.0,
+        308.0
+      ]
+    },
+    {
+      "id": "threshold-series-48c076dbe514a5d87af1",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/gmu/",
+      "name": "Государственное и муниципальное управление",
+      "official_code": "38.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 269.0,
+      "last_published": 269.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 269.0,
+      "median_last_three": 281.0,
+      "training_ids": [
+        "history-source-1732929f2f94420d61e52cdd",
+        "history-source-a60b7631adc564d78ffb74b3",
+        "history-source-d43917c7b4724e595f904201"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        269.0,
+        281.0,
+        349.0
+      ]
+    },
+    {
+      "id": "threshold-series-1b102f41c069a2c12adc",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/hist/",
+      "name": "История",
+      "official_code": "46.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 267.0,
+      "last_published": 267.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 267.0,
+      "median_last_three": 267.0,
+      "training_ids": [
+        "history-source-78bf737b101d32bb97d742d8",
+        "history-source-fa58b29143f1bc79e7be43be",
+        "history-source-c542365af9a4baf54d7a3946"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        267.0,
+        269.0,
+        266.0
+      ]
+    },
+    {
+      "id": "threshold-series-e167567b7e5e884592ec",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/histart/",
+      "name": "История искусств",
+      "official_code": "50.03.03",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 264.0,
+      "last_published": 264.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 264.0,
+      "median_last_three": 276.0,
+      "training_ids": [
+        "history-source-1c6404c2af8cc912bbc6f8ea",
+        "history-source-b84c0f594f05965d9d22de74",
+        "history-source-4442d1674627bf79a821986f"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        264.0,
+        285.0,
+        276.0
+      ]
+    },
+    {
+      "id": "threshold-series-3fc740c8e750e5b54198",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/ia/",
+      "name": "Международные отношения",
+      "official_code": "41.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 353.0,
+      "last_published": 353.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 353.0,
+      "median_last_three": 377.0,
+      "training_ids": [
+        "history-source-8c5e82f2fdfe763946c9d77d",
+        "history-source-67dc7e62944ee0ea27d2256e",
+        "history-source-dd7340299b8bf0aae9dea2de"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        353.0,
+        395.0,
+        377.0
+      ]
+    },
+    {
+      "id": "threshold-series-71fcd1b4e7f56036be1f",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/is/",
+      "name": "Информационная безопасность",
+      "official_code": "10.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 276.0,
+      "last_published": 276.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 276.0,
+      "median_last_three": 283.0,
+      "training_ids": [
+        "history-source-e4028bc211500798074e1bcd",
+        "history-source-087758f2af92c3e823cde1d7",
+        "history-source-1199ddb7f9e972fd579a8f44"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        276.0,
+        288.0,
+        283.0
+      ]
+    },
+    {
+      "id": "threshold-series-9143b4b1d6e8f9a49491",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/isct/",
+      "name": "Информатика и вычислительная техника",
+      "official_code": "09.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 278.0,
+      "last_published": 278.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 278.0,
+      "median_last_three": 280.0,
+      "training_ids": [
+        "history-source-36002e7aa1066107b8e68139",
+        "history-source-fe9127245d53a60a2daeec09",
+        "history-source-17ebd7daa9190299b6bb33dd"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        278.0,
+        286.0,
+        280.0
+      ]
+    },
+    {
+      "id": "threshold-series-df9ce58d53e34016468c",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/it/",
+      "name": "Инфокоммуникационные технологии и системы связи",
+      "official_code": "11.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 236.0,
+      "last_published": 236.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 236.0,
+      "median_last_three": 268.0,
+      "training_ids": [
+        "history-source-91e6b201c866cae39257e1b5",
+        "history-source-1262c93444a12d6d9daf63d9",
+        "history-source-528b2fb1a84d8c1ea9280fd3"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        236.0,
+        272.0,
+        268.0
+      ]
+    },
+    {
+      "id": "threshold-series-82bc685bcfb5d3f258f6",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/journ/",
+      "name": "Журналистика",
+      "official_code": "42.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 279.0,
+      "last_published": 279.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 279.0,
+      "median_last_three": 292.0,
+      "training_ids": [
+        "history-source-a8065fff2c5160b1540adf08",
+        "history-source-b56b630a44cb76b2ef9d5402",
+        "history-source-712b2d5e790fa9907380f114"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        279.0,
+        292.0,
+        397.0
+      ]
+    },
+    {
+      "id": "threshold-series-70ef3c4bb32c5d21e9d8",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/law/",
+      "name": "Юриспруденция",
+      "official_code": "40.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 282.0,
+      "last_published": 282.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 282.0,
+      "median_last_three": 284.5,
+      "training_ids": [
+        "history-source-76de45fc23a69b6948a0836e",
+        "history-source-29fcedeb9a4a532a1ffefa51"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        282.0,
+        287.0
+      ]
+    },
+    {
+      "id": "threshold-series-92f6be1fe03e5b411604",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/ling/",
+      "name": "Фундаментальная и компьютерная лингвистика",
+      "official_code": "45.03.03",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 291.0,
+      "last_published": 291.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 291.0,
+      "median_last_three": 293.0,
+      "training_ids": [
+        "history-source-34723353ce9d051526eaaa09",
+        "history-source-070c40d05e0c6feffb39de00",
+        "history-source-4fcb6e801989322fa3e55dfc"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        291.0,
+        296.0,
+        293.0
+      ]
+    },
+    {
+      "id": "threshold-series-306ed667bfb835de1227",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/marketing/",
+      "name": "Маркетинг и рыночная аналитика",
+      "official_code": "38.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 289.0,
+      "last_published": 289.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 289.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-93b6a025321a4e68ca53e001",
+        "history-source-2bd70eb4ca24359014bf498e",
+        "history-source-d545a4e8a6490e043cddee4b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        289.0,
+        292.0,
+        283.0
+      ]
+    },
+    {
+      "id": "threshold-series-10ab9c0c973f51bb5844",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/math/",
+      "name": "Математика",
+      "official_code": "01.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 282.0,
+      "last_published": 282.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 282.0,
+      "median_last_three": 285.0,
+      "training_ids": [
+        "history-source-d63b2b757e9ec0c82fcfe890",
+        "history-source-f8cf6ab3094ee48cf0a4f888",
+        "history-source-2421c56741f8fd74a658a430"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        282.0,
+        291.0,
+        285.0
+      ]
+    },
+    {
+      "id": "threshold-series-56bfda810e6096633a37",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/media/",
+      "name": "Медиакоммуникации",
+      "official_code": "42.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 296.0,
+      "last_published": 296.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 296.0,
+      "median_last_three": 301.0,
+      "training_ids": [
+        "history-source-1e4e0ec3c25061c04cd85842",
+        "history-source-18e2200e6ce7a31b23f56633",
+        "history-source-4c7c5544bb7647568e11a66e"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        296.0,
+        308.0,
+        301.0
+      ]
+    },
+    {
+      "id": "threshold-series-a61dac01fc430e98508b",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/neuroscience/",
+      "name": "Когнитивная нейробиология",
+      "official_code": "06.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 287.0,
+      "last_published": 287.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 287.0,
+      "median_last_three": 287.0,
+      "training_ids": [
+        "history-source-8c60899eba9c17ebd5a8146e",
+        "history-source-cf038ae1af5e9bf3757a03b4",
+        "history-source-61e9d8c9bf8d29466b68abf2"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        287.0,
+        289.0,
+        287.0
+      ]
+    },
+    {
+      "id": "threshold-series-efb17450a9f43c75434d",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/phil/",
+      "name": "Философия",
+      "official_code": "47.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 237.0,
+      "last_published": 237.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 237.0,
+      "median_last_three": 269.0,
+      "training_ids": [
+        "history-source-0de8ed81b4353bf519ba75b5",
+        "history-source-6be28ef366d6d7b87120707c",
+        "history-source-10398a086eb133ee0667d668"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        237.0,
+        269.0,
+        302.0
+      ]
+    },
+    {
+      "id": "threshold-series-db70f2291959b4b34987",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/philology/",
+      "name": "Филология",
+      "official_code": "45.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 296.0,
+      "last_published": 296.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 296.0,
+      "median_last_three": 299.0,
+      "training_ids": [
+        "history-source-110b59bf121c5a51174aa94c",
+        "history-source-adc750e9650839d5b6d24413",
+        "history-source-2a142abd4b6145008a61815f"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        296.0,
+        303.0,
+        299.0
+      ]
+    },
+    {
+      "id": "threshold-series-584d11cae24d98df7e42",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/physics/",
+      "name": "Физика",
+      "official_code": "03.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 243.0,
+      "last_published": 243.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 243.0,
+      "median_last_three": 255.0,
+      "training_ids": [
+        "history-source-86514b7f71759fab3019f0ee",
+        "history-source-00a8d7a34f7e8dda83f3caf2",
+        "history-source-6f5fcb637e5ac4ec92db01d6"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        243.0,
+        269.0,
+        255.0
+      ]
+    },
+    {
+      "id": "threshold-series-886c9dd336e62cb593c3",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/political/",
+      "name": "Политология",
+      "official_code": "41.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 297.0,
+      "last_published": 297.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 297.0,
+      "median_last_three": 303.0,
+      "training_ids": [
+        "history-source-3aa97b4eb0711c635ceb0cc5",
+        "history-source-6403c52819c7013c63471ac4",
+        "history-source-7626f6a704b82b283169b295"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        297.0,
+        303.0,
+        353.0
+      ]
+    },
+    {
+      "id": "threshold-series-d23b93d252d73a8285a0",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/producer/",
+      "name": "Стратегия и продюсирование в коммуникациях",
+      "official_code": "42.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 295.0,
+      "last_published": 295.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 295.0,
+      "median_last_three": 295.0,
+      "training_ids": [
+        "history-source-22ebf55afb18d38a79a96f58",
+        "history-source-af6c5a6b2058cde93f963b99",
+        "history-source-0ff3b3959b24510e7546f77c"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        295.0,
+        300.0,
+        295.0
+      ]
+    },
+    {
+      "id": "threshold-series-08c5bbf0aaf27848183d",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/psy/",
+      "name": "Психология",
+      "official_code": "37.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 249.0,
+      "last_published": 249.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 249.0,
+      "median_last_three": 265.0,
+      "training_ids": [
+        "history-source-996fc2f7cc59d4fb4ec2fc07",
+        "history-source-262bb585f61f150ae86ce3a7",
+        "history-source-e9fab2f946dcf553622ada2b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        249.0,
+        275.0,
+        265.0
+      ]
+    },
+    {
+      "id": "threshold-series-80774b408e9b7db673b2",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/se/",
+      "name": "Программная инженерия",
+      "official_code": "09.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 299.0,
+      "last_published": 299.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 299.0,
+      "median_last_three": 299.0,
+      "training_ids": [
+        "history-source-3743e3854d0a9dc7bd3a1bd3",
+        "history-source-764a3f8087edc4aa6f3004c0",
+        "history-source-221b89e56d5fc31dba4f8aaf"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        299.0,
+        296.0,
+        305.0
+      ]
+    },
+    {
+      "id": "threshold-series-0b090fb6ac2a0c7182c3",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/soc/",
+      "name": "Социология",
+      "official_code": "39.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 288.0,
+      "last_published": 288.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 288.0,
+      "median_last_three": 288.0,
+      "training_ids": [
+        "history-source-9c9120e8f82e6027d63021a9",
+        "history-source-d945a33c1e2aecd307857228",
+        "history-source-fc17922ba410ea3d82dce01e"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        288.0,
+        276.0,
+        363.0
+      ]
+    },
+    {
+      "id": "threshold-series-f8c3d066c54c090c482b",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/up/",
+      "name": "Городское планирование",
+      "official_code": "07.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 279.0,
+      "last_published": 279.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 279.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-8df5371930fa94f65ec5c193",
+        "history-source-39dda7da77b9c8187f9e310b",
+        "history-source-17503be23e58400568b520ce"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        279.0,
+        281.0,
+        269.0
+      ]
+    },
+    {
+      "id": "threshold-series-5fb75a178e3fb25f173e",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/we/",
+      "name": "Мировая экономика",
+      "official_code": "38.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 372.0,
+      "last_published": 372.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 372.0,
+      "median_last_three": 372.0,
+      "training_ids": [
+        "history-source-8751306342b49fea958f1ef7",
+        "history-source-a940698bdd75f4be29195ea0",
+        "history-source-7477a4ed2a47cf90b1839193"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        372.0,
+        377.0,
+        366.0
+      ]
+    }
+  ],
+  "metrics": {
+    "last_year": {
+      "n": 108,
+      "mae": 15.962962962962964,
+      "rmse": 25.054385289250707,
+      "bias": 7.907407407407407,
+      "median_absolute_error": 9.5
+    },
+    "median_last_three": {
+      "n": 108,
+      "mae": 19.824074074074073,
+      "rmse": 32.99824630581539,
+      "bias": 14.101851851851851,
+      "median_absolute_error": 9.25
+    }
+  },
+  "metrics_by_year": {
+    "2023": {
+      "last_year": {
+        "n": 36,
+        "mae": 14.055555555555555,
+        "rmse": 20.526405757787536,
+        "bias": 2.1666666666666665,
+        "median_absolute_error": 11.5
+      },
+      "median_last_three": {
+        "n": 36,
+        "mae": 12.583333333333334,
+        "rmse": 19.194183146637595,
+        "bias": 5.25,
+        "median_absolute_error": 10.0
+      }
+    },
+    "2024": {
+      "last_year": {
+        "n": 38,
+        "mae": 20.342105263157894,
+        "rmse": 33.66201982869371,
+        "bias": 9.763157894736842,
+        "median_absolute_error": 9.0
+      },
+      "median_last_three": {
+        "n": 38,
+        "mae": 23.289473684210527,
+        "rmse": 38.648040734707095,
+        "bias": 15.131578947368421,
+        "median_absolute_error": 8.5
+      }
+    },
+    "2025": {
+      "last_year": {
+        "n": 34,
+        "mae": 13.088235294117647,
+        "rmse": 16.77445536943529,
+        "bias": 11.911764705882353,
+        "median_absolute_error": 11.0
+      },
+      "median_last_three": {
+        "n": 34,
+        "mae": 23.61764705882353,
+        "rmse": 37.407533057016266,
+        "bias": 22.323529411764707,
+        "median_absolute_error": 11.5
+      }
+    }
+  },
+  "metrics_by_category": {
+    "budget_unspecified": {
+      "last_year": {
+        "n": 108,
+        "mae": 15.962962962962964,
+        "rmse": 25.054385289250707,
+        "bias": 7.907407407407407,
+        "median_absolute_error": 9.5
+      },
+      "median_last_three": {
+        "n": 108,
+        "mae": 19.824074074074073,
+        "rmse": 32.99824630581539,
+        "bias": 14.101851851851851,
+        "median_absolute_error": 9.25
+      }
+    }
+  }
+}

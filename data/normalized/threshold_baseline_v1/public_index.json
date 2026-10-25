@@ -1,0 +1,1151 @@
+{
+  "version": "published-threshold-baseline-v1",
+  "year": 2026,
+  "metrics": {
+    "last_year": {
+      "n": 108,
+      "mae": 15.962962962962964,
+      "rmse": 25.054385289250707,
+      "bias": 7.907407407407407,
+      "median_absolute_error": 9.5
+    },
+    "median_last_three": {
+      "n": 108,
+      "mae": 19.824074074074073,
+      "rmse": 32.99824630581539,
+      "bias": 14.101851851851851,
+      "median_absolute_error": 9.25
+    }
+  },
+  "probability_enabled": false,
+  "records": [
+    {
+      "id": "threshold-series-2cdd893ab9885d6272fa",
+      "institution_id": "hse",
+      "program_url": "https://design.hse.ru/ba/program/design",
+      "name": "Дизайн",
+      "official_code": "54.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 291.0,
+      "last_published": 291.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 291.0,
+      "median_last_three": 291.0,
+      "training_ids": [
+        "history-source-7b9f32735fb9d6898c5eb9d0",
+        "history-source-3e3d46d4b4a6429baec018a6",
+        "history-source-2ebdea8a0d41b7426049a2e6"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        291.0,
+        295.0,
+        291.0
+      ]
+    },
+    {
+      "id": "threshold-series-e5b2926fe60801a36f8f",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/ad/",
+      "name": "Реклама и связи с общественностью",
+      "official_code": "42.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 296.0,
+      "last_published": 296.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 296.0,
+      "median_last_three": 301.0,
+      "training_ids": [
+        "history-source-689f033b728fa4c9ebb87664",
+        "history-source-5a723e6bce7cab2ec15f3b94"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        296.0,
+        306.0
+      ]
+    },
+    {
+      "id": "threshold-series-813ddc11b6d6f42c3170",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/am/",
+      "name": "Прикладная математика",
+      "official_code": "01.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 294.0,
+      "last_published": 294.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 294.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-0a09eb7cca6b4cf1abd883cc",
+        "history-source-26b4b6cb49fd3efed715fc18",
+        "history-source-f230cc6eb6bf03de487f670b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        294.0,
+        289.0,
+        279.0
+      ]
+    },
+    {
+      "id": "threshold-series-6f13721e5ea72a78b69c",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/antiq/",
+      "name": "Античность",
+      "official_code": "45.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 262.0,
+      "last_published": 262.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 262.0,
+      "median_last_three": 284.0,
+      "training_ids": [
+        "history-source-c58bb4368c41d1bf99a948a4",
+        "history-source-cd6d435b96d093f5e3426a2f",
+        "history-source-a264d3ce9e38396f115fd603"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        262.0,
+        284.0,
+        293.0
+      ]
+    },
+    {
+      "id": "threshold-series-bf916a1a8cc89b0aa8d5",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/antiq/",
+      "name": "Античность",
+      "official_code": "46.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 255.0,
+      "last_published": 255.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 255.0,
+      "median_last_three": 258.0,
+      "training_ids": [
+        "history-source-ce65054a8084313323ff8ba2",
+        "history-source-35550c25d596250f88b24e22",
+        "history-source-8c4ed14fa29386e7178b7258"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        255.0,
+        266.0,
+        258.0
+      ]
+    },
+    {
+      "id": "threshold-series-363c9439736dfbcacbeb",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/bi/",
+      "name": "Бизнес-информатика",
+      "official_code": "38.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 288.0,
+      "last_published": 288.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 288.0,
+      "median_last_three": 288.0,
+      "training_ids": [
+        "history-source-b2a51159d154ba2fdff47a5c",
+        "history-source-b59c5b50ef3630296dd42d04",
+        "history-source-6ab247c02f2873ac24a03329"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        288.0,
+        300.0,
+        287.0
+      ]
+    },
+    {
+      "id": "threshold-series-9fb19887347ca112baa9",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/chem/",
+      "name": "Химия",
+      "official_code": "04.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 276.0,
+      "last_published": 276.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 276.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-2f10333bd98a3ac03df02d19",
+        "history-source-74f10214ffa2aebd61dfda58",
+        "history-source-c0c61184b40eedeb5cf6be6b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        276.0,
+        287.0,
+        279.0
+      ]
+    },
+    {
+      "id": "threshold-series-b18e047ee802a739882f",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cmb/",
+      "name": "Клеточная и молекулярная биотехнология",
+      "official_code": "06.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 269.0,
+      "last_published": 269.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 269.0,
+      "median_last_three": 290.0,
+      "training_ids": [
+        "history-source-372f42054ac36484bfd3ca02",
+        "history-source-ac8cf1fab811d565404f1cbf",
+        "history-source-650fea0acd437f6e4052947d"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        269.0,
+        290.0,
+        295.0
+      ]
+    },
+    {
+      "id": "threshold-series-78069d9f172261dff771",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cosec/",
+      "name": "Компьютерная безопасность",
+      "official_code": "10.05.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 276.0,
+      "last_published": 276.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 276.0,
+      "median_last_three": 276.0,
+      "training_ids": [
+        "history-source-8365aec31484069813de385d",
+        "history-source-49060595a03b379e293ae56e",
+        "history-source-56dc475d1c955694396ed8d1"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        276.0,
+        282.0,
+        273.0
+      ]
+    },
+    {
+      "id": "threshold-series-28f5ae83dda9f20bb925",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cpm/",
+      "name": "Совместный бакалавриат НИУ ВШЭ и Центра педагогического мастерства",
+      "official_code": "01.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 261.0,
+      "last_published": 261.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 261.0,
+      "median_last_three": 277.0,
+      "training_ids": [
+        "history-source-f2cdca422a23c58a28422c2d",
+        "history-source-2f940e1c4429678205b0c934",
+        "history-source-031b7d8444a75958a020dd0d"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        261.0,
+        283.0,
+        277.0
+      ]
+    },
+    {
+      "id": "threshold-series-372bb2714eaeaf0eaa31",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/cultural/",
+      "name": "Культурология",
+      "official_code": "51.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 256.0,
+      "last_published": 256.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 256.0,
+      "median_last_three": 283.0,
+      "training_ids": [
+        "history-source-59d6f3a8494a71d9fca233e5",
+        "history-source-4b2e43f45996ca03b74409bf",
+        "history-source-4b355c80507e00c88a94296f"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        256.0,
+        283.0,
+        350.0
+      ]
+    },
+    {
+      "id": "threshold-series-e66043e7d9ae598f6422",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/dlawyer/",
+      "name": "Юриспруденция: цифровой юрист",
+      "official_code": "40.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 277.0,
+      "last_published": 277.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 277.0,
+      "median_last_three": 276.0,
+      "training_ids": [
+        "history-source-96677b48ce579acd500741bb",
+        "history-source-41bfcbc285f6179dce0f1cd0"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        277.0,
+        275.0
+      ]
+    },
+    {
+      "id": "threshold-series-16149451c96910106922",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/economics/",
+      "name": "Экономика",
+      "official_code": "38.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 291.0,
+      "last_published": 291.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 291.0,
+      "median_last_three": 294.0,
+      "training_ids": [
+        "history-source-9ec634e2b123d178790a1df1",
+        "history-source-4966cd07bd15b4bd9a9997db",
+        "history-source-5a092cd671324862cc019ba1"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        291.0,
+        294.0,
+        366.0
+      ]
+    },
+    {
+      "id": "threshold-series-015ae88b70178cb18694",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/eda",
+      "name": "Экономика и анализ данных",
+      "official_code": "38.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 305.0,
+      "last_published": 305.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 305.0,
+      "median_last_three": 306.5,
+      "training_ids": [
+        "history-source-c0a77e5132f700cc1c99b429",
+        "history-source-32cbf5bf12bbe7c55ade75a0"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        305.0,
+        308.0
+      ]
+    },
+    {
+      "id": "threshold-series-48c076dbe514a5d87af1",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/gmu/",
+      "name": "Государственное и муниципальное управление",
+      "official_code": "38.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 269.0,
+      "last_published": 269.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 269.0,
+      "median_last_three": 281.0,
+      "training_ids": [
+        "history-source-1732929f2f94420d61e52cdd",
+        "history-source-a60b7631adc564d78ffb74b3",
+        "history-source-d43917c7b4724e595f904201"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        269.0,
+        281.0,
+        349.0
+      ]
+    },
+    {
+      "id": "threshold-series-1b102f41c069a2c12adc",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/hist/",
+      "name": "История",
+      "official_code": "46.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 267.0,
+      "last_published": 267.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 267.0,
+      "median_last_three": 267.0,
+      "training_ids": [
+        "history-source-78bf737b101d32bb97d742d8",
+        "history-source-fa58b29143f1bc79e7be43be",
+        "history-source-c542365af9a4baf54d7a3946"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        267.0,
+        269.0,
+        266.0
+      ]
+    },
+    {
+      "id": "threshold-series-e167567b7e5e884592ec",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/histart/",
+      "name": "История искусств",
+      "official_code": "50.03.03",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 264.0,
+      "last_published": 264.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 264.0,
+      "median_last_three": 276.0,
+      "training_ids": [
+        "history-source-1c6404c2af8cc912bbc6f8ea",
+        "history-source-b84c0f594f05965d9d22de74",
+        "history-source-4442d1674627bf79a821986f"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        264.0,
+        285.0,
+        276.0
+      ]
+    },
+    {
+      "id": "threshold-series-3fc740c8e750e5b54198",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/ia/",
+      "name": "Международные отношения",
+      "official_code": "41.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 353.0,
+      "last_published": 353.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 353.0,
+      "median_last_three": 377.0,
+      "training_ids": [
+        "history-source-8c5e82f2fdfe763946c9d77d",
+        "history-source-67dc7e62944ee0ea27d2256e",
+        "history-source-dd7340299b8bf0aae9dea2de"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        353.0,
+        395.0,
+        377.0
+      ]
+    },
+    {
+      "id": "threshold-series-71fcd1b4e7f56036be1f",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/is/",
+      "name": "Информационная безопасность",
+      "official_code": "10.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 276.0,
+      "last_published": 276.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 276.0,
+      "median_last_three": 283.0,
+      "training_ids": [
+        "history-source-e4028bc211500798074e1bcd",
+        "history-source-087758f2af92c3e823cde1d7",
+        "history-source-1199ddb7f9e972fd579a8f44"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        276.0,
+        288.0,
+        283.0
+      ]
+    },
+    {
+      "id": "threshold-series-9143b4b1d6e8f9a49491",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/isct/",
+      "name": "Информатика и вычислительная техника",
+      "official_code": "09.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 278.0,
+      "last_published": 278.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 278.0,
+      "median_last_three": 280.0,
+      "training_ids": [
+        "history-source-36002e7aa1066107b8e68139",
+        "history-source-fe9127245d53a60a2daeec09",
+        "history-source-17ebd7daa9190299b6bb33dd"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        278.0,
+        286.0,
+        280.0
+      ]
+    },
+    {
+      "id": "threshold-series-df9ce58d53e34016468c",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/it/",
+      "name": "Инфокоммуникационные технологии и системы связи",
+      "official_code": "11.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 236.0,
+      "last_published": 236.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 236.0,
+      "median_last_three": 268.0,
+      "training_ids": [
+        "history-source-91e6b201c866cae39257e1b5",
+        "history-source-1262c93444a12d6d9daf63d9",
+        "history-source-528b2fb1a84d8c1ea9280fd3"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        236.0,
+        272.0,
+        268.0
+      ]
+    },
+    {
+      "id": "threshold-series-82bc685bcfb5d3f258f6",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/journ/",
+      "name": "Журналистика",
+      "official_code": "42.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 279.0,
+      "last_published": 279.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 279.0,
+      "median_last_three": 292.0,
+      "training_ids": [
+        "history-source-a8065fff2c5160b1540adf08",
+        "history-source-b56b630a44cb76b2ef9d5402",
+        "history-source-712b2d5e790fa9907380f114"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        279.0,
+        292.0,
+        397.0
+      ]
+    },
+    {
+      "id": "threshold-series-70ef3c4bb32c5d21e9d8",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/law/",
+      "name": "Юриспруденция",
+      "official_code": "40.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 282.0,
+      "last_published": 282.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 282.0,
+      "median_last_three": 284.5,
+      "training_ids": [
+        "history-source-76de45fc23a69b6948a0836e",
+        "history-source-29fcedeb9a4a532a1ffefa51"
+      ],
+      "training_years": [
+        2025,
+        2024
+      ],
+      "training_values": [
+        282.0,
+        287.0
+      ]
+    },
+    {
+      "id": "threshold-series-92f6be1fe03e5b411604",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/ling/",
+      "name": "Фундаментальная и компьютерная лингвистика",
+      "official_code": "45.03.03",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 291.0,
+      "last_published": 291.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 291.0,
+      "median_last_three": 293.0,
+      "training_ids": [
+        "history-source-34723353ce9d051526eaaa09",
+        "history-source-070c40d05e0c6feffb39de00",
+        "history-source-4fcb6e801989322fa3e55dfc"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        291.0,
+        296.0,
+        293.0
+      ]
+    },
+    {
+      "id": "threshold-series-306ed667bfb835de1227",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/marketing/",
+      "name": "Маркетинг и рыночная аналитика",
+      "official_code": "38.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 289.0,
+      "last_published": 289.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 289.0,
+      "median_last_three": 289.0,
+      "training_ids": [
+        "history-source-93b6a025321a4e68ca53e001",
+        "history-source-2bd70eb4ca24359014bf498e",
+        "history-source-d545a4e8a6490e043cddee4b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        289.0,
+        292.0,
+        283.0
+      ]
+    },
+    {
+      "id": "threshold-series-10ab9c0c973f51bb5844",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/math/",
+      "name": "Математика",
+      "official_code": "01.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 282.0,
+      "last_published": 282.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 282.0,
+      "median_last_three": 285.0,
+      "training_ids": [
+        "history-source-d63b2b757e9ec0c82fcfe890",
+        "history-source-f8cf6ab3094ee48cf0a4f888",
+        "history-source-2421c56741f8fd74a658a430"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        282.0,
+        291.0,
+        285.0
+      ]
+    },
+    {
+      "id": "threshold-series-56bfda810e6096633a37",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/media/",
+      "name": "Медиакоммуникации",
+      "official_code": "42.03.05",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 296.0,
+      "last_published": 296.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 296.0,
+      "median_last_three": 301.0,
+      "training_ids": [
+        "history-source-1e4e0ec3c25061c04cd85842",
+        "history-source-18e2200e6ce7a31b23f56633",
+        "history-source-4c7c5544bb7647568e11a66e"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        296.0,
+        308.0,
+        301.0
+      ]
+    },
+    {
+      "id": "threshold-series-a61dac01fc430e98508b",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/neuroscience/",
+      "name": "Когнитивная нейробиология",
+      "official_code": "06.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 287.0,
+      "last_published": 287.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 287.0,
+      "median_last_three": 287.0,
+      "training_ids": [
+        "history-source-8c60899eba9c17ebd5a8146e",
+        "history-source-cf038ae1af5e9bf3757a03b4",
+        "history-source-61e9d8c9bf8d29466b68abf2"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        287.0,
+        289.0,
+        287.0
+      ]
+    },
+    {
+      "id": "threshold-series-efb17450a9f43c75434d",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/phil/",
+      "name": "Философия",
+      "official_code": "47.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 237.0,
+      "last_published": 237.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 237.0,
+      "median_last_three": 269.0,
+      "training_ids": [
+        "history-source-0de8ed81b4353bf519ba75b5",
+        "history-source-6be28ef366d6d7b87120707c",
+        "history-source-10398a086eb133ee0667d668"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        237.0,
+        269.0,
+        302.0
+      ]
+    },
+    {
+      "id": "threshold-series-db70f2291959b4b34987",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/philology/",
+      "name": "Филология",
+      "official_code": "45.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 296.0,
+      "last_published": 296.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 296.0,
+      "median_last_three": 299.0,
+      "training_ids": [
+        "history-source-110b59bf121c5a51174aa94c",
+        "history-source-adc750e9650839d5b6d24413",
+        "history-source-2a142abd4b6145008a61815f"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        296.0,
+        303.0,
+        299.0
+      ]
+    },
+    {
+      "id": "threshold-series-584d11cae24d98df7e42",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/physics/",
+      "name": "Физика",
+      "official_code": "03.03.02",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 243.0,
+      "last_published": 243.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 243.0,
+      "median_last_three": 255.0,
+      "training_ids": [
+        "history-source-86514b7f71759fab3019f0ee",
+        "history-source-00a8d7a34f7e8dda83f3caf2",
+        "history-source-6f5fcb637e5ac4ec92db01d6"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        243.0,
+        269.0,
+        255.0
+      ]
+    },
+    {
+      "id": "threshold-series-886c9dd336e62cb593c3",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/political/",
+      "name": "Политология",
+      "official_code": "41.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 297.0,
+      "last_published": 297.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 297.0,
+      "median_last_three": 303.0,
+      "training_ids": [
+        "history-source-3aa97b4eb0711c635ceb0cc5",
+        "history-source-6403c52819c7013c63471ac4",
+        "history-source-7626f6a704b82b283169b295"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        297.0,
+        303.0,
+        353.0
+      ]
+    },
+    {
+      "id": "threshold-series-d23b93d252d73a8285a0",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/producer/",
+      "name": "Стратегия и продюсирование в коммуникациях",
+      "official_code": "42.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 295.0,
+      "last_published": 295.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 295.0,
+      "median_last_three": 295.0,
+      "training_ids": [
+        "history-source-22ebf55afb18d38a79a96f58",
+        "history-source-af6c5a6b2058cde93f963b99",
+        "history-source-0ff3b3959b24510e7546f77c"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        295.0,
+        300.0,
+        295.0
+      ]
+    },
+    {
+      "id": "threshold-series-08c5bbf0aaf27848183d",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/psy/",
+      "name": "Психология",
+      "official_code": "37.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 249.0,
+      "last_published": 249.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 249.0,
+      "median_last_three": 265.0,
+      "training_ids": [
+        "history-source-996fc2f7cc59d4fb4ec2fc07",
+        "history-source-262bb585f61f150ae86ce3a7",
+        "history-source-e9fab2f946dcf553622ada2b"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        249.0,
+        275.0,
+        265.0
+      ]
+    },
+    {
+      "id": "threshold-series-80774b408e9b7db673b2",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/se/",
+      "name": "Программная инженерия",
+      "official_code": "09.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 299.0,
+      "last_published": 299.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 299.0,
+      "median_last_three": 299.0,
+      "training_ids": [
+        "history-source-3743e3854d0a9dc7bd3a1bd3",
+        "history-source-764a3f8087edc4aa6f3004c0",
+        "history-source-221b89e56d5fc31dba4f8aaf"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        299.0,
+        296.0,
+        305.0
+      ]
+    },
+    {
+      "id": "threshold-series-0b090fb6ac2a0c7182c3",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/soc/",
+      "name": "Социология",
+      "official_code": "39.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 288.0,
+      "last_published": 288.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 288.0,
+      "median_last_three": 288.0,
+      "training_ids": [
+        "history-source-9c9120e8f82e6027d63021a9",
+        "history-source-d945a33c1e2aecd307857228",
+        "history-source-fc17922ba410ea3d82dce01e"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        288.0,
+        276.0,
+        363.0
+      ]
+    },
+    {
+      "id": "threshold-series-f8c3d066c54c090c482b",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/up/",
+      "name": "Городское планирование",
+      "official_code": "07.03.04",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 279.0,
+      "last_published": 279.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 279.0,
+      "median_last_three": 279.0,
+      "training_ids": [
+        "history-source-8df5371930fa94f65ec5c193",
+        "history-source-39dda7da77b9c8187f9e310b",
+        "history-source-17503be23e58400568b520ce"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        279.0,
+        281.0,
+        269.0
+      ]
+    },
+    {
+      "id": "threshold-series-5fb75a178e3fb25f173e",
+      "institution_id": "hse",
+      "program_url": "https://www.hse.ru/ba/we/",
+      "name": "Мировая экономика",
+      "official_code": "38.03.01",
+      "category": "budget_unspecified",
+      "year": 2026,
+      "estimate": 372.0,
+      "last_published": 372.0,
+      "last_published_year": 2025,
+      "source_url": "https://ba.hse.ru/result2025",
+      "last_year": 372.0,
+      "median_last_three": 372.0,
+      "training_ids": [
+        "history-source-8751306342b49fea958f1ef7",
+        "history-source-a940698bdd75f4be29195ea0",
+        "history-source-7477a4ed2a47cf90b1839193"
+      ],
+      "training_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "training_values": [
+        372.0,
+        377.0,
+        366.0
+      ]
+    }
+  ]
+}

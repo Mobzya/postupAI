@@ -9,6 +9,7 @@ import { catalogSummary, searchPrograms } from './catalog.ts';
 import { historicalSummary } from './history.ts';
 import { renderRules, renderAcademicScore, renderAchievementRules } from './academic.ts';
 import { renderGrowth, renderGrowthModel } from './growth.ts';
+import { renderBaseline } from './baseline.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -169,6 +170,9 @@ export default {
           break;
         case '/model':
           text = renderGrowthModel();
+          break;
+        case '/baseline':
+          text = renderBaseline(message.text.trim().split(/\s+/).slice(1).join(' '));
           break;
         case '/forecast': case '/compare':
           forecastAvailability();
