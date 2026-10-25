@@ -17,9 +17,10 @@ import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-ALLOWED_METHODS = {'getMe', 'getWebhookInfo', 'getUpdates', 'sendMessage', 'setMyCommands'}
+ALLOWED_METHODS = {'getMe', 'getWebhookInfo', 'getUpdates', 'sendMessage', 'editMessageText','answerCallbackQuery','setMyCommands'}
 COMMANDS = [
     {'command': 'start', 'description': 'Начать работу'},
+    {'command': 'pick', 'description': 'Баллы → олимпиада → вуз → программы'},
     {'command': 'status', 'description': 'Текущий этап и результаты'},
     {'command': 'sources', 'description': 'Официальные источники вузов'},
     {'command': 'programs', 'description': 'Состояние каталога программ'},
@@ -86,6 +87,12 @@ class BotAPI:
                 if len(raw) > 2_000_000: raise BotError('Bot API response too large; content suppressed.')
                 result = json.loads(raw)
         except urllib.error.HTTPError as error:
+            if error.code==400 and method in ('editMessageText','answerCallbackQuery'):
+                try:description=json.loads(error.read(4096)).get('description','').casefold()
+                except (ValueError,AttributeError):description=''
+                if ((method=='editMessageText' and 'message is not modified' in description) or
+                    (method=='answerCallbackQuery' and ('query is too old' in description or 'query id is invalid' in description))):
+                    return True
             if error.code == 409:
                 raise BotError('Another polling instance or webhook is active; local bot stopped.') from None
             if error.code in (401, 404):
@@ -130,19 +137,29 @@ def worker_call(base_url, path, payload=None, secret=None):
 def handle_update(update, bot, base_url, secret):
     reply = worker_call(base_url,'/telegram/webhook',update,secret)
     if reply == {'ok': True}: return
-    if (not isinstance(reply,dict) or reply.get('method')!='sendMessage'
-        or not isinstance(reply.get('text'),str) or not isinstance(reply.get('chat_id'),int)):
+    if isinstance(reply,dict) and reply.get('method')=='answerCallbackQuery':
+        if not isinstance(reply.get('callback_query_id'),str) or not isinstance(reply.get('text'),str):
+            raise BotError('Invalid callback answer; content suppressed.')
+        bot.call('answerCallbackQuery',{'callback_query_id':reply['callback_query_id'],'text':reply['text']});return
+    if (not isinstance(reply,dict) or reply.get('method') not in ('sendMessage','editMessageText')
+        or not isinstance(reply.get('text'),str) or type(reply.get('chat_id')) is not int):
         raise BotError('Unexpected local Worker response; content suppressed.')
     payload={'chat_id':reply['chat_id'],'text':reply['text']}
+    if reply['method']=='editMessageText':
+        if type(reply.get('message_id')) is not int:raise BotError('Invalid message identity; content suppressed.')
+        payload['message_id']=reply['message_id']
     for key in ('reply_markup','link_preview_options'):
         if key in reply:
             if not isinstance(reply[key],dict):raise BotError('Invalid local Worker reply options; content suppressed.')
             payload[key]=reply[key]
-    bot.call('sendMessage',payload)
+    callback=update.get('callback_query')
+    if isinstance(callback,dict) and isinstance(callback.get('id'),str):
+        bot.call('answerCallbackQuery',{'callback_query_id':callback['id']})
+    bot.call(reply['method'],payload)
 
 
 def poll_once(bot, base_url, secret, offset):
-    updates = bot.call('getUpdates',{'offset':offset,'timeout':20,'limit':20,'allowed_updates':['message']})
+    updates = bot.call('getUpdates',{'offset':offset,'timeout':20,'limit':20,'allowed_updates':['message','callback_query']})
     if not isinstance(updates,list): raise BotError('Invalid update batch; content suppressed.')
     next_offset = offset
     for update in updates:

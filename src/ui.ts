@@ -1,8 +1,7 @@
 import release from '../config/bot.release.json' with {type:'json'};
 
-export const MENU={keyboard:[['📚 Каталог','🔎 Найти программу'],['🎯 Сценарии ЕГЭ','🧮 Конкурсный балл'],
-  ['📋 Правила и ИД','📊 История порогов'],['⚖️ Сравнить программы','📎 Источники'],['ℹ️ Статус','🔐 Данные и профиль']],
-  resize_keyboard:true,is_persistent:true,input_field_placeholder:'Выберите действие или введите команду'};
+export const MENU={keyboard:[['🎓 Подобрать программы'],['📚 Каталог','📈 Прогресс ЕГЭ'],['ℹ️ Возможности']],
+  resize_keyboard:true,is_persistent:false,one_time_keyboard:true,input_field_placeholder:'Выберите действие или введите команду'};
 export const PROMPTS={
   search:'Найти программу\nОтветьте на это сообщение названием, кодом или вузом: например, ВШЭ математика. Каталог частичный.',
   ege:'Сценарии ЕГЭ\nОтветьте датой экзамена и баллами/часами на каждый предмет:\n2027-06-01 мат=70/6 инф=75/6 рус=65/3 цель=280 рег=0.8\nРегулярность 0–1. Пробник по умолчанию сегодня; можно добавить пробник=YYYY-MM-DD. Темпы — некалиброванные гипотезы. Результаты не сохраняются.',
@@ -13,6 +12,7 @@ export const PROMPTS={
 };
 export type Prompt=keyof typeof PROMPTS;
 const buttons:Record<string,string>={'📚 Каталог':'/programs','🔎 Найти программу':'/search','🎯 Сценарии ЕГЭ':'/ege',
+  '🎓 Подобрать программы':'/pick','📈 Прогресс ЕГЭ':'/ege','ℹ️ Возможности':'/help',
   '🧮 Конкурсный балл':'/score','📋 Правила и ИД':'/rules','📊 История порогов':'/history','⚖️ Сравнить программы':'/compare',
   '📎 Источники':'/sources','ℹ️ Статус':'/status','🔐 Данные и профиль':'/profile'};
 export function resolveInput(text:string,reply?:unknown):string {
@@ -28,6 +28,7 @@ export function resolveInput(text:string,reply?:unknown):string {
 }
 export function forceReply() {return {force_reply:true,selective:true,input_field_placeholder:'Ответьте по примеру в сообщении'};}
 export const HELP='Выберите действие кнопкой или введите команду.\n'+
+  '/pick — пошагово: баллы, олимпиада, вуз и программы.\n'+
   '/search — поиск, /program — карточка, /compare — сравнение.\n/ege — сценарии ЕГЭ, /score — сумма МИФИ, /rules и /achievements — условия.\n'+
   '/history — опубликованная история, /baseline — эксперимент порогов.\n/forecast — готовность вероятностей, /model — допущения, /sources — источники.\n'+
   '/profile и /delete_data — сведения о хранении. Профили и избранное пока выключены.\n'+

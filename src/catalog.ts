@@ -10,6 +10,11 @@ const names: Record<string, string> = Object.fromEntries(
   registry.sources.map(s => [s.institution_id, s.institution_name]),
 );
 const normalize = (s: string): string => s.toLocaleLowerCase('ru').replaceAll('ё', 'е');
+function matchesTerms(key:string,terms:string[]):boolean {
+  return terms.every(term=>['ии','ai'].includes(term)?
+    (key.includes('искусствен')||key.includes('машинн')||/(?:^|\W)ai(?:360|\W|$)/u.test(key)):
+    term==='ml'?(key.includes('машинн')||key.includes('machine learning')||/(?:^|\W)ml(?:\W|$)/u.test(key)):key.includes(term));
+}
 const programs = entries.filter(r => r.kind === 'program_profile');
 export const programReferences = programs.map(row=>({id:row.id.slice(-24,-16),name:row.name}));
 const reference=(row:typeof programs[number])=>row.id.slice(-24,-16);
@@ -38,7 +43,7 @@ export function searchPrograms(query: string): string {
   const clean=query.replace(/(?:^|\s)страница=[^\s]+/g,'').trim().slice(0,128);
   const terms = normalize(clean).split(/\s+/).filter(Boolean);
   if (!terms.length) return 'Введите вуз, название или код: /search вшэ математика';
-  const found = index.filter(item => terms.every(term => item.key.includes(term)));
+  const found = index.filter(item => matchesTerms(item.key,terms));
   if (!found.length) return 'В извлечённой части каталога совпадений нет. Это не означает отсутствия программы в вузе. /universities — покрытие вузов.';
   const maxPage=Math.ceil(found.length/3);
   if(page>maxPage)return `Доступно страниц: ${maxPage}. /search ${clean} страница=1`;
@@ -52,6 +57,13 @@ export function searchPrograms(query: string): string {
 }
 
 function findProgram(id:string) {return /^[a-f0-9]{8}$/.test(id)?programs.find(row=>reference(row)===id):undefined;}
+export function catalogOptions(institution:string|null,query='') {
+  const terms=normalize(query.trim().slice(0,128)).split(/\s+/).filter(Boolean);
+  return index.filter(({row,key})=>(institution===null||row.institution_id===institution)&&matchesTerms(key,terms))
+    .map(({row})=>({id:reference(row),name:row.name,institution:row.institution_id,code:row.official_code,year:row.year,degree:row.degree}));
+}
+export function catalogCard(id:string):string|undefined {const row=findProgram(id);return row?card(row):undefined;}
+export function catalogSources(id:string) {const row=findProgram(id);return row?{source:row.source_url,program:row.program_url}:undefined;}
 function placesText(row:typeof programs[number]):string {
   const places=row.places as Record<string,unknown>|null;
   const budget=places?.budget_total,paid=places?.paid;

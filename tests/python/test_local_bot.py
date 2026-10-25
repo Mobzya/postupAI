@@ -1,5 +1,6 @@
 """Local bridge tests with synthetic updates; no real Telegram access."""
 import unittest
+import io,json,urllib.error
 from unittest.mock import patch
 from scripts.local_bot import BotAPI,BotError,check_identity,handle_update,poll_once,worker_call
 
@@ -36,7 +37,7 @@ class LocalBotTests(unittest.TestCase):
             offset,retry=poll_once(bot,'http://127.0.0.1:8787','synthetic-secret',0)
         self.assertEqual((offset,retry),(5,False))
         self.assertEqual(worker.call_count,2)
-        self.assertEqual(bot.calls[0],('getUpdates',{'offset':0,'timeout':20,'limit':20,'allowed_updates':['message']}))
+        self.assertEqual(bot.calls[0],('getUpdates',{'offset':0,'timeout':20,'limit':20,'allowed_updates':['message','callback_query']}))
         self.assertEqual(bot.calls[1],('sendMessage',{'chat_id':777001,'text':'Synthetic response'}))
 
     def test_retry_keeps_failed_update_unacknowledged(self):
@@ -58,6 +59,28 @@ class LocalBotTests(unittest.TestCase):
                 handle_update({'update_id':1},bot,'http://127.0.0.1:8787','synthetic')
             self.assertEqual(bot.calls[0][1]['reply_markup'],markup)
             self.assertTrue(bot.calls[0][1]['link_preview_options']['is_disabled'])
+
+    def test_inline_callback_is_acknowledged_before_editing_the_existing_message(self):
+        bot=FakeBot();reply={'method':'editMessageText','chat_id':777001,'message_id':101,'text':'Synthetic step',
+            'reply_markup':{'inline_keyboard':[[{'text':'Next','callback_data':'synthetic'}]]}}
+        with patch('scripts.local_bot.worker_call',return_value=reply):
+            handle_update({'update_id':1,'callback_query':{'id':'synthetic-query'}},bot,'http://127.0.0.1:8787','synthetic')
+        self.assertEqual([m for m,_ in bot.calls],['answerCallbackQuery','editMessageText'])
+        self.assertEqual(bot.calls[1][1]['message_id'],101)
+
+    def test_stale_button_answer_does_not_send_an_unrelated_chat_message(self):
+        bot=FakeBot();reply={'method':'answerCallbackQuery','callback_query_id':'synthetic-query','text':'Start again'}
+        with patch('scripts.local_bot.worker_call',return_value=reply):
+            handle_update({'update_id':1},bot,'http://127.0.0.1:8787','synthetic')
+        self.assertEqual([m for m,_ in bot.calls],['answerCallbackQuery'])
+
+    def test_double_click_and_expired_callback_ack_do_not_stop_polling(self):
+        for method,description in [('editMessageText','Bad Request: message is not modified'),
+                                   ('answerCallbackQuery','Bad Request: query is too old and response timeout expired or query ID is invalid')]:
+            api=BotAPI('synthetic-unused-token')
+            body=io.BytesIO(json.dumps({'ok':False,'description':description}).encode())
+            error=urllib.error.HTTPError('https://example.invalid',400,'Synthetic',{},body)
+            with patch.object(api.opener,'open',side_effect=error):self.assertTrue(api.call(method,{}))
 
     def test_arbitrary_bot_methods_and_remote_worker_urls_rejected(self):
         with self.assertRaisesRegex(BotError,'Unsupported'):

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { catalogSummary, searchPrograms,programReferences,renderProgram,comparePrograms } from '../src/catalog.ts';
+import { catalogSummary, searchPrograms,programReferences,renderProgram,comparePrograms,catalogOptions } from '../src/catalog.ts';
 
 test('catalog summary distinguishes unavailable programs and marketing tracks', () => {
   const text = catalogSummary();
@@ -43,6 +43,11 @@ test('search combines university alias and program terms with provenance', () =>
 test('no match is never treated as absence of a program in a university', () => {
   assert.ok(searchPrograms('synthetic-no-such-program-9q7').includes('не означает отсутствия'));
   assert.ok(searchPrograms('').includes('/search'));
+});
+
+test('a common AI abbreviation finds actual named profiles in the guided search',()=>{
+  const matches=catalogOptions(null,'ИИ');assert.ok(matches.length>0);
+  assert.ok(matches.some(r=>/искусствен|AI360/i.test(r.name)));
 });
 
 test('MIPT pilot level and CU legal profiles can be searched without assuming a 2027 intake',()=>{
