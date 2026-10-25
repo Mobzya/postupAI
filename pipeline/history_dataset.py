@@ -200,10 +200,7 @@ def build(write=True):
         write_json(OUT/'metrics.json',dict(observations=len(records),institutions_with_data=sum(bool(r['observations']) for r in coverage),
                                          units=dict(Counter(r['unit'] for r in records)),statuses=dict(Counter(r['status'] for r in records)),
                                          possible_duplicate_scopes=len(duplicate_scopes),parse_errors=len(errors)))
-        write_json(OUT/'public_index.json',[dict(id=r['id'],institution_id=r['institution_id'],year=r['year'],
-            name=r['name'],official_code=r['official_code'],metric=r['metric'],category=r['category'],
-            unit=r['unit'],status=r['status'],value=r['value'],source_url=r['provenance']['url'])
-            for r in records if r['metric'] in ('cutoff','minimum_entrance_total')])
+        write_json(OUT/'public_index.json',public_index(result))
         write_json(OUT/'ml_readiness.json',dict(
             admission_probability_ready=False,confirmed_competition_groups=0,
             reason='No independently verified same-year competition populations and final enrollment distributions.',
@@ -216,6 +213,13 @@ def build(write=True):
             requirements=['Explicit yearly scope reconciliation','Separate metrics and units','Hold out future years',
                           'Do not treat descriptive threshold accuracy as calibrated admission probabilities']))
     return result
+
+
+def public_index(dataset):
+    return [dict(id=r['id'],institution_id=r['institution_id'],year=r['year'],
+        name=r['name'],official_code=r['official_code'],metric=r['metric'],category=r['category'],
+        unit=r['unit'],status=r['status'],value=r['value'],source_url=r['provenance']['url'])
+        for r in dataset['records'] if r['metric'] in ('cutoff','minimum_entrance_total')]
 
 
 if __name__=='__main__':

@@ -103,10 +103,14 @@ def build(write=True):
                       representation_sha256=b['representation_sha256']) for b in inputs])
     if write:
         write_json(OUT/'dataset.json',result)
-        write_json(OUT/'public_rules.json',dict(year=2026,institution_id='mephi',supported_achievements=supported_achievements,
-             rules=[{k:r[k] for k in ('id','official_code','category','name','slots','achievementCap')} for r in rules],
-             sources=[b['url'] for b in result['sources']]))
+        write_json(OUT/'public_rules.json',public_rules(result))
     return result
+
+
+def public_rules(dataset):
+    return dict(year=dataset['year'],institution_id=dataset['institution_id'],supported_achievements=dataset['supported_achievements'],
+        rules=[{k:r[k] for k in ('id','official_code','category','name','slots','achievementCap')} for r in dataset['rules']],
+        sources=[b['url'] for b in dataset['sources']])
 
 
 if __name__=='__main__':

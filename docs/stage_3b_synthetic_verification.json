@@ -4,7 +4,7 @@
   "synthetic": true,
   "deployable": false,
   "config_sha256": "726dde73557c31ef1575ff2b530510b7fcd758bd63cb902723141de3564613bc",
-  "code_sha256": "93e221a16783c6d5d49eeccbeb40a0f7e3ecc94be03c82b471dd810965834026",
+  "code_sha256": "f2d5669fac641908d493fd3ad122924413ecb3cd06c96fc2ad9914d2809448f0",
   "seed": 2026,
   "trials": 1000,
   "any_admission_scenario_mass": 0.799,
