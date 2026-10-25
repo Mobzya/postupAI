@@ -12,6 +12,7 @@ import { renderGrowth, renderGrowthModel } from './growth.ts';
 import { renderBaseline } from './baseline.ts';
 import { admissionReadinessText } from './admission.ts';
 import { MENU,PROMPTS,HELP,resolveInput,forceReply } from './ui.ts';
+import { subjectSelection,guidedCallback,guidedReply } from './guided.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -39,6 +40,8 @@ async function readBounded(request: Request): Promise<unknown> {
 type MessageUpdate = {
   update_id: number;
   message?: { text?: string; chat?: { id?: number; type?: string }; from?: { id?: number; is_bot?: boolean };reply_to_message?:unknown };
+  callback_query?:{id:string;data?:string;from?:{id?:number;is_bot?:boolean};message?:{
+    message_id?:number;text?:string;chat?:{id?:number;type?:string};from?:{is_bot?:boolean;username?:string}}};
 };
 function record(value: unknown): value is Record<string, unknown> {
   return value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -50,6 +53,12 @@ function parseUpdate(value: unknown): MessageUpdate | null {
     if (!record(m) || (m.text !== undefined && typeof m.text !== 'string') ||
         (m.chat !== undefined && !record(m.chat)) ||
         (m.from !== undefined && !record(m.from))) return null;
+  }
+  if(value.callback_query!==undefined){
+    const q=value.callback_query;
+    if(!record(q)||typeof q.id!=='string'||!q.id.length||q.id.length>256||
+       (q.data!==undefined&&typeof q.data!=='string')||
+       (q.from!==undefined&&!record(q.from))||(q.message!==undefined&&!record(q.message)))return null;
   }
   return value as MessageUpdate;
 }
@@ -70,11 +79,8 @@ function stageStatus(): string {
     `Отчёт: ${release.review_url}`;
 }
 
-const publicIntro = 'BALLNIK / postupAI — помощник по поступлению, сейчас в разработке.\n' +
-  `Текущий этап: ${release.stage}. /status — результаты и ограничения.\n` +
-  'Сохранение профилей и результатов пока выключено.\n' +
-  'Выберите действие кнопкой. /help — все команды, /ege — сценарии ЕГЭ, /score — конкурсный балл МИФИ.\n'+
-  'Темпы роста — гипотезы, проверенной вероятности зачисления нет. Переписку хранит Telegram; не отправляйте личные документы.';
+const publicIntro = 'BALLNIK · поступление\n\nНачни с «Подобрать программы»: баллы → олимпиада → вуз → программа.\n'+
+  'Профиль пока не сохраняется. Проверенной вероятности зачисления ещё нет. /help — другие возможности.';
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
@@ -108,11 +114,26 @@ export default {
     }
     const update = parseUpdate(value);
     if (!update) return json({ error: 'invalid_update' }, 400);
+    const callback=update.callback_query;
+    if(callback){
+      const m=callback.message,from=callback.from;
+      if(!m||m.chat?.type!=='private'||!Number.isSafeInteger(from?.id)||from!.id!<=0||from?.is_bot!==false||
+         m.chat.id!==from.id||m.from?.is_bot!==true||m.from.username!==release.bot_username)return json({ok:true});
+      const view=typeof callback.data==='string'?guidedCallback(callback.data,typeof m.text==='string'?m.text:''):null;
+      if(!view||!Number.isSafeInteger(m.message_id)||m.message_id!<=0)return json({method:'answerCallbackQuery',
+        callback_query_id:callback.id,text:'Кнопка устарела. Начни подбор заново: /pick'});
+      return json({method:view.delivery==='send'?'sendMessage':'editMessageText',chat_id:m.chat.id,
+        ...(view.delivery==='send'?{}:{message_id:m.message_id}),text:view.text.slice(0,4000),
+        reply_markup:view.reply_markup,link_preview_options:{is_disabled:true}});
+    }
     const message = update.message;
     if (!message?.text || message.chat?.type !== 'private' ||
         !Number.isSafeInteger(message.from?.id) || message.from?.is_bot !== false ||
         message.from!.id! <= 0 || message.chat.id !== message.from?.id) return json({ ok: true });
     if(message.text.length>4096)return json({error:'message_too_long'},400);
+    const guided=guidedReply(message.text,message.reply_to_message);
+    if(guided)return json({method:'sendMessage',chat_id:message.chat.id,text:guided.text.slice(0,4000),
+      reply_markup:guided.reply_markup,link_preview_options:{is_disabled:true}});
     const input=resolveInput(message.text,message.reply_to_message);
     const command = input.split(/\s+/)[0]?.split('@')[0]?.toLowerCase();
     const args=input.split(/\s+/).slice(1).join(' ');
@@ -120,6 +141,9 @@ export default {
       let text: string;
       let replyMarkup:unknown=MENU;
       switch (command) {
+        case '/pick': case '/recommend': {
+          const view=subjectSelection();text=view.text;replyMarkup=view.reply_markup;break;
+        }
         case '/start': {
           if (profileStorageEnabled) {
             const key = await userKey(message.from!.id!, env.USER_ID_HMAC_KEY!);

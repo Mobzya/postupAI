@@ -1,8 +1,8 @@
 {
-  "version": "1c-followup.2",
-  "stage": "1C+",
-  "review_status": "partial_source_coverage",
-  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/1c-itmo-disclosure/docs/STAGE_1C_ITMO_REPORT.md",
+  "version": "4-guided-preview.1",
+  "stage": "4A",
+  "review_status": "guided_preview",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/4-guided-admission-flow/docs/STAGE_4_GUIDED_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }

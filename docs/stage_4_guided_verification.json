@@ -1,0 +1,28 @@
+{
+  "quality": "passed",
+  "node_tests": 64,
+  "python_tests": 101,
+  "typescript": "passed",
+  "worker_dry_build": "passed",
+  "build_kib": 984.64,
+  "gzip_kib": 89.79,
+  "local_workerd_guided_flow": "passed",
+  "stages": [
+    "subjects",
+    "numeric_scores",
+    "olympiad_result_level_subject",
+    "university_or_all",
+    "program_search_cards"
+  ],
+  "callback_payload_max_bytes": 64,
+  "target_year_preserved": true,
+  "automatic_bvi": false,
+  "automatic_diploma_points": false,
+  "saved_profiles": false,
+  "admission_probability_enabled": false,
+  "source_catalog_observations": 584,
+  "source_profile_records": 523,
+  "source_universities": 10,
+  "empirical_calibration": false,
+  "real_user_pilot": false
+}
