@@ -1,0 +1,58 @@
+{
+  "quality": "passed",
+  "node_tests": 49,
+  "python_tests": 92,
+  "grid": {
+    "status": "synthetic_grid_passed",
+    "empirical_validation": false,
+    "cases": 297,
+    "distributions_checked": 3564,
+    "node": "v24.19.0",
+    "platform": "linux",
+    "architecture": "x64",
+    "config_sha256": "4522a713435f006ce1257161591d237068ae48d07e306389c6020553597824fd",
+    "local_node_wall_ms": {
+      "median": 0.041781999999997765,
+      "p95": 0.13558100000000195,
+      "max": 2.1857889999999998
+    },
+    "local_node_cpu_ms_per_case": 0.09015824915824916,
+    "warning": "Local Node measurements, not Cloudflare isolate CPU or empirical EGE accuracy."
+  },
+  "local_probe": {
+    "status": "technical_rehearsal_passed",
+    "synthetic_only": true,
+    "human_pilot_completed": false,
+    "empirical_calibration": false,
+    "platform": "Linux",
+    "fault_checks": {
+      "bad_secret": 401,
+      "malformed_json": 400,
+      "oversized_body": 413,
+      "wrong_content_type": 415,
+      "oversized_message": 400,
+      "group_ignored": true,
+      "invalid_growth_rejected": true
+    },
+    "loopback_sequential": {
+      "n": 100,
+      "median_ms": 8.056906999627245,
+      "p95_ms": 24.567389000367257,
+      "max_ms": 29.50459299972863
+    },
+    "loopback_four_clients": {
+      "n": 40,
+      "median_ms": 15.343897999628098,
+      "p95_ms": 25.12056100022164,
+      "max_ms": 26.800081999681424
+    },
+    "profile_storage": false,
+    "admission_probability": false,
+    "warning": "Loopback HTTP latency in this workspace, not Telegram delivery SLA or Cloudflare CPU measurement."
+  },
+  "remote_ci_for_stage5": "https://github.com/Mobzya/postupAI/actions/runs/40146204569",
+  "remote_ci_stage5_conclusion": "success",
+  "human_pilot_completed": false,
+  "empirical_calibration": false,
+  "cloudflare_deployment": false
+}

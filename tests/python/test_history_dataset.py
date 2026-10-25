@@ -2,6 +2,7 @@ import copy,json,sqlite3,unittest
 from pipeline.history_dataset import (OUT,build,parse_hse,parse_nsu,parse_bmstu,parse_innopolis,observation)
 from pipeline.import_history import import_dataset
 from pipeline.validate import ROOT
+from pipeline.sources import digest
 
 
 def source(ident,year=2025):
@@ -28,6 +29,13 @@ class HistoryTests(unittest.TestCase):
         b=observation(source('hse'),2016,'Synthetic','cutoff','competition_points','budget','—','synthetic')
         self.assertEqual((a['status'],a['value']),('lower_bound',282))
         self.assertEqual((b['status'],b['value']),('not_published',None))
+
+    def test_http_200_login_page_is_not_a_zero_program_admission_dataset(self):
+        probe=json.loads((ROOT/'data/reviews/history_2026_probe.json').read_text())
+        self.assertEqual(probe['status'],'authentication_page_not_admission_data')
+        self.assertEqual(digest(probe['structural_excerpt']),probe['representation_sha256'])
+        s=source('hse',2026)
+        with self.assertRaises(ValueError):parse_hse(s,probe['structural_excerpt'])
 
     def test_serial_header_and_above_300_are_preserved(self):
         s='<title>Проходные 2017</title><table><tr><th>№</th><th>Конкурс</th><th>Проходной балл</th></tr><tr><td>1</td><td>Synthetic</td><td>372</td></tr></table>'

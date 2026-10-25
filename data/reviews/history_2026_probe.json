@@ -1,0 +1,17 @@
+{
+  "institution_id": "hse",
+  "candidate_url": "https://ba.hse.ru/result2026",
+  "url_basis": "Candidate derived from published 2015–2025 annual URL pattern; not a confirmed public 2026 source.",
+  "final_origin_path": "https://ba.hse.ru/db/user_login.html",
+  "query_omitted": true,
+  "http_status": 200,
+  "retrieved_at": "2026-10-25T00:20:08+00:00",
+  "parent_sha256": "9f5063b847f5b04a8c6208f0774d7f4a93f50832fd40039ab1d6ecda85075a71",
+  "bytes": 6535,
+  "title": "Вход в личный кабинет сотрудника — НИУ ВШЭ",
+  "status": "authentication_page_not_admission_data",
+  "observations_imported": 0,
+  "structural_excerpt": "<html><title>Вход в личный кабинет сотрудника — НИУ ВШЭ</title></html>",
+  "representation_sha256": "a2a558cc2842df7d89984ddb93bedada5c3e4b1d72ae9046a5a0d36eb0322086",
+  "limitation": "No login attempted. This result does not prove absence of 2026 statistics elsewhere."
+}
