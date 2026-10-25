@@ -82,5 +82,5 @@ export function competitionScore(
 }
 
 export function forecastAvailability(): { status: 'insufficient_data'; reason: string } {
-  return { status: 'insufficient_data', reason: 'stage_0_no_validated_model_or_dataset' };
+  return { status: 'insufficient_data', reason: 'missing_confirmed_competition_populations_and_calibration' };
 }
