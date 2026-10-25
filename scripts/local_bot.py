@@ -24,6 +24,9 @@ COMMANDS = [
     {'command': 'sources', 'description': 'Официальные источники вузов'},
     {'command': 'programs', 'description': 'Состояние каталога программ'},
     {'command': 'search', 'description': 'Поиск: вуз, название или код'},
+    {'command': 'program', 'description': 'Карточка по коду результата поиска'},
+    {'command': 'compare', 'description': 'Сравнить 2–3 карточки'},
+    {'command': 'help', 'description': 'Команды и работа с кнопками'},
     {'command': 'universities', 'description': 'Покрытие десяти вузов'},
     {'command': 'history', 'description': 'Опубликованные пороги прошлых лет'},
     {'command': 'rules', 'description': 'Правила МИФИ по году и направлению'},
@@ -130,7 +133,12 @@ def handle_update(update, bot, base_url, secret):
     if (not isinstance(reply,dict) or reply.get('method')!='sendMessage'
         or not isinstance(reply.get('text'),str) or not isinstance(reply.get('chat_id'),int)):
         raise BotError('Unexpected local Worker response; content suppressed.')
-    bot.call('sendMessage',{'chat_id':reply['chat_id'],'text':reply['text']})
+    payload={'chat_id':reply['chat_id'],'text':reply['text']}
+    for key in ('reply_markup','link_preview_options'):
+        if key in reply:
+            if not isinstance(reply[key],dict):raise BotError('Invalid local Worker reply options; content suppressed.')
+            payload[key]=reply[key]
+    bot.call('sendMessage',payload)
 
 
 def poll_once(bot, base_url, secret, offset):

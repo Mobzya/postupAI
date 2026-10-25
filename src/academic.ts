@@ -71,7 +71,7 @@ export function renderAcademicScore(argumentsText:string):string {
     const key=match[1]!.toLocaleLowerCase('ru');const value=Number(match[2]);
     if (key==='ид') {if(achievementSpecified)return 'ИД указаны дважды.';points=value;achievementSpecified=true;}
     else {
-      const subject=aliases[key];
+      const subject=Object.hasOwn(aliases,key)?aliases[key]:undefined;
       if (!subject) return 'Неизвестный предмет. Доступны мат, рус, физ, инф, хим, био, ист, общ, ин.';
       if (scores[subject]!==undefined) return 'Один предмет указан дважды.';
       scores[subject]=value;

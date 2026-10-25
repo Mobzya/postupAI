@@ -8,6 +8,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/geography/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -19,6 +21,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/cmb/",
+    "places": {
+      "budget_total": 25,
+      "paid": 15,
+      "budget_raw": "25",
+      "paid_raw": "15"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -30,6 +39,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/neuroscience/",
+    "places": {
+      "budget_total": 15,
+      "paid": 10,
+      "budget_raw": "15",
+      "paid_raw": "10"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -41,6 +57,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/math/",
+    "places": {
+      "budget_total": 60,
+      "paid": 25,
+      "budget_raw": "60",
+      "paid_raw": "25"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -52,6 +75,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/cpm/",
+    "places": {
+      "budget_total": 25,
+      "paid": 15,
+      "budget_raw": "25",
+      "paid_raw": "15"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -63,6 +93,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/physics/",
+    "places": {
+      "budget_total": 40,
+      "paid": 30,
+      "budget_raw": "40",
+      "paid_raw": "30"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -74,6 +111,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/chem/",
+    "places": {
+      "budget_total": 35,
+      "paid": 10,
+      "budget_raw": "35",
+      "paid_raw": "10"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -85,6 +129,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/materials/",
+    "places": {
+      "budget_total": 15,
+      "paid": 5,
+      "budget_raw": "15",
+      "paid_raw": "5"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -96,6 +147,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/drip/",
+    "places": {
+      "budget_total": null,
+      "paid": 90,
+      "budget_raw": "-",
+      "paid_raw": "90"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -107,6 +165,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/compds/",
+    "places": {
+      "budget_total": 10,
+      "paid": 150,
+      "budget_raw": "10",
+      "paid_raw": "150"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -118,6 +183,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ami/",
+    "places": {
+      "budget_total": 195,
+      "paid": 220,
+      "budget_raw": "195",
+      "paid_raw": "220"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -129,6 +201,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/data/",
+    "places": {
+      "budget_total": null,
+      "paid": 220,
+      "budget_raw": "-",
+      "paid_raw": "220"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -140,6 +219,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/se/",
+    "places": {
+      "budget_total": 160,
+      "paid": 125,
+      "budget_raw": "160",
+      "paid_raw": "125"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -151,6 +237,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/dirs/",
+    "places": {
+      "budget_total": 25,
+      "paid": 35,
+      "budget_raw": "25",
+      "paid_raw": "35"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -162,6 +255,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/gdpd/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -173,6 +268,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/it/",
+    "places": {
+      "budget_total": 80,
+      "paid": 15,
+      "budget_raw": "80",
+      "paid_raw": "15"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -184,6 +286,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/isct/",
+    "places": {
+      "budget_total": 125,
+      "paid": 90,
+      "budget_raw": "125",
+      "paid_raw": "90"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -195,6 +304,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/is/",
+    "places": {
+      "budget_total": 80,
+      "paid": 70,
+      "budget_raw": "80",
+      "paid_raw": "70"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -206,6 +322,13 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/cosec/",
+    "places": {
+      "budget_total": 45,
+      "paid": 40,
+      "budget_raw": "45",
+      "paid_raw": "40"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -217,6 +340,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/am/",
+    "places": {
+      "budget_total": 80,
+      "paid": 70,
+      "budget_raw": "80",
+      "paid_raw": "70"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -228,6 +358,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/design/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -239,6 +371,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/journ/",
+    "places": {
+      "budget_total": 60,
+      "paid": 57,
+      "budget_raw": "60",
+      "paid_raw": "57"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -250,6 +389,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/film/",
+    "places": {
+      "budget_total": null,
+      "paid": 27,
+      "budget_raw": "-",
+      "paid_raw": "27"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -261,6 +407,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/media/",
+    "places": {
+      "budget_total": 40,
+      "paid": 127,
+      "budget_raw": "40",
+      "paid_raw": "127"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -272,6 +425,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/moda/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -283,6 +438,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/art/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -294,6 +451,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/producer/",
+    "places": {
+      "budget_total": 10,
+      "paid": 60,
+      "budget_raw": "10",
+      "paid_raw": "60"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -305,6 +469,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/creative/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -316,6 +482,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/we/",
+    "places": {
+      "budget_total": 60,
+      "paid": 103,
+      "budget_raw": "60",
+      "paid_raw": "103"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -327,6 +500,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/icef/",
+    "places": {
+      "budget_total": null,
+      "paid": 278,
+      "budget_raw": "-",
+      "paid_raw": "278"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -338,6 +518,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/nes/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -349,6 +531,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/economics/",
+    "places": {
+      "budget_total": 100,
+      "paid": 165,
+      "budget_raw": "100",
+      "paid_raw": "165"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -360,6 +549,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/eda/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -371,6 +562,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/stat/",
+    "places": {
+      "budget_total": 35,
+      "paid": 120,
+      "budget_raw": "35",
+      "paid_raw": "120"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -382,6 +580,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ea/",
+    "places": {
+      "budget_total": 10,
+      "paid": 76,
+      "budget_raw": "10",
+      "paid_raw": "76"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -393,6 +598,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/bi/",
+    "places": {
+      "budget_total": 100,
+      "paid": 110,
+      "budget_raw": "100",
+      "paid_raw": "110"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -404,6 +616,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/gmu/",
+    "places": {
+      "budget_total": 75,
+      "paid": 51,
+      "budget_raw": "75",
+      "paid_raw": "51"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -415,6 +634,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/marketing/",
+    "places": {
+      "budget_total": 30,
+      "paid": 100,
+      "budget_raw": "30",
+      "paid_raw": "100"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -426,6 +652,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/ib/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -437,6 +665,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/bba/",
+    "places": {
+      "budget_total": 50,
+      "paid": 160,
+      "budget_raw": "50",
+      "paid_raw": "160"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -448,6 +683,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/tim/",
+    "places": {
+      "budget_total": 5,
+      "paid": 90,
+      "budget_raw": "5",
+      "paid_raw": "90"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -459,6 +701,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/digital/",
+    "places": {
+      "budget_total": null,
+      "paid": 65,
+      "budget_raw": "-",
+      "paid_raw": "65"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -470,6 +719,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/dat/",
+    "places": {
+      "budget_total": 30,
+      "paid": 35,
+      "budget_raw": "30",
+      "paid_raw": "35"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -481,6 +737,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/law/",
+    "places": {
+      "budget_total": 150,
+      "paid": 111,
+      "budget_raw": "150",
+      "paid_raw": "111"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -492,6 +755,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/dlawyer/",
+    "places": {
+      "budget_total": 30,
+      "paid": 38,
+      "budget_raw": "30",
+      "paid_raw": "38"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -503,6 +773,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/up/",
+    "places": {
+      "budget_total": 50,
+      "paid": 50,
+      "budget_raw": "50",
+      "paid_raw": "50"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -514,6 +791,13 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/actor/",
+    "places": {
+      "budget_total": null,
+      "paid": 25,
+      "budget_raw": "-",
+      "paid_raw": "25"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -525,6 +809,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/arabic/",
+    "places": {
+      "budget_total": 16,
+      "paid": 14,
+      "budget_raw": "16",
+      "paid_raw": "14"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -536,6 +827,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/oriental/",
+    "places": {
+      "budget_total": 50,
+      "paid": 110,
+      "budget_raw": "50",
+      "paid_raw": "110"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -547,6 +845,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/lang/",
+    "places": {
+      "budget_total": 35,
+      "paid": 137,
+      "budget_raw": "35",
+      "paid_raw": "137"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -558,6 +863,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/iran/",
+    "places": {
+      "budget_total": 15,
+      "paid": 14,
+      "budget_raw": "15",
+      "paid_raw": "14"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -569,6 +881,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/hist/",
+    "places": {
+      "budget_total": 50,
+      "paid": 50,
+      "budget_raw": "50",
+      "paid_raw": "50"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -580,6 +899,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/histart/",
+    "places": {
+      "budget_total": 30,
+      "paid": 40,
+      "budget_raw": "30",
+      "paid_raw": "40"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -591,6 +917,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/chinese/",
+    "places": {
+      "budget_total": 16,
+      "paid": 20,
+      "budget_raw": "16",
+      "paid_raw": "20"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -602,6 +935,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/antiq/",
+    "places": {
+      "budget_total": 20,
+      "paid": 3,
+      "budget_raw": "20",
+      "paid_raw": "3"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -613,6 +953,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/cultural/",
+    "places": {
+      "budget_total": 40,
+      "paid": 40,
+      "budget_raw": "40",
+      "paid_raw": "40"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -624,6 +971,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/philology/",
+    "places": {
+      "budget_total": 45,
+      "paid": 21,
+      "budget_raw": "45",
+      "paid_raw": "21"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -635,6 +989,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/phil/",
+    "places": {
+      "budget_total": 40,
+      "paid": 40,
+      "budget_raw": "40",
+      "paid_raw": "40"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -646,6 +1007,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ling/",
+    "places": {
+      "budget_total": 50,
+      "paid": 39,
+      "budget_raw": "50",
+      "paid_raw": "39"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -657,6 +1025,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://www.hse.ru/ba/ir/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -668,6 +1038,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ia/",
+    "places": {
+      "budget_total": 45,
+      "paid": 14,
+      "budget_raw": "45",
+      "paid_raw": "14"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -679,6 +1056,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/political/",
+    "places": {
+      "budget_total": 40,
+      "paid": 50,
+      "budget_raw": "40",
+      "paid_raw": "50"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -690,6 +1074,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/psy/",
+    "places": {
+      "budget_total": 80,
+      "paid": 29,
+      "budget_raw": "80",
+      "paid_raw": "29"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -701,6 +1092,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/soc/",
+    "places": {
+      "budget_total": 115,
+      "paid": 50,
+      "budget_raw": "115",
+      "paid_raw": "50"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -712,6 +1110,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/bi/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -723,6 +1123,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/interbac/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -734,6 +1136,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/economicdata/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -745,6 +1149,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/business/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -756,6 +1162,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/political/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -767,6 +1175,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/soc/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -778,6 +1188,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/physics/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -789,6 +1201,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/appmath/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -800,6 +1214,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/dataanalytics/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -811,6 +1227,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/ivtech/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -822,6 +1240,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/gamedev/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -833,6 +1253,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/law/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -844,6 +1266,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/gmu/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -855,6 +1279,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/hist/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -866,6 +1292,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/philology/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -877,6 +1305,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/oriental/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -888,6 +1318,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/tld/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -899,6 +1331,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/designs/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -910,6 +1344,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/mediacom/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -921,6 +1357,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://spb.hse.ru/ba/architecture/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -932,6 +1370,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/math/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -943,6 +1383,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/ait/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -954,6 +1396,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/cst/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -965,6 +1409,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/interbac/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -976,6 +1422,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/dm/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -987,6 +1435,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/law/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -998,6 +1448,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/philology/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1009,6 +1461,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/ling/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1020,6 +1474,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/ibc/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1031,6 +1487,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://nnov.hse.ru/ba/design/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1042,6 +1500,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/isystems/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1053,6 +1513,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/ssadp/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1064,6 +1526,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/interbac/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1075,6 +1539,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/creativebac/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1086,6 +1552,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/businessonline/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1097,6 +1565,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/design/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1108,6 +1578,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/law/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1119,6 +1591,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://perm.hse.ru/ba/communication/",
+    "places": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1130,6 +1604,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/geography",
+    "places": {
+      "budget_total": 40,
+      "paid": 20,
+      "budget_raw": "40",
+      "paid_raw": "20"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1141,6 +1622,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": {
+      "budget_total": null,
+      "paid": 50,
+      "budget_raw": "-",
+      "paid_raw": "50"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1152,6 +1640,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/nes",
+    "places": {
+      "budget_total": 60,
+      "paid": 45,
+      "budget_raw": "60",
+      "paid_raw": "45"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1163,6 +1658,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/eda",
+    "places": {
+      "budget_total": 60,
+      "paid": 110,
+      "budget_raw": "60",
+      "paid_raw": "110"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1174,6 +1676,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ib",
+    "places": {
+      "budget_total": null,
+      "paid": 90,
+      "budget_raw": "-",
+      "paid_raw": "90"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1185,6 +1694,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": {
+      "budget_total": null,
+      "paid": 77,
+      "budget_raw": "-",
+      "paid_raw": "77"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1196,6 +1712,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": {
+      "budget_total": null,
+      "paid": 60,
+      "budget_raw": "-",
+      "paid_raw": "60"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1207,6 +1730,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": {
+      "budget_total": 65,
+      "paid": 375,
+      "budget_raw": "65",
+      "paid_raw": "375"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1218,6 +1748,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": {
+      "budget_total": null,
+      "paid": 90,
+      "budget_raw": "-",
+      "paid_raw": "90"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1229,6 +1766,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": {
+      "budget_total": null,
+      "paid": 50,
+      "budget_raw": "-",
+      "paid_raw": "50"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1240,6 +1784,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": {
+      "budget_total": null,
+      "paid": 38,
+      "budget_raw": "-",
+      "paid_raw": "38"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1251,6 +1802,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1262,6 +1815,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1273,6 +1828,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1284,6 +1841,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1295,6 +1854,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1306,6 +1867,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1317,6 +1880,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1328,6 +1893,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1339,6 +1906,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1350,6 +1919,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1361,6 +1932,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1372,6 +1945,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1383,6 +1958,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1394,6 +1971,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1405,6 +1984,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1416,6 +1997,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1427,6 +2010,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1438,6 +2023,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1449,6 +2036,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1460,6 +2049,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1471,6 +2062,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1482,6 +2075,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1493,6 +2088,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1504,6 +2101,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1515,6 +2114,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1526,6 +2127,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1537,6 +2140,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1548,6 +2153,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1559,6 +2166,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1570,6 +2179,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1581,6 +2192,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1592,6 +2205,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1603,6 +2218,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1614,6 +2231,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1625,6 +2244,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1636,6 +2257,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1647,6 +2270,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1658,6 +2283,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1669,6 +2296,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1680,6 +2309,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1691,6 +2322,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1702,6 +2335,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1713,6 +2348,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1724,6 +2361,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1735,6 +2374,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1746,6 +2387,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1757,6 +2400,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1768,6 +2413,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1779,6 +2426,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1790,6 +2439,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1801,6 +2452,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1812,6 +2465,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1823,6 +2478,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1834,6 +2491,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1845,6 +2504,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1856,6 +2517,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1867,6 +2530,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1878,6 +2543,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1889,6 +2556,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1900,6 +2569,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1911,6 +2582,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1922,6 +2595,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1933,6 +2608,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1944,6 +2621,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1955,6 +2634,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1966,6 +2647,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1977,6 +2660,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1988,6 +2673,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1999,6 +2686,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2010,6 +2699,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2021,6 +2712,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2032,6 +2725,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2043,6 +2738,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2054,6 +2751,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2065,6 +2764,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2076,6 +2777,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2087,6 +2790,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2098,6 +2803,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2109,6 +2816,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2120,6 +2829,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2131,6 +2842,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2142,6 +2855,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2153,6 +2868,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2164,6 +2881,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2175,6 +2894,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2186,6 +2907,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2197,6 +2920,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2208,6 +2933,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2219,6 +2946,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2230,6 +2959,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2241,6 +2972,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2252,6 +2985,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2263,6 +2998,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2274,6 +3011,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2285,6 +3024,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2296,6 +3037,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2307,6 +3050,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2318,6 +3063,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2329,6 +3076,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2340,6 +3089,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2351,6 +3102,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2362,6 +3115,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2373,6 +3128,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2384,6 +3141,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2395,6 +3154,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2406,6 +3167,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2417,6 +3180,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2428,6 +3193,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2439,6 +3206,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2450,6 +3219,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2461,6 +3232,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2472,6 +3245,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2483,6 +3258,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2494,6 +3271,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2505,6 +3284,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2516,6 +3297,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2527,6 +3310,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2538,6 +3323,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2549,6 +3336,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2560,6 +3349,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2571,6 +3362,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2582,6 +3375,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2593,6 +3388,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2604,6 +3401,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2615,6 +3414,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2626,6 +3427,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2637,6 +3440,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2648,6 +3453,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2659,6 +3466,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2670,6 +3479,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2681,6 +3492,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2692,6 +3505,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2703,6 +3518,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2714,6 +3531,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2725,6 +3544,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2736,6 +3557,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2747,6 +3570,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2758,6 +3583,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2769,6 +3596,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2780,6 +3609,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2791,6 +3622,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": null,
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2802,6 +3635,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://education.nsu.ru/mechatronics/",
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2813,6 +3648,8 @@
     "degree": null,
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://education.nsu.ru/ai",
+    "places": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -2824,6 +3661,8 @@
     "degree": "basic_higher",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=23.05.01&id=1",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2835,6 +3674,8 @@
     "degree": "basic_higher",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=15.03.04&id=1",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2846,6 +3687,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=18.03.01&id=31",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2857,6 +3700,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=35.03.01&id=32",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2868,6 +3713,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=35.03.01&id=31",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2879,6 +3726,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=35.03.01&id=35",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2890,6 +3739,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=35.03.02&id=31",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2901,6 +3752,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=35.03.02&id=32",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2912,6 +3765,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://mf.bmstu.ru/direction/?code=35.03.10&id=31",
+    "places": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -2923,6 +3778,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://apply.innopolis.university/bachelors/DS-MAI/",
+    "places": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -2934,6 +3791,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://apply.innopolis.university/bachelors/AI-360/",
+    "places": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -2945,6 +3804,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://apply.innopolis.university/bachelors/mechatronics-robotics/",
+    "places": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -2956,6 +3817,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://apply.innopolis.university/bachelors/information-systems-engineering/",
+    "places": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -2967,6 +3830,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": null,
+    "program_url": "https://apply.innopolis.university/bachelors/DS-AI/",
+    "places": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -2978,6 +3843,8 @@
     "degree": "bachelor",
     "kind": "marketing_track",
     "year": null,
+    "program_url": "https://cu.ru/bachelor",
+    "places": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -2989,6 +3856,8 @@
     "degree": "bachelor",
     "kind": "marketing_track",
     "year": null,
+    "program_url": "https://cu.ru/bachelor",
+    "places": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -3000,6 +3869,8 @@
     "degree": "bachelor",
     "kind": "marketing_track",
     "year": null,
+    "program_url": "https://cu.ru/bachelor",
+    "places": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -3011,6 +3882,8 @@
     "degree": "bachelor",
     "kind": "marketing_track",
     "year": null,
+    "program_url": "https://cu.ru/bachelor",
+    "places": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -3022,6 +3895,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3033,6 +3908,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3044,6 +3921,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3055,6 +3934,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3066,6 +3947,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3077,6 +3960,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3088,6 +3973,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3099,6 +3986,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3110,6 +3999,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3121,6 +4012,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3132,6 +4025,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3143,6 +4038,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3154,6 +4051,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3165,6 +4064,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3176,6 +4077,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3187,6 +4090,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3198,6 +4103,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3209,6 +4116,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3220,6 +4129,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3231,6 +4142,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3242,6 +4155,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3253,6 +4168,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3264,6 +4181,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3275,6 +4194,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3286,6 +4207,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3297,6 +4220,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3308,6 +4233,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3319,6 +4246,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3330,6 +4259,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3341,6 +4272,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3352,6 +4285,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3363,6 +4298,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3374,6 +4311,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3385,6 +4324,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3396,6 +4337,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3407,6 +4350,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3418,6 +4363,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3429,6 +4376,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3440,6 +4389,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3451,6 +4402,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3462,6 +4415,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3473,6 +4428,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3484,6 +4441,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3495,6 +4454,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3506,6 +4467,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3517,6 +4480,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3528,6 +4493,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3539,6 +4506,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3550,6 +4519,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3561,6 +4532,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3572,6 +4545,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3583,6 +4558,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3594,6 +4571,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3605,6 +4584,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3616,6 +4597,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3627,6 +4610,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3638,6 +4623,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3649,6 +4636,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3660,6 +4649,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3671,6 +4662,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3682,6 +4675,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3693,6 +4688,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3704,6 +4701,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3715,6 +4714,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3726,6 +4727,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3737,6 +4740,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3748,6 +4753,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3759,6 +4766,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3770,6 +4779,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3781,6 +4792,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3792,6 +4805,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3803,6 +4818,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3814,6 +4831,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3825,6 +4844,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3836,6 +4857,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3847,6 +4870,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3858,6 +4883,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3869,6 +4896,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3880,6 +4909,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3891,6 +4922,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3902,6 +4935,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3913,6 +4948,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3924,6 +4961,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3935,6 +4974,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3946,6 +4987,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3957,6 +5000,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3968,6 +5013,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3979,6 +5026,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3990,6 +5039,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4001,6 +5052,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4012,6 +5065,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4023,6 +5078,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4034,6 +5091,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4045,6 +5104,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4056,6 +5117,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4067,6 +5130,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4078,6 +5143,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4089,6 +5156,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4100,6 +5169,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4111,6 +5182,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4122,6 +5195,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4133,6 +5208,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4144,6 +5221,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4155,6 +5234,8 @@
     "degree": "specialist",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4166,6 +5247,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4177,6 +5260,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4188,6 +5273,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4199,6 +5286,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4210,6 +5299,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4221,6 +5312,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4232,6 +5325,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4243,6 +5338,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4254,6 +5351,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4265,6 +5364,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4276,6 +5377,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4287,6 +5390,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4298,6 +5403,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4309,6 +5416,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4320,6 +5429,8 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": null,
+    "places": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4331,6 +5442,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/digitalcomm/",
+    "places": {
+      "budget_total": 10,
+      "paid": 42,
+      "budget_raw": "10",
+      "paid_raw": "42"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -4342,6 +5460,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/digitalcomm/",
+    "places": {
+      "budget_total": 10,
+      "paid": 25,
+      "budget_raw": "10",
+      "paid_raw": "25"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -4353,6 +5478,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ad/",
+    "places": {
+      "budget_total": 20,
+      "paid": 137,
+      "budget_raw": "20",
+      "paid_raw": "137"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -4364,6 +5496,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ad/",
+    "places": {
+      "budget_total": 5,
+      "paid": 25,
+      "budget_raw": "5",
+      "paid_raw": "25"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -4375,6 +5514,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/epa/",
+    "places": {
+      "budget_total": null,
+      "paid": 24,
+      "budget_raw": "-",
+      "paid_raw": "24"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -4386,6 +5532,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/epa/",
+    "places": {
+      "budget_total": null,
+      "paid": 94,
+      "budget_raw": "-",
+      "paid_raw": "94"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -4397,6 +5550,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ir",
+    "places": {
+      "budget_total": null,
+      "paid": 33,
+      "budget_raw": "-",
+      "paid_raw": "33"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -4408,6 +5568,13 @@
     "degree": "bachelor",
     "kind": "program_profile",
     "year": 2026,
+    "program_url": "https://www.hse.ru/ba/ir",
+    "places": {
+      "budget_total": null,
+      "paid": 76,
+      "budget_raw": "-",
+      "paid_raw": "76"
+    },
     "source_url": "https://ba.hse.ru/kolmest"
   }
 ]

@@ -128,7 +128,8 @@ def build(write=True):
         write_json(OUT/'dataset.json',result);write_json(OUT/'coverage.json',coverage)
         write_json(OUT/'public_index.json',[dict(id=r['id'],institution_id=r['institution_id'],name=r['name'],
             campus=r['campus'],official_code=r['official_code'],degree=r['degree'],kind=r['kind'],
-            year=r['campaign_year'],source_url=r['provenance']['url']) for r in display.values()])
+            year=r['campaign_year'],program_url=r['program_url'],places=r['places'],
+            source_url=r['provenance']['url']) for r in display.values()])
     return result
 
 

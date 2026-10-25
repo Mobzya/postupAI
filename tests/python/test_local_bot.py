@@ -50,6 +50,15 @@ class LocalBotTests(unittest.TestCase):
             handle_update({'update_id':1},bot,'http://127.0.0.1:8787','synthetic')
         self.assertEqual(bot.calls,[])
 
+    def test_bridge_preserves_keyboard_and_reply_prompt_options(self):
+        for markup in [{'keyboard':[['Synthetic button']],'resize_keyboard':True},{'force_reply':True}]:
+            bot=FakeBot();reply={'method':'sendMessage','chat_id':777001,'text':'Synthetic prompt',
+                'reply_markup':markup,'link_preview_options':{'is_disabled':True}}
+            with patch('scripts.local_bot.worker_call',return_value=reply):
+                handle_update({'update_id':1},bot,'http://127.0.0.1:8787','synthetic')
+            self.assertEqual(bot.calls[0][1]['reply_markup'],markup)
+            self.assertTrue(bot.calls[0][1]['link_preview_options']['is_disabled'])
+
     def test_arbitrary_bot_methods_and_remote_worker_urls_rejected(self):
         with self.assertRaisesRegex(BotError,'Unsupported'):
             BotAPI('synthetic-unused-token').call('deleteWebhook')

@@ -5,12 +5,13 @@ import { forecastAvailability } from './domain.ts';
 import registry from '../data/source_registry.json' with { type: 'json' };
 import release from '../config/bot.release.json' with { type: 'json' };
 import coverage from '../data/normalized/mephi/metrics.json' with { type: 'json' };
-import { catalogSummary, searchPrograms } from './catalog.ts';
+import { catalogSummary, searchPrograms,renderProgram,comparePrograms } from './catalog.ts';
 import { historicalSummary } from './history.ts';
 import { renderRules, renderAcademicScore, renderAchievementRules } from './academic.ts';
 import { renderGrowth, renderGrowthModel } from './growth.ts';
 import { renderBaseline } from './baseline.ts';
 import { admissionReadinessText } from './admission.ts';
+import { MENU,PROMPTS,HELP,resolveInput,forceReply } from './ui.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -37,7 +38,7 @@ async function readBounded(request: Request): Promise<unknown> {
 
 type MessageUpdate = {
   update_id: number;
-  message?: { text?: string; chat?: { id?: number; type?: string }; from?: { id?: number; is_bot?: boolean } };
+  message?: { text?: string; chat?: { id?: number; type?: string }; from?: { id?: number; is_bot?: boolean };reply_to_message?:unknown };
 };
 function record(value: unknown): value is Record<string, unknown> {
   return value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -72,7 +73,8 @@ function stageStatus(): string {
 const publicIntro = 'BALLNIK / postupAI — помощник по поступлению, сейчас в разработке.\n' +
   `Текущий этап: ${release.stage}. /status — результаты и ограничения.\n` +
   'Сохранение профилей и результатов пока выключено.\n' +
-  'Команды: /status /sources /programs /forecast.';
+  'Выберите действие кнопкой. /help — все команды, /ege — сценарии ЕГЭ, /score — конкурсный балл МИФИ.\n'+
+  'Темпы роста — гипотезы, проверенной вероятности зачисления нет. Переписку хранит Telegram; не отправляйте личные документы.';
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
@@ -110,9 +112,13 @@ export default {
     if (!message?.text || message.chat?.type !== 'private' ||
         !Number.isSafeInteger(message.from?.id) || message.from?.is_bot !== false ||
         message.from!.id! <= 0 || message.chat.id !== message.from?.id) return json({ ok: true });
-    const command = message.text.trim().split(/\s+/)[0]?.split('@')[0]?.toLowerCase();
+    if(message.text.length>4096)return json({error:'message_too_long'},400);
+    const input=resolveInput(message.text,message.reply_to_message);
+    const command = input.split(/\s+/)[0]?.split('@')[0]?.toLowerCase();
+    const args=input.split(/\s+/).slice(1).join(' ');
     try {
       let text: string;
+      let replyMarkup:unknown=MENU;
       switch (command) {
         case '/start': {
           if (profileStorageEnabled) {
@@ -152,40 +158,56 @@ export default {
           text = catalogSummary();
           break;
         case '/search':
-          text = searchPrograms(message.text.trim().split(/\s+/).slice(1).join(' '));
+          text = args?searchPrograms(args):PROMPTS.search;
+          if(!args)replyMarkup=forceReply();
+          break;
+        case '/program':
+          text=renderProgram(args);
           break;
         case '/status':
           text = stageStatus();
           break;
         case '/history':
-          text = historicalSummary(message.text.trim().split(/\s+/).slice(1).join(' '));
+          text = args?historicalSummary(args):PROMPTS.history;
+          if(!args)replyMarkup=forceReply();
           break;
         case '/rules':
-          text = renderRules(message.text.trim().split(/\s+/).slice(1).join(' '));
+          text = args?renderRules(args):PROMPTS.rules;
+          if(!args)replyMarkup=forceReply();
           break;
         case '/score':
-          text = renderAcademicScore(message.text.trim().split(/\s+/).slice(1).join(' '));
+          text = args?renderAcademicScore(args):PROMPTS.score;
+          if(!args)replyMarkup=forceReply();
           break;
         case '/ege':
-          text = renderGrowth(message.text.trim().split(/\s+/).slice(1).join(' '));
+          text = args?renderGrowth(args):PROMPTS.ege;
+          if(!args)replyMarkup=forceReply();
           break;
         case '/model':
           text = renderGrowthModel();
           break;
         case '/baseline':
-          text = renderBaseline(message.text.trim().split(/\s+/).slice(1).join(' '));
+          text = renderBaseline(args);
           break;
-        case '/forecast': case '/compare':
+        case '/compare':
+          text=args?comparePrograms(args):PROMPTS.compare;
+          if(!args)replyMarkup=forceReply();
+          break;
+        case '/forecast':
           forecastAvailability();
           text = admissionReadinessText();
           break;
         case '/achievements':
           text = renderAchievementRules();
           break;
-        default: text = profileStorageEnabled ? prototypeIntro : publicIntro;
+        case '/favorites': case '/save':
+          text='Сохранение избранного и прогнозов в профиле пока выключено. Вы можете вручную сохранить ответ средствами Telegram. /profile — состояние хранения.';
+          break;
+        default: text = HELP;
       }
       // Telegram supports a Bot API method in the webhook response; no outbound API call.
-      return json({ method: 'sendMessage', chat_id: message.chat.id, text });
+      return json({ method: 'sendMessage', chat_id: message.chat.id, text:text.slice(0,4000),reply_markup:replyMarkup,
+        link_preview_options:{is_disabled:true} });
     } catch {
       // Never log the request, SQL parameters, exception or Bot API URL.
       return json({ error: 'temporary_storage_failure' }, 503);
