@@ -37,7 +37,10 @@
     "baseline:validate": "python3 -m pipeline.threshold_baseline validate",
     "competition:demo": "python3 -m models.competition --trials 1000",
     "model:readiness": "python3 -m pipeline.model_readiness validate",
-    "test:bot": "python3 scripts/smoke_bot.py"
+    "test:bot": "python3 scripts/smoke_bot.py",
+    "verify:artifacts": "python3 -m pipeline.verify_artifacts",
+    "check:secrets": "python3 scripts/check_secrets.py",
+    "quality": "npm run check && npm run verify:artifacts && npm run deploy:dry && npm run db:local && npm run test:smoke && npm run test:bot"
   },
   "devDependencies": {
     "typescript": "7.0.2",

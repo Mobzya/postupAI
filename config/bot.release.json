@@ -1,8 +1,8 @@
 {
-  "version": "4-preview.1",
-  "stage": "4",
-  "review_status": "stateless_preview",
-  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/4-bot-navigation/docs/STAGE_4_REPORT.md",
+  "version": "5-preview.1",
+  "stage": "5",
+  "review_status": "local_automation_only",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/5-local-automation/docs/STAGE_5_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }

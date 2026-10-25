@@ -110,7 +110,7 @@ def simulate(config,*,trials=1000,seed=2026):
         wins[deferred_acceptance(programs,entrants)[0]]+=1
     admitted=trials-wins[None]
     return dict(version='synthetic-preference-mc-v1',status='synthetic_laboratory_only',synthetic=True,
-        deployable=False,config_sha256=digest(config),code_sha256=digest(Path(__file__).read_text()),seed=seed,trials=trials,
+        deployable=False,config_sha256=digest(config),code_sha256=digest(Path(__file__).read_bytes()),seed=seed,trials=trials,
         any_admission_scenario_mass=admitted/trials,
         monte_carlo_interval95=wilson(admitted,trials),
         by_program={p.key:wins[p.key]/trials for p in programs},rejected_mass=wins[None]/trials,

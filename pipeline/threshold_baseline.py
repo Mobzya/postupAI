@@ -78,7 +78,7 @@ def evaluate(rows,config):
 def build(write=True):
     rows=json.loads((ROOT/'data/normalized/history_v1/dataset.json').read_text())['records'];config=json.loads(CONFIG.read_text())
     result=dict(version=config['version'],status=config['status'],dataset_sha256=digest(rows),config_sha256=digest(config),
-        code_sha256=digest((ROOT/'pipeline/threshold_baseline.py').read_text()),probability_enabled=False,
+        code_sha256=digest((ROOT/'pipeline/threshold_baseline.py').read_bytes()),probability_enabled=False,
         comparability_status='textual_series_not_verified_competition',**evaluate(rows,config))
     for r in result['evaluation']:
         require(all(y<r['year'] for y in r['training_years']),'temporal_leakage')

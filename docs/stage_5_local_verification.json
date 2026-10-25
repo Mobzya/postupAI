@@ -1,0 +1,36 @@
+{
+  "quality": "passed",
+  "node_tests": 49,
+  "python_tests": 91,
+  "canonical_and_public_replay": "passed",
+  "worker_dry_build": "passed",
+  "d1_idempotent_import": "passed",
+  "d1_counts": {
+    "original_history": 286,
+    "catalog_observations": 458,
+    "historical_source_observations": 956,
+    "academic_rule_versions": 59,
+    "profiles": 0
+  },
+  "public_backup_sha256": "26f2b6493e3f8844d1c82d16f00db6ded8b329952eda90615c74db21cc436ef7",
+  "restored_counts": {
+    "programs": 82,
+    "program_versions": 82,
+    "admission_observations": 286,
+    "competition_group_assessments": 39,
+    "catalog_observations": 458,
+    "historical_source_observations": 956,
+    "academic_rule_versions": 59,
+    "user_profiles": 0,
+    "user_score_history": 0,
+    "user_achievements": 0,
+    "saved_programs": 0,
+    "forecast_results": 0,
+    "telegram_updates": 0
+  },
+  "backup_integrity": "ok",
+  "foreign_key_violations": 0,
+  "user_data_in_backup": false,
+  "cloudflare_deployment": false,
+  "github_ci": "pending_first_push"
+}
