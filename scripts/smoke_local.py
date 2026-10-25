@@ -56,7 +56,7 @@ def main():
 
             assert call('/start')['method'] == 'sendMessage'
             assert 'Профиль создан' in call('/profile')['text']
-            assert 'недоступен' in call('/forecast')['text']
+            assert 'пока недоступ' in call('/forecast')['text']
             assert 'удалены' in call('/delete_data')['text']
             assert 'профиля нет' in call('/profile')['text']
             print('PASS: actual local workerd/D1 HTTP smoke: health, start, profile, forecast refusal, deletion.')

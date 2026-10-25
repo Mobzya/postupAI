@@ -1,8 +1,8 @@
 {
-  "version": "3a-preview.1",
-  "stage": "3A",
-  "review_status": "experimental_threshold_only",
-  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/3a-threshold-baseline/docs/STAGE_3A_REPORT.md",
+  "version": "3b-preview.1",
+  "stage": "3B",
+  "review_status": "synthetic_simulator_only",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/3b-competition-simulator/docs/STAGE_3B_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }

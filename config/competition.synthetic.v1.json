@@ -1,0 +1,22 @@
+{
+  "version": "competition-laboratory-input-v1",
+  "synthetic": true,
+  "category": "general_budget",
+  "maximum_score": 310,
+  "programs": [
+    {"key":"synthetic_A","seats":20,"minimum":200,"rival_score_distribution":[[210,0.2],[250,0.4],[280,0.3],[300,0.1]]},
+    {"key":"synthetic_B","seats":30,"minimum":180,"rival_score_distribution":[[200,0.2],[240,0.4],[270,0.3],[290,0.1]]}
+  ],
+  "rival_count_distribution": [[80,0.25],[100,0.5],[120,0.25]],
+  "preference_profiles": [
+    {"programs":["synthetic_A","synthetic_B"],"weight":0.6},
+    {"programs":["synthetic_B","synthetic_A"],"weight":0.3},
+    {"programs":["synthetic_A"],"weight":0.1}
+  ],
+  "candidate_preferences": ["synthetic_A","synthetic_B"],
+  "candidate_scenarios": [
+    {"scores":{"synthetic_A":240,"synthetic_B":230},"weight":0.2},
+    {"scores":{"synthetic_A":280,"synthetic_B":270},"weight":0.6},
+    {"scores":{"synthetic_A":300,"synthetic_B":290},"weight":0.2}
+  ]
+}

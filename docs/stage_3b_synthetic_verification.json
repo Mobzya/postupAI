@@ -1,0 +1,27 @@
+{
+  "version": "synthetic-preference-mc-v1",
+  "status": "synthetic_laboratory_only",
+  "synthetic": true,
+  "deployable": false,
+  "config_sha256": "726dde73557c31ef1575ff2b530510b7fcd758bd63cb902723141de3564613bc",
+  "code_sha256": "93e221a16783c6d5d49eeccbeb40a0f7e3ecc94be03c82b471dd810965834026",
+  "seed": 2026,
+  "trials": 1000,
+  "any_admission_scenario_mass": 0.799,
+  "monte_carlo_interval95": [
+    0.7730388134679094,
+    0.8226727849577289
+  ],
+  "by_program": {
+    "synthetic_A": 0.581,
+    "synthetic_B": 0.218
+  },
+  "rejected_mass": 0.201,
+  "assumptions": [
+    "General budget only; supplied minima and seats are synthetic.",
+    "Applicant-proposing stable matching is not a reproduction of all Russian enrollment procedures.",
+    "Shared rival score rank; preference mixture and pool sizes are fictional.",
+    "Random tie priorities; no automatic BVI, quota, DVI or enrollment consent rules.",
+    "Interval measures Monte Carlo noise conditional on assumptions, not real-world calibration."
+  ]
+}

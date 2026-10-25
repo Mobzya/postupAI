@@ -10,6 +10,7 @@ import { historicalSummary } from './history.ts';
 import { renderRules, renderAcademicScore, renderAchievementRules } from './academic.ts';
 import { renderGrowth, renderGrowthModel } from './growth.ts';
 import { renderBaseline } from './baseline.ts';
+import { admissionReadinessText } from './admission.ts';
 
 const MAX_BODY = 65536;
 const json = (data: unknown, status = 200): Response => Response.json(data, {
@@ -176,7 +177,7 @@ export default {
           break;
         case '/forecast': case '/compare':
           forecastAvailability();
-          text = 'Прогноз пока недоступен: нет проверенных данных и модели. Проценты поступления не рассчитываются.';
+          text = admissionReadinessText();
           break;
         case '/achievements':
           text = renderAchievementRules();

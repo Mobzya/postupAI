@@ -1,0 +1,23 @@
+{
+  "version": "admission-readiness-v1",
+  "status": "blocked",
+  "probability_enabled": false,
+  "confirmed_competition_groups": 0,
+  "threshold_holdout_predictions": 108,
+  "real_admission_backtest_available": false,
+  "real_calibration_available": false,
+  "validated_probability_artifact": null,
+  "complete_annual_rules": false,
+  "laboratory_simulator": "synthetic_only_offline",
+  "source_hashes": {
+    "competition_review": "c30bf9a20422041fb73038bbbf05720e2940da99c8c093ee717d64b3c70f370d",
+    "history_readiness": "947f96f4e4144a18619c5d864844894a9f42176eb2155404cde844f6b98ec04d",
+    "threshold_evaluation": "bc1596e5990f616e1dab8b836b23f34e1a520af09039c9afa10b30eca571d6ae"
+  },
+  "blockers": [
+    "Same-year verified competition populations and final enrollment distributions missing.",
+    "BVI, quotas, ties, actual preference/consent procedure and annual rules incomplete.",
+    "No temporal individual-admission backtest or empirically calibrated artifact.",
+    "Synthetic simulator results and threshold MAE cannot authorize real admission probabilities."
+  ]
+}
