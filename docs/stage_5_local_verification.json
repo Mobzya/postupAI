@@ -32,5 +32,7 @@
   "foreign_key_violations": 0,
   "user_data_in_backup": false,
   "cloudflare_deployment": false,
-  "github_ci": "pending_first_push"
+  "github_ci": "success",
+  "github_ci_url": "https://github.com/Mobzya/postupAI/actions/runs/40146204569",
+  "github_ci_head": "e690ca5cbf3b0f9df92b9cc3d2d24910a8ca7b87"
 }

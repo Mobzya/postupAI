@@ -58,3 +58,7 @@ manifest проверены тестами. Сводка: docs/stage_5_local_ver
 артефакта. Тесты на локальном workerd не измеряют CPU в Cloudflare и не доказывают
 работу в бесплатных квотах под реальной нагрузкой.
 Далее — техническая подготовка этапа 6; реальный пилот не объявляется проведённым.
+
+Последующая проверка remote CI: **success**, commit e690ca5,
+https://github.com/Mobzya/postupAI/actions/runs/40146204569. Пройдены все шаги,
+включая оба workerd smoke, повторный D1 import, backup/restore и clean artifact replay.
