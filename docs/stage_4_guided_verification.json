@@ -24,5 +24,11 @@
   "source_profile_records": 523,
   "source_universities": 10,
   "empirical_calibration": false,
-  "real_user_pilot": false
+  "real_user_pilot": false,
+  "implementation_commit": "3c749a1afab8409e60db7c9098ec588624ffcb1f",
+  "github_ci": "success",
+  "github_ci_url": "https://github.com/Mobzya/postupAI/actions/runs/40172386760",
+  "all_program_card_views_checked": 2092,
+  "maximum_card_text_characters": 625,
+  "maximum_card_callback_bytes": 34
 }

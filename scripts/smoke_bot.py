@@ -52,7 +52,7 @@ def main():
         def tap(view,label):
             button=next(b for row in view['reply_markup']['inline_keyboard'] for b in row if b['text']==label)
             return call(callback_data=button['callback_data'],callback_text=view['text'])
-        view=call('/pick');view=tap(view,'Справочно: условия 2026');view=tap(view,'Ввести баллы →')
+        view=call('/pick');view=tap(view,'Выбрать год 2026');view=tap(view,'Ввести баллы →')
         assert view['reply_markup']['force_reply'] and view['method']=='sendMessage'
         view=call('101',view['text']);assert view['text'].startswith('Нужно целое')
         for n in ['80','85','90']:view=call(n,view['text'])

@@ -70,7 +70,7 @@ export function subjectSelection(s=initialSelection()):GuidedView {
   return inline(`1 из 4 · Твои предметы\nПриём ${s.year}. Выбери предметы ЕГЭ.\nБаллы введём по одному. Сохранение профиля выключено.`,[
     ...chunks(SUBJECTS.map((v,i)=>button(s,`${(s.mask&(1<<i))?'✓ ':''}${v.label}`,'t',String(i))),2),
     [button(s,'Ввести баллы →','b')],[button(s,'Баллы пока неизвестны','z')],
-    [button(s,s.year===2027?'Справочно: условия 2026':'Вернуться к приёму 2027','y',s.year===2027?'6':'7')],
+    [button(s,s.year===2027?'Выбрать год 2026':'Выбрать год 2027','y',s.year===2027?'6':'7')],
     [button(s,'Главное меню','h')],
   ]);
 }

@@ -20,7 +20,7 @@ test('subject buttons edit the selection and all generated payloads fit Telegram
   const first=subjectSelection();assertView(first);
   const second=press(first,'Физика');assert.ok(buttons(second).some(b=>b.text==='✓ Физика'));
   const s=unpackSelection(buttons(second)[0].callback_data.split(':').at(-1));assert.equal(s.mask,15);
-  assertView(press(first,'Справочно: условия 2026'));
+  assertView(press(first,'Выбрать год 2026'));
   let empty=first;for(const label of ['✓ Русский язык','✓ Математика','✓ Информатика'])empty=press(empty,label);
   assert.ok(press(empty,'Ввести баллы →').text.includes('Отметь хотя бы один'));
 });
