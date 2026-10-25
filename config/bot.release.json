@@ -1,8 +1,8 @@
 {
-  "version": "3b-preview.1",
-  "stage": "3B",
-  "review_status": "synthetic_simulator_only",
-  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/3b-competition-simulator/docs/STAGE_3B_REPORT.md",
+  "version": "4-preview.1",
+  "stage": "4",
+  "review_status": "stateless_preview",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/4-bot-navigation/docs/STAGE_4_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }

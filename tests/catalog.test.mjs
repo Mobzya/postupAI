@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { catalogSummary, searchPrograms } from '../src/catalog.ts';
+import { catalogSummary, searchPrograms,programReferences,renderProgram,comparePrograms } from '../src/catalog.ts';
 
 test('catalog summary distinguishes unavailable programs and marketing tracks', () => {
   const text = catalogSummary();
@@ -8,6 +8,23 @@ test('catalog summary distinguishes unavailable programs and marketing tracks', 
   assert.ok(text.includes('каталог пока не извлечён'));
   assert.ok(text.includes('Полнота'));
   assert.ok(text.length < 4096);
+});
+
+test('catalog references are unique; pagination retrieves different cards without a profile',()=>{
+  assert.equal(new Set(programReferences.map(p=>p.id)).size,programReferences.length);
+  const first=searchPrograms('вшэ'),second=searchPrograms('вшэ страница=2');
+  const ids=s=>[...s.matchAll(/\/program ([a-f0-9]{8})/g)].map(m=>m[1]);
+  assert.equal(ids(first).length,3);assert.equal(ids(second).length,3);
+  assert.ok(ids(first).every(id=>!ids(second).includes(id)));
+  assert.ok(searchPrograms('вшэ страница=9999').includes('Доступно страниц'));
+  assert.ok(searchPrograms('вшэ страница=0').includes('положительным'));
+});
+test('cards and comparison retain sources, unknowns, category boundaries and distinct references',()=>{
+  const [a,b]=programReferences;const card=renderProgram(a.id);
+  assert.ok(card.includes('Источник: https://'));assert.ok(card.includes('Бюджет всего (с квотами)'));
+  const c=comparePrograms(`${a.id} ${b.id}`);assert.ok(c.includes(a.name));assert.ok(c.includes(b.name));
+  assert.ok(c.includes('не ранжирование шансов'));assert.ok(comparePrograms(`${a.id} ${a.id}`).includes('разные'));
+  assert.ok(comparePrograms(`${a.id} 00000000`).includes('не найден'));
 });
 
 test('search combines university alias and program terms with provenance', () => {

@@ -96,9 +96,9 @@ export function renderGrowth(text:string,asOf=new Date().toISOString().slice(0,1
       if(key==='цель'){if(!/^\d+$/.test(value))throw new Error('invalid_target');target=Number(value);}
       else if(key==='рег'){if(!/^(0(?:\.\d+)?|1(?:\.0+)?)$/.test(value))throw new Error('invalid_regularity');regularity=Number(value);}
       else if(key==='пробник')mockDate=value;
-      else if(!aliases[key])throw new Error('unknown_subject');
+      else if(!Object.hasOwn(aliases,key))throw new Error('unknown_subject');
     }
-    for(const [key,value] of args)if(aliases[key]){
+    for(const [key,value] of args)if(Object.hasOwn(aliases,key)){
       const m=/^(\d+)\/(\d+(?:\.\d+)?)$/.exec(value);if(!m)throw new Error('invalid_score_hours');
       subjects.push({subject:aliases[key]!,mocks:[{date:mockDate,score:Number(m[1])}],hoursPerWeek:Number(m[2]),regularity});
     }
