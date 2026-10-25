@@ -11,16 +11,17 @@ from pathlib import Path
 import subprocess
 from lxml import etree,html
 
-from .catalog_adapters import VERSION,parse_html,parse_spbu,parse_msu,record
+from .catalog_adapters import VERSION,parse_html,parse_spbu,parse_msu,parse_cu_program_doc,record
 from .mephi import parse_catalog
 from .sources import SnapshotStore,digest,write_json
 from .validate import ROOT,require
+from .disclosure import mipt_excerpt,cu_program_excerpt
 
 OUT=ROOT/'data/normalized/catalog_v1'
 INPUTS=ROOT/'data/catalog_inputs'
 SUPPORTED={'hse-catalog-programs','hse-catalog-seats','innopolis-catalog-programs','nsu-catalog-programs',
            'bmstu-catalog-mytishchi','cu-catalog-programs','mephi-catalog-programs',
-           'msu-catalog-seats','spbu-catalog-programs-pdf'}
+           'msu-catalog-seats','spbu-catalog-programs-pdf','mipt-disclosure-education','cu-opop-mipt-network','cu-opop-hse-network'}
 
 
 def materialize():
@@ -29,7 +30,12 @@ def materialize():
         if row['status']!='fetched' or row['source_id'] not in SUPPORTED:continue
         source=copy.deepcopy(row['snapshot']);source['institution_id']=row['institution_id']
         raw=SnapshotStore.read(source);ident=row['institution_id'];sid=row['source_id']
-        if sid=='spbu-catalog-programs-pdf':
+        if sid.startswith('cu-opop-'):
+            extracted=subprocess.run(['pdftotext','-f','1','-l','3','-layout',str(ROOT/source['path']),'-'],capture_output=True,text=True,check=True).stdout
+            content=cu_program_excerpt(extracted);representation='pdftotext-title-fields-and-network-role'
+        elif sid=='mipt-disclosure-education':
+            content=mipt_excerpt(raw);representation='semantic-disclosure-table-excerpt'
+        elif sid=='spbu-catalog-programs-pdf':
             xml=subprocess.run(['pdftotext','-bbox-layout',str(ROOT/source['path']),'-'],capture_output=True,check=True).stdout
             doc=etree.fromstring(xml);content=[]
             for page_i,page in enumerate(doc.xpath('//*[local-name()="page"]'),1):
@@ -74,7 +80,8 @@ def build(write=True):
     for filename in input_manifest:
         bundle=json.loads((ROOT/filename).read_text());s=bundle['source'];content=bundle['content']
         require(digest(content)==s['representation_sha256'],'catalog_representation_hash_mismatch')
-        if s['source_id']=='spbu-catalog-programs-pdf':
+        if s['source_id'].startswith('cu-opop-'):rows=parse_cu_program_doc(s,content)
+        elif s['source_id']=='spbu-catalog-programs-pdf':
             rows=parse_spbu(s,content)
             denominators['spbu']=sum(440<float(b['x0'])<490 and b['text'] in ('очная','очно-заочная','заочная') for b in content)
         elif s['source_id']=='msu-catalog-seats':rows=parse_msu(s,content)
@@ -84,7 +91,11 @@ def build(write=True):
                 row=record(s,r['name'],r['provenance']['locator'],code=r['official_code'],level=r['degree'],
                            notes=['Published profile; campaign and campus require individual confirmation.'])
                 row['legacy_program_id']=r['id'];rows.append(row)
-        else:rows=parse_html(s,content)
+        else:
+            rows=parse_html(s,content)
+            if s['institution_id']=='mipt':
+                denominators['mipt']=len(html.fromstring(content).xpath('//table/tr[@data-source-row]'))
+                require(len(rows)==denominators['mipt'],'mipt_disclosure_rows_lost_or_merged')
         records.extend(rows)
     # Keep each source fact, but provide a display index where explicit URLs establish identity.
     display={}
@@ -134,7 +145,7 @@ def public_index(dataset):
     return [dict(id=r['id'],institution_id=r['institution_id'],name=r['name'],
         campus=r['campus'],official_code=r['official_code'],degree=r['degree'],kind=r['kind'],
         year=r['campaign_year'],program_url=r['program_url'],places=r['places'],
-        source_url=r['provenance']['url']) for r in dataset['display_index']]
+        study_form=r.get('study_form'),source_url=r['provenance']['url']) for r in dataset['display_index']]
 
 
 def validate(dataset):

@@ -1,8 +1,8 @@
 {
-  "version": "6-technical-preview.1",
-  "stage": "6",
-  "review_status": "human_pilot_pending",
-  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/6-technical-pilot/docs/STAGE_6_REPORT.md",
+  "version": "1c-followup.1",
+  "stage": "1C+",
+  "review_status": "partial_source_coverage",
+  "review_url": "https://github.com/Mobzya/postupAI/blob/stage/1c-disclosure-followup/docs/STAGE_1C_FOLLOWUP_REPORT.md",
   "data_date": "2026-10-24",
   "bot_username": "postupAI5_bot"
 }

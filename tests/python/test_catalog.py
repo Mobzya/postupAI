@@ -1,9 +1,10 @@
 import copy,json,sqlite3,unittest
 from pathlib import Path
-from pipeline.catalog_adapters import parse_html,parse_msu,parse_spbu
+from pipeline.catalog_adapters import parse_html,parse_msu,parse_spbu,parse_cu_program_doc
 from pipeline.catalog_pipeline import build,validate,OUT
 from pipeline.import_catalog import import_dataset
 from pipeline.validate import ROOT
+from pipeline.disclosure import mipt_excerpt
 
 
 def source(ident,name='programs'):
@@ -44,11 +45,49 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual([r['name'] for r in rows],['One','Two'])
         self.assertTrue(all(r['program_url'] is None for r in rows))
 
+    def test_mipt_semantic_cells_do_not_duplicate_hidden_rowspan_fields_or_merge_levels(self):
+        headers='<tr>'+''.join('<th>'+v+'</th>' for v in ['№','Код направления подготовки','Наименование направления подготовки',
+            'Уровень образования','Образовательная программа, направленность, профиль','Реализуемые формы обучения'])+'</tr>'
+        def row(name,level,span=''):
+            return '<tr><td>1</td><td itemprop="eduCode" '+span+'>01.03.02</td><td itemprop="eduName">Synthetic field</td>'+\
+                '<td itemprop="eduLevel">'+level+'</td><td itemprop="eduProf">'+name+'</td><td itemprop="eduForm">Очная</td></tr>'
+        raw='<html><table>'+headers+row('First','Высшее образование — бакалавриат','rowspan="2"')+\
+            row('Second','Высшее образование — бакалавриат')+'</table><table>'+headers+row('First','Базовое высшее образование')+'</table></html>'
+        rows=parse_html(source('mipt'),mipt_excerpt(raw.encode()))
+        self.assertEqual([(r['name'],r['degree']) for r in rows],[('First','bachelor'),('Second','bachelor'),('First','basic_higher')])
+        self.assertTrue(all(r['campaign_year'] is None and r['campus'] is None for r in rows))
+        self.assertTrue(all(r['study_form']=='full_time' for r in rows))
+
+    def test_mipt_actual_disclosure_scope_has_separate_levels_without_2027_offering_claim(self):
+        rows=[r for r in self.data['records'] if r['institution_id']=='mipt']
+        self.assertEqual(len(rows),87)
+        self.assertEqual(sum(r['degree']=='bachelor' for r in rows),51)
+        self.assertEqual(sum(r['degree']=='specialist' for r in rows),1)
+        self.assertEqual(sum(r['degree']=='basic_higher' for r in rows),35)
+        self.assertTrue(all(r['campaign_year'] is None for r in rows))
+
     def test_marketing_tracks_remain_separate_from_program_profiles(self):
         rows=parse_html(source('cu'),'<h3>Искусственный интеллект</h3><h3>Дизайн</h3>')
         self.assertTrue(all(r['kind']=='marketing_track' for r in rows))
-        actual=[r for r in self.data['display_index'] if r['institution_id']=='cu']
+        actual=[r for r in self.data['display_index'] if r['institution_id']=='cu' and r['kind']=='marketing_track']
         self.assertEqual(len(actual),4)
+
+    def test_cu_document_uses_base_organization_code_and_explicit_intake_year(self):
+        content='''Направление подготовки: 02.03.01 Математика и компьютерные науки
+Направленность (профиль) подготовки: Synthetic network program
+Квалификация (степень) выпускника: бакалавр
+Форма обучения: очная Срок освоения программы: 4 года Год набора: 2025
+Базовой организацией является Центральный университет, а МФТИ является Организацией-участником.
+01.03.02 — код организации-участника.'''
+        row=parse_cu_program_doc(source('cu','opop'),content)[0]
+        self.assertEqual(row['official_code'],'02.03.01');self.assertEqual(row['campaign_year'],2025)
+        self.assertEqual(row['study_form'],'full_time')
+        with self.assertRaises(ValueError):parse_cu_program_doc(source('cu'),content.replace('Год набора: 2025',''))
+
+    def test_cu_legal_profiles_are_not_four_marketing_tracks(self):
+        rows=[r for r in self.data['records'] if r['institution_id']=='cu' and r['kind']=='program_profile']
+        self.assertEqual(len(rows),2);self.assertEqual({r['official_code'] for r in rows},{'02.03.01'})
+        self.assertEqual({r['campaign_year'] for r in rows},{2025})
 
     def test_pdf_titles_and_missing_codes_not_inferred(self):
         rows=parse_msu(source('msu','seats'),'образовательная программа "Synthetic\nprogram"')

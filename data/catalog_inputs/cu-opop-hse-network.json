@@ -1,0 +1,19 @@
+{
+  "source": {
+    "source_id": "cu-opop-hse-network",
+    "url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/prikladnaya-matematika-i-informatika/osnovnaya-professionalnaya-obrazovatelnaya-programma.pdf",
+    "final_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/prikladnaya-matematika-i-informatika/osnovnaya-professionalnaya-obrazovatelnaya-programma.pdf",
+    "retrieved_at": "2026-10-25T00:34:05+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "sha256": "372157839f57086e9ebd66457d7798cd8f5f3943bd0d08486f4193e9147495e8",
+    "path": "data/raw/catalog_followup/cu-pdf/cu-opop-hse-network-372157839f57086e.pdf",
+    "bytes": 406669,
+    "retrieval_method": "https",
+    "adapter_version": "fetch-v1",
+    "institution_id": "cu",
+    "representation_sha256": "1b1e72bcc09d1ac1697157507639578c76d2e7ab88034677615650d60273e853"
+  },
+  "representation": "pdftotext-title-fields-and-network-role",
+  "content": "Направление подготовки: 02.03.01 Математика и компьютерные науки_\nНаправленность (профиль) подготовки: Программа двух дипломов НИУ_\nВШЭ и ЦУ «Прикладная математика и информатика»__________________\n\nКвалификация (степень) выпускника: бакалавр______________________\nФорма обучения: очная____________________________________________\n\nСрок освоения программы: 4 года__________________________________\n\nГод набора: 2025__________________________________________________\n\n1.1. Основная профессиональная образовательная программа (далее –\nООП, ОПОП), реализуется АНО ВО «Центральный университет» (далее –\nЦентральный университет, Университет) в сетевой форме с ФГАОУ ВО\n«Национальный исследовательский университет «Высшая школа экономики»\n(далее – НИУ ВШЭ). В соответствии с условиями договора, Базовой\nорганизацией является Центральный университет, а НИУ ВШЭ является\nОрганизацией-участником."
+}

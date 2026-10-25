@@ -50,3 +50,8 @@ checkout v7.0.1, setup-node v7.1.0, setup-python v7.1.0.
 Внешний бот не участвует в CI и входящие Telegram updates CI не читает.
 Бесплатные лимиты/бюджет облака должны быть проверены перед постоянным хостингом;
 текущая локальная работа не требует покупки сервисов или Cloudflare credentials.
+
+Дополнение 1C+: текущие verify_catalog_import / verify_history_import /
+verify_rules_import записывают машинные результаты в ignored artifacts/.
+Исторические docs/stage_*_local_verification.json сохраняют состояние своих этапов;
+новый импорт не переписывает их под другой размер каталога.
