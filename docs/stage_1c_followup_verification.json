@@ -1,0 +1,37 @@
+{
+  "baseline_commit": "af409408b090fbfcc6b2f8b7de5247e6c4690aeb",
+  "baseline_catalog_payload_sha256": "da8dcd3f9c476e3611152224a66640ef3a8357856d2d652f912f2cc62c6c3c88",
+  "baseline_records": 458,
+  "preserved_original_payloads": 458,
+  "new_observations": 89,
+  "current_observations": 547,
+  "current_profile_records": 486,
+  "universities_with_profiles": 9,
+  "missing_original_ids": [],
+  "changed_original_payloads": [],
+  "quality": "passed",
+  "node_tests": 50,
+  "python_tests": 96,
+  "d1": {
+    "first": {
+      "original_history": 286,
+      "catalog_observations": 547,
+      "historical_source_observations": 956,
+      "academic_rule_versions": 59,
+      "profiles": 0
+    },
+    "second": {
+      "original_history": 286,
+      "catalog_observations": 547,
+      "historical_source_observations": 956,
+      "academic_rule_versions": 59,
+      "profiles": 0
+    },
+    "foreign_key_violations": 0,
+    "public_deployment": false
+  },
+  "backup_and_restore": "passed",
+  "backup_contains_user_data": false,
+  "model_probability_enabled": false,
+  "verified_base_ci": "https://github.com/Mobzya/postupAI/actions/runs/40146615918"
+}

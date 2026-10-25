@@ -39,3 +39,9 @@ test('no match is never treated as absence of a program in a university', () => 
   assert.ok(searchPrograms('synthetic-no-such-program-9q7').includes('не означает отсутствия'));
   assert.ok(searchPrograms('').includes('/search'));
 });
+
+test('MIPT pilot level and CU legal profiles can be searched without assuming a 2027 intake',()=>{
+  const m=searchPrograms('мфти базовое AI360');assert.ok(m.includes('базовое высшее образование'));
+  assert.ok(m.includes('год приёма уточняется'));assert.ok(!m.includes('; бакалавриат;'));
+  const c=searchPrograms('цу математика');assert.ok(c.includes('2025'));assert.ok(c.includes('https://static.centraluniversity.ru/'));
+});

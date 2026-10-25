@@ -10,6 +10,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/geography/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -28,6 +29,7 @@
       "budget_raw": "25",
       "paid_raw": "15"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -46,6 +48,7 @@
       "budget_raw": "15",
       "paid_raw": "10"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -64,6 +67,7 @@
       "budget_raw": "60",
       "paid_raw": "25"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -82,6 +86,7 @@
       "budget_raw": "25",
       "paid_raw": "15"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -100,6 +105,7 @@
       "budget_raw": "40",
       "paid_raw": "30"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -118,6 +124,7 @@
       "budget_raw": "35",
       "paid_raw": "10"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -136,6 +143,7 @@
       "budget_raw": "15",
       "paid_raw": "5"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -154,6 +162,7 @@
       "budget_raw": "-",
       "paid_raw": "90"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -172,6 +181,7 @@
       "budget_raw": "10",
       "paid_raw": "150"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -190,6 +200,7 @@
       "budget_raw": "195",
       "paid_raw": "220"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -208,6 +219,7 @@
       "budget_raw": "-",
       "paid_raw": "220"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -226,6 +238,7 @@
       "budget_raw": "160",
       "paid_raw": "125"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -244,6 +257,7 @@
       "budget_raw": "25",
       "paid_raw": "35"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -257,6 +271,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/gdpd/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -275,6 +290,7 @@
       "budget_raw": "80",
       "paid_raw": "15"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -293,6 +309,7 @@
       "budget_raw": "125",
       "paid_raw": "90"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -311,6 +328,7 @@
       "budget_raw": "80",
       "paid_raw": "70"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -329,6 +347,7 @@
       "budget_raw": "45",
       "paid_raw": "40"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -347,6 +366,7 @@
       "budget_raw": "80",
       "paid_raw": "70"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -360,6 +380,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/design/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -378,6 +399,7 @@
       "budget_raw": "60",
       "paid_raw": "57"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -396,6 +418,7 @@
       "budget_raw": "-",
       "paid_raw": "27"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -414,6 +437,7 @@
       "budget_raw": "40",
       "paid_raw": "127"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -427,6 +451,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/moda/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -440,6 +465,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/art/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -458,6 +484,7 @@
       "budget_raw": "10",
       "paid_raw": "60"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -471,6 +498,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/creative/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -489,6 +517,7 @@
       "budget_raw": "60",
       "paid_raw": "103"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -507,6 +536,7 @@
       "budget_raw": "-",
       "paid_raw": "278"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -520,6 +550,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/nes/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -538,6 +569,7 @@
       "budget_raw": "100",
       "paid_raw": "165"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -551,6 +583,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/eda/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -569,6 +602,7 @@
       "budget_raw": "35",
       "paid_raw": "120"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -587,6 +621,7 @@
       "budget_raw": "10",
       "paid_raw": "76"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -605,6 +640,7 @@
       "budget_raw": "100",
       "paid_raw": "110"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -623,6 +659,7 @@
       "budget_raw": "75",
       "paid_raw": "51"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -641,6 +678,7 @@
       "budget_raw": "30",
       "paid_raw": "100"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -654,6 +692,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/ib/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -672,6 +711,7 @@
       "budget_raw": "50",
       "paid_raw": "160"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -690,6 +730,7 @@
       "budget_raw": "5",
       "paid_raw": "90"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -708,6 +749,7 @@
       "budget_raw": "-",
       "paid_raw": "65"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -726,6 +768,7 @@
       "budget_raw": "30",
       "paid_raw": "35"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -744,6 +787,7 @@
       "budget_raw": "150",
       "paid_raw": "111"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -762,6 +806,7 @@
       "budget_raw": "30",
       "paid_raw": "38"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -780,6 +825,7 @@
       "budget_raw": "50",
       "paid_raw": "50"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -798,6 +844,7 @@
       "budget_raw": "-",
       "paid_raw": "25"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -816,6 +863,7 @@
       "budget_raw": "16",
       "paid_raw": "14"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -834,6 +882,7 @@
       "budget_raw": "50",
       "paid_raw": "110"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -852,6 +901,7 @@
       "budget_raw": "35",
       "paid_raw": "137"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -870,6 +920,7 @@
       "budget_raw": "15",
       "paid_raw": "14"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -888,6 +939,7 @@
       "budget_raw": "50",
       "paid_raw": "50"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -906,6 +958,7 @@
       "budget_raw": "30",
       "paid_raw": "40"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -924,6 +977,7 @@
       "budget_raw": "16",
       "paid_raw": "20"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -942,6 +996,7 @@
       "budget_raw": "20",
       "paid_raw": "3"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -960,6 +1015,7 @@
       "budget_raw": "40",
       "paid_raw": "40"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -978,6 +1034,7 @@
       "budget_raw": "45",
       "paid_raw": "21"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -996,6 +1053,7 @@
       "budget_raw": "40",
       "paid_raw": "40"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1014,6 +1072,7 @@
       "budget_raw": "50",
       "paid_raw": "39"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1027,6 +1086,7 @@
     "year": null,
     "program_url": "https://www.hse.ru/ba/ir/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1045,6 +1105,7 @@
       "budget_raw": "45",
       "paid_raw": "14"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1063,6 +1124,7 @@
       "budget_raw": "40",
       "paid_raw": "50"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1081,6 +1143,7 @@
       "budget_raw": "80",
       "paid_raw": "29"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1099,6 +1162,7 @@
       "budget_raw": "115",
       "paid_raw": "50"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1112,6 +1176,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/bi/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1125,6 +1190,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/interbac/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1138,6 +1204,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/economicdata/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1151,6 +1218,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/business/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1164,6 +1232,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/political/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1177,6 +1246,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/soc/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1190,6 +1260,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/physics/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1203,6 +1274,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/appmath/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1216,6 +1288,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/dataanalytics/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1229,6 +1302,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/ivtech/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1242,6 +1316,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/gamedev/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1255,6 +1330,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/law/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1268,6 +1344,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/gmu/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1281,6 +1358,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/hist/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1294,6 +1372,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/philology/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1307,6 +1386,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/oriental/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1320,6 +1400,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/tld/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1333,6 +1414,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/designs/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1346,6 +1428,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/mediacom/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1359,6 +1442,7 @@
     "year": null,
     "program_url": "https://spb.hse.ru/ba/architecture/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1372,6 +1456,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/math/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1385,6 +1470,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/ait/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1398,6 +1484,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/cst/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1411,6 +1498,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/interbac/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1424,6 +1512,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/dm/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1437,6 +1526,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/law/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1450,6 +1540,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/philology/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1463,6 +1554,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/ling/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1476,6 +1568,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/ibc/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1489,6 +1582,7 @@
     "year": null,
     "program_url": "https://nnov.hse.ru/ba/design/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1502,6 +1596,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/isystems/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1515,6 +1610,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/ssadp/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1528,6 +1624,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/interbac/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1541,6 +1638,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/creativebac/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1554,6 +1652,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/businessonline/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1567,6 +1666,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/design/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1580,6 +1680,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/law/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1593,6 +1694,7 @@
     "year": null,
     "program_url": "https://perm.hse.ru/ba/communication/",
     "places": null,
+    "study_form": null,
     "source_url": "https://ba.hse.ru/"
   },
   {
@@ -1611,6 +1713,7 @@
       "budget_raw": "40",
       "paid_raw": "20"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1629,6 +1732,7 @@
       "budget_raw": "-",
       "paid_raw": "50"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1647,6 +1751,7 @@
       "budget_raw": "60",
       "paid_raw": "45"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1665,6 +1770,7 @@
       "budget_raw": "60",
       "paid_raw": "110"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1683,6 +1789,7 @@
       "budget_raw": "-",
       "paid_raw": "90"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1701,6 +1808,7 @@
       "budget_raw": "-",
       "paid_raw": "77"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1719,6 +1827,7 @@
       "budget_raw": "-",
       "paid_raw": "60"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1737,6 +1846,7 @@
       "budget_raw": "65",
       "paid_raw": "375"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1755,6 +1865,7 @@
       "budget_raw": "-",
       "paid_raw": "90"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1773,6 +1884,7 @@
       "budget_raw": "-",
       "paid_raw": "50"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1791,6 +1903,7 @@
       "budget_raw": "-",
       "paid_raw": "38"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -1804,6 +1917,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1817,6 +1931,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1830,6 +1945,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1843,6 +1959,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1856,6 +1973,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1869,6 +1987,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1882,6 +2001,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1895,6 +2015,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1908,6 +2029,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1921,6 +2043,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1934,6 +2057,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1947,6 +2071,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1960,6 +2085,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1973,6 +2099,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1986,6 +2113,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -1999,6 +2127,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2012,6 +2141,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2025,6 +2155,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2038,6 +2169,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2051,6 +2183,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2064,6 +2197,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2077,6 +2211,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2090,6 +2225,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2103,6 +2239,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2116,6 +2253,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2129,6 +2267,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2142,6 +2281,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2155,6 +2295,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2168,6 +2309,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2181,6 +2323,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2194,6 +2337,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2207,6 +2351,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2220,6 +2365,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2233,6 +2379,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2246,6 +2393,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2259,6 +2407,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2272,6 +2421,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2285,6 +2435,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2298,6 +2449,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2311,6 +2463,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2324,6 +2477,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2337,6 +2491,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2350,6 +2505,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2363,6 +2519,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2376,6 +2533,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2389,6 +2547,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2402,6 +2561,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2415,6 +2575,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2428,6 +2589,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2441,6 +2603,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2454,6 +2617,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2467,6 +2631,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2480,6 +2645,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2493,6 +2659,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2506,6 +2673,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2519,6 +2687,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2532,6 +2701,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2545,6 +2715,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2558,6 +2729,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2571,6 +2743,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2584,6 +2757,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2597,6 +2771,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2610,6 +2785,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2623,6 +2799,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2636,6 +2813,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2649,6 +2827,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2662,6 +2841,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2675,6 +2855,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2688,6 +2869,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2701,6 +2883,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2714,6 +2897,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2727,6 +2911,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2740,6 +2925,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2753,6 +2939,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2766,6 +2953,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2779,6 +2967,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2792,6 +2981,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2805,6 +2995,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2818,6 +3009,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2831,6 +3023,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2844,6 +3037,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2857,6 +3051,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/education/programs"
   },
   {
@@ -2870,6 +3065,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2883,6 +3079,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2896,6 +3093,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2909,6 +3107,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2922,6 +3121,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2935,6 +3135,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2948,6 +3149,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2961,6 +3163,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2974,6 +3177,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -2987,6 +3191,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3000,6 +3205,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3013,6 +3219,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3026,6 +3233,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3039,6 +3247,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3052,6 +3261,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3065,6 +3275,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3078,6 +3289,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3091,6 +3303,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3104,6 +3317,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3117,6 +3331,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3130,6 +3345,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3143,6 +3359,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3156,6 +3373,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3169,6 +3387,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3182,6 +3401,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3195,6 +3415,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3208,6 +3429,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3221,6 +3443,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3234,6 +3457,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3247,6 +3471,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf"
   },
   {
@@ -3260,6 +3485,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3273,6 +3499,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3286,6 +3513,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3299,6 +3527,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3312,6 +3541,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3325,6 +3555,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3338,6 +3569,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3351,6 +3583,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3364,6 +3597,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3377,6 +3611,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3390,6 +3625,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3403,6 +3639,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3416,6 +3653,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3429,6 +3667,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3442,6 +3681,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3455,6 +3695,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3468,6 +3709,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3481,6 +3723,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3494,6 +3737,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3507,6 +3751,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3520,6 +3765,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3533,6 +3779,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3546,6 +3793,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3559,6 +3807,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3572,6 +3821,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3585,6 +3835,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3598,6 +3849,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3611,6 +3863,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3624,6 +3877,7 @@
     "year": null,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3637,6 +3891,7 @@
     "year": null,
     "program_url": "https://education.nsu.ru/mechatronics/",
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3650,6 +3905,7 @@
     "year": null,
     "program_url": "https://education.nsu.ru/ai",
     "places": null,
+    "study_form": null,
     "source_url": "https://education.nsu.ru/"
   },
   {
@@ -3663,6 +3919,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=23.05.01&id=1",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3676,6 +3933,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=15.03.04&id=1",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3689,6 +3947,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=18.03.01&id=31",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3702,6 +3961,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=35.03.01&id=32",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3715,6 +3975,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=35.03.01&id=31",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3728,6 +3989,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=35.03.01&id=35",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3741,6 +4003,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=35.03.02&id=31",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3754,6 +4017,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=35.03.02&id=32",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3767,6 +4031,7 @@
     "year": null,
     "program_url": "https://mf.bmstu.ru/direction/?code=35.03.10&id=31",
     "places": null,
+    "study_form": null,
     "source_url": "https://mf.bmstu.ru/direction/"
   },
   {
@@ -3780,6 +4045,7 @@
     "year": null,
     "program_url": "https://apply.innopolis.university/bachelors/DS-MAI/",
     "places": null,
+    "study_form": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -3793,6 +4059,7 @@
     "year": null,
     "program_url": "https://apply.innopolis.university/bachelors/AI-360/",
     "places": null,
+    "study_form": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -3806,6 +4073,7 @@
     "year": null,
     "program_url": "https://apply.innopolis.university/bachelors/mechatronics-robotics/",
     "places": null,
+    "study_form": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -3819,6 +4087,7 @@
     "year": null,
     "program_url": "https://apply.innopolis.university/bachelors/information-systems-engineering/",
     "places": null,
+    "study_form": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -3832,6 +4101,7 @@
     "year": null,
     "program_url": "https://apply.innopolis.university/bachelors/DS-AI/",
     "places": null,
+    "study_form": null,
     "source_url": "https://apply.innopolis.university/bachelors/"
   },
   {
@@ -3845,6 +4115,7 @@
     "year": null,
     "program_url": "https://cu.ru/bachelor",
     "places": null,
+    "study_form": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -3858,6 +4129,7 @@
     "year": null,
     "program_url": "https://cu.ru/bachelor",
     "places": null,
+    "study_form": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -3871,6 +4143,7 @@
     "year": null,
     "program_url": "https://cu.ru/bachelor",
     "places": null,
+    "study_form": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -3884,6 +4157,7 @@
     "year": null,
     "program_url": "https://cu.ru/bachelor",
     "places": null,
+    "study_form": null,
     "source_url": "https://cu.ru/bachelor"
   },
   {
@@ -3897,6 +4171,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3910,6 +4185,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3923,6 +4199,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3936,6 +4213,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3949,6 +4227,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3962,6 +4241,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3975,6 +4255,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -3988,6 +4269,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4001,6 +4283,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4014,6 +4297,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4027,6 +4311,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4040,6 +4325,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4053,6 +4339,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4066,6 +4353,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4079,6 +4367,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4092,6 +4381,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4105,6 +4395,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4118,6 +4409,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4131,6 +4423,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4144,6 +4437,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4157,6 +4451,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4170,6 +4465,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4183,6 +4479,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4196,6 +4493,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4209,6 +4507,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4222,6 +4521,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4235,6 +4535,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4248,6 +4549,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4261,6 +4563,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4274,6 +4577,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4287,6 +4591,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4300,6 +4605,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4313,6 +4619,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4326,6 +4633,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4339,6 +4647,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4352,6 +4661,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4365,6 +4675,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4378,6 +4689,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4391,6 +4703,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4404,6 +4717,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4417,6 +4731,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4430,6 +4745,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4443,6 +4759,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4456,6 +4773,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4469,6 +4787,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4482,6 +4801,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4495,6 +4815,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4508,6 +4829,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4521,6 +4843,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4534,6 +4857,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4547,6 +4871,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4560,6 +4885,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4573,6 +4899,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4586,6 +4913,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4599,6 +4927,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4612,6 +4941,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4625,6 +4955,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4638,6 +4969,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4651,6 +4983,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4664,6 +4997,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4677,6 +5011,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4690,6 +5025,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4703,6 +5039,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4716,6 +5053,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4729,6 +5067,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4742,6 +5081,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4755,6 +5095,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4768,6 +5109,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4781,6 +5123,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4794,6 +5137,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4807,6 +5151,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4820,6 +5165,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4833,6 +5179,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4846,6 +5193,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4859,6 +5207,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4872,6 +5221,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4885,6 +5235,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4898,6 +5249,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4911,6 +5263,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4924,6 +5277,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4937,6 +5291,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4950,6 +5305,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4963,6 +5319,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4976,6 +5333,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -4989,6 +5347,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5002,6 +5361,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5015,6 +5375,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5028,6 +5389,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5041,6 +5403,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5054,6 +5417,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5067,6 +5431,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5080,6 +5445,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5093,6 +5459,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5106,6 +5473,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5119,6 +5487,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5132,6 +5501,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5145,6 +5515,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5158,6 +5529,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5171,6 +5543,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5184,6 +5557,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5197,6 +5571,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5210,6 +5585,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5223,6 +5599,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5236,6 +5613,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5249,6 +5627,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5262,6 +5641,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5275,6 +5655,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5288,6 +5669,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5301,6 +5683,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5314,6 +5697,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5327,6 +5711,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5340,6 +5725,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5353,6 +5739,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5366,6 +5753,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5379,6 +5767,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5392,6 +5781,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5405,6 +5795,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5418,6 +5809,7 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
   },
   {
@@ -5431,7 +5823,1254 @@
     "year": 2026,
     "program_url": null,
     "places": null,
+    "study_form": null,
     "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf"
+  },
+  {
+    "id": "catalog-c4ec1c4c015c6e15f7d8511b",
+    "institution_id": "mipt",
+    "name": "Фундаментальная математика (ВШМ)",
+    "campus": null,
+    "official_code": "01.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-afe0155c1111f20646723b1e",
+    "institution_id": "mipt",
+    "name": "Computer Science/Информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-334d149fed0347c92175499b",
+    "institution_id": "mipt",
+    "name": "Прикладная математика, компьютерные науки и продвинутая инженерия (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-cebf906f46a768a4ab3021d3",
+    "institution_id": "mipt",
+    "name": "AI360: Передовые методы искусственного интеллекта (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-ee88a0e4280e971672647f11",
+    "institution_id": "mipt",
+    "name": "Проектирование и разработка комплексных бизнес-приложений (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-5f1b1f431bbee963318bf0cb",
+    "institution_id": "mipt",
+    "name": "Математика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-5c20de14cdc259d193b1800c",
+    "institution_id": "mipt",
+    "name": "Прикладная математика, компьютерные науки и инженерия (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-92fe91d0eac66c2c27040eca",
+    "institution_id": "mipt",
+    "name": "Экономика и ERP системы (совместно с РАНХиГС) (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-f2e0e1e55f3138fae0aed994",
+    "institution_id": "mipt",
+    "name": "Информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-9c26b2f5da402bc68878c91d",
+    "institution_id": "mipt",
+    "name": "Анализ данных в экономике (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-fc45f53b5e5089815b71288d",
+    "institution_id": "mipt",
+    "name": "Прикладная математика и информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-9fdeac280a02b1a66f9a623a",
+    "institution_id": "mipt",
+    "name": "Математика и компьютерные науки сетевая программа с АНО ВО «Центральный университет» (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-54f91c1f68665402423adce1",
+    "institution_id": "mipt",
+    "name": "Продвинутый анализ данных (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-f8fefd331e4020a38088ddc7",
+    "institution_id": "mipt",
+    "name": "Математическое моделирование и компьютерные технологии (ФПМИ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-5626b604a76af28124d025d5",
+    "institution_id": "mipt",
+    "name": "Авиационные технологии (ПИШ ФАЛТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-1e75018a6a0702e26115582d",
+    "institution_id": "mipt",
+    "name": "Междисциплинарные исследования на установках класса «мегасайенс» (КНТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-4ce5116596f396dbd1074df5",
+    "institution_id": "mipt",
+    "name": "Физика атомных ядер и элементарных частиц, физика высоких энергий (КНТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-0f092f26f92c8c27e0154d43",
+    "institution_id": "mipt",
+    "name": "Синхротронные и нейтронные методы исследований (КНТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-a8ddf8a7da025a720ba75a24",
+    "institution_id": "mipt",
+    "name": "Физика и педагогика (ЛФИ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-cc186b5b07020f2d9bbdfccf",
+    "institution_id": "mipt",
+    "name": "Управление инновациями в бизнесе совместно с Московской Школой Управления \"СКОЛКОВО\" (ФБВТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-ae87588fcaf19c6dabce5974",
+    "institution_id": "mipt",
+    "name": "Физика перспективных технологий: альтернативная энергетика, научное программирование и функциональные материалы (ФЭФМ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-bceb990e6fd1ec15b7a17161",
+    "institution_id": "mipt",
+    "name": "Природоподобные технологии и биомиметический дизайн материалов и систем (КНТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-89acce762036ae137f305675",
+    "institution_id": "mipt",
+    "name": "Радиолокационные технологии (ПИШ ФАЛТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-1db3a12fb0ed9a2687efd9b6",
+    "institution_id": "mipt",
+    "name": "Радиотехника и компьютерные технологии (ФРКТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-1a772c1ec8383038f2b247da",
+    "institution_id": "mipt",
+    "name": "Конвергентные нано-, био-, информационные и когнитивные технологии (КНТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-451c903742faf0a356253e8d",
+    "institution_id": "mipt",
+    "name": "Геокосмические науки и технологии (ФАКТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-fac826546ffe5e7466303ab5",
+    "institution_id": "mipt",
+    "name": "Физика перспективных технологий: электроника и квантовые технологии (ФЭФМ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-fb8c02e4f49ea4cbb5370b18",
+    "institution_id": "mipt",
+    "name": "Беспилотные авиационные системы (ПИШ ФАЛТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-52541c918b1327183e2f25db",
+    "institution_id": "mipt",
+    "name": "Биофизика и биоинформатика (ФБМФ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-10114da9be10b28d89ab2131",
+    "institution_id": "mipt",
+    "name": "Общая и прикладная физика (ЛФИ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-b1c540e97a17f62234e36dba",
+    "institution_id": "mipt",
+    "name": "Системная и синтетическая биология (ФБМФ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-34d29e0988ea64a197c261bb",
+    "institution_id": "mipt",
+    "name": "Математическое моделирование и теория управления (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-91dd4e02289718d2b5b9942b",
+    "institution_id": "mipt",
+    "name": "Естественные и компьютерные науки (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-4e029d2b5aeebbc91f9cd9bb",
+    "institution_id": "mipt",
+    "name": "Математическое моделирование и компьютерные технологии (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-2f65b30a71c55ffe005417d5",
+    "institution_id": "mipt",
+    "name": "Computer Science/Информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-c408e58e491155b3511300ac",
+    "institution_id": "mipt",
+    "name": "Компьютерные технологии и вычислительная техника (ФРКТ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-146b705d07ab1fc111d83505",
+    "institution_id": "mipt",
+    "name": "Программная инженерия (ПИШ ФАЛТ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-7dea6dd81b536ae9d2ab7920",
+    "institution_id": "mipt",
+    "name": "Прикладная математика, компьютерные науки и инженерия (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-b74df4311d062399d0ce4489",
+    "institution_id": "mipt",
+    "name": "Системное программирование и прикладная математика (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-85aa59c9b0bc4249509ffede",
+    "institution_id": "mipt",
+    "name": "Прикладная математика, компьютерные науки и продвинутая инженерия (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-eb8855b4ded928bf97a36d72",
+    "institution_id": "mipt",
+    "name": "Продвинутый анализ данных (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-213a1f3ad35d327f0af5f089",
+    "institution_id": "mipt",
+    "name": "Разработка программно-информационных систем (ВШПИ)",
+    "campus": null,
+    "official_code": "09.03.04",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-a92a5303e75854ea064a5e15",
+    "institution_id": "mipt",
+    "name": "Физика перспективных технологий: микро- и наноэлектроника (ФЭФМ)",
+    "campus": null,
+    "official_code": "11.03.04",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-e76333570cf52e141f7cc78f",
+    "institution_id": "mipt",
+    "name": "Современные проблемы физики и энергетики (ЛФИ)",
+    "campus": null,
+    "official_code": "14.03.02",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-28a84f33bc8be8d38f823720",
+    "institution_id": "mipt",
+    "name": "Техническая физика космических летательных аппаратов (ФАКТ)",
+    "campus": null,
+    "official_code": "16.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-20a20fff74183e46fc87eb83",
+    "institution_id": "mipt",
+    "name": "Biomedical engineering/Биомедицинская инженерия (ФБМФ)",
+    "campus": null,
+    "official_code": "19.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-7d0a9a84a2a4bf280c9e0bee",
+    "institution_id": "mipt",
+    "name": "Биотехнология (ФБМФ)",
+    "campus": null,
+    "official_code": "19.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-240c34d98791a25a305075eb",
+    "institution_id": "mipt",
+    "name": "Системная и синтетическая биология (ФБМФ)",
+    "campus": null,
+    "official_code": "19.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-2eb9d16f1c0515ba85b28c53",
+    "institution_id": "mipt",
+    "name": "Прикладная математика, компьютерные технологии и математическое моделирование в экономике (ФПМИ)",
+    "campus": null,
+    "official_code": "27.03.03",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-906fd0f008f19169b0e189eb",
+    "institution_id": "mipt",
+    "name": "Управление инновациями в бизнесе совместно с Московской Школой Управления \"СКОЛКОВО\" (ФБВТ)",
+    "campus": null,
+    "official_code": "27.03.03",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-b85e8cf47418a43983f49f29",
+    "institution_id": "mipt",
+    "name": "Управление инновациями в бизнесе совместно с Московской Школой Управления \"СКОЛКОВО\" (ФБВТ)",
+    "campus": null,
+    "official_code": "38.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-261940e63336905f2ea882d1",
+    "institution_id": "mipt",
+    "name": "Разработка систем защиты информации компьютерных систем объектов информатизации (ФРКТ)",
+    "campus": null,
+    "official_code": "10.05.01",
+    "degree": "specialist",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-8867e8fe330d6a8f362257a1",
+    "institution_id": "mipt",
+    "name": "Фундаментальная математика (ВШМ)",
+    "campus": null,
+    "official_code": "01.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-9d0a21d6a060194eca69b75a",
+    "institution_id": "mipt",
+    "name": "Математика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-32188d33eb8a77764e309fae",
+    "institution_id": "mipt",
+    "name": "Computer Science/Информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-accc25a26efd47b8dc14db37",
+    "institution_id": "mipt",
+    "name": "AI360: Передовые методы искусственного интеллекта (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-f4b850f8a4f0a2c0976f69c9",
+    "institution_id": "mipt",
+    "name": "Прикладная математика, компьютерные науки и инженерия (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-42179cc1a2ba243839d230a1",
+    "institution_id": "mipt",
+    "name": "Анализ данных в экономике совместно с негосударственным образовательным учреждением высшего образования \"Российская экономическая школа\" (институт) (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-4a0e8c0c8de0fec2e127761f",
+    "institution_id": "mipt",
+    "name": "Информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-95b920b3af28dfd8be012efa",
+    "institution_id": "mipt",
+    "name": "Прикладная математика и информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "01.03.02",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-cd01e2ac8d278f404b2ef347",
+    "institution_id": "mipt",
+    "name": "Геокосмические науки и технологии (ФАКТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-938ce79f0f5376b84e3c4544",
+    "institution_id": "mipt",
+    "name": "Радиотехника и компьютерные технологии (ФРКТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-7f21db1e95c15b4b2ab92610",
+    "institution_id": "mipt",
+    "name": "Природоподобные технологии и биомиметический дизайн материалов и систем (КНТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-1b161985680bdad80b94ba0c",
+    "institution_id": "mipt",
+    "name": "Междисциплинарные исследования на установках класса «мегасайенс» (КНТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-ee478878634be354f284eda5",
+    "institution_id": "mipt",
+    "name": "Биофизика и биоинформатика (ФБМФ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-9de57bb4692550df53e0ea83",
+    "institution_id": "mipt",
+    "name": "Биоинженерия и биотехнология (ВШБИ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-ca026635154f4c571c7cb28d",
+    "institution_id": "mipt",
+    "name": "Физика перспективных технологий: альтернативная энергетика, научное программирование и функциональные материалы (ФЭФМ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-2c786ff655c0a64d0a684bed",
+    "institution_id": "mipt",
+    "name": "Физика перспективных технологий: электроника и квантовые технологии (ФЭФМ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-f3ec04d2b45ed936db700195",
+    "institution_id": "mipt",
+    "name": "Общая и прикладная физика (ЛФИ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-7a9dacc0add6b33c1b3e2e05",
+    "institution_id": "mipt",
+    "name": "Авиационные технологии (ПИШ ФАЛТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-fdd95753e9848c97722a0df0",
+    "institution_id": "mipt",
+    "name": "Беспилотные авиационные системы (ПИШ ФАЛТ)",
+    "campus": null,
+    "official_code": "03.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-a5713104d9d07a8863d21ac9",
+    "institution_id": "mipt",
+    "name": "Компьютерные технологии и вычислительная техника (ФРКТ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-511a98a162ae6e527b42c0f6",
+    "institution_id": "mipt",
+    "name": "Computer Science/Информатика (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-ef98ec0f1cae7ffcdb78cc20",
+    "institution_id": "mipt",
+    "name": "Математическое моделирование и теория управления (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-7c438810504e1f577e42748e",
+    "institution_id": "mipt",
+    "name": "Программная инженерия (ПИШ ФАЛТ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-176f14e2587182e9b78331bb",
+    "institution_id": "mipt",
+    "name": "Прикладная математика, компьютерные науки и инженерия (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-373dfecf832af4dfe9c6b48f",
+    "institution_id": "mipt",
+    "name": "Системное программирование и прикладная математика (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-7c117578570e28fe0b223e8a",
+    "institution_id": "mipt",
+    "name": "Естественные и компьютерные науки (ФПМИ)",
+    "campus": null,
+    "official_code": "09.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-998100d1b6a0bf6911aee94c",
+    "institution_id": "mipt",
+    "name": "Разработка программно-информационных систем (ВШПИ)",
+    "campus": null,
+    "official_code": "09.03.04",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-57705e0b28ede9f6c489f0c4",
+    "institution_id": "mipt",
+    "name": "Разработка систем кибербезопасности и реинжиниринг киберфизических систем (ВШПИ)",
+    "campus": null,
+    "official_code": "09.03.04",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-37ca92be2847846c30a0a8a9",
+    "institution_id": "mipt",
+    "name": "Физика перспективных технологий: микро- и наноэлектроника (ФЭФМ)",
+    "campus": null,
+    "official_code": "11.03.04",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-438743fbeea8cdfa952ff78b",
+    "institution_id": "mipt",
+    "name": "Техническая физика космических летательных аппаратов (ФАКТ)",
+    "campus": null,
+    "official_code": "16.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-b07f9351691fa9427f8f1cb4",
+    "institution_id": "mipt",
+    "name": "Биотехнология (ФБМФ)",
+    "campus": null,
+    "official_code": "19.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-121f22e0a6eb408d29352c22",
+    "institution_id": "mipt",
+    "name": "Биоинженерия и биотехнология (ВШБИ)",
+    "campus": null,
+    "official_code": "19.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-f1ea85c9585614b7b1fa6940",
+    "institution_id": "mipt",
+    "name": "Biomedical Engineering/Биомедицинская инженерия",
+    "campus": null,
+    "official_code": "19.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-a5adb72925bce4df8a904a51",
+    "institution_id": "mipt",
+    "name": "Управление инновациями в бизнесе совместно с Московской Школой Управления \"СКОЛКОВО\" (ФБВТ)",
+    "campus": null,
+    "official_code": "27.03.03",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-b23b358bdf0aeecc4c9a601b",
+    "institution_id": "mipt",
+    "name": "Управление инновациями в бизнесе совместно с Московской Школой Управления \"СКОЛКОВО\" (ФБВТ)",
+    "campus": null,
+    "official_code": "38.03.01",
+    "degree": "basic_higher",
+    "kind": "program_profile",
+    "year": null,
+    "program_url": null,
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://new.mipt.ru/vikon/sveden/education/eduop/"
+  },
+  {
+    "id": "catalog-2a4fd5791a5c301e263b0bbf",
+    "institution_id": "cu",
+    "name": "Математика и компьютерные науки",
+    "campus": null,
+    "official_code": "02.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": 2025,
+    "program_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/matematika-i-kompyuternye-nauki/obshchaya-harakteristika-obrazovatelnoj-programmy.pdf",
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/matematika-i-kompyuternye-nauki/obshchaya-harakteristika-obrazovatelnoj-programmy.pdf"
+  },
+  {
+    "id": "catalog-83648eb75935fb5b61bd0851",
+    "institution_id": "cu",
+    "name": "Программа двух дипломов НИУ ВШЭ и ЦУ «Прикладная математика и информатика»",
+    "campus": null,
+    "official_code": "02.03.01",
+    "degree": "bachelor",
+    "kind": "program_profile",
+    "year": 2025,
+    "program_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/prikladnaya-matematika-i-informatika/osnovnaya-professionalnaya-obrazovatelnaya-programma.pdf",
+    "places": null,
+    "study_form": "full_time",
+    "source_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/prikladnaya-matematika-i-informatika/osnovnaya-professionalnaya-obrazovatelnaya-programma.pdf"
   },
   {
     "id": "catalog-68837052e0a34c41422cd280",
@@ -5449,6 +7088,7 @@
       "budget_raw": "10",
       "paid_raw": "42"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -5467,6 +7107,7 @@
       "budget_raw": "10",
       "paid_raw": "25"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -5485,6 +7126,7 @@
       "budget_raw": "20",
       "paid_raw": "137"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -5503,6 +7145,7 @@
       "budget_raw": "5",
       "paid_raw": "25"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -5521,6 +7164,7 @@
       "budget_raw": "-",
       "paid_raw": "24"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -5539,6 +7183,7 @@
       "budget_raw": "-",
       "paid_raw": "94"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -5557,6 +7202,7 @@
       "budget_raw": "-",
       "paid_raw": "33"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   },
   {
@@ -5575,6 +7221,7 @@
       "budget_raw": "-",
       "paid_raw": "76"
     },
+    "study_form": null,
     "source_url": "https://ba.hse.ru/kolmest"
   }
 ]

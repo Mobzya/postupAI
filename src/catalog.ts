@@ -18,7 +18,7 @@ function level(row:typeof programs[number]):string {
     row.degree === 'specialist' ? 'специалитет' : row.degree === 'bachelor' ? 'бакалавриат' : 'уровень уточняется';
 }
 const index = programs.map(row => ({ row, key: normalize([
-  row.name, row.official_code, row.campus, names[row.institution_id], aliases[row.institution_id],
+  row.name, row.official_code, row.campus, names[row.institution_id], aliases[row.institution_id],level(row),row.year,
 ].filter(Boolean).join(' ')) }));
 
 export function catalogSummary(): string {
@@ -59,8 +59,9 @@ function placesText(row:typeof programs[number]):string {
 }
 function card(row:typeof programs[number]):string {
   return `${row.name}\n${names[row.institution_id]}; ${row.campus??'кампус уточняется'}; ${level(row)}\n`+
-    `Код: ${row.official_code??'не установлен'}, год: ${row.year??'не установлен'}.\n${placesText(row)}\n`+
-    `Источник: ${row.source_url}`+(row.program_url?`\nСтраница программы: ${row.program_url}`:'');
+    `Код: ${row.official_code??'не установлен'}, год: ${row.year??'не установлен'}.\n`+
+    `Форма: ${({full_time:'очная',part_time:'очно-заочная',correspondence:'заочная'} as Record<string,string>)[row.study_form??'']??'не установлена'}.\n${placesText(row)}\n`+
+    `Источник: ${row.source_url}`+(row.program_url?`\nПрограмма / описание: ${row.program_url}`:'');
 }
 export function renderProgram(id:string):string {
   const row=findProgram(id.trim());

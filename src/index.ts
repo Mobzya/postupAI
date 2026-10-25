@@ -151,7 +151,7 @@ export default {
           break;
         }
         case '/sources':
-          text = 'Официальные источники вузов. Данные МИФИ извлечены; для остальных вузов пока выполнена разведка.\n' +
+          text = 'Официальные источники вузов. Каталог и история частичны; точный документ и год смотрите в карточке или /history.\n' +
             registry.sources.map(s => `${s.institution_name}: ${s.url}`).join('\n');
           break;
         case '/programs': case '/universities':

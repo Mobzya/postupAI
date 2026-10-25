@@ -1,0 +1,19 @@
+{
+  "source": {
+    "source_id": "cu-opop-mipt-network",
+    "url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/matematika-i-kompyuternye-nauki/obshchaya-harakteristika-obrazovatelnoj-programmy.pdf",
+    "final_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/matematika-i-kompyuternye-nauki/obshchaya-harakteristika-obrazovatelnoj-programmy.pdf",
+    "retrieved_at": "2026-10-25T00:34:02+00:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "sha256": "00e0a9bde07e33278c06b083f400aa47ff5c86e2b18779caa3b4168f273d4bec",
+    "path": "data/raw/catalog_followup/cu-pdf/cu-opop-mipt-network-00e0a9bde07e3327.pdf",
+    "bytes": 400405,
+    "retrieval_method": "https",
+    "adapter_version": "fetch-v1",
+    "institution_id": "cu",
+    "representation_sha256": "2702221afa37f9ebb6db650d400e809a4cd2ab2754fb45fd93dce0ae563e8640"
+  },
+  "representation": "pdftotext-title-fields-and-network-role",
+  "content": "Направление подготовки: 02.03.01 Математика и компьютерные науки__\nНаправленность (профиль) подготовки: Математика и компьютерные\nнауки_____________________________________________________________\n\nКвалификация (степень) выпускника: бакалавр______________________\n\nФорма обучения: очная____________________________________________\nСрок освоения программы: 4 года__________________________________\n\nГод набора: 2025__________________________________________________\n\n1.1. Основная профессиональная образовательная программа (далее –\nООП, ОПОП), реализуется АНО ВО «Центральный университет» (далее –\nЦентральный университет, Университет) в сетевой форме с ФГАОУ ВО\n«Московский         физико-технический      институт        (национальный\nисследовательский университет)» (далее – МФТИ). В соответствии с\nусловиями договора Базовой организацией является Центральный\nуниверситет, а МФТИ является Организацией-участником."
+}

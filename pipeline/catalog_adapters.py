@@ -29,7 +29,26 @@ def record(source,name,locator,*,url=None,campus=None,code=None,level=None,year=
 def parse_html(source,content):
     root=html.fromstring(content,parser=html.HTMLParser(encoding='utf-8',no_network=True))
     tree=root.getroottree();ident=source['institution_id'];rows=[]
-    if ident=='hse' and source['source_id'].endswith('programs'):
+    if ident=='mipt':
+        for table in root.xpath('//table[@data-source-table]'):
+            headers=[text(c) for c in table.xpath('./tr[1]/th')]
+            if len(headers)!=6 or headers[3]!='Уровень образования' or headers[4]!='Образовательная программа, направленность, профиль':raise ValueError('mipt_disclosure_headers_changed')
+            for tr in table.xpath('./tr[@data-source-row]'):
+                values=[text(c) for c in tr.xpath('./td')]
+                if len(values)!=6 or not CODE.fullmatch(values[1]):raise ValueError('mipt_disclosure_row_changed')
+                raw_level=values[3].casefold()
+                if 'базовое высшее' in raw_level:level='basic_higher'
+                elif 'бакалавриат' in raw_level and values[1][3:5]=='03':level='bachelor'
+                elif 'специалитет' in raw_level and values[1][3:5]=='05':level='specialist'
+                else:raise ValueError('mipt_disclosure_degree_ambiguous')
+                locator=f"original-table={table.get('data-source-table')}; source-row={tr.get('data-source-row')}; semantic-first-six-columns"
+                row=record(source,values[4],locator,code=values[1],level=level,notes=[
+                    'Institutional program disclosure; current admission offering/year/campus not established.',
+                    'Education level as published: '+values[3], 'Study form as published: '+values[5],
+                    'Bachelor/specialist and pilot basic higher records remain separate; cohort years are not admission campaigns.'])
+                row['study_form']={'Очная':'full_time','Очно-заочная':'part_time','Заочная':'correspondence'}.get(values[5])
+                rows.append(row)
+    elif ident=='hse' and source['source_id'].endswith('programs'):
         campus_map={'msk':'Москва','spb':'Санкт-Петербург','nn':'Нижний Новгород','perm':'Пермь'}
         for a in root.xpath('//p[@class="text"]/a[@href]'):
             u=a.get('href')
@@ -105,7 +124,7 @@ def parse_html(source,content):
     else:raise ValueError('unsupported_html_catalog_source')
     unique={}
     for row in rows:
-        key=(row['name'],row['campus'],row['program_url'],row['official_code'],row['kind'])
+        key=(row['name'],row['campus'],row['program_url'],row['official_code'],row['kind'],row['degree'],row['campaign_year'],row.get('study_form'))
         unique.setdefault(key,row)
     if not unique:raise ValueError('catalog_adapter_produced_no_rows')
     return list(unique.values())
@@ -142,3 +161,22 @@ def parse_msu(source,content):
                            notes=['Explicit educational program title; degree/code/campus not inferred across merged cells.']))
     if not rows:raise ValueError('msu_program_pattern_changed')
     return rows
+
+
+def parse_cu_program_doc(source,content):
+    flat=' '.join(content.replace('_',' ').split())
+    field=re.search(r'Направление подготовки:\s*(\d{2}\.03\.\d{2})\s+(.+?)\s+Направленность',flat)
+    profile=re.search(r'Направленность \(профиль\) подготовки:\s*(.+?)\s+Квалификация',flat)
+    year=re.search(r'Год набора:\s*(20\d{2})',flat)
+    partner=re.search(r'а\s+(МФТИ|НИУ ВШЭ)\s+является Организацией-участником',flat)
+    if not field or not profile or not year or not partner or 'Базовой организацией является Центральный университет' not in flat:
+        raise ValueError('cu_base_organization_or_profile_not_documented')
+    if not re.search(r'Квалификация \(степень\) выпускника:\s*бакалавр',flat):raise ValueError('cu_qualification_changed')
+    if not re.search(r'Форма обучения:\s*очная\s+Срок',flat):raise ValueError('cu_study_form_changed')
+    row=record(source,profile.group(1),'pdftotext-pages=1-3; title-fields-and-paragraph=1.1',
+        code=field.group(1),level='bachelor',year=int(year.group(1)),url=source['url'],notes=[
+            'Published intake year from program document, not confirmation of current or 2027 admission.',
+            'Base organization: Central University; partner: '+partner.group(1),
+            'Partner field code is not the base-organization field code. Marketing tracks remain separate.'])
+    row['study_form']='full_time'
+    return [row]

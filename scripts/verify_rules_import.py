@@ -20,10 +20,13 @@ def main():
         assert all(r['success'] for r in result)
         counts.append(run(['d1','execute','ballnik',*flags,'--command',query,'--json'],True)[0]['results'][0])
     n=len(json.loads((ROOT/'data/normalized/rules_v1/dataset.json').read_text())['rules'])
-    assert counts[0]==counts[1]==dict(original_history=286,catalog_observations=458,historical_source_observations=956,academic_rule_versions=n,profiles=0)
+    catalog_count=len(json.loads((ROOT/'data/normalized/catalog_v1/dataset.json').read_text())['records'])
+    history_count=len(json.loads((ROOT/'data/normalized/history_v1/dataset.json').read_text())['records'])
+    assert counts[0]==counts[1]==dict(original_history=286,catalog_observations=catalog_count,historical_source_observations=history_count,academic_rule_versions=n,profiles=0)
     fk=run(['d1','execute','ballnik',*flags,'--command','PRAGMA foreign_key_check;','--json'],True)
     assert all(not r['results'] for r in fk)
-    (ROOT/'docs/stage_2a_local_verification.json').write_text(json.dumps(dict(first=counts[0],second=counts[1],foreign_key_violations=0,public_deployment=False),indent=2)+'\n')
+    output=ROOT/'artifacts/local_import_verification.json';output.parent.mkdir(exist_ok=True)
+    output.write_text(json.dumps(dict(first=counts[0],second=counts[1],foreign_key_violations=0,public_deployment=False),indent=2)+'\n')
     print('PASS annual rules D1:',json.dumps(counts[1]))
 
 

@@ -7,5 +7,8 @@
   "data/catalog_inputs/bmstu-catalog-mytishchi.json",
   "data/catalog_inputs/innopolis-catalog-programs.json",
   "data/catalog_inputs/cu-catalog-programs.json",
-  "data/catalog_inputs/spbu-catalog-programs-pdf.json"
+  "data/catalog_inputs/spbu-catalog-programs-pdf.json",
+  "data/catalog_inputs/mipt-disclosure-education.json",
+  "data/catalog_inputs/cu-opop-mipt-network.json",
+  "data/catalog_inputs/cu-opop-hse-network.json"
 ]

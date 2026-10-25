@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def main():
-    path=ROOT/'.wrangler/catalog-import.sql';path.parent.mkdir(exist_ok=True)
+    path=ROOT/'.wrangler/catalog-import.sql';path.parent.mkdir(exist_ok=True);(ROOT/'artifacts').mkdir(exist_ok=True)
     subprocess.run([sys.executable,'-m','pipeline.import_catalog','--export-sql',str(path)],cwd=ROOT,check=True)
     flags=['--local','--persist-to','.wrangler/catalog-demo']
     def run(args,as_json=False):
@@ -25,7 +25,7 @@ def main():
     assert counts[0]==counts[1]==dict(legacy_programs=82,historical_rows=286,group_assessments=39,catalog_observations=expected_count,profiles=0)
     fk=run(['d1','execute','ballnik',*flags,'--command','PRAGMA foreign_key_check;','--json'],True)
     assert all(not r['results'] for r in fk)
-    (ROOT/'docs/stage_1c_local_verification.json').write_text(json.dumps(dict(first=counts[0],second=counts[1],foreign_key_violations=0,public_deployment=False),indent=2)+'\n')
+    (ROOT/'artifacts/catalog_import_verification.json').write_text(json.dumps(dict(first=counts[0],second=counts[1],foreign_key_violations=0,public_deployment=False),indent=2)+'\n')
     print('PASS local D1 catalog:',json.dumps(counts[1]))
 
 

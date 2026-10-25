@@ -246,5 +246,59 @@
       "retrieval_method": "https",
       "adapter_version": "fetch-v1"
     }
+  },
+  {
+    "institution_id": "mipt",
+    "source_id": "mipt-disclosure-education",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "mipt-disclosure-education",
+      "url": "https://new.mipt.ru/vikon/sveden/education/eduop/",
+      "final_url": "https://new.mipt.ru/vikon/sveden/education/eduop/",
+      "retrieved_at": "2026-10-25T00:27:05+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "48e2bc33bb221a96241eca346eb48efe47140f1a1bb6949b9430ad038f7b86aa",
+      "path": "data/raw/catalog_followup/mipt-disclosure/mipt-disclosure-education-48e2bc33bb221a96.html",
+      "bytes": 4352251,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "source_id": "cu-opop-mipt-network",
+    "institution_id": "cu",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "cu-opop-mipt-network",
+      "url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/matematika-i-kompyuternye-nauki/obshchaya-harakteristika-obrazovatelnoj-programmy.pdf",
+      "final_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/matematika-i-kompyuternye-nauki/obshchaya-harakteristika-obrazovatelnoj-programmy.pdf",
+      "retrieved_at": "2026-10-25T00:34:02+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "00e0a9bde07e33278c06b083f400aa47ff5c86e2b18779caa3b4168f273d4bec",
+      "path": "data/raw/catalog_followup/cu-pdf/cu-opop-mipt-network-00e0a9bde07e3327.pdf",
+      "bytes": 400405,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
+  },
+  {
+    "source_id": "cu-opop-hse-network",
+    "institution_id": "cu",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "cu-opop-hse-network",
+      "url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/prikladnaya-matematika-i-informatika/osnovnaya-professionalnaya-obrazovatelnaya-programma.pdf",
+      "final_url": "https://static.centraluniversity.ru/documents/legal/education/programm/online-form/prikladnaya-matematika-i-informatika/osnovnaya-professionalnaya-obrazovatelnaya-programma.pdf",
+      "retrieved_at": "2026-10-25T00:34:05+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "sha256": "372157839f57086e9ebd66457d7798cd8f5f3943bd0d08486f4193e9147495e8",
+      "path": "data/raw/catalog_followup/cu-pdf/cu-opop-hse-network-372157839f57086e.pdf",
+      "bytes": 406669,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
   }
 ]
