@@ -300,5 +300,23 @@
       "retrieval_method": "https",
       "adapter_version": "fetch-v1"
     }
+  },
+  {
+    "source_id": "itmo-disclosure-education",
+    "institution_id": "itmo",
+    "status": "fetched",
+    "snapshot": {
+      "source_id": "itmo-disclosure-education",
+      "url": "https://itmo.ru/sveden/education",
+      "final_url": "https://itmo.ru/sveden/education",
+      "retrieved_at": "2026-10-25T00:41:44+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "ee6fa59cc170241e04529bdafd15c75fe2f2c84223d3bd899df45d537c78025f",
+      "path": "data/raw/catalog_followup/itmo-main/itmo-disclosure-education-ee6fa59cc170241e.html",
+      "bytes": 11122953,
+      "retrieval_method": "https",
+      "adapter_version": "fetch-v1"
+    }
   }
 ]
