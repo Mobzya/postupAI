@@ -7,12 +7,15 @@ production D1, cloud-мониторинга и проверки рабочего
 ## Изменения
 
 .github/workflows/quality.yml проверяет push/PR вручную и автоматически на стандартном
-Ubuntu runner: Node24, Python3.12, npm ci, тесты, воспроизводимость, build/migrations,
+Ubuntu 24.04 runner: Node24, Python3.12, Poppler, npm ci, тесты, воспроизводимость, build/migrations,
 повторный D1 import, два HTTP smoke и фактический backup/restore публичного датасета.
 Права contents:read, секретов/токена бота нет, checkout credentials не сохраняет.
 Actions закреплены SHA официальных релизов, найденных через GitHub API 25.10.2026;
 concurrency отменяет предыдущую проверку той же ветки, timeout 15 минут.
-Автодеплоя и регистрации webhook нет. Первый remote run проверяется после push.
+Автодеплоя и регистрации webhook нет. Первый remote run обнаружил отсутствующий
+pdftotext: установка Poppler добавлена явно, Ubuntu закреплён на 24.04 как в локальной
+среде. Также отдельным коммитом включены два пропущенных provenance-артефакта.
+Окончательный remote run проверяется после исправлений.
 
 pipeline.verify_artifacts сверяет и канонические наборы, и отдельные публичные JSON
 Worker: каталог, историю, годовые правила, baseline и допуск. Повреждение производного

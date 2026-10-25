@@ -38,9 +38,10 @@ production D1/профилей и не архив самих raw-источни�
 
 ## GitHub Actions
 
-.github/workflows/quality.yml: push/PR/manual, Ubuntu standard runner, Node24,
+.github/workflows/quality.yml: push/PR/manual, Ubuntu 24.04 standard runner, Node24,
 Python3.12, npm ci, pinned Python-зависимости, тесты, artifact replay, D1 import,
-два workerd smoke и реальное восстановление публичного бэкапа.
+два workerd smoke и реальное восстановление публичного бэкапа. Poppler устанавливается
+явно: проверка PDF исходного слоя 1A вызывает pdftotext и при офлайн replay.
 Actions закреплены SHA официальных релизов, проверенных через GitHub API 25.10.2026:
 checkout v7.0.1, setup-node v7.1.0, setup-python v7.1.0.
 Права contents:read, credentials не сохраняются checkout, секреты не требуются,
